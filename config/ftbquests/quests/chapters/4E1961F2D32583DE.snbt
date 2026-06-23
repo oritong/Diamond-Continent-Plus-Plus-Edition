@@ -1,0 +1,467 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4E1961F2D32583DE"
+	group: ""
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "gtceu:textures/gui/icon/gregtech_logo.png"
+		}
+	}
+	id: "4E1961F2D32583DE"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["799880730EB84345"]
+			dependency_requirement: "one_completed"
+			id: "11260770ADD32CCE"
+			tasks: [{
+				id: "51057F4AC4261957"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["799880730EB84345"]
+			dependency_requirement: "one_completed"
+			id: "04161C95A7850DEC"
+			tasks: [{
+				id: "57EF9B9BF4A53953"
+				item: "tconstruct:seared_melter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["799880730EB84345"]
+			dependency_requirement: "one_completed"
+			id: "7844AE50B0ECE41B"
+			tasks: [{
+				id: "0DF033576CFD699C"
+				item: "tconstruct:seared_table"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["799880730EB84345"]
+			dependency_requirement: "one_completed"
+			id: "3610D965E0678744"
+			tasks: [{
+				id: "07D33D1CFF378F20"
+				item: "tconstruct:seared_basin"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 25.0d
+		}
+		{
+			dependencies: [
+				"11260770ADD32CCE"
+				"0D0B7A3992B7F9B5"
+			]
+			dependency_requirement: "one_completed"
+			id: "7EA24D85CD42C66A"
+			tasks: [{
+				id: "39FD6BB5D56F2F16"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: "kubejs:general_circuit_ulv"
+			id: "799880730EB84345"
+			tasks: [{
+				id: "60C7910D74204B5A"
+				type: "checkmark"
+			}]
+			title: "ULV"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: "kubejs:general_circuit_lv"
+			id: "0D0B7A3992B7F9B5"
+			tasks: [{
+				id: "7DDB19BA39CF1AA9"
+				type: "checkmark"
+			}]
+			title: "LV"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			id: "47619089D181B87B"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["799880730EB84345"]
+			dependency_requirement: "one_completed"
+			id: "263914F39D8B6F24"
+			tasks: [{
+				id: "5E947DCBE9FDD7DA"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"263914F39D8B6F24"
+				"0D0B7A3992B7F9B5"
+			]
+			dependency_requirement: "one_completed"
+			id: "085E367AA536B06B"
+			tasks: [{
+				id: "3385C88809BC4CD5"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["799880730EB84345"]
+			dependency_requirement: "one_completed"
+			id: "4AB57EA5A312668B"
+			tasks: [{
+				id: "00B21F1011E5724C"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4AB57EA5A312668B"
+				"0D0B7A3992B7F9B5"
+			]
+			dependency_requirement: "one_completed"
+			id: "1D7D14CE99FA4A27"
+			tasks: [{
+				id: "3D4D02C0057E142B"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["799880730EB84345"]
+			dependency_requirement: "one_completed"
+			id: "30C5480F9064F794"
+			tasks: [{
+				id: "25F7078ABEC7FDE7"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["799880730EB84345"]
+			dependency_requirement: "one_completed"
+			id: "68B47B7F4333E3AE"
+			tasks: [{
+				id: "2DD68FEDBABA8831"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"30C5480F9064F794"
+				"0D0B7A3992B7F9B5"
+			]
+			dependency_requirement: "one_completed"
+			id: "308AECC2C5D0B20C"
+			tasks: [{
+				id: "341C214497AEA5B8"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"68B47B7F4333E3AE"
+				"0D0B7A3992B7F9B5"
+			]
+			dependency_requirement: "one_completed"
+			id: "2660166311CBEBED"
+			tasks: [{
+				id: "0DBC2B76DB90CE64"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["799880730EB84345"]
+			dependency_requirement: "one_completed"
+			id: "09893CB3D14B13BF"
+			tasks: [{
+				id: "3F1CAFF6DB292FB9"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"09893CB3D14B13BF"
+				"0D0B7A3992B7F9B5"
+			]
+			dependency_requirement: "one_completed"
+			id: "5F94BAB9C66AC1A8"
+			tasks: [{
+				id: "2710D1FFBCC64CAA"
+				item: "gtceu:lv_macerator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0D0B7A3992B7F9B5"]
+			dependency_requirement: "one_completed"
+			id: "62C94215D819CD22"
+			tasks: [{
+				id: "69775132C6A07761"
+				item: "gtceu:lv_alloy_smelter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5B605F940F5F2A1E"
+				"0D0B7A3992B7F9B5"
+			]
+			dependency_requirement: "one_completed"
+			description: ["不如鼓风机的玩意，拉完了"]
+			id: "04A44F81011FA4B6"
+			tasks: [{
+				id: "5BF123F0EF998D36"
+				item: "gtceu:lv_electric_furnace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0D0B7A3992B7F9B5"]
+			dependency_requirement: "one_completed"
+			id: "3EDC8E7389D8D2B7"
+			tasks: [{
+				id: "6DAF7EA3D8D021F0"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0D0B7A3992B7F9B5"]
+			dependency_requirement: "one_completed"
+			id: "0DEF86803C1AAB17"
+			tasks: [{
+				id: "75098C5AAB7A7701"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["799880730EB84345"]
+			id: "5B605F940F5F2A1E"
+			tasks: [{
+				id: "45DB0D92B4FAD68F"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0D0B7A3992B7F9B5"]
+			dependency_requirement: "one_completed"
+			id: "7975B1FF2D1CDC1D"
+			tasks: [{
+				id: "4A87CA381CAC42EB"
+				item: "gtceu:lv_chemical_bath"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0D0B7A3992B7F9B5"]
+			dependency_requirement: "one_completed"
+			id: "071B46C08781452F"
+			tasks: [{
+				id: "5E5DE59962AAB6B1"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0D0B7A3992B7F9B5"]
+			dependency_requirement: "one_completed"
+			id: "7816D560256D6CE4"
+			tasks: [{
+				id: "2DF1A619B1E1D28E"
+				item: "gtceu:lv_compressor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0D0B7A3992B7F9B5"]
+			dependency_requirement: "one_completed"
+			id: "58775E63D7B2BAE3"
+			tasks: [{
+				id: "0A3A4E2876C5BEF3"
+				item: "gtceu:lv_cutter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0D0B7A3992B7F9B5"]
+			dependency_requirement: "one_completed"
+			id: "21757F1C86E64935"
+			tasks: [{
+				id: "44C99D52654C9D60"
+				item: "gtceu:lv_distillery"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0D0B7A3992B7F9B5"]
+			dependency_requirement: "one_completed"
+			id: "2DB49B5AC849DD8B"
+			tasks: [{
+				id: "2CE1C0D8E7AD6915"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0D0B7A3992B7F9B5"]
+			dependency_requirement: "one_completed"
+			id: "71366829AB361DFD"
+			tasks: [{
+				id: "2E7836D1C0EB8092"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0D0B7A3992B7F9B5"]
+			dependency_requirement: "one_completed"
+			id: "4DFB492AB3D4BDBA"
+			tasks: [{
+				id: "54317641CB54DF3A"
+				item: "gtceu:lv_fluid_solidifier"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["0D0B7A3992B7F9B5"]
+			dependency_requirement: "one_completed"
+			id: "1EF5E8A15741B06E"
+			tasks: [{
+				id: "221E1C4B66522175"
+				item: "gtceu:lv_forge_hammer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["0D0B7A3992B7F9B5"]
+			dependency_requirement: "one_completed"
+			description: ["打包你的电路板成通用电路板——这很有用！不要瞧不起它"]
+			id: "2B12C2886F03D0E0"
+			tasks: [{
+				id: "134E0F68C0BF4CBE"
+				item: "gtceu:lv_packer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["0D0B7A3992B7F9B5"]
+			dependency_requirement: "one_completed"
+			id: "62B7A0BF62E3A7D0"
+			tasks: [{
+				id: "385922D6931B599A"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0D0B7A3992B7F9B5"]
+			dependency_requirement: "one_completed"
+			id: "41A24206831A4759"
+			tasks: [{
+				id: "277D2B2CE6E4409A"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["0D0B7A3992B7F9B5"]
+			dependency_requirement: "one_completed"
+			id: "314DDCD3B45AEF49"
+			tasks: [{
+				id: "6708F66E310C7160"
+				item: "gtceu:lv_gas_collector"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 22.0d
+		}
+	]
+	title: "机器预览"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "tag": "forge:nuggets/cobalt",
+    "matchItems": [
+      "tconstruct:cobalt_nugget"
+    ],
+    "resultItems": "gtceu:cobalt_nugget"
+  },
+  {
+    "tag": "forge:ingots/cobalt",
+    "matchItems": [
+      "tconstruct:cobalt_ingot"
+    ],
+    "resultItems": "gtceu:cobalt_ingot"
+  },
+  {
+    "tag": "forge:raw_materials/cobalt",
+    "matchItems": [
+      "tconstruct:raw_cobalt"
+    ],
+    "resultItems": "gtceu:raw_cobalt"
+  },
+  {
+    "tag": "forge:plates/cobalt",
+    "matchItems": [
+      "tgears:cobalt_sheet"
+    ],
+    "resultItems": "gtceu:cobalt_plate"
+  },
+  {
+    "tag": "forge:storage_blocks/cobalt",
+    "matchItems": [
+      "tconstruct:cobalt_block"
+    ],
+    "resultItems": "gtceu:cobalt_block"
+  }
+]

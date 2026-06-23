@@ -1,0 +1,9 @@
+[
+  {
+    "tag": "forge:dusts/sulfur",
+    "matchItems": [
+      "mekanism:dust_sulfur"
+    ],
+    "resultItems": "gtceu:sulfur_dust"
+  }
+]

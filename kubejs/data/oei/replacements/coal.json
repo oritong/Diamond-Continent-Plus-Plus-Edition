@@ -1,0 +1,9 @@
+[
+  {
+    "tag": "forge:dusts/coal",
+    "matchItems": [
+      "mekanism:dust_coal"
+    ],
+    "resultItems": "gtceu:coal_dust"
+  }
+]

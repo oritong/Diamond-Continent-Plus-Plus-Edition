@@ -1,0 +1,78 @@
+{
+	autofocus_id: "4825CBC688ADD51A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7355A51F019E54F2"
+	group: ""
+	id: "7355A51F019E54F2"
+	images: [{
+		height: 8.0d
+		image: "kubejs:item/tangmao"
+		rotation: 0.0d
+		width: 5.92d
+		x: 5.5d
+		y: -0.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"本整合包为半专家包，在没出ae前手搓含量较高"
+				"骗你的出了ae不会用也很坐牢"
+				""
+				"本整合包以自定义协议发布"
+				"在oritong为模组名下的所有贴图均为ARR"
+				"代码默认为GPL 3,0，部分代码为MIT"
+				"所有任务全部为ARR"
+				""
+				"贴图还没画，，"
+				"剧情还没写，，"
+				"现在的任务是占位符，只保证不卡流程"
+				""
+				"打钱加快开发进度"
+				"右边收款码"
+				"作者忙着去给音游写谱了，而且在学JAVA去馍丁格雷附属"
+				"欢迎来支持我们工作室的音游"
+				"(Android)TapTap链接: https://www.taptap.cn/app/716901"
+				"(iOS)TestFlight链接: https://testflight.apple.com/join/vVuz5Y6u"
+			]
+			id: "1460228D04135D33"
+			min_width: 300
+			subtitle: "啥都没有"
+			tasks: [{
+				id: "700B014E76BC5B87"
+				type: "checkmark"
+			}]
+			title: "测试版"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"GTNH\\GTL\\GTO：提供部分设计灵感"
+				"無藏：帮助设计了流程中部分环节"
+			]
+			id: "56451418E4A6C26F"
+			tasks: [{
+				id: "225FEF7D75D14391"
+				title: "肥肠感谢大佬们的支持"
+				type: "checkmark"
+			}]
+			title: "支持者页"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "4825CBC688ADD51A"
+			tasks: [{
+				id: "4C47B51EA5E2A173"
+				type: "checkmark"
+			}]
+			title: "介绍"
+			x: -10.0d
+			y: -0.5d
+		}
+	]
+	title: "前言"
+}

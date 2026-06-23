@@ -1,0 +1,10 @@
+[
+  {
+    "tag": "forge:storage_blocks/raw_silver",
+    "matchItems": [
+      "embers:raw_silver_block",
+      "occultism:raw_silver_block"
+    ],
+    "resultItems": "gtceu:raw_silver_block"
+  }
+]

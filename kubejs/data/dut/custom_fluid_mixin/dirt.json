@@ -1,0 +1,11 @@
+{
+  "type": "flowing_block",
+  "flowing": "#oritong:glimmer",
+  "blocks_nearby": [ 
+    "#minecraft:water"
+  ], 
+  "result": {
+    "type": "block", 
+    "block": "minecraft:dirt"
+  }
+}

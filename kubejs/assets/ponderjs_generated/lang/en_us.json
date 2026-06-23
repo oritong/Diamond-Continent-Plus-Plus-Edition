@@ -1,0 +1,22 @@
+{
+  "ori.ponder.flux_dust.header": "通量粉尘的获得",
+  "ori.ponder.flux_dust.text_1": "现在我们有一个基岩……",
+  "ori.ponder.flux_dust.text_2": "让我们隔着一层空气放置一个黑曜石在此处",
+  "ori.ponder.flux_dust.text_3": "在中间扔出一个（些）红石粉",
+  "ori.ponder.flux_dust.text_4": "……接下来右键这个黑曜石",
+  "ori.ponder.flux_dust.text_5": "就得到了一个（些）通量粉尘！",
+  "ori.ponder.flux_dust.text_6": "当你获得了第一个通量方块之后，就可以让通量方块替代基岩的位置！",
+  "ori.ponder.printing_press.header": "如何使用压印机复制附魔书",
+  "ori.ponder.printing_press.text_1": "现在是思索一下这个压印机的大好时机！",
+  "ori.ponder.printing_press.text_10": "给活塞一个红石信号！",
+  "ori.ponder.printing_press.text_11": "关掉红石信号……",
+  "ori.ponder.printing_press.text_12": "就能得到和那个附魔书一样的书了！（每次压印只会消耗一个经验粘液和一本书，模板不会被消耗）",
+  "ori.ponder.printing_press.text_2": "首先准备一个黑曜石和一个铁块",
+  "ori.ponder.printing_press.text_3": "在黑曜石上面扔任意数量的附魔书（数量越多品质越垃圾越好）",
+  "ori.ponder.printing_press.text_4": "然后释放铁砧！",
+  "ori.ponder.printing_press.text_5": "接着我们需要一个工作台，并且用刚才铁砧砸出来的经验碎片合成出经验粘液",
+  "ori.ponder.printing_press.text_6": "在铁块上面扔你需要复制的那本附魔书（可以复制任何附魔书）",
+  "ori.ponder.printing_press.text_7": "同样的，释放铁砧！",
+  "ori.ponder.printing_press.text_8": "准备一个压印机和一个活塞，活塞方向朝下",
+  "ori.ponder.printing_press.text_9": "在压印机的上面右键刚才得到的压印模板，经验粘液，和一本普通的书"
+}

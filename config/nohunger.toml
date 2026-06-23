@@ -1,0 +1,47 @@
+
+["No hunger"]
+	#If true, Hunger effect is replaced by Weakness
+	"Convert hunger to weakness" = true
+	#If true, Saturation effect is replaced by Haste
+	"Convert saturation to haste" = true
+	#If true, Persistance effect from Atmospheric is replaced by Speed
+	"Convert persistence to speed" = true
+	#Make cakes restore 30% missing health, min 1 health
+	"Buff cakes" = true
+	#If true, you'll always be able to eat even if you're at full health
+	"Always eat" = false
+	#(Client Only) Armor is rendered in the place of Hunger bar
+	"Render armor at hunger" = true
+
+	["No hunger"."Food heal"]
+		#The formula to calculate the health regenerated overtime when eating food. Leave empty to disable. Variables as hunger, saturation_modifier, effectiveness as numbers and fast_food as boolean can be used. This is evaluated with EvalEx https://ezylang.github.io/EvalEx/concepts/parsing_evaluation.html.
+		"Over time" = "hunger * 1.2"
+		#How much HP does food regen each second? Variables as hunger, saturation_modifier, effectiveness as numbers and fast_food as boolean can be used. This is evaluated with EvalEx https://ezylang.github.io/EvalEx/concepts/parsing_evaluation.html
+		"Over time strength" = "MAX(0.15, 5 * saturation_modifier * (1 / hunger))"
+		#Over Time Heal will be consumed at the rate of exhaustion multiplied by this
+		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		"Over time decay" = 0.02
+		#The formula to calculate the health restored instantly when eating. Leave empty to disable. To have the same effect as pre-Beta 1.8 food just use "hunger". Variables as hunger, saturation_modifier, effectiveness as numbers and fast_food as boolean can be used. This is evaluated with EvalEx https://ezylang.github.io/EvalEx/concepts/parsing_evaluation.html.
+		"Instant heal" = "0.5 * ROUND((hunger^1.3) * 0.35, 1) / 0.5"
+		#Foods below this saturation will instantly heal, foods equal or above this threshold will have overtime heal.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Saturation threshold" = 4.0
+
+	["No hunger".Tconstruct]
+		#How much health (each level) of the tasty modifier heals
+		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		"Tasty health regen" = 0.25
+		#How much health per hunger point is restored when drinking food (e.g. stews with sipping)
+		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		"Restore hunger to health ratio" = 1.0
+
+	["No hunger"."Food tooltip"]
+		#(Client Only) If enabled, Foods will show "Snack" or "Nosh" when the food instantly heals and "Meal" or "Feast" when the food heals over time. If advanced tooltips are enabled, the food will show how much it restores
+		Enabled = true
+		#Above how much health restored food tooltip will show Nosh instead of Snack
+		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		"Nosh threshold" = 1.0
+		#Above how much health restored food tooltip will show Feast instead of Meal
+		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		"Feast threshold" = 12.0
+

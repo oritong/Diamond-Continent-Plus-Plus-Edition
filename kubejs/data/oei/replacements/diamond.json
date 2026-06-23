@@ -1,0 +1,17 @@
+[
+  {
+    "tag": "forge:dusts/diamond",
+    "matchItems": [
+      "createaddition:diamond_grit",
+      "gtceu:diamond_dust"
+    ],
+    "resultItems": "mekanism:dust_diamond"
+  },
+  {
+    "tag": "forge:gears/diamond",
+    "matchItems": [
+      "industrialforegoing:diamond_gear"
+    ],
+    "resultItems": "gtceu:diamond_gear"
+  }
+]

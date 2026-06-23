@@ -1,0 +1,22 @@
+[
+  {
+    "tag": "forge:ores/platinum",
+    "matchItems": [
+      "gtceu:basalt_platinum_ore",
+      "gtceu:blackstone_platinum_ore",
+      "gtceu:deepslate_platinum_ore",
+      "gtceu:diorite_platinum_ore",
+      "gtceu:endstone_platinum_ore",
+      "gtceu:granite_platinum_ore",
+      "gtceu:gravel_platinum_ore",
+      "gtceu:marble_platinum_ore",
+      "gtceu:netherrack_platinum_ore",
+      "gtceu:platinum_ore",
+      "gtceu:red_granite_platinum_ore",
+      "gtceu:red_sand_platinum_ore",
+      "gtceu:sand_platinum_ore",
+      "gtceu:tuff_platinum_ore"
+    ],
+    "resultItems": "gtceu:andesite_platinum_ore"
+  }
+]

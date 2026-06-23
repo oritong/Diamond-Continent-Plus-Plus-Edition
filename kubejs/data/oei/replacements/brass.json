@@ -1,0 +1,37 @@
+[
+  {
+    "tag": "forge:nuggets/brass",
+    "matchItems": [
+      "create:brass_nugget"
+    ],
+    "resultItems": "gtceu:brass_nugget"
+  },
+  {
+    "tag": "forge:ingots/brass",
+    "matchItems": [
+      "create:brass_ingot"
+    ],
+    "resultItems": "gtceu:brass_ingot"
+  },
+  {
+    "tag": "forge:plates/brass",
+    "matchItems": [
+      "create:brass_sheet"
+    ],
+    "resultItems": "gtceu:brass_plate"
+  },
+  {
+    "tag": "forge:rods/brass",
+    "matchItems": [
+      "createaddition:brass_rod"
+    ],
+    "resultItems": "gtceu:brass_rod"
+  },
+  {
+    "tag": "forge:storage_blocks/brass",
+    "matchItems": [
+      "create:brass_block"
+    ],
+    "resultItems": "gtceu:brass_block"
+  }
+]

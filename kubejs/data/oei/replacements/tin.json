@@ -1,0 +1,37 @@
+[
+  {
+    "tag": "forge:nuggets/tin",
+    "matchItems": [
+      "mekanism:nugget_tin"
+    ],
+    "resultItems": "gtceu:tin_nugget"
+  },
+  {
+    "tag": "forge:dusts/tin",
+    "matchItems": [
+      "mekanism:dust_tin"
+    ],
+    "resultItems": "gtceu:tin_dust"
+  },
+  {
+    "tag": "forge:ingots/tin",
+    "matchItems": [
+      "mekanism:ingot_tin"
+    ],
+    "resultItems": "gtceu:tin_ingot"
+  },
+  {
+    "tag": "forge:raw_materials/tin",
+    "matchItems": [
+      "mekanism:raw_tin"
+    ],
+    "resultItems": "gtceu:raw_tin"
+  },
+  {
+    "tag": "forge:storage_blocks/tin",
+    "matchItems": [
+      "mekanism:block_tin"
+    ],
+    "resultItems": "gtceu:tin_block"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "tag": "forge:dusts/iron",
+    "matchItems": [
+      "mekanism:dust_iron",
+      "occultism:iron_dust"
+    ],
+    "resultItems": "gtceu:iron_dust"
+  },
+  {
+    "tag": "forge:gears/iron",
+    "matchItems": [
+      "industrialforegoing:iron_gear"
+    ],
+    "resultItems": "gtceu:iron_gear"
+  },
+  {
+    "tag": "forge:plates/iron",
+    "matchItems": [
+      "create:iron_sheet",
+      "embers:iron_plate"
+    ],
+    "resultItems": "gtceu:iron_plate"
+  },
+  {
+    "tag": "forge:rods/iron",
+    "matchItems": [
+      "createaddition:iron_rod"
+    ],
+    "resultItems": "gtceu:iron_rod"
+  }
+]

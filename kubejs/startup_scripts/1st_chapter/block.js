@@ -1,0 +1,11 @@
+StartupEvents.registry('block', e=>{
+    e.create('minecart:stone').textureAll('minecraft:block/stone')
+    e.create('machine_core_1').hardness(2).tagBlock('minecraft:mineable/pickaxe')
+    e.create('machine_core_2').hardness(3).tagBlock('minecraft:mineable/pickaxe')
+    e.create('machine_core_3').hardness(4).tagBlock('minecraft:mineable/pickaxe')
+    e.create('machine_core_4').hardness(5).tagBlock('minecraft:mineable/pickaxe')
+    e.create('machine_core_5').hardness(6).tagBlock('minecraft:mineable/pickaxe')
+    e.create('machine_core_6').hardness(7).tagBlock('minecraft:mineable/pickaxe')
+    e.create('machine_core_7').hardness(8).tagBlock('minecraft:mineable/pickaxe')
+    e.create('wood_block').hardness(2).textureAll('minecraft:block/stripped_oak_log')
+})

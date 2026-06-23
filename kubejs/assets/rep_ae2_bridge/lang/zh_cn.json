@@ -1,0 +1,14 @@
+{
+    "item.rep_ae2_bridge.earth": "生存物质",
+    "item.rep_ae2_bridge.nether": "猎手物质",
+    "item.rep_ae2_bridge.organic": "饕餮物质",
+    "item.rep_ae2_bridge.ender": "圣徒物质",
+    "item.rep_ae2_bridge.metallic": "工匠物质",
+    "item.rep_ae2_bridge.precious": "僧侣物质",
+    "item.rep_ae2_bridge.living": "溪流物质",
+    "item.rep_ae2_bridge.quantum": "大师物质",
+    "block.rep_ae2_bridge.rep_ae2_bridge": "AE2-Replication 桥接方块",
+    "block.rep_ae2_bridge.repae2bridge": "RepAE2Bridge",
+    "item.rep_ae2_bridge.repae2bridge": "RepAE2Bridge",
+    "itemGroup.rep_ae2_bridge.rep_ae2_bridge_tab": "AE2-Replication Bridge"
+} 

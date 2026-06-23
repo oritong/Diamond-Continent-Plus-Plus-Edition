@@ -1,0 +1,41 @@
+ServerEvents.tags('fluid', e => {
+    e.remove('minecraft:water', 'createaddition:seed_oil')
+    e.remove('minecraft:water', 'createaddition:flowing_seed_oil')
+    e.remove('minecraft:water', 'createaddition:bioethanol')
+    e.remove('minecraft:water', 'createaddition:flowing_bioethanol')
+    e.add('oritong:glimmer', 'oritong:glimmer')
+})
+ServerEvents.tags('item', e => {
+    no_fire_burn.forEach(a => {
+        e.add('lychee:fire_immune', a)
+    })
+    e.add('minecraft:pickaxes', 'avaritia:blaze_pickaxe')
+})
+ServerEvents.tags('block', e => {
+    wrench_pickup.forEach(a => {
+        e.add('create:wrench_pickup', a)
+    })
+})
+let no_fire_burn = [
+    'gtceu:wrought_iron_nugget',
+    'gtceu:wrought_iron_ingot',
+    'embers:caminite_plate',
+    'minecraft:iron_ingot',
+    'minecraft:iron_block',
+    'gtceu:diamond_plate',
+    'gtceu:coke_oven_bricks',
+    'gtceu:caminite_brick_plate'
+]
+let wrench_pickup = [
+    'minecraft:cobblestone',
+    'tconstruct:seared_melter',
+    'tconstruct:seared_heater',
+    'tconstruct:seared_ingot_gauge',
+    'tconstruct:seared_table',
+    'tconstruct:seared_basin',
+    'tconstruct:seared_faucet',
+    'tconstruct:seared_channel',
+    'minecraft:anvil',
+    'minecraft:chipped_anvil',
+    'minecraft:damaged_anvil'
+]

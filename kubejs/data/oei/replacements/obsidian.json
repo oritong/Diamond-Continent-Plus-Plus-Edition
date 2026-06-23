@@ -1,0 +1,19 @@
+[
+  {
+    "tag": "forge:dusts/obsidian",
+    "matchItems": [
+      "create:powdered_obsidian",
+      "mekanism:dust_obsidian",
+      "occultism:obsidian_dust"
+    ],
+    "resultItems": "gtceu:obsidian_dust"
+  },
+  {
+    "tag": "forge:plates/obsidian",
+    "matchItems": [
+      "create:sturdy_sheet",
+      "gtceu:obsidian_plate"
+    ],
+    "resultItems": "tconstruct:obsidian_pane"
+  }
+]

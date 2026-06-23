@@ -1,0 +1,33 @@
+[
+  {
+    "tag": "forge:nuggets/steel",
+    "matchItems": [
+      "tconstruct:steel_nugget",
+      "mekanism:nugget_steel"
+    ],
+    "resultItems": "gtceu:steel_nugget"
+  },
+  {
+    "tag": "forge:dusts/steel",
+    "matchItems": [
+      "mekanism:dust_steel"
+    ],
+    "resultItems": "gtceu:steel_dust"
+  },
+  {
+    "tag": "forge:ingots/steel",
+    "matchItems": [
+      "tconstruct:steel_ingot",
+      "gtceu:steel_ingot"
+    ],
+    "resultItems": "mekanism:ingot_steel"
+  },
+  {
+    "tag": "forge:storage_blocks/steel",
+    "matchItems": [
+      "tconstruct:steel_block",
+      "mekanism:block_steel"
+    ],
+    "resultItems": "gtceu:steel_block"
+  }
+]

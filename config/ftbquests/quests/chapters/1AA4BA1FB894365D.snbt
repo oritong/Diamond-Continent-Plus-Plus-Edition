@@ -1,0 +1,826 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1AA4BA1FB894365D"
+	group: "1118A4C838238AC3"
+	icon: "avaritia:diamond_lattice"
+	id: "1AA4BA1FB894365D"
+	order_index: 1
+	quest_links: [{
+		id: "523EB573C53A44C4"
+		linked_quest: "71D253D427B51A9F"
+		x: -8.5d
+		y: -1.5d
+	}]
+	quests: [
+		{
+			dependencies: ["19DB31004C991895"]
+			description: ["通过制作富集仓，富集提取机，冶金灌注机，你可以用黑曜石板和红石快速制作ULV级电路"]
+			hide_dependent_lines: true
+			id: "64BBF484E99DA208"
+			tasks: [{
+				id: "06BBFD814E0BBB0E"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19DB31004C991895"]
+			description: ["而且，你还可以获得灌注合金，它可以制作LV等级的超导体"]
+			id: "753E6963A939C10C"
+			tasks: [{
+				id: "2F0B8464C8E18609"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71D253D427B51A9F"]
+			description: [
+				"于是乎，你得到了LV电路板，意义重大"
+				"你可以制作许多LV等级的机器了"
+				"请注意，任务只会指明主线上你必须制作的机器"
+				"如果你想要找到减少麻烦的机器，请参照EMI"
+			]
+			id: "267573CE52C3D840"
+			tasks: [{
+				id: "4D5CE56AB53B6AC0"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["267573CE52C3D840"]
+			description: ["你会需要它的……"]
+			id: "0A801BE87DDB3EF5"
+			tasks: [{
+				id: "657128B8FF91D180"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["267573CE52C3D840"]
+			description: ["最重要的是，你获得了比白雏菊更快，更利于自动化的胶乳获得方式"]
+			id: "31542A56C5EB426A"
+			tasks: [{
+				id: "28957112BC071F58"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"31542A56C5EB426A"
+				"0A801BE87DDB3EF5"
+			]
+			id: "75D53910955076F4"
+			tasks: [{
+				count: 16L
+				id: "20E65C9F001DFBC2"
+				item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["512C7FF5D98CBAA6"]
+			id: "520AA8FCA3262F01"
+			tasks: [{
+				id: "67D09165290AD3CE"
+				item: "gtceu:heatproof_machine_casing"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["415FD9C7B81EDDA7"]
+			id: "512C7FF5D98CBAA6"
+			tasks: [{
+				id: "62AF7CD7F34E868D"
+				item: "gtceu:invar_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"520AA8FCA3262F01"
+				"75D53910955076F4"
+				"4A8E8D823DF637E7"
+			]
+			id: "094FE4A5EB340B2F"
+			tasks: [{
+				id: "526363F5BD823565"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["267573CE52C3D840"]
+			description: [
+				"在这个包，你可以离心朱砂得到雄黄"
+				"离心蓝金石粉得到镓粉"
+				"这也是你目前唯一砷化镓的来源"
+			]
+			hide_dependency_lines: true
+			id: "06E3BEC42EDF00B3"
+			tasks: [{
+				id: "496952A1AF5C1BC3"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["06E3BEC42EDF00B3"]
+			id: "7CE364036232BB71"
+			tasks: [
+				{
+					id: "3BF3924AE27AD88E"
+					item: "gtceu:gallium_dust"
+					type: "item"
+				}
+				{
+					id: "403F26E186918B95"
+					item: "gtceu:arsenic_dust"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7CE364036232BB71"]
+			id: "1EECEBB179CBDAE3"
+			tasks: [{
+				id: "3F76B40DA3309C4C"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["267573CE52C3D840"]
+			hide_dependency_lines: true
+			id: "76EE097DFAF0A738"
+			tasks: [{
+				id: "51CD4640309BD8D4"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["76EE097DFAF0A738"]
+			description: ["电解蓝宝石获得铝粉"]
+			id: "140E6453D0046FA6"
+			tasks: [{
+				id: "5139CBC8D21E0960"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"094FE4A5EB340B2F"
+				"140E6453D0046FA6"
+			]
+			id: "5F7F2159EB60A4BE"
+			tasks: [{
+				id: "7E87D2675767883E"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1EECEBB179CBDAE3"]
+			description: ["你得先搓几个来制作电路装配机已获得更简单的LV级电路"]
+			id: "30BD2D2DCD362761"
+			tasks: [{
+				id: "7FC5A50533995C07"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5F7F2159EB60A4BE"
+				"4CBC5A84BE4BC7BA"
+			]
+			id: "7502FCD6A0550797"
+			tasks: [{
+				id: "5170ABAEA0C3084F"
+				item: "kubejs:machine_core_2"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30BD2D2DCD362761"]
+			description: [""]
+			id: "33C204440D09B2A0"
+			tasks: [{
+				id: "72F6A043B5366BD0"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"33C204440D09B2A0"
+				"4973A4076DD6F8E6"
+				"64BBF484E99DA208"
+			]
+			description: ["更便宜的LV级电路，但是吃魔法"]
+			id: "15B08CC0E3BAB61C"
+			tasks: [{
+				id: "11148073E3B4CD4A"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["74C49D595061D61D"]
+			id: "0915454B214E367B"
+			tasks: [{
+				id: "4F8F6719EEA460C3"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0915454B214E367B"]
+			id: "5A0D1CCAC594BCD9"
+			tasks: [{
+				id: "67F5DD1401D55D32"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5A0D1CCAC594BCD9"]
+			id: "5ED94F26402E7983"
+			tasks: [{
+				id: "64B8241AC6CCBF10"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5ED94F26402E7983"]
+			id: "4973A4076DD6F8E6"
+			tasks: [{
+				id: "0C69192116411E58"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A801BE87DDB3EF5"]
+			description: ["为了烧铝锭，你需要将两个能源仓放在舱室位置，并且都输入电"]
+			hide_dependency_lines: true
+			id: "4A8E8D823DF637E7"
+			tasks: [
+				{
+					id: "4D5AC8478C939F9B"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "646A02C1CF84ABFE"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					id: "4739D47FE157F479"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["12EA889188E81490"]
+			hide_dependency_lines: true
+			id: "4B8CE650E4936E16"
+			tasks: [{
+				id: "5415014150E13398"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4B8CE650E4936E16"]
+			id: "4FA67C61E9409562"
+			tasks: [
+				{
+					id: "552BC78B066FAE94"
+					item: "gtceu:ruby_plate"
+					type: "item"
+				}
+				{
+					id: "7A242A5DB44CCE63"
+					item: "gtceu:emerald_plate"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4FA67C61E9409562"]
+			id: "1C574B958C64BF06"
+			tasks: [
+				{
+					id: "29768C039CC2581D"
+					item: "gtceu:ruby_lens"
+					type: "item"
+				}
+				{
+					id: "3F70767BB5765571"
+					item: "gtceu:emerald_lens"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"5A7CA279FF37E6BE"
+				"32B9B4DDA367FD47"
+				"2F18B83C6FE098D0"
+			]
+			id: "17B6D8A835220117"
+			tasks: [
+				{
+					id: "19CB5F319B29ACB9"
+					item: "gtceu:ilc_chip"
+					type: "item"
+				}
+				{
+					id: "1B38AB630601F039"
+					item: "gtceu:ram_chip"
+					type: "item"
+				}
+				{
+					id: "45A394500F21F721"
+					item: "gtceu:ulpic_chip"
+					type: "item"
+				}
+			]
+			title: "芯片们"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["094FE4A5EB340B2F"]
+			description: ["硅粉有很多来源方式，选一个你喜欢的就好"]
+			hide_dependency_lines: true
+			id: "5A7CA279FF37E6BE"
+			tasks: [{
+				id: "388230A397869F34"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			id: "6C9E005DFD3E01A9"
+			tasks: [{
+				id: "29BA4828C6152AAD"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C9E005DFD3E01A9"]
+			id: "0B4ED6EDA9FDD5CE"
+			tasks: [{
+				id: "727F6F078992E588"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["267573CE52C3D840"]
+			description: ["最终，你获得了这种神物，它可以慢速生产你随随便便就能用完的蒸汽"]
+			id: "2DED4700FA7767F0"
+			tasks: [{
+				id: "6F2F418A12529512"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2DED4700FA7767F0"]
+			description: ["何尝不是一种发电方式呢）"]
+			id: "5C418C0D76F2D67C"
+			tasks: [{
+				id: "6A055EB96BBB198F"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["267573CE52C3D840"]
+			id: "19DB31004C991895"
+			tasks: [
+				{
+					id: "53BE7DE5299B43F3"
+					item: "gtceu:lv_enrichment_chamber"
+					type: "item"
+				}
+				{
+					id: "527867393F3321A9"
+					item: "gtceu:lv_infused_extracter"
+					type: "item"
+				}
+				{
+					id: "0D471CFDF9E184CB"
+					item: "gtceu:lv_enrichment_infuser"
+					type: "item"
+				}
+			]
+			title: "富集灌注系列"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F7F2159EB60A4BE"]
+			id: "4B2A497349B37FF0"
+			tasks: [{
+				id: "37EFA3E9F88C64E2"
+				item: "kubejs:grizzly_chute"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B2A497349B37FF0"]
+			id: "2CA320A187DEF513"
+			tasks: [{
+				id: "13E118E58531D0F5"
+				item: "gtceu:oilsands_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["59128394620BEA27"]
+			id: "7C50239915877387"
+			tasks: [{
+				id: "0CBF0A9A81560A58"
+				item: "moreburners:ember_burner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7C50239915877387"
+				"2CA320A187DEF513"
+			]
+			description: [
+				"在石油处理中，你还可以得到硫粉，从而得到更好的橡胶生产方法"
+				"或者你直接用石油蒸馏出丙烯获得异戊二烯从而做橡胶……？"
+			]
+			icon: "gtceu:oil_medium_bucket"
+			id: "222DE3F2DA123486"
+			tasks: [{
+				id: "510890B3A95E4301"
+				type: "checkmark"
+			}]
+			title: "原油、轻油"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["267573CE52C3D840"]
+			hide_dependency_lines: true
+			id: "59128394620BEA27"
+			tasks: [{
+				id: "1C554B3ED2FF7D9A"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["222DE3F2DA123486"]
+			icon: "gtceu:polyethylene_bucket"
+			id: "4CBC5A84BE4BC7BA"
+			tasks: [{
+				id: "6885A54B6AE2E634"
+				type: "checkmark"
+			}]
+			title: "聚乙烯"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5ED94F26402E7983"]
+			hide_dependency_lines: true
+			id: "5072F20A545AD750"
+			tasks: [{
+				id: "7FCA4255C07B03DF"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5072F20A545AD750"]
+			id: "16F434E40CEE4119"
+			tasks: [
+				{
+					id: "4BB20648C671AC19"
+					item: "botania:rune_greed"
+					type: "item"
+				}
+				{
+					id: "6C17B3326A9C3AF2"
+					item: "botania:rune_mana"
+					type: "item"
+				}
+			]
+			title: "两个符文"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["16F434E40CEE4119"]
+			id: "4F719BA8877E171A"
+			tasks: [
+				{
+					id: "40B9AC78ED54CADB"
+					item: "embers:alchemy_pedestal"
+					type: "item"
+				}
+				{
+					id: "00AB457030B1EE7A"
+					item: "embers:alchemy_tablet"
+					type: "item"
+				}
+			]
+			title: "炼金台"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4F719BA8877E171A"]
+			id: "7CA7A07372909787"
+			tasks: [{
+				id: "4C5C7D928AAA2E2F"
+				item: "botania:ender_hand"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"7CA7A07372909787"
+				"59128394620BEA27"
+			]
+			description: ["你可以把它放进熔化炉熔成熔融末影珍珠，然后再倒进铸造盆，得到末影珍珠块，当你到了HV，解锁了聚爆压缩机，你就可以以4:3的转化率快速得到末影珍珠了"]
+			id: "1E2721FDD3080AED"
+			tasks: [{
+				id: "00798492E580D35D"
+				item: "gtceu:ender_pearl_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1E2721FDD3080AED"]
+			id: "011B940C0130D153"
+			tasks: [{
+				id: "59D8197E9C4DC384"
+				item: "gtmthings:lv_wireless_energy_receive_cover"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"354E10D08B784B1F"
+				"19DB31004C991895"
+			]
+			description: ["MEK正在被删除"]
+			id: "431BEAE85A182D7D"
+			tasks: [{
+				id: "13343E6C4094C473"
+				item: "oritong:diamond_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7502FCD6A0550797"]
+			id: "12EA889188E81490"
+			tasks: [{
+				id: "7E338434F12D3448"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27CB8DC29C454AE2"]
+			id: "2F18B83C6FE098D0"
+			tasks: [{
+				id: "0DFD78E01CEABE0D"
+				item: "gtceu:cleanroom"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5ED94F26402E7983"]
+			description: ["你要知道，我们现在还没有什么好方法能获得精致绿宝石，所以我们不如换个思路，看看魔力钻石怎么样？"]
+			hide_dependency_lines: true
+			id: "74A512B8F8C5EB17"
+			tasks: [{
+				id: "5BE485CB8D755981"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["12EA889188E81490"]
+			id: "7F6ABA2C82E25BD2"
+			tasks: [{
+				id: "7954D88BF61419D3"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F6ABA2C82E25BD2"]
+			id: "27CB8DC29C454AE2"
+			tasks: [{
+				id: "796F859332C2DC3B"
+				item: "gtceu:plascrete"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["74A512B8F8C5EB17"]
+			id: "2C4A21903CD4FE35"
+			tasks: [{
+				id: "10B56A4472BB3BB1"
+				item: "gtceu:mv_emitter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"2C4A21903CD4FE35"
+				"1C574B958C64BF06"
+			]
+			id: "32B9B4DDA367FD47"
+			tasks: [{
+				id: "0D655B86EB64C9AB"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"17B6D8A835220117"
+				"12EA889188E81490"
+			]
+			id: "6E0243B6714EF325"
+			tasks: [{
+				id: "163801842F758FDC"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12EA889188E81490"]
+			id: "0A326CBEA4E00B7D"
+			tasks: [{
+				id: "2FBDA72F6E316810"
+				item: "gtceu:mv_chemical_bath"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A326CBEA4E00B7D"]
+			id: "728B8F4757F60D54"
+			tasks: [{
+				id: "2B5F3B280D63681D"
+				item: "gtceu:manganese_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"728B8F4757F60D54"
+				"6E0243B6714EF325"
+			]
+			id: "38B1D21FADCBAAEA"
+			tasks: [{
+				id: "3D62513077663BA7"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["222DE3F2DA123486"]
+			description: [
+				"你需要聚氯乙烯才能做出来书，终端……"
+				"至于气态氯？到了MV电解方钠石就有了"
+			]
+			id: "1E558461C9AF6677"
+			tasks: [{
+				id: "11398A7FD9A8BED1"
+				item: "gtceu:terminal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+	]
+	title: "第二章 第零次工业革命"
+}

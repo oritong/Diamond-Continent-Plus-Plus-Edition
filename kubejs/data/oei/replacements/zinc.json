@@ -1,0 +1,30 @@
+[
+  {
+    "tag": "forge:nuggets/zinc",
+    "matchItems": [
+      "create:zinc_nugget"
+    ],
+    "resultItems": "gtceu:zinc_nugget"
+  },
+  {
+    "tag": "forge:ingots/zinc",
+    "matchItems": [
+      "create:zinc_ingot"
+    ],
+    "resultItems": "gtceu:zinc_ingot"
+  },
+  {
+    "tag": "forge:plates/zinc",
+    "matchItems": [
+      "createaddition:zinc_sheet"
+    ],
+    "resultItems": "gtceu:zinc_plate"
+  },
+  {
+    "tag": "forge:storage_blocks/zinc",
+    "matchItems": [
+      "create:zinc_block"
+    ],
+    "resultItems": "gtceu:zinc_block"
+  }
+]

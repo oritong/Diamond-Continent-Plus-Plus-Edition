@@ -1,0 +1,22 @@
+[
+  {
+    "tag": "forge:ores/nickel",
+    "matchItems": [
+      "gtceu:basalt_nickel_ore",
+      "gtceu:blackstone_nickel_ore",
+      "gtceu:deepslate_nickel_ore",
+      "gtceu:diorite_nickel_ore",
+      "gtceu:endstone_nickel_ore",
+      "gtceu:granite_nickel_ore",
+      "gtceu:gravel_nickel_ore",
+      "gtceu:marble_nickel_ore",
+      "gtceu:netherrack_nickel_ore",
+      "gtceu:nickel_ore",
+      "gtceu:red_granite_nickel_ore",
+      "gtceu:red_sand_nickel_ore",
+      "gtceu:sand_nickel_ore",
+      "gtceu:tuff_nickel_ore"
+    ],
+    "resultItems": "gtceu:andesite_nickel_ore"
+  }
+]

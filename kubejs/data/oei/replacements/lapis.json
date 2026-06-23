@@ -1,0 +1,9 @@
+[
+  {
+    "tag": "forge:dusts/lapis",
+    "matchItems": [
+      "mekanism:dust_lapis_lazuli"
+    ],
+    "resultItems": "gtceu:lapis_dust"
+  }
+]

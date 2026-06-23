@@ -1,0 +1,8 @@
+[
+  {
+    "matchBlocks": [
+      "minecart:stone"
+    ],
+    "resultBlocks": "minecraft:infested_stone"
+  }
+]

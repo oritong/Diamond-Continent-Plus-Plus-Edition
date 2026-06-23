@@ -1,0 +1,31 @@
+
+[ReplicationConfig]
+
+	[ReplicationConfig.RecipeCalculation]
+		#Range: > 1
+		MAX_VISITED_RECIPES = 50
+
+	[ReplicationConfig.MatterPipe]
+		#Range: > 1
+		POWER_TRANSFER = 2560
+
+	[ReplicationConfig.IdentificationChamber]
+		#The progress shown in game will be double
+		#Range: > 1
+		MAX_PROGRESS = 100
+		#Range: > 1
+		POWER_USAGE = 5000
+
+	[ReplicationConfig.Replicator]
+		#The progress shown in game will be double
+		#Range: > 1
+		MAX_PROGRESS = 100
+		#Range: > 1
+		POWER_TICK = 80
+
+	[ReplicationConfig.Disintegrator]
+		#Range: > 1
+		MAX_PROGRESS = 40
+		#Range: > 1
+		POWER_USAGE = 1500
+

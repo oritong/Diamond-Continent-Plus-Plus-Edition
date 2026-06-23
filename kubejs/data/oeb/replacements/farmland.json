@@ -1,0 +1,21 @@
+[
+    {
+        "matchBlocks": [
+            "minecraft:farmland",
+            "farmersdelight:rich_soil_farmland",
+            "mysticalagriculture:inferium_farmland",
+            "mysticalagriculture:prudentium_farmland",
+            "mysticalagriculture:tertium_farmland",
+            "mysticalagriculture:imperium_farmland",
+            "mysticalagriculture:supremium_farmland",
+            "mysticalagradditions:insanium_farmland"
+        ],
+        "resultBlocks": "minecraft:dirt"
+    },
+    {
+        "matchBlocks": [
+            "avaritia:soul_farmland"
+        ],
+        "resultBlocks": "minecraft:soulsand"
+    }
+]

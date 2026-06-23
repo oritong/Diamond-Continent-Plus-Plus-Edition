@@ -1,0 +1,6 @@
+GTCEuStartupEvents.registry('gtceu:recipe_type', e=>{
+    e.create('enrichment_chamber').setEUIO('in').setMaxIOSize(1, 1, 1, 0).setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY).setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT).setSound(GTSoundEntries.BOILER)
+    e.create('infused_extracter').setEUIO('in').setMaxIOSize(1, 0, 0, 1).setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY).setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT).setSound(GTSoundEntries.BOILER)
+    e.create('enrichment_infuser').setEUIO('in').setMaxIOSize(1, 1, 1, 0).setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY).setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT).setSound(GTSoundEntries.BOILER)
+    //e.create('slurry_power_generation').setEUIO('out').setMaxIOSize(0, 1, 0, 0).setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY).setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT).setSound(GTSoundEntries.BOILER)
+})

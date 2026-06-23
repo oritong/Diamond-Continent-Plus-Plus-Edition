@@ -1,0 +1,30 @@
+[
+  {
+    "tag": "forge:dusts/naquadah",
+    "matchItems": [
+      "mekanism_extras:dust_naquadah"
+    ],
+    "resultItems": "gtceu:naquadah_dust"
+  },
+  {
+    "tag": "forge:ingots/naquadah",
+    "matchItems": [
+      "mekanism_extras:ingot_naquadah"
+    ],
+    "resultItems": "gtceu:naquadah_ingot"
+  },
+  {
+    "tag": "forge:raw_materials/naquadah",
+    "matchItems": [
+      "mekanism_extras:raw_naquadah"
+    ],
+    "resultItems": "gtceu:raw_naquadah"
+  },
+  {
+    "tag": "forge:storage_blocks/naquadah",
+    "matchItems": [
+      "mekanism_extras:block_naquadah"
+    ],
+    "resultItems": "gtceu:naquadah_block"
+  }
+]

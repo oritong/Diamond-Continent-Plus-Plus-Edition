@@ -1,0 +1,22 @@
+[
+  {
+    "tag": "forge:ores/graphite",
+    "matchItems": [
+      "gtceu:basalt_graphite_ore",
+      "gtceu:blackstone_graphite_ore",
+      "gtceu:deepslate_graphite_ore",
+      "gtceu:diorite_graphite_ore",
+      "gtceu:endstone_graphite_ore",
+      "gtceu:granite_graphite_ore",
+      "gtceu:graphite_ore",
+      "gtceu:gravel_graphite_ore",
+      "gtceu:marble_graphite_ore",
+      "gtceu:netherrack_graphite_ore",
+      "gtceu:red_granite_graphite_ore",
+      "gtceu:red_sand_graphite_ore",
+      "gtceu:sand_graphite_ore",
+      "gtceu:tuff_graphite_ore"
+    ],
+    "resultItems": "gtceu:andesite_graphite_ore"
+  }
+]

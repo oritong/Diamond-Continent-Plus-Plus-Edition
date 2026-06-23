@@ -1,0 +1,13 @@
+{
+	icon: "rainrot:data_pearl"
+	id: "6B38BC95C12AE68D"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "rainrot:data_pearl", weight: 70.0f }
+		{ count: 2, item: "rainrot:data_pearl", weight: 15.0f }
+		{ count: 3, item: "rainrot:data_pearl", weight: 10.0f }
+		{ count: 4, item: "rainrot:data_pearl", weight: 5.0f }
+	]
+	title: "只是一些亮晶晶的小玩意"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "tag": "forge:ores/ruby",
+    "matchItems": [
+      "gtceu:basalt_ruby_ore",
+      "gtceu:blackstone_ruby_ore",
+      "gtceu:deepslate_ruby_ore",
+      "gtceu:diorite_ruby_ore",
+      "gtceu:endstone_ruby_ore",
+      "gtceu:granite_ruby_ore",
+      "gtceu:gravel_ruby_ore",
+      "gtceu:marble_ruby_ore",
+      "gtceu:netherrack_ruby_ore",
+      "gtceu:red_granite_ruby_ore",
+      "gtceu:red_sand_ruby_ore",
+      "gtceu:ruby_ore",
+      "gtceu:sand_ruby_ore",
+      "gtceu:tuff_ruby_ore"
+    ],
+    "resultItems": "gtceu:andesite_ruby_ore"
+  }
+]

@@ -1,0 +1,9 @@
+/*
+!.gitignore
+!config/
+!defaultconfigs/
+!template/
+!kubejs/
+kubejs/probe/
+kubejs/流程大纲/
+kubejs/gtceu-modern-docs-gh-pages.zip

@@ -1,4 +1,4 @@
-StartupEvents.registry('block', e=>{
+StartupEvents.registry('block', e => {
     e.create('minecart:stone').textureAll('minecraft:block/stone')
     e.create('machine_core_1').hardness(2).tagBlock('minecraft:mineable/pickaxe')
     e.create('machine_core_2').hardness(3).tagBlock('minecraft:mineable/pickaxe')
@@ -8,4 +8,8 @@ StartupEvents.registry('block', e=>{
     e.create('machine_core_6').hardness(7).tagBlock('minecraft:mineable/pickaxe')
     e.create('machine_core_7').hardness(8).tagBlock('minecraft:mineable/pickaxe')
     e.create('wood_block').hardness(2).textureAll('minecraft:block/stripped_oak_log')
+    e.create("multi_functional_casing", "basic").noValidSpawns(true).soundType("metal").mapColor("metal").tagBlock("mineable/pickaxe").tagBlock("forge:mineable/wrench").requiresTool(true).hardness(3)
+    e.create("grizzly_chute", "basic").noValidSpawns(true).soundType("metal").mapColor("metal").tagBlock("mineable/pickaxe").requiresTool(true).hardness(3)
+    e.create("compress_diamond_block", "cardinal").noValidSpawns(true).soundType("metal").mapColor("metal").tagBlock("mineable/pickaxe").requiresTool(true).hardness(4)
+    e.create('raw_alumina_ceramic_block').textureAll('kubejs:block/raw_ceramic_block').tagBlock('minecraft:mineable/pickaxe')
 })

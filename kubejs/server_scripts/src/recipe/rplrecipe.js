@@ -1,0 +1,13 @@
+ServerEvents.recipes(e => {
+    e.replaceInput({ id: 'embers:ember_bore' }, 'embers:mechanical_core', 'kubejs:machine_core_1')
+    e.replaceInput({ output: 'gtceu:fireclay_dust' }, 'gtceu:clay_dust', 'gtceu:caminite_brick_dust')
+    e.replaceInput({ id: 'gtceu:shaped/electric_motor_lv_iron' }, 'gtceu:tin_single_cable', 'gtceu:tin_double_wire')
+    e.replaceInput({ output: 'gtceu:treated_wood_planks' }, 'minecraft:oak_planks', 'kubejs:wood_block')
+    e.replaceInput({}, 'create:electron_tube', 'gtceu:vacuum_tube')
+    e.replaceInput({ output: 'gtceu:resistor' }, 'gtceu:charcoal_dust', 'mekanism:dust_diamond')
+    e.replaceInput({ output: 'gtceu:resistor' }, 'gtceu:coal_dust', 'mekanism:dust_diamond')
+    e.replaceInput({ output: 'gtceu:resistor' }, 'gtceu:carbon_dust', 'mekanism:dust_diamond')
+    e.replaceInput({ output: 'embers:alchemy_tablet' }, 'gtceu:copper_plate', 'botania:manasteel_ingot')
+    e.replaceInput({ output: 'botania:rune_mana' }, 'botania:mana_pearl', 'botania:mana_diamond')
+    e.replaceInput({ output: 'botania:manasteel_ingot' }, 'minecraft:iron_ingot', 'mekanism:ingot_steel')
+})

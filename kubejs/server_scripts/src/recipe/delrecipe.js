@@ -1,3 +1,4 @@
+// priority: 1
 ServerEvents.recipes(e => {
     banthings.forEach(Item => {
         e.remove({ output: Item })
@@ -15,6 +16,8 @@ ServerEvents.recipes(e => {
     e.remove({ not: { id: 'mekanism:metallurgic_infusing/alloy/infused' }, output: 'mekanism:alloy_infused' })
     e.remove({ type: 'createaddition:rolling' })
     e.remove({ type: 'create:cutting' })
+    e.remove({ type: 'replication:matter_value' })
+    e.remove({ not: { type: 'gtceu:cutter' }, output: 'gtceu:alumina_ceramic_plate' })
 })
 
 let banthings = [
@@ -204,7 +207,12 @@ let banlists = [
     'gtceu:assembler/book_from_leather',
     'minecraft:replica_ingot_from_blasting',
     'minecraft:replica_ingot_from_furnace',
-    'mekanism:processing/refined_glowstone/ingot/from_dust'
+    'mekanism:processing/refined_glowstone/ingot/from_dust',
+    'gtceu:smelting/smelt_dust_alumina_ceramic_to_ingot',
+    'gtceu:shapeless/nugget_disassembling_alumina_ceramic',
+    'gtceu:shapeless/block_decompress_alumina_ceramic',
+    'gtceu:arc_furnace/arc_alumina_ceramic_dust',
+    'gtceu:bender/bend_alumina_ceramic_plate_to_double_plate'
 ]
 let ban_gt_tools = [
     'pickaxe',

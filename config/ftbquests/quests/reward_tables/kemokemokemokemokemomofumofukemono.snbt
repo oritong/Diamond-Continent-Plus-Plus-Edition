@@ -1,0 +1,19 @@
+{
+	empty_weight: 65.5f
+	id: "03AC0A8C992C6A42"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "rainrot:survivor_slug_plush", weight: 4.0f }
+		{ item: "rainrot:monk_slug_plush", weight: 4.0f }
+		{ item: "rainrot:hunter_slug_plush", weight: 4.0f }
+		{ item: "rainrot:gourmand_slug_plush", weight: 4.0f }
+		{ item: "rainrot:artificer_slug_plush", weight: 4.0f }
+		{ item: "rainrot:rivulet_slug_plush", weight: 4.0f }
+		{ item: "rainrot:spearmaster_slug_plush", weight: 4.0f }
+		{ item: "rainrot:saint_slug_plush", weight: 4.0f }
+		{ item: "rainrot:watcher_slug_plush", weight: 2.0f }
+		{ item: "rainrot:inv_slug_plush", weight: 0.5f }
+	]
+	title: "kemokemokemokemokemomofumofukemono"
+}

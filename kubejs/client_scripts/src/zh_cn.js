@@ -34,7 +34,8 @@ let item_js_key_zh_cn = [
     ['fog_in_a_bottle', '瓶装迷雾'],
     ['fighting_spirit_in_a_bottle', '瓶装斗志'],
     ['fear_in_a_bottle', '瓶装恐惧'],
-    ['physics_assembler', '物理组装器']
+    ['physics_assembler', '物理组装器'],
+    ['wood_ingot', '木锭']
 ]
 let item_ori_key_zh_cn = [
     ['steel_upgrade_smithing_template', '钢升级锻造模板'],
@@ -47,15 +48,26 @@ let block_js_key_zh_cn = [
     ['machine_core_4', '精英机器核心'],
     ['machine_core_5', '超级机器核心'],
     ['machine_core_6', '终极机器核心'],
-    ['machine_core_7', '觉醒机器核心']
+    ['machine_core_7', '觉醒机器核心'],
+    ['wood_block', '木块'],
+    ['multi_functional_casing', '多功能机器外壳'],
+    ['grizzly_chute', '格筛溜槽'],
+    ['compress_diamond_block', '压缩钻石块'],
+    ['raw_alumina_ceramic_block', '氧化铝陶瓷粗坯']
 ]
-let item_gt_key_zh_cn = [
+let material_gt_key_zh_cn = [
     ['caminite_brick', '方镁矾'],
     ['infused_alloy', '灌注合金'],
     ['manasteel', '魔力钢'],
     ['enriched_redstone', '富集红石'],
     ['diamond_ore_leachate', '钻石矿石浸出液'],
-    ['enriched_diamond', '富集钻石']
+    ['enriched_diamond', '富集钻石'],
+    ['dragon', '龙晶'],
+    ['sodium_aluminate', '铝酸钠'],
+    ['aluminum_hydroxide', '氢氧化铝'],
+    ['alumina', '氧化铝'],
+    ['alumina_ceramic', '氧化铝陶瓷'],
+    ['sodium_hydroxide_solution', '氢氧化钠溶液']
 ]
 let fluid_js_zh_cn = [
     ['glimmer', '"微光"']
@@ -77,7 +89,7 @@ ClientEvents.lang('zh_cn', e => {
     block_js_key_zh_cn.forEach(([key, value]) => {
         e.add(`block.kubejs.${key}`, value)
     })
-    item_gt_key_zh_cn.forEach(([key, value]) => {
+    material_gt_key_zh_cn.forEach(([key, value]) => {
         e.add(`material.gtceu.${key}`, value)
     })
     fluid_js_zh_cn.forEach(([key, name]) => {

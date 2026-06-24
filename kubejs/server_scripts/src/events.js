@@ -27,3 +27,12 @@ BlockEvents.rightClicked(event => {
         neighborBlock.setBlockState(neighborBlock.blockState.setValue(open, !bs.getValue(open) ? $Boolean.TRUE : $Boolean.FALSE), 3)
     }
 })
+
+BlockEvents.rightClicked('minecraft:dirt', e => {
+    if (
+        e.player.getMainHandItem().getId() === 'ars_nouveau:earth_essence' ||
+        e.player.getOffHandItem().getId() === 'ars_nouveau:earth_essence'
+    ) {
+        e.cancel()
+    }
+})

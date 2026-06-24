@@ -10,11 +10,14 @@ ServerEvents.tags('item', e => {
         e.add('lychee:fire_immune', a)
     })
     e.add('minecraft:pickaxes', 'avaritia:blaze_pickaxe')
+    e.add('gtceu:circuits/ulv', 'mekanism:basic_control_circuit')
 })
 ServerEvents.tags('block', e => {
     wrench_pickup.forEach(a => {
         e.add('create:wrench_pickup', a)
     })
+    e.add('oritong:grizzly_chute', 'kubejs:grizzly_chute')
+    e.add('oritong:compress/diamond', 'kubejs:compress_diamond_block')
 })
 let no_fire_burn = [
     'gtceu:wrought_iron_nugget',

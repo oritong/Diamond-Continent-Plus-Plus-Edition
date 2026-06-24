@@ -109,12 +109,20 @@
 				"这个马上就会被改成看y轴高度了，换成gt的机器"
 			]
 			id: "0D0716578DCCE42C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6D4D14939FF6EC32"
-				table_id: 7726132512131049101L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "438C09C45E688C84"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7099D980F72BCC33"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "70B8E26A45A74D07"
 				item: "oritong:glimmer_bucket"
@@ -130,12 +138,20 @@
 				"钻石是耐烧王，包括钻石粉（这描述怎么感觉在哪听过，怎么辉石呢）"
 			]
 			id: "3BD41D73FD9B3D23"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6E7B94214F885C01"
-				table_id: 7726132512131049101L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7467D557FC527638"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50963CD8634361A8"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "7B62CD635A2B9440"
 				item: "mekanism:dust_diamond"
@@ -151,12 +167,20 @@
 			]
 			description: ["将钻石粉投入微光，一段时间会降级为另一种矿物，但是请注意这个石头是需要矿物锭转换的，这意味着你需要在其中一步把矿物粉烧成锭（例如金粉）"]
 			id: "0A2E809E86C35DBB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5B01DD85F509D9DB"
-				table_id: 7726132512131049101L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67310A28CCB89AC9"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F1A170BF210932A"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "0241202DB3D1B80A"
 				item: "minecart:stone"
@@ -172,12 +196,20 @@
 				"有时，蠹虫会掉落一些下级精华，你可以通过它快速复制圆石"
 			]
 			id: "2A5A5515DF1BD1FB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "13298AA4539063C5"
-				table_id: 7726132512131049101L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D7DD58F9AC9868C"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "045593C9D06C1CB9"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			subtitle: "贴图没画，，"
 			tasks: [{
 				id: "7C6853FDC92D35C0"
@@ -198,12 +230,20 @@
 				}
 			}
 			id: "0A0DC2EEE1DE3FB5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7CD1DD54262E3292"
-				table_id: 7726132512131049101L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "070451F7730D8AB8"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "328A0647B6DA22A9"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "1733A83EA4F9DDD3"
@@ -240,6 +280,20 @@
 			]
 			icon: "tconstruct:seared_brick"
 			id: "5E72D738B6DAB84B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "677C4715FC009E96"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FA2CE467E8F7352"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "6F5905BDF50BEDD7"
@@ -264,6 +318,20 @@
 			]
 			icon: "tconstruct:seared_melter"
 			id: "57874B1EC09D2E1F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3388E15F74E52A27"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FFD0A9BF17D2988"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "07B38DDFB39AF9FB"
@@ -297,6 +365,20 @@
 		{
 			dependencies: ["57874B1EC09D2E1F"]
 			id: "6196177C716557BB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C2D591C2E7A8EBC"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64A595C462FEA9DA"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "5955E92D548BC780"
 				item: "gtceu:wrought_iron_ingot"
@@ -309,6 +391,20 @@
 			dependencies: ["6196177C716557BB"]
 			icon: "minecraft:smithing_table"
 			id: "28FBE8ACECAE947B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0048D25E83FDEECF"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72551055EC73909D"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:smithing_table"
 				id: "65F422F412E23D23"
@@ -325,6 +421,20 @@
 		{
 			dependencies: ["28FBE8ACECAE947B"]
 			id: "126C69FA01671DA5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49D62AD7CED32EB6"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63085FFB3AE9DFA1"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "41087710B219E004"
 				item: {
@@ -357,6 +467,20 @@
 			dependencies: ["356DDF333600DC7F"]
 			icon: "embers:dawnstone_ingot"
 			id: "0868AFFC24308555"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54CE8D9BFB7F487D"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B98CB10894969F8"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "60EAD930D26AF0BF"
@@ -382,6 +506,20 @@
 			dependencies: ["0868AFFC24308555"]
 			description: ["你可以把被诅咒的石头丢进水里直接得到圆石了，还会从被水淹死的蠹虫身上获取骨粉和灵魂石"]
 			id: "0819F0882F73F5A4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C01EA4C4B5FCD49"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66F9E650266C598E"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "2C5D4BDD2EA5DD07"
 				item: "minecraft:water_bucket"
@@ -394,6 +532,20 @@
 			dependencies: ["0819F0882F73F5A4"]
 			description: ["让微光和水相撞，就能无限产出泥土"]
 			id: "6F80257CF9F1DA3C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63302A4E3F10953E"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3734C7E220021285"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "33C897B360FFEAB2"
 				item: "minecraft:dirt"
@@ -406,6 +558,20 @@
 			dependencies: ["0819F0882F73F5A4"]
 			description: ["此操作会消耗水"]
 			id: "2B3021F97995F54C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "695FB622C85DC7CA"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14BF0FAAB2BFC7EE"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "33F677FB37F83807"
 				item: "minecraft:clay"
@@ -417,6 +583,20 @@
 		{
 			dependencies: ["6F80257CF9F1DA3C"]
 			id: "7597B40F28272542"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33B70B822686083B"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EE427B3D058ABD2"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "785B93425E20E6CC"
 				item: "kubejs:the_source_of_the_earth"
@@ -430,6 +610,20 @@
 			description: ["是的，我还没改资源包，改了之后就不是这个名字了"]
 			icon: "botania:apothecary_plains"
 			id: "2023B8D76AEFB02B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F92E5A5E6CBACFB"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "549A7CC89749AC3F"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "62904A5D5F192FC0"
@@ -460,14 +654,21 @@
 			id: "02F76171AF0EBF9A"
 			rewards: [
 				{
-					id: "2E4D4491BC3E7AD1"
+					id: "3428319815A7686E"
 					item: "botania:lexicon"
 					type: "item"
 				}
 				{
-					id: "550F6F29616A5C10"
-					item: "ars_nouveau:worn_notebook"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "51C0E901E34B7BAF"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "078100CA2C6BDEE6"
+					table_id: 7726132512131049101L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -489,6 +690,25 @@
 			]
 			id: "22E12D7F6FA1E9F3"
 			min_width: 300
+			rewards: [
+				{
+					id: "16354EBCBFF561B6"
+					item: "ars_nouveau:worn_notebook"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30C13D38656B9F19"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10CFC5F02D32F6D1"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "18E6E671C526AECD"
 				item: "ars_nouveau:volcanic_sourcelink"
@@ -501,6 +721,20 @@
 			dependencies: ["02F76171AF0EBF9A"]
 			description: ["制作一个砧板，然后左手拿着紫水晶块，右手拿着镐，按两次右键就能直接把紫水晶块敲成紫水晶碎片"]
 			id: "6D434CA0E1ED00CA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14024DAC8AA06CAA"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31E7CC8F2DE603FB"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "46AEE66F0F00B75F"
 				item: "minecraft:amethyst_shard"
@@ -512,6 +746,20 @@
 		{
 			dependencies: ["6D434CA0E1ED00CA"]
 			id: "3D045B34B3C1EA72"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09C4C2DAB2AD3B0A"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "143AE01D7F99FA3C"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "604882A4F9E9EA4C"
 				item: "ars_nouveau:arcane_pedestal"
@@ -524,6 +772,20 @@
 			dependencies: ["5F34A86A1C76E982"]
 			description: ["用玻璃粉在匠魂炉里燃烧成熔融玻璃"]
 			id: "79D363A141EBCFC3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "47F1C0ACED6425A4"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4089CD2FE0A0D11A"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "65FCF0F662F76860"
 				item: "tconstruct:clear_glass"
@@ -535,6 +797,20 @@
 		{
 			dependencies: ["28FBE8ACECAE947B"]
 			id: "5F34A86A1C76E982"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D3764946FB17B51"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "670EBFF175DC5FD0"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "7A2DCC324142885F"
 				item: {
@@ -561,6 +837,20 @@
 		{
 			dependencies: ["126C69FA01671DA5"]
 			id: "356DDF333600DC7F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DDFC4725431BC7A"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "750BB73DB8D9F960"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "4140454793B7E1FF"
 				item: "minecraft:diamond"
@@ -573,6 +863,20 @@
 			dependencies: ["22E12D7F6FA1E9F3"]
 			description: ["你可以以超级快的速度大批量合成锻铁了"]
 			id: "74C49D595061D61D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1404E08F680B6465"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38B4FE63296830C5"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "4C6AFEBAB6FB8EF4"
 				item: "minecraft:lava_bucket"
@@ -584,11 +888,20 @@
 		{
 			dependencies: ["74C49D595061D61D"]
 			id: "184344C6A21E3BAA"
-			rewards: [{
-				id: "1A633A1B231CDCA0"
-				item: "embers:ancient_codex"
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "51D62DA625F1CFA1"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "182610A152A03CCC"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "4A5AE29096E2673A"
 				item: "gtceu:caminite_brick_plate"
@@ -600,6 +913,20 @@
 		{
 			dependencies: ["28FBE8ACECAE947B"]
 			id: "4BA49BF3061CFC37"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C8DB3E9D301F04B"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2796E77B8FC831BF"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "11CF314B5DD12B39"
 				item: "tconstruct:part_builder"
@@ -617,6 +944,20 @@
 			]
 			icon: "tconstruct:crafting_station"
 			id: "7A37AD70DAE8538D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "190895EE416B5F9B"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "076526C608F9EBA1"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				icon: "tconstruct:crafting_station"
 				id: "40CFEFA15C942DCC"
@@ -634,6 +975,20 @@
 			dependencies: ["4BA49BF3061CFC37"]
 			icon: "tconstruct:blank_sand_cast"
 			id: "579A64A697F0A1E0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17D839D41B69FD6C"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DA7F0F74B1EC243"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "488E1F0F64A5FA1B"
 				item: {
@@ -657,6 +1012,20 @@
 				"现在EMI有BUG，莫名的无法显示mbd2的配方，可能之后我给全面换成格雷配方系统会解决（画大饼）"
 			]
 			id: "30E4C47192BBF26C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26CA4809CD3F83EF"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A27647F3F2462DF"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "51EA590D7BD197B7"
 				item: "industrialforegoing:latex_bucket"
@@ -669,6 +1038,25 @@
 			dependencies: ["184344C6A21E3BAA"]
 			description: ["放在基岩上面，然后用自动化手段输入燃料，就能缓慢产出了"]
 			id: "67202B01C3A638BE"
+			rewards: [
+				{
+					id: "23873A2DE9ED19BD"
+					item: "embers:ancient_codex"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "225FF1B9131ED299"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E2F8B4F026FC5F4"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "29208BD4FCCE8610"
 				item: "embers:ember_bore"
@@ -680,6 +1068,20 @@
 		{
 			dependencies: ["67202B01C3A638BE"]
 			id: "29E7D79250DEC73D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F88C9DA5E235CC4"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "541CD7A23AE4E5BC"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "25747E8E6A167EB3"
 				item: "embers:ember_grit"
@@ -695,6 +1097,20 @@
 			]
 			description: ["恭喜你获得了ULV材料安山合金"]
 			id: "042A51FC9737E15A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5FE63AEB482094DB"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46A69F0C5FABB4CD"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "691002AB70FE4DD7"
 				item: "create:andesite_alloy"
@@ -706,6 +1122,20 @@
 		{
 			dependencies: ["042A51FC9737E15A"]
 			id: "3D41F2D6A0066A16"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "522EA07A29FA282C"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "092E4E952BA899EE"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "7A587A671360C72A"
 				item: "gtceu:coke_oven"
@@ -721,6 +1151,20 @@
 				"甚至你还可以用杂酚油直接在白雏菊处转成熔岩"
 			]
 			id: "24590548ADF10833"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C4872BE758B79FE"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AEDBEB76AC97C15"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "36BD8EC64C3B9186"
 				item: "gtceu:creosote_bucket"
@@ -733,6 +1177,20 @@
 			dependencies: ["0868AFFC24308555"]
 			description: ["自带时运4，是你开荒的好帮手"]
 			id: "422A1CE90EF36D8E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D9F6066F2E0C275"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35E857F03CD17BF6"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "0AB845683846F80E"
 				item: {
@@ -750,6 +1208,20 @@
 		{
 			dependencies: ["24590548ADF10833"]
 			id: "03A52DAC1E7FDF1C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26B80A87D9F02000"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69D03E883D8DC035"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "1679542074975534"
 				item: "gtceu:treated_wood_planks"
@@ -762,6 +1234,20 @@
 			dependencies: ["03A52DAC1E7FDF1C"]
 			description: ["无限水，很好用"]
 			id: "5316BF31A9E8E6A5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4DE4FFE4CA616BD1"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44E025DC57B7BEE7"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "6485E6A637ED28AB"
 				item: "gtceu:primitive_pump"
@@ -774,6 +1260,20 @@
 			dependencies: ["7A37AD70DAE8538D"]
 			description: ["这个箱子很大，你最好忍一忍"]
 			id: "20E821C8ABBD6F0A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "635A8917D59F9CDF"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3000106A1AE7E7CF"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "210DAD9A0CBF20E6"
 				item: "avaritia:compressed_chest"
@@ -786,6 +1286,20 @@
 			dependencies: ["03A52DAC1E7FDF1C"]
 			description: ["推荐你先去推一推左边的石磨"]
 			id: "3461FAEEAB8F3D7E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "616C92900AF239DD"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D769F41FB3F3442"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "110267E3CCCE3FB8"
 				item: "kubejs:raw_compressed_fireclay"
@@ -797,6 +1311,20 @@
 		{
 			dependencies: ["3461FAEEAB8F3D7E"]
 			id: "6C0D2FCA9C44D4AE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BD5EEBF10A16A0D"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0700B49629492A73"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "32BEBA472B7ACE27"
 				item: "gtceu:primitive_blast_furnace"
@@ -808,6 +1336,20 @@
 		{
 			dependencies: ["6C0D2FCA9C44D4AE"]
 			id: "1DFFF478176609DD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76F721B00B3B41D3"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "224D13F82E6A1D24"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "52DED51123CF51B9"
 				item: "mekanism:ingot_steel"
@@ -821,6 +1363,20 @@
 			description: ["效率为30FE/t。大概不是很抗用"]
 			icon: "industrialforegoing:latex_processing_unit"
 			id: "6D47C79AA2D0160A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C627BEF03FC6C65"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "352DA4E9A6320F43"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "72254A6E82D0FF12"
@@ -840,6 +1396,20 @@
 		{
 			dependencies: ["6D47C79AA2D0160A"]
 			id: "735ED48DEA21FD28"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B375FCBE18F391F"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73E0CB26A3B5494B"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "6254E5307BEC9AE6"
 				item: "gtceu:rubber_plate"
@@ -852,6 +1422,20 @@
 			dependencies: ["03A52DAC1E7FDF1C"]
 			description: ["当然，你还可以做大型水车获得更“大”的应力源"]
 			id: "1A6AD0379BD4BA40"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "535F9B29EE50AABF"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2198FEA7B852CD84"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "5CACB64D2997CC0D"
 				item: "create:water_wheel"
@@ -864,6 +1448,20 @@
 			dependencies: ["042A51FC9737E15A"]
 			description: ["不过，你真正需要的是旁边那个防腐木"]
 			id: "24403857C5C469D8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52BB5E05B228EF6E"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70B6673EDB518333"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "1DCF024596A6E035"
 				item: "create:andesite_casing"
@@ -876,6 +1474,20 @@
 			dependencies: ["735ED48DEA21FD28"]
 			description: ["这台机器获得了更多强强的配方"]
 			id: "7503EF8B395A91F4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "13958E8EE446F8BD"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18E4A056BB8ABAD6"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "0BA1251274C8F71F"
 				item: "industrialforegoing:dissolution_chamber"
@@ -887,6 +1499,20 @@
 		{
 			dependencies: ["7503EF8B395A91F4"]
 			id: "70EA058F6AE7F57E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0EA255375B20A5ED"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47223AE7639EBA1F"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "52CFD39ACB0F1766"
@@ -925,6 +1551,20 @@
 				"为了得到黑曜石板，首先你要尝试使用焦黑燃料储罐"
 			]
 			id: "354E10D08B784B1F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "538F477ABB3E4FCB"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71C1306F90BA9344"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "72590BE144203407"
 				item: "oritong:steel_upgrade_smithing_template"
@@ -937,6 +1577,20 @@
 			dependencies: ["24403857C5C469D8"]
 			description: ["它可以运行ULV等级的所有搅拌机配方"]
 			id: "415FD9C7B81EDDA7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "037D4972020D4E6F"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "081B391C9985C4D2"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "6CD734EC4023EED5"
 				item: "create:mechanical_mixer"
@@ -951,6 +1605,20 @@
 				"1CB742317F6DA907"
 			]
 			id: "112236124A8FE0E9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63236B769F6A6B0F"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5740381FB1F41D56"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "0FE157A45ECE099D"
 				item: "kubejs:raw_vacuum_tube"
@@ -966,6 +1634,20 @@
 			]
 			description: ["搅拌机"]
 			id: "1CB742317F6DA907"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E00BD1B4330895D"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E9551E51F0D6886"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "41E05A92F83875F8"
 				item: "gtceu:red_alloy_dust"
@@ -983,11 +1665,20 @@
 				"如果你搞丢了它，你只能在MV把它重新制作回来了"
 			]
 			id: "71D253D427B51A9F"
-			rewards: [{
-				id: "5143386906915846"
-				item: "rainrot:five_pebbsi_vending_machine"
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "461173922195AB54"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "510B5633B4AF14C9"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -1021,6 +1712,20 @@
 			dependencies: ["24403857C5C469D8"]
 			description: ["它可以运行ULV电压的锭变板配方"]
 			id: "3E89C60ADFB3FA21"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3810B0FC8F0B92B4"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66CAC217C0D67A9A"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "29B660A424AAFDA2"
 				item: "create:mechanical_press"
@@ -1033,6 +1738,20 @@
 			dependencies: ["3E89C60ADFB3FA21"]
 			description: ["它可以运行ULV电压的研磨机配方"]
 			id: "30B2C46B02047F06"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6CA5489BC181A728"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71A658D4D4D5E168"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "328087EADB37C024"
 				item: "create:millstone"
@@ -1045,6 +1764,20 @@
 			dependencies: ["30B2C46B02047F06"]
 			description: ["用朱砂粉有概率磨出来"]
 			id: "5B762E7864EFBDD3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "55EEAE25594FAD67"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "700564A63976C894"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "424B4D62454B5C8D"
 				item: "minecraft:redstone"
@@ -1056,6 +1789,20 @@
 		{
 			dependencies: ["67202B01C3A638BE"]
 			id: "30CA72A5EE1E4110"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CF5628B4C0401B5"
+					table_id: 264598077089540674L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D95B0BA74910170"
+					table_id: 7726132512131049101L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "1D19DD7702B7FF2F"
 				item: "embers:mechanical_core"

@@ -1,4 +1,12 @@
 GTCEuStartupEvents.registry('gtceu:machine', e => {
+    e.create('glimmer_collector', 'simple')
+        .tiers(GTValues.LV, GTValues.MV, GTValues.HV)
+        .definition((tier, builder) =>
+            builder
+                .rotationState(RotationState.NON_Y_AXIS)
+                .recipeType('glimmer_collector')
+        )
+        .tankScalingFunction(tier => tier * 3200)
     e.create('enrichment_chamber', 'simple')
         .tiers(GTValues.LV, GTValues.MV, GTValues.HV)
         .definition((tier, builder) =>
@@ -23,12 +31,4 @@ GTCEuStartupEvents.registry('gtceu:machine', e => {
                 .recipeType('enrichment_infuser')
         )
         .tankScalingFunction(tier => tier * 800)
-    // e.create('slurry_power_generator', 'simple')
-    // .tiers(GTValues.LV, GTValues.MV, GTValues.HV)
-    // .definition((tier, builder) =>
-    //         builder
-    //             .rotationState(RotationState.NON_Y_AXIS)
-    //             .recipeType('slurry_power_generation')
-    //     )
-    //     .tankScalingFunction(tier => tier * 15000)
 })

@@ -1,0 +1,7 @@
+
+#修改以下设置以自定义本模组的服务端行为。
+["旅行设置"]
+	#允许鱼通过管道。（实验性）
+	allowFishTravel = true
+	#允许村民通过管道。
+	allowVillagerTravel = true

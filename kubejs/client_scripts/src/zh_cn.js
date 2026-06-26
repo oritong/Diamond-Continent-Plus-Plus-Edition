@@ -1,5 +1,9 @@
 let key_zh_cn = [
-    ['block.minecart.stone', '§o石头']
+    ['block.minecart.stone', '§o石头'],
+    ['gtceu.enrichment_infuser', '富集灌注器'],
+    ['gtceu.glimmer_collector', '"微光"收集器'],
+    ['gtceu.enrichment_chamber', '冶金富集器'],
+    ['gtceu.infused_extracter', '富集提取器']
 ]
 let item_js_key_zh_cn = [
     ['stone_hammer', '石锤'],

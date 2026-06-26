@@ -10,4 +10,5 @@ ServerEvents.recipes(e => {
     e.replaceInput({ output: 'embers:alchemy_tablet' }, 'gtceu:copper_plate', 'botania:manasteel_ingot')
     e.replaceInput({ output: 'botania:rune_mana' }, 'botania:mana_pearl', 'botania:mana_diamond')
     e.replaceInput({ output: 'botania:manasteel_ingot' }, 'minecraft:iron_ingot', 'mekanism:ingot_steel')
+    e.replaceInput({ output: 'replication:matter_network_pipe' }, 'minecraft:redstone_wire', 'gtceu:infused_alloy_double_wire')
 })

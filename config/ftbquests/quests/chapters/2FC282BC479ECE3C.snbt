@@ -39,7 +39,7 @@
 				item: "mekanismgenerators:heat_generator"
 				type: "item"
 			}]
-			x: 3.0d
+			x: -3.0d
 			y: -4.0d
 		}
 		{
@@ -49,7 +49,7 @@
 				item: "industrialforegoing:pitiful_generator"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -1.5d
 			y: -4.0d
 		}
 		{
@@ -58,6 +58,16 @@
 			tasks: [{
 				id: "35544458EBB322E7"
 				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "17CAB09E72A51D66"
+			tasks: [{
+				id: "6839C3C096589A37"
+				item: "gtceu:lv_steam_turbine"
 				type: "item"
 			}]
 			x: 1.5d

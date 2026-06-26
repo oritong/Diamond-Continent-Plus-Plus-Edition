@@ -821,6 +821,18 @@
 			x: 0.5d
 			y: 2.5d
 		}
+		{
+			dependencies: ["753E6963A939C10C"]
+			description: ["前期也是非常牛逼的管道了，输出能直接抽出2A LV的电，要不是电线不能直接连复制器我还真不想给你"]
+			id: "5C83119D6F756527"
+			tasks: [{
+				id: "2EF7900DB9896E41"
+				item: "pipez:energy_pipe"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.0d
+		}
 	]
 	title: "第二章 第零次工业革命"
 }

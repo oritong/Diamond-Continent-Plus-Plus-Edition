@@ -1,0 +1,66 @@
+#.
+#蓝图允许的子文件夹层数
+#范围：0 ~ 20
+schematicsNestingDepth = 5
+#.
+#启用手动应用后归还剩余物品的修复
+applicationRemainingItemFix = true
+#.
+#修改流体容器作为锅炉时的应力输出
+#范围：0.0 ~ 3.4028234663852886E38
+vesselBoilerStressMultiplier = 0.8125
+#.
+#修改流体容器作为锅炉时的加热等级
+#范围：0.0 ~ 3.4028234663852886E38
+vesselHeatMultiplier = 0.5
+#.
+#限制流体容器可达到的最高锅炉等级
+#范围：0 ~ 18
+vesselMaxLevel = 18
+#.
+#动能电池放电时的转速(RPM)
+#范围：0 ~ 256
+batteryDischargeRPM = 64
+#.
+#动能电池的最大容量（su·时）
+#范围：0.0 ~ 8192.0
+batteryCapacity = 512.0
+#.
+#允许红石信号链接的双槽都使用通配符 [需重启]
+allowDualWildcardLink = false
+
+[stressValues]
+
+	#.
+	#微调各组件的动力学数据
+	[stressValues.v1]
+		#.
+		#动力制动器的应力消耗 [单位：应力]
+		#范围：-∞ ~ ∞
+		brakeActiveStress = 16384.0
+
+		#.
+		#.
+		#[单位：应力]
+		#配置各机械方块的单独应力消耗。注意：每提升一级速度，该消耗翻倍。
+		[stressValues.v1.impact]
+			brass_gearbox = 0.0
+			centrifugal_clutch = 0.0
+			brake = 0.0
+			encased_chain_cogwheel = 0.0
+			kinetic_battery = 64.0
+			six_way_gearbox = 0.0
+			shear_pin = 0.0
+			parallel_gearbox = 0.0
+			inverted_gearshift = 0.0
+			freewheel_clutch = 0.0
+			overstress_clutch = 0.0
+			inverted_clutch = 0.0
+
+		#.
+		#[单位：应力]
+		#配置动力源可提供的应力上限。
+		[stressValues.v1.capacity]
+			crank_wheel = 8.0
+			kinetic_battery = 32.0
+			large_crank_wheel = 8.0

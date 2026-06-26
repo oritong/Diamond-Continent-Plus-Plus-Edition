@@ -18,6 +18,7 @@ ServerEvents.recipes(e => {
     e.remove({ type: 'create:cutting' })
     e.remove({ type: 'replication:matter_value' })
     e.remove({ not: { type: 'gtceu:cutter' }, output: 'gtceu:alumina_ceramic_plate' })
+    e.remove({ type: 'botania:mana_infusion' })
 })
 
 let banthings = [
@@ -89,7 +90,17 @@ let banthings = [
     'create:item_drain',
     'create:spout',
     'create:copper_casing',
-    'minecraft:smithing_table'
+    'minecraft:smithing_table',
+    'create:super_glue',
+    'replication:replication_terminal',
+    'replication:matter_network_pipe',
+    'botania:alchemy_catalyst',
+    'replication:replicator',
+    'replication:disintegrator',
+    'replication:identification_chamber',
+    'replication:matter_tank',
+    'replication:chip_storage',
+    'replication:memory_chip'
 ]
 let banlists = [
     'minecraft:crafting_table',
@@ -210,7 +221,8 @@ let banlists = [
     'gtceu:shapeless/nugget_disassembling_alumina_ceramic',
     'gtceu:shapeless/block_decompress_alumina_ceramic',
     'gtceu:arc_furnace/arc_alumina_ceramic_dust',
-    'gtceu:bender/bend_alumina_ceramic_plate_to_double_plate'
+    'gtceu:bender/bend_alumina_ceramic_plate_to_double_plate',
+    'createaddition:crafting/diamond_grit_sandpaper'
 ]
 let ban_gt_tools = [
     'pickaxe',

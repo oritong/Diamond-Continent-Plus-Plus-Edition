@@ -43,7 +43,8 @@ let item_js_key_zh_cn = [
 ]
 let item_ori_key_zh_cn = [
     ['steel_upgrade_smithing_template', '钢升级锻造模板'],
-    ['diamond_upgrade_smithing_template', '钻石升级锻造模板']
+    ['diamond_upgrade_smithing_template', '钻石升级锻造模板'],
+    ['super_glue_package', '强力胶包装']
 ]
 let block_js_key_zh_cn = [
     ['machine_core_1', '原始机器核心'],
@@ -71,7 +72,32 @@ let material_gt_key_zh_cn = [
     ['aluminum_hydroxide', '氢氧化铝'],
     ['alumina', '氧化铝'],
     ['alumina_ceramic', '氧化铝陶瓷'],
-    ['sodium_hydroxide_solution', '氢氧化钠溶液']
+    ['sodium_hydroxide_solution', '氢氧化钠溶液'],
+    ['absolute_ethanol', '绝对乙醇'],
+    ['wet_sieved_zeolite_powder', '湿过筛沸石颗粒粉'],
+    ['sieved_zeolite_powder', '过筛沸石颗粒粉'],
+    ['silica_alumina_gel_powder', '硅铝凝胶粉'],
+    ['silica_gel_powder', '硅胶粉'],
+    ['silica_gel_matrix', '硅胶基质'],
+    ['chloroacetic_acid', '氯乙酸'],
+    ['ethyl_chloroacetate', '氯乙酸乙酯'],
+    ['polyethyl_acetate_mixture', '聚乙酸乙酯混合液'],
+    ['diethyl_malonate', '丙二酸二乙酯'],
+    ['cobalt_chloride', '氯化钴粉'],
+    ['cobalt_acetate', '醋酸钴粉'],
+    ['ethyl_cyanoacetate', '氰乙酸乙酯'],
+    ['pyridine', '吡啶'],
+    ['ethyl_cyanoacrylate', 'α-氰基丙烯酸乙酯'],
+    ['cobalt_nitrate_solution', '硝酸钴溶液'],
+    ['cobalt_carbonate', '碳酸钴粉'],
+    ['light_oil_fraction', '轻油馏分'],
+    ['ammonia_solution', '氨水'],
+    ['crude_light_pyridine', '粗轻吡啶'],
+    ['benzene_crude_pyridine', '含苯粗轻吡啶'],
+    ['azeotropic_crude_pyridine', '共沸粗轻吡啶'],
+    ['refined_crude_pyridine', '精制粗轻吡啶'],
+    ['acetonitrile', '乙腈'],
+    ['monoethyl_malonamide', '丙二酸单乙酯酰胺']
 ]
 let fluid_js_zh_cn = [
     ['glimmer', '"微光"']

@@ -22,4 +22,12 @@ ServerEvents.recipes(e => {
     e.recipes.gtceu.assembler().itemInputs('16x gtnn:supracausal_mainframe', '8x gtceu:shadow_steel_plate', '8x gtceu:refined_radiance_plate', 'create:andesite_casing', 'gtceu:neutronium_frame', '2x gtceu:dense_naquadah_alloy_plate', 'gtceu:polybenzimidazole_rod', 'gtceu:tritanium_round').inputFluids(Fluid.of('gtceu:high_octane_gasoline', 750)).itemOutputs('kubejs:physics_assembler').EUt(8 * 4 * 4 * 4 * 4 * 4 * 4 * 1.75).duration(150 * 20)
     e.recipes.gtceu.assembler().itemInputs('4x gtceu:aluminium_plate', '2x gtceu:invar_plate', 'gtceu:caminite_brick_plate').circuit(13).inputFluids(Fluid.of('gtceu:polyethylene', 144)).itemOutputs('kubejs:machine_core_2').EUt(32).duration(20 * 6)
     e.recipes.gtceu.assembler().itemInputs('rainrot:data_pearl', '3x #gtceu:circuits/ulv', 'createaddition:diamond_grit_sandpaper').inputFluids(Fluid.of('oritong:glimmer', 1250)).itemOutputs('replication:matter_blueprint').EUt(24).duration(20 * 60)
+    let machine_hull = [
+        ['lv', '1', 'gtceu:wrought_iron_plate', 'gtceu:steel_plate', 'gtceu:tin_single_cable', 'industrialforegoing:latex'],
+        ['mv', '2', 'gtceu:invar_plate', 'gtceu:aluminium_plate', 'gtceu:copper_single_cable', 'gtceu:polyethylene']
+    ]
+    machine_hull.forEach(([a, b, c, d, f, g]) => {
+        e.recipes.gtceu.assembler().itemInputs(`kubejs:machine_core_${b}`, `4x ${d}`, `2x ${c}`, `2x ${f}`).itemOutputs(`gtceu:${a}_machine_hull`).EUt(4 ** parseInt(b)).duration(20 * 4).inputFluids(Fluid.of(g, 288))
+        e.remove({ output: `gtceu:${a}_machine_hull` })
+    })
 })

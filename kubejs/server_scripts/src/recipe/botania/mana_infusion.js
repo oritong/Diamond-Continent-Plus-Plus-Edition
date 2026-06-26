@@ -1,0 +1,11 @@
+ServerEvents.recipes(e => {
+    e.recipes.botania.mana_infusion('botania:mana_powder', 'mekanism:dust_diamond', 1500)
+    e.recipes.botania.mana_infusion('mekanism:ingot_refined_glowstone', 'minecraft:glowstone', 15000)
+    e.recipes.botania.mana_infusion('botania:manasteel_ingot', 'mekanism:ingot_steel', 2200)
+    e.recipes.botania.mana_infusion('botania:manasteel_block', 'gtceu:steel_block', 19800)
+    e.recipes.botania.mana_infusion('botania:mana_diamond', 'minecraft:diamond', 3250)
+    e.recipes.botania.mana_infusion('botania:mana_diamond_block', 'minecraft:diamond_block', 29250)
+    e.recipes.botania.mana_infusion('botania:mana_pearl', 'minecraft:ender_pearl', 3612)
+    e.recipes.botania.mana_infusion('9x botania:mana_pearl', 'gtceu:ender_pearl_block', 32508)
+    e.recipes.botania.mana_infusion('replication:raw_replica', 'minecraft:glowstone_dust', 2000, 'botania:alchemy_catalyst')
+})

@@ -833,6 +833,71 @@
 			x: -13.0d
 			y: 0.0d
 		}
+		{
+			dependencies: [
+				"5072F20A545AD750"
+				"5811A0C1FA36B6C3"
+			]
+			id: "34F235A4FB76F7DC"
+			tasks: [
+				{
+					id: "4CF316150BE1711B"
+					item: "replication:matter_network_pipe"
+					type: "item"
+				}
+				{
+					id: "512264A67DCDA72E"
+					item: "replication:replicator"
+					type: "item"
+				}
+				{
+					id: "0F9E209925E7FFB9"
+					item: "replication:identification_chamber"
+					type: "item"
+				}
+				{
+					id: "0A91290662E90386"
+					item: "replication:disintegrator"
+					type: "item"
+				}
+				{
+					id: "258FC87048985DFB"
+					item: "replication:matter_tank"
+					type: "item"
+				}
+				{
+					id: "210E9E656A611B62"
+					item: "replication:replication_terminal"
+					type: "item"
+				}
+				{
+					id: "202870433CF941F4"
+					item: "replication:chip_storage"
+					type: "item"
+				}
+				{
+					id: "0B14433680E7A8E2"
+					item: "replication:memory_chip"
+					type: "item"
+				}
+			]
+			title: "复 制"
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0A801BE87DDB3EF5"]
+			hide_dependency_lines: true
+			id: "5811A0C1FA36B6C3"
+			tasks: [{
+				id: "57D33621BA0FE686"
+				item: "replication:matter_blueprint"
+				match_nbt: false
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
 	]
 	title: "第二章 第零次工业革命"
 }

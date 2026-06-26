@@ -8,4 +8,7 @@ ItemEvents.modification(e => {
     e.modify("mekanism:dust_diamond", modification => {
         modification.setBurnTime(128000)
     })
+    e.modify("create:super_glue", modification => {
+        modification.setMaxDamage(325)
+    })
 })

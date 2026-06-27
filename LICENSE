@@ -46,7 +46,16 @@ the Chinese version shall prevail.
   (2) 文件位于 oritong/ 文件夹内 → ARR
   (3) 文件位于 config/、defaultconfigs/、template/ 文件夹内 → ARR
   (4) 文件属于 kubejs/assets/ 下的 lang 文件 → ARR
-  (5) 上述均不适用 → GPL v3
+   (5) 上述均不适用 → GPL v3
+
+4. 相关链接
+
+  ARR（All Rights Reserved）：
+    默认著作权保留，无公开许可证文本。
+    https://en.wikipedia.org/wiki/All_rights_reserved
+
+  GPL v3（GNU General Public License v3）：
+    https://www.gnu.org/licenses/gpl-3.0.html
 
 ================================================================================
 
@@ -90,7 +99,16 @@ This license applies to all files within this repository (hereinafter "the Packa
   (2) File is within the oritong/ directory → ARR
   (3) File is within config/, defaultconfigs/, or template/ directories → ARR
   (4) File is a lang file under kubejs/assets/ → ARR
-  (5) None of the above applies → GPL v3
+   (5) None of the above applies → GPL v3
+
+4. Related Links
+
+  ARR (All Rights Reserved):
+    Default copyright — no public license text available.
+    https://en.wikipedia.org/wiki/All_rights_reserved
+
+  GPL v3 (GNU General Public License v3):
+    https://www.gnu.org/licenses/gpl-3.0.html
 
 ================================================================================
 
@@ -134,6 +152,15 @@ This license applies to all files within this repository (hereinafter "the Packa
   (2) oritong/ フォルダ内のファイル → ARR
   (3) config/、defaultconfigs/、template/ フォルダ内のファイル → ARR
   (4) kubejs/assets/ 配下の lang ファイル → ARR
-  (5) 上記いずれにも該当しない → GPL v3
+     (5) 上記いずれにも該当しない → GPL v3
+
+4. 関連リンク
+
+  ARR（All Rights Reserved）：
+    デフォルトの著作権留保であり、公開ライセンス文書はありません。
+    https://en.wikipedia.org/wiki/All_rights_reserved
+
+  GPL v3（GNU General Public License v3）：
+    https://www.gnu.org/licenses/gpl-3.0.html
 
 ================================================================================

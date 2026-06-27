@@ -20,6 +20,10 @@
 本包以 **[格雷科技现代版（GregTech Modern）](https://www.mcmod.cn/class/12850.html)**
 （[CurseForge](https://www.curseforge.com/minecraft/mc-mods/gregtechceu-modern)）为**主线**，同时提供了以其他模组制作的少量支线内容。
 
+### 🎮 游玩方式
+
+加入 **QQ 群聊 946391190** 或在右侧的发布页获取最新整合包。
+
 ### 📜 协议
 
 请参阅本仓库内的 [LICENSE](./LICENSE) 文件。
@@ -38,6 +42,10 @@
 
 本パックは **[グレッグテック現代版 (GregTech Modern)](https://www.mcmod.cn/class/12850.html)**（[CurseForge](https://www.curseforge.com/minecraft/mc-mods/gregtechceu-modern)）を **メインライン** とし、他のMODによる少数のサイドラインも提供しています。
 
+### 🎮 遊び方
+
+**QQ グループ 946391190** に参加するか、右側のリリースページから最新のMODパックを入手してください。
+
 ### 📜 ライセンス
 
 本リポジトリ内の [LICENSE](./LICENSE) ファイルをご参照ください。
@@ -55,6 +63,10 @@
 **Diamond Continent — Jiahao Version** is a Minecraft modpack independently created by **[oritong / 哦里冻](https://space.bilibili.com/494691236)** ([MCMOD Profile](https://www.mcmod.cn/author/36024.html)).
 
 The pack takes **[GregTech Modern](https://www.curseforge.com/minecraft/mc-mods/gregtechceu-modern)** ([MCMOD](https://www.mcmod.cn/class/12850.html)) as its **mainline**, supplemented by a few side quests made with other mods.
+
+### 🎮 How to Play
+
+Join **QQ Group 946391190** or grab the latest modpack from the Releases page on the right.
 
 ### 📜 License
 

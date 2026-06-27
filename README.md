@@ -34,7 +34,7 @@
 
 ### 📖 概要
 
-「ダイヤモンド大陸 嘉豪版」（Diamond Continent Jiahao Version）は、個人作者 **[哦里冻 / Orito](https://space.bilibili.com/494691236)**（[MCMOD プロフィール](https://www.mcmod.cn/author/36024.html)）が独自に制作した Minecraft MODパックです。
+「ダイヤモンド大陸 嘉豪版」（Diamond Continent Jiahao Version）は、個人作者 **[哦里冻 / oritong](https://space.bilibili.com/494691236)**（[MCMOD プロフィール](https://www.mcmod.cn/author/36024.html)）が独自に制作した Minecraft MODパックです。
 
 本パックは **[グレッグテック現代版 (GregTech Modern)](https://www.mcmod.cn/class/12850.html)**（[CurseForge](https://www.curseforge.com/minecraft/mc-mods/gregtechceu-modern)）を **メインライン** とし、他のMODによる少数のサイドラインも提供しています。
 
@@ -52,7 +52,7 @@
 
 ### 📖 About
 
-**Diamond Continent — Jiahao Version** is a Minecraft modpack independently created by **[Orito / 哦里冻](https://space.bilibili.com/494691236)** ([MCMOD Profile](https://www.mcmod.cn/author/36024.html)).
+**Diamond Continent — Jiahao Version** is a Minecraft modpack independently created by **[oritong / 哦里冻](https://space.bilibili.com/494691236)** ([MCMOD Profile](https://www.mcmod.cn/author/36024.html)).
 
 The pack takes **[GregTech Modern](https://www.curseforge.com/minecraft/mc-mods/gregtechceu-modern)** ([MCMOD](https://www.mcmod.cn/class/12850.html)) as its **mainline**, supplemented by a few side quests made with other mods.
 
@@ -68,6 +68,6 @@ Please refer to the [LICENSE](./LICENSE) file in this repository.
 
 <div align="center">
 
-Made with ❤️ by **@哦里冻 / Orito**
+Made with ❤️ by **@哦里冻 / oritong**
 
 </div>

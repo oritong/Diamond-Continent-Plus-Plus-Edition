@@ -24,7 +24,7 @@
 	allowBrewingInMixer = true
 	#.
 	#允许动力搅拌器+工作盆处理任意无序合成配方。
-	allowShapelessInMixer = true
+	allowShapelessInMixer = false
 	#.
 	#允许动力辊压机+工作盆处理任意单材料2x2或3x3合成配方。
 	allowShapedSquareInPress = true

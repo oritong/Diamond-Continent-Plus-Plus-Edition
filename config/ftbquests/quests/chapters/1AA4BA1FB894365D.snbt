@@ -335,6 +335,7 @@
 					type: "item"
 				}
 			]
+			title: "LV舱室"
 			x: -4.0d
 			y: 2.5d
 		}
@@ -687,6 +688,11 @@
 		}
 		{
 			dependencies: ["27CB8DC29C454AE2"]
+			description: [
+				"你可能会说：超净间？？？？？"
+				"但是对不起，这就是事实"
+				"超净间被下放到MV了"
+			]
 			id: "2F18B83C6FE098D0"
 			tasks: [{
 				id: "0DFD78E01CEABE0D"
@@ -695,19 +701,6 @@
 			}]
 			x: 6.0d
 			y: -3.5d
-		}
-		{
-			dependencies: ["5ED94F26402E7983"]
-			description: ["你要知道，我们现在还没有什么好方法能获得精致绿宝石，所以我们不如换个思路，看看魔力钻石怎么样？"]
-			hide_dependency_lines: true
-			id: "74A512B8F8C5EB17"
-			tasks: [{
-				id: "5BE485CB8D755981"
-				item: "botania:mana_diamond"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -5.0d
 		}
 		{
 			dependencies: ["12EA889188E81490"]
@@ -732,7 +725,9 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["74A512B8F8C5EB17"]
+			dependencies: ["5F7F2159EB60A4BE"]
+			description: ["你猜怎么着，现在我们还是只能用魔力钻石代替一下绿宝石的位置"]
+			hide_dependency_lines: true
 			id: "2C4A21903CD4FE35"
 			tasks: [{
 				id: "10B56A4472BB3BB1"
@@ -810,7 +805,7 @@
 			dependencies: ["222DE3F2DA123486"]
 			description: [
 				"你需要聚氯乙烯才能做出来书，终端……"
-				"至于气态氯？到了MV电解方钠石就有了"
+				"至于气态氯？电解盐就有了"
 			]
 			id: "1E558461C9AF6677"
 			tasks: [{

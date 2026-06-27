@@ -64,7 +64,7 @@
 					type: "item"
 				}
 				{
-					count: 32
+					count: 66
 					id: "7DD40C1FA435875C"
 					item: "create:bar_of_chocolate"
 					type: "item"
@@ -1530,11 +1530,6 @@
 					type: "item"
 				}
 				{
-					id: "2295F1C3556BE880"
-					item: "pipez:gas_pipe"
-					type: "item"
-				}
-				{
 					id: "068678E26E2EA9C3"
 					item: "pipez:universal_pipe"
 					type: "item"
@@ -1677,6 +1672,11 @@
 					id: "510B5633B4AF14C9"
 					table_id: 7726132512131049101L
 					type: "loot"
+				}
+				{
+					id: "62AD77DB898FC649"
+					item: "rainrot:five_pebbsi_vending_machine"
+					type: "item"
 				}
 			]
 			shape: "gear"

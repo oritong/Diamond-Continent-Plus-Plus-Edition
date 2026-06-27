@@ -23,10 +23,11 @@ ServerEvents.recipes(e => {
                 j.inputs.item.forEach(i => {
                     let c = i.content
                     if (c.type == "gtceu:circuit") return
-                    if (c.ingredient && c.ingredient.item)
-                        inputs.push(c.ingredient.item)
-                    if (c.ingredient && c.ingredient.tag)
-                        inputs.push("#" + c.ingredient.tag)
+                    let count = c.count ? c.count : 1
+                    let item = null
+                    if (c.ingredient && c.ingredient.item) item = c.ingredient.item
+                    if (c.ingredient && c.ingredient.tag) item = "#" + c.ingredient.tag
+                    if (item) for (let k = 0; k < count; k++) inputs.push(item)
                 })
             if (j.inputs && j.inputs.fluid)
                 j.inputs.fluid.forEach(f => {

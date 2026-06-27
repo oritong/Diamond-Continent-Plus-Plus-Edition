@@ -664,7 +664,7 @@ ServerEvents.recipes(e => {
     ], {
         A: 'mekanism:ingot_steel',
         B: 'gtceu:wrought_iron_plate',
-        C: 'replication:replica_ingot',
+        C: 'gtceu:potin_ingot',
         D: 'minecraft:iron_trapdoor'
     })
     e.shaped('replication:memory_chip', [

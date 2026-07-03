@@ -26,5 +26,11 @@
       "createaddition:electrum_rod"
     ],
     "resultItems": "gtceu:electrum_rod"
+  },
+  {
+    "matchItems": [
+      "createaddition:electrum_block"
+    ],
+    "resultItems": "gtceu:electrum_block"
   }
 ]

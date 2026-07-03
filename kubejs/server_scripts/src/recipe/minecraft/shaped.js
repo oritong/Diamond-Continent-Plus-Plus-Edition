@@ -594,7 +594,7 @@ ServerEvents.recipes(e => {
     ], {
         A: 'replication:replica_ingot',
         B: 'replication:matter_network_pipe',
-        C: 'gtceu:terminal',
+        C: 'gtceu:computer_monitor_cover',
         D: '#forge:glass_panes/colorless'
     })
     e.shaped('16x replication:matter_network_pipe', [
@@ -678,4 +678,19 @@ ServerEvents.recipes(e => {
         D: 'gtceu:gold_plate',
         E: 'gtceu:electrum_foil'
     })
+    e.shaped('kubejs:wood_block', [
+        'AA ',
+        'AA ',
+        '   '
+    ], {
+        A: 'kubejs:wood_ingot'
+    })
+    e.shaped('2x gtceu:paper_dust', [
+    '   ',
+    'AAA',
+    ' B '
+], {
+    A: 'mekanism:sawdust',
+    B: '#gtceu:tools/crafting_mortars'
+})
 })

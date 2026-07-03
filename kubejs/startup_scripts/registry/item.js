@@ -43,10 +43,18 @@ StartupEvents.registry('item', e => {
     e.create('sleppy_in_a_bottle')
     e.create('vaporeon_in_a_bottle')
     e.create('physics_assembler')
+    e.create('lost_item').texture('minecraft:item/barrier')
+    e.create('sn1ckers').texture('create:item/bar_of_chocolate').food(foodBuilder => {
+        foodBuilder.effect("minecraft:saturation", 15 * 20, 0, 1)
+        foodBuilder.effect("farmersdelight:nourishment", 180 * 20, 0, 1)
+        foodBuilder.hunger(2)
+        foodBuilder.saturation(1)
+    })
 })
 
 GTCEuStartupEvents.registry('gtceu:material', e => {
     GTMaterials.WroughtIron.addFlags(GTMaterialFlags.GENERATE_ROTOR)
+    GTMaterials.Gold.addFlags(GTMaterialFlags.GENERATE_GEAR)
     e.create('caminite_brick').ingot().color(0xedd7af).iconSet(GTMaterialIconSet.SHINY).flags(GTMaterialFlags.GENERATE_PLATE)
     e.create('infused_alloy').ingot().color(0xea463e).iconSet(GTMaterialIconSet.BRIGHT).cableProperties(GTValues.V[GTValues.LV], 16, 0, true)
     e.create('dragon').ingot().color(0x9600ff).iconSet(GTMaterialIconSet.BRIGHT).cableProperties(GTValues.V[GTValues.UXV], 16, 2, false).flags(GTMaterialFlags.GENERATE_PLATE).flags(GTMaterialFlags.GENERATE_GEAR).flags(GTMaterialFlags.GENERATE_ROD)

@@ -1,3 +1,4 @@
+// priority: 0
 ServerEvents.recipes(e => {
     e.forEachRecipe({ type: "gtceu:lathe" }, r => {
         let j = JSON.parse(String(r.json))
@@ -24,4 +25,5 @@ ServerEvents.recipes(e => {
         })
         e.recipes.create.cutting(outputs, input, duration)
     })
+    e.recipes.create.cutting('3x create:shaft', 'create:andesite_alloy', 320)
 })

@@ -74,7 +74,6 @@ let banthings = [
     'pipez:item_pipe',
     'pipez:fluid_pipe',
     'pipez:energy_pipe',
-    'pipez:gas_pipe',
     'gtceu:powderbarrel',
     'pneumaticcraft:pressure_chamber_interface',
     'pneumaticcraft:pressure_chamber_wall',
@@ -100,7 +99,8 @@ let banthings = [
     'replication:identification_chamber',
     'replication:matter_tank',
     'replication:chip_storage',
-    'replication:memory_chip'
+    'replication:memory_chip',
+    "angelring:angel_ring",
 ]
 let banlists = [
     'minecraft:crafting_table',
@@ -258,7 +258,17 @@ let banlists = [
     'gtceu:chemical_reactor/pgs_from_cooperite_p',
     'gtceu:electric_blast_furnace/refined_platinum_salt_dust_ebf',
     'gtceu:large_chemical_reactor/iridium_chloride_separation',
-    'gtceu:chemical_reactor/iridium_chloride_separation'
+    'gtceu:chemical_reactor/iridium_chloride_separation',
+    'mekanismgenerators:generator/wind',
+    'createaddition:mechanical_crafting/alternator',
+    'mekanism:paper',
+    'farmersdelight:paper_from_tree_bark',
+    'gtceu:shaped/resistor_wire',
+    'gtceu:shaped/resistor_wire_fine_charcoal',
+    'gtceu:large_chemical_reactor/hydrogen_peroxide',
+    'industrialforegoing:gold_gear',
+    'pipez:universal_pipe',
+    'gtceu:centrifuge/decomposition_centrifuging__cinnabar'
 ]
 let ban_gt_tools = [
     'pickaxe',

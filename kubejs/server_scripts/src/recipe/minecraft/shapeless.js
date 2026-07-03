@@ -1,6 +1,5 @@
 ServerEvents.recipes(e => {
-    e.recipes.kubejs.shapeless('kubejs:wood_block', ['kubejs:wood_ingot', 'kubejs:wood_ingot', 'kubejs:wood_ingot', 'kubejs:wood_ingot', 'kubejs:wood_ingot', 'kubejs:wood_ingot', 'kubejs:wood_ingot', 'kubejs:wood_ingot', 'kubejs:wood_ingot'])
-    e.recipes.kubejs.shapeless('9x kubejs:wood_ingot', ['kubejs:wood_block'])
+    e.recipes.kubejs.shapeless('4x kubejs:wood_ingot', ['kubejs:wood_block'])
     e.recipes.kubejs.shapeless('6x tconstruct:grout', ['mekanism:dust_diamond', 'mekanism:dust_diamond', 'mekanism:dust_diamond', 'minecraft:gravel', 'minecraft:gravel', 'minecraft:sand', 'minecraft:sand', 'minecraft:sand', 'minecraft:sand'])
     e.recipes.kubejs.shapeless('4x gtceu:rose_gold_dust', ['gtceu:copper_dust', 'occultism:gold_dust', 'occultism:gold_dust', 'occultism:gold_dust'])
     e.recipes.kubejs.shapeless('minecraft:gravel', ['#forge:tools/hammers', 'minecraft:cobblestone'])
@@ -8,7 +7,7 @@ ServerEvents.recipes(e => {
     e.recipes.kubejs.shapeless('8x gtceu:andesite_alloy_dust', ['gtceu:stone_dust', 'gtceu:stone_dust', 'gtceu:stone_dust', 'gtceu:stone_dust', 'gtceu:stone_dust', 'gtceu:stone_dust', 'gtceu:wrought_iron_dust', 'gtceu:wrought_iron_dust', 'embers:ember_grit'])
     e.recipes.kubejs.shapeless('3x gtceu:electrum_dust', ['occultism:gold_dust', 'gtceu:silver_dust', 'occultism:gold_dust', 'gtceu:silver_dust'])
     e.recipes.kubejs.shapeless('kubejs:raw_compressed_fireclay', ['gtceu:brick_dust', 'gtceu:caminite_brick_dust', 'gtceu:brick_wooden_form']).keepIngredient('gtceu:brick_wooden_form')
-    e.recipes.kubejs.shapeless('2x pipez:universal_pipe', ['pipez:item_pipe', 'pipez:fluid_pipe', 'pipez:energy_pipe', 'pipez:gas_pipe'])
+    e.recipes.kubejs.shapeless('2x pipez:universal_pipe', ['pipez:item_pipe', 'pipez:fluid_pipe', 'pipez:energy_pipe'])
     e.recipes.kubejs.shapeless('create:large_cogwheel', ['create:cogwheel', 'gtceu:treated_wood_planks'])
     e.recipes.kubejs.shapeless('create:cogwheel', ['create:shaft', 'gtceu:treated_wood_planks'])
     e.recipes.kubejs.shapeless('create:large_cogwheel', ['create:shaft', 'gtceu:treated_wood_planks', 'gtceu:treated_wood_planks'])

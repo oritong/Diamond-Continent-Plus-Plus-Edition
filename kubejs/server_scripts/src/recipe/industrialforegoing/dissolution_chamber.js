@@ -7,4 +7,5 @@ ServerEvents.recipes(e => {
     e.recipes.industrialforegoing.dissolution_chamber('2x oritong:diamond_upgrade_smithing_template', ['oritong:diamond_upgrade_smithing_template', 'gtceu:steel_plate'], Fluid.of('tconstruct:molten_diamond', 100), 100)
     e.recipes.industrialforegoing.dissolution_chamber('kubejs:raw_vacuum_tube', ['gtceu:steel_bolt', 'gtceu:steel_bolt', 'gtceu:copper_single_wire', 'gtceu:copper_single_wire', 'gtceu:copper_single_wire', 'gtceu:glass_tube'], Fluid.of('gtceu:red_alloy', 9), 140)
     e.recipes.industrialforegoing.dissolution_chamber('gtceu:resin_printed_circuit_board', ['gtceu:copper_foil', 'gtceu:copper_foil', 'gtceu:copper_foil', 'gtceu:copper_foil', 'gtceu:copper_foil', 'gtceu:copper_foil', 'gtceu:treated_wood_plate'], Fluid.of('industrialforegoing:latex', 125), 200)
+    e.recipes.industrialforegoing.dissolution_chamber('2x gtceu:resistor', ['gtceu:fine_copper_wire', 'gtceu:fine_copper_wire', 'minecraft:paper', 'minecraft:paper', 'mekanism:dust_diamond'], Fluid.of('industrialforegoing:latex', 125), 12 * 20)
 })

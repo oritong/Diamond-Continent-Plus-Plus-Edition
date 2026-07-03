@@ -73,6 +73,17 @@
 			x: 1.5d
 			y: -2.5d
 		}
+		{
+			description: ["我说应力发电也是无消耗有没有懂的"]
+			id: "3D7166BB209E2B3F"
+			tasks: [{
+				id: "155DE96C84BB5890"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
 	]
 	title: "发电"
 }

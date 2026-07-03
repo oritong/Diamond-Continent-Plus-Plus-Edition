@@ -104,12 +104,12 @@ PlayerEvents.chat(event => {
         let item = player.inventory.getItem(i)
         // 过滤空格子，只处理有物品的槽位
         if (!item.empty) {
-            items.push(`'${item.id}'`)
+            items.push(`"${item.id}"`)
         }
     }
 
     // 将数组用 逗号+换行符 拼接成你要求的排版
-    let str = items.join(',\n')
+    let str = items.join(",\n")
 
     // 取消原消息发送，并发送点击复制提示、
     player.tell(Text.of('物品列表已生成 (0-35)，点击复制').hover(str).clickCopy(str))

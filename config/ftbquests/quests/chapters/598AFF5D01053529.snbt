@@ -66,7 +66,7 @@
 				{
 					count: 66
 					id: "7DD40C1FA435875C"
-					item: "create:bar_of_chocolate"
+					item: "kubejs:sn1ckers"
 					type: "item"
 				}
 				{
@@ -1788,6 +1788,7 @@
 		}
 		{
 			dependencies: ["67202B01C3A638BE"]
+			description: ["可以作为插件扩展机器的接触面"]
 			id: "30CA72A5EE1E4110"
 			rewards: [
 				{

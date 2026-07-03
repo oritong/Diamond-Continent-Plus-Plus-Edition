@@ -3,7 +3,7 @@
 [general]
 	#Defines how much XP will be drained from player when flying by wearing classic Angel Ring? Put 0 if you need to disable XP requirement for flight.
 	#Range: > 0
-	XPCost = 3
+	XPCost = 0
 	#Defines how much ticks is required to pass between each XP drain event of classic Angel Ring?
 	#Range: > 1
 	TicksPerDrain = 50
@@ -39,7 +39,7 @@
 	ResonantFECapacity = 16000000
 	#Defines at what XP Level to start displaying a warning of low XP for the Classic Angel Ring. Set to -1 to disable.
 	#Range: > -1
-	XPWarningLevel = 3
+	XPWarningLevel = 0
 	#Defines at what percentage to start displaying a warning of low power for Energy Angel Rings. Set to -1 to disable.
 	#Range: -1 ~ 100
 	EnergyWarningPercentage = 5

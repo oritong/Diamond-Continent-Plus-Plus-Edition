@@ -39,7 +39,9 @@ let item_js_key_zh_cn = [
     ['fighting_spirit_in_a_bottle', '瓶装斗志'],
     ['fear_in_a_bottle', '瓶装恐惧'],
     ['physics_assembler', '物理组装器'],
-    ['wood_ingot', '木锭']
+    ['wood_ingot', '木锭'],
+    ['lost_item', '§c遗忘之物'],
+    ['sn1ckers', '土力架']
 ]
 let item_ori_key_zh_cn = [
     ['steel_upgrade_smithing_template', '钢升级锻造模板'],

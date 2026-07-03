@@ -20,5 +20,11 @@
       "createaddition:gold_rod"
     ],
     "resultItems": "gtceu:gold_rod"
+  },
+  {
+    "matchItems": [
+      "industrialforegoing:gold_gear"
+    ],
+    "resultItems": "gtceu:gold_gear"
   }
 ]

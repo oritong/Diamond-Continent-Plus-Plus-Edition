@@ -676,116 +676,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["12EA889188E81490"]
-			hide_dependency_lines: true
-			id: "4B8CE650E4936E16"
-			tasks: [{
-				id: "5415014150E13398"
-				item: "gtceu:mv_cutter"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["4B8CE650E4936E16"]
-			id: "4FA67C61E9409562"
-			tasks: [
-				{
-					id: "552BC78B066FAE94"
-					item: "gtceu:ruby_plate"
-					type: "item"
-				}
-				{
-					id: "7A242A5DB44CCE63"
-					item: "gtceu:emerald_plate"
-					type: "item"
-				}
-			]
-			x: 10.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["4FA67C61E9409562"]
-			id: "1C574B958C64BF06"
-			tasks: [
-				{
-					id: "29768C039CC2581D"
-					item: "gtceu:ruby_lens"
-					type: "item"
-				}
-				{
-					id: "3F70767BB5765571"
-					item: "gtceu:emerald_lens"
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"5A7CA279FF37E6BE"
-				"32B9B4DDA367FD47"
-				"2F18B83C6FE098D0"
-			]
-			id: "17B6D8A835220117"
-			tasks: [
-				{
-					id: "19CB5F319B29ACB9"
-					item: "gtceu:ilc_chip"
-					type: "item"
-				}
-				{
-					id: "1B38AB630601F039"
-					item: "gtceu:ram_chip"
-					type: "item"
-				}
-				{
-					id: "45A394500F21F721"
-					item: "gtceu:ulpic_chip"
-					type: "item"
-				}
-			]
-			title: "芯片们"
-			x: 7.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["094FE4A5EB340B2F"]
-			description: ["硅粉有很多来源方式，选一个你喜欢的就好"]
-			hide_dependency_lines: true
-			id: "5A7CA279FF37E6BE"
-			tasks: [{
-				id: "388230A397869F34"
-				item: "gtceu:silicon_boule"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -3.0d
-		}
-		{
-			id: "6C9E005DFD3E01A9"
-			tasks: [{
-				id: "29BA4828C6152AAD"
-				item: "gtceu:advanced_integrated_circuit"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6C9E005DFD3E01A9"]
-			id: "0B4ED6EDA9FDD5CE"
-			tasks: [{
-				id: "727F6F078992E588"
-				item: "gtceu:mv_circuit_assembler"
-				type: "item"
-			}]
-			x: 14.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["267573CE52C3D840"]
 			description: ["最终，你获得了这种神物，它可以慢速生产你随随便便就能用完的蒸汽"]
 			id: "2DED4700FA7767F0"
@@ -1233,132 +1123,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["7502FCD6A0550797"]
-			id: "12EA889188E81490"
-			tasks: [{
-				id: "7E338434F12D3448"
-				item: "gtceu:mv_machine_hull"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["27CB8DC29C454AE2"]
-			description: [
-				"你可能会说：超净间？？？？？"
-				"但是对不起，这就是事实"
-				"超净间被下放到MV了"
-			]
-			id: "2F18B83C6FE098D0"
-			tasks: [{
-				id: "0DFD78E01CEABE0D"
-				item: "gtceu:cleanroom"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["12EA889188E81490"]
-			id: "7F6ABA2C82E25BD2"
-			tasks: [{
-				id: "7954D88BF61419D3"
-				item: "gtceu:mv_assembler"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["7F6ABA2C82E25BD2"]
-			id: "27CB8DC29C454AE2"
-			tasks: [{
-				id: "796F859332C2DC3B"
-				item: "gtceu:plascrete"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["5F7F2159EB60A4BE"]
-			description: ["你猜怎么着，现在我们还是只能用魔力钻石代替一下绿宝石的位置"]
-			hide_dependency_lines: true
-			id: "2C4A21903CD4FE35"
-			tasks: [{
-				id: "10B56A4472BB3BB1"
-				item: "gtceu:mv_emitter"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"2C4A21903CD4FE35"
-				"1C574B958C64BF06"
-			]
-			id: "32B9B4DDA367FD47"
-			tasks: [{
-				id: "0D655B86EB64C9AB"
-				item: "gtceu:mv_laser_engraver"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"17B6D8A835220117"
-				"12EA889188E81490"
-			]
-			id: "6E0243B6714EF325"
-			tasks: [{
-				id: "163801842F758FDC"
-				item: "gtceu:mv_energy_input_hatch"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["12EA889188E81490"]
-			id: "0A326CBEA4E00B7D"
-			tasks: [{
-				id: "2FBDA72F6E316810"
-				item: "gtceu:mv_chemical_bath"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0A326CBEA4E00B7D"]
-			id: "728B8F4757F60D54"
-			tasks: [{
-				id: "2B5F3B280D63681D"
-				item: "gtceu:manganese_dust"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"728B8F4757F60D54"
-				"6E0243B6714EF325"
-			]
-			id: "38B1D21FADCBAAEA"
-			tasks: [{
-				id: "3D62513077663BA7"
-				item: "gtceu:stainless_steel_ingot"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -1.5d
-		}
-		{
 			dependencies: ["222DE3F2DA123486"]
 			description: [
 				"你需要聚氯乙烯才能做出来书，终端……"
@@ -1535,6 +1299,558 @@
 			]
 			x: 0.5d
 			y: 6.0d
+		}
+		{
+			dependencies: ["7502FCD6A0550797"]
+			id: "3DBDFDF6FA0F3754"
+			tasks: [{
+				id: "6205B28B86C047C5"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DBDFDF6FA0F3754"]
+			id: "782E85781037D356"
+			tasks: [{
+				id: "69556456C1891A2D"
+				item: "gtceu:plascrete"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["782E85781037D356"]
+			id: "628F9AEA4BC1BBA9"
+			tasks: [{
+				id: "710156813CD9E165"
+				item: "gtceu:cleanroom"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["782E85781037D356"]
+			id: "61E32A9B65CFD1E2"
+			tasks: [{
+				id: "720A50699EFAFC25"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["094FE4A5EB340B2F"]
+			hide_dependency_lines: true
+			id: "17D8F5C49FD1F716"
+			tasks: [{
+				id: "5549FAF42C132CA6"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3DBDFDF6FA0F3754"]
+			hide_dependency_lines: true
+			id: "4991F65AE3B05137"
+			tasks: [{
+				id: "2068D47564249526"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"17D8F5C49FD1F716"
+				"4991F65AE3B05137"
+			]
+			hide_dependent_lines: true
+			id: "716C059B55D6CC86"
+			tasks: [{
+				id: "35C3EEDA776F6D2B"
+				item: "gtceu:silicon_wafer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"716C059B55D6CC86"
+				"5478D91050E32859"
+				"635DF0E3D4D53F46"
+			]
+			id: "111D96A7D3EFD813"
+			tasks: [{
+				id: "4A1853DC911C594E"
+				item: "gtceu:cpu_wafer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"716C059B55D6CC86"
+				"3CC2B3F7F6DD7E34"
+				"635DF0E3D4D53F46"
+			]
+			id: "15352D358B718BEB"
+			tasks: [{
+				id: "24DBE73DEC8EF275"
+				item: "gtceu:ram_wafer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"716C059B55D6CC86"
+				"4F841AADE1A00093"
+				"635DF0E3D4D53F46"
+			]
+			id: "48E35D44FCC79D11"
+			tasks: [{
+				id: "4DF1F78D4F6901C8"
+				item: "gtceu:ilc_wafer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5F50163EE5184245"]
+			id: "5478D91050E32859"
+			tasks: [{
+				id: "7708F493C4248C41"
+				item: "gtceu:diamond_lens"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5F50163EE5184245"]
+			id: "3CC2B3F7F6DD7E34"
+			tasks: [{
+				id: "452D22FD7E428CB9"
+				item: "gtceu:emerald_lens"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5F50163EE5184245"]
+			id: "4F841AADE1A00093"
+			tasks: [{
+				id: "1D704FA7621CE175"
+				item: "gtceu:ruby_lens"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3DBDFDF6FA0F3754"]
+			hide_dependency_lines: true
+			id: "5F50163EE5184245"
+			tasks: [{
+				id: "127AB0B8BCA92A1F"
+				item: "gtceu:mv_lathe"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["111D96A7D3EFD813"]
+			id: "644375CED9EE5555"
+			tasks: [{
+				id: "6007892316D9A9A8"
+				item: "gtceu:cpu_chip"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["15352D358B718BEB"]
+			id: "1C0774522CEC2E56"
+			tasks: [{
+				id: "0766B2B83F919A29"
+				item: "gtceu:ram_chip"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["48E35D44FCC79D11"]
+			id: "07716153A03B7022"
+			tasks: [{
+				id: "74FD290DA00A9699"
+				item: "gtceu:ilc_chip"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4730981E347672EC"]
+			id: "635DF0E3D4D53F46"
+			tasks: [{
+				id: "2C8503D658448AF7"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4CB53324615C5A43"]
+			id: "4730981E347672EC"
+			tasks: [{
+				id: "723A41B842D6124B"
+				item: "gtceu:mv_emitter"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5ED94F26402E7983"]
+			hide_dependency_lines: true
+			id: "4CB53324615C5A43"
+			tasks: [{
+				id: "149611BF1391FC20"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"6A826C7DF898C487"
+				"635DF0E3D4D53F46"
+				"716C059B55D6CC86"
+			]
+			id: "26B96B08F23D6879"
+			tasks: [{
+				id: "5FEB5E116662D193"
+				item: "gtceu:ulpic_wafer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26B96B08F23D6879"]
+			id: "1569BBAFD4FE4560"
+			tasks: [{
+				id: "3040847B54BD957B"
+				item: "gtceu:ulpic_wafer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F50163EE5184245"]
+			id: "6A826C7DF898C487"
+			tasks: [{
+				id: "1D6C16BD05DDC8CC"
+				item: "gtceu:sapphire_lens"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"114040F075845B2A"
+				"1569BBAFD4FE4560"
+			]
+			id: "31C6A78070C42C1F"
+			tasks: [{
+				id: "10F859144BCC5A08"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"03AC8E2375D7EBBC"
+				"3473E60E02BE60C8"
+			]
+			id: "114040F075845B2A"
+			tasks: [{
+				id: "79BEC01CA0A1A106"
+				item: "gtceu:alumina_ceramic_block"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C2E66D757D1E68F"]
+			id: "03AC8E2375D7EBBC"
+			tasks: [{
+				id: "78DC3A952321CD04"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["222DE3F2DA123486"]
+			hide_dependency_lines: true
+			icon: "gtceu:glue_bucket"
+			id: "3473E60E02BE60C8"
+			tasks: [{
+				id: "10117932EADABEF2"
+				type: "checkmark"
+			}]
+			title: "胶水"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3DBDFDF6FA0F3754"]
+			id: "5C2E66D757D1E68F"
+			tasks: [{
+				id: "43EA364C2AE5AE9C"
+				item: "gtceu:mv_chemical_bath"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"07716153A03B7022"
+				"1C0774522CEC2E56"
+				"5307043E55C8536F"
+			]
+			id: "67DFF2295F70A596"
+			tasks: [{
+				id: "5C82F21EB0153FAE"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1C949F143B38B9CB"]
+			id: "5307043E55C8536F"
+			tasks: [{
+				id: "3D7142F61DFD2FED"
+				item: "gtceu:transistor"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["03AC8E2375D7EBBC"]
+			id: "1C949F143B38B9CB"
+			tasks: [{
+				id: "4707CA5CD601CF33"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"114040F075845B2A"
+				"5AACF159669755B3"
+			]
+			id: "3B6B305584EE346F"
+			tasks: [{
+				id: "70B7D7A4AB72B13F"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B6B305584EE346F"]
+			id: "5C73633BF1891BC6"
+			tasks: [{
+				id: "2F36071CD70DE488"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C73633BF1891BC6"]
+			id: "7B7308D10C02709D"
+			tasks: [{
+				id: "7B0AA6F266D11E4F"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C73633BF1891BC6"]
+			id: "134C9323847EE0ED"
+			tasks: [{
+				id: "5F2D706B4ACA1CEA"
+				item: "ae2:annihilation_plane"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C73633BF1891BC6"]
+			id: "617BD1B231291FC5"
+			tasks: [{
+				id: "6C964819832D8D54"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"617BD1B231291FC5"
+				"134C9323847EE0ED"
+				"7B7308D10C02709D"
+			]
+			id: "776033E7A78A3217"
+			tasks: [{
+				id: "65C253F6104B70EB"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["776033E7A78A3217"]
+			id: "12F92795DDC579D8"
+			tasks: [{
+				id: "76CC7459851F9565"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["776033E7A78A3217"]
+			id: "1C2CDFA4CB45668A"
+			tasks: [{
+				id: "2C66C4BA167E7BB2"
+				item: "gtceu:damascus_steel_dust"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67DFF2295F70A596"]
+			id: "4EAC3EB0280AB24F"
+			tasks: [{
+				id: "02B76E6A66FA57A3"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4EAC3EB0280AB24F"
+				"644375CED9EE5555"
+			]
+			id: "3A9BD475630ADA02"
+			tasks: [{
+				id: "17D4789DD5677223"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1DD02FAA0FE60E2E"]
+			id: "5AACF159669755B3"
+			tasks: [{
+				id: "784C86BED39AEB1D"
+				item: "gtceu:nether_quartz_dust"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3DBDFDF6FA0F3754"]
+			hide_dependency_lines: true
+			id: "1DD02FAA0FE60E2E"
+			tasks: [{
+				id: "57B638EA5656A72C"
+				item: "gtceu:mv_centrifuge"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31C6A78070C42C1F"]
+			id: "6CC1902CC17749CC"
+			tasks: [{
+				id: "086CCEFCD7615C8E"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6CC1902CC17749CC"]
+			id: "0AB658BB37CE8852"
+			tasks: [{
+				id: "07C22B706D43DF63"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C2CDFA4CB45668A"]
+			id: "1D47FC54A3B0B05F"
+			tasks: [{
+				id: "0BEACC16BE28A93B"
+				item: "gtceu:damascus_steel_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
 		}
 	]
 	title: "第二章 第零次工业革命"

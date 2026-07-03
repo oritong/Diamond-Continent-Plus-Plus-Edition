@@ -101,6 +101,7 @@ let banthings = [
     'replication:chip_storage',
     'replication:memory_chip',
     "angelring:angel_ring",
+    "mekanism:elite_control_circuit"
 ]
 let banlists = [
     'minecraft:crafting_table',

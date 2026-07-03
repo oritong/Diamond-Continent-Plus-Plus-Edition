@@ -702,32 +702,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2DED4700FA7767F0"]
-			description: ["何尝不是一种发电方式呢）"]
-			id: "5C418C0D76F2D67C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2A3B1614CCFD531B"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4F7884AFD0181AB5"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
-			tasks: [{
-				id: "6A055EB96BBB198F"
-				item: "gtceu:lv_steam_turbine"
-				type: "item"
-			}]
-			x: -10.0d
-			y: 2.0d
-		}
-		{
 			dependencies: ["267573CE52C3D840"]
 			id: "19DB31004C991895"
 			rewards: [

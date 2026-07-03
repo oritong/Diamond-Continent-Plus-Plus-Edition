@@ -18,13 +18,13 @@ ServerEvents.recipes(e => {
     e.recipes.gtceu.chemical_reactor().itemInputs('gtceu:cobalt_carbonate_dust').inputFluids(Fluid.of('gtceu:acetic_acid', 1000)).itemOutputs('gtceu:cobalt_acetate_dust').outputFluids(Fluid.of('minecraft:water', 1000), Fluid.of('gtceu:carbon_dioxide', 1000)).EUt(128).duration(3.5 * 20)
     e.recipes.gtceu.pyrolyse_oven().itemInputs('8x minecraft:diamond').outputFluids(Fluid.of('gtceu:coal_tar', 16000)).chancedOutput('gtceu:ash_dust', 6000, 0).EUt(96).duration(16 * 20).circuit(8)
     e.recipes.gtceu.distillery().inputFluids(Fluid.of('gtceu:coal_tar', 1000)).outputFluids(Fluid.of('gtceu:light_oil_fraction', 50)).EUt(288).duration(6 * 20).circuit(13)
-    e.recipes.gtceu.chemical_reactor().inputFluids(Fluid.of('gtceu:light_oil_fraction', 1000), Fluid.of('gtceu:diluted_sulfuric_acid', 2000), Fluid.of('gtceu:ammonia_solution', 2000)).outputFluids(Fluid.of('gtceu:crude_light_pyridine', 2000)).EUt(288).duration(5.5 * 20).circuit(5)
     e.recipes.gtceu.mixer().inputFluids(Fluid.of('gtceu:crude_light_pyridine', 2000), Fluid.of('gtceu:benzene', 750)).outputFluids(Fluid.of('gtceu:benzene_crude_pyridine', 2000)).EUt(144).duration(4 * 20)
     e.recipes.gtceu.fluid_heater().inputFluids(Fluid.of('gtceu:benzene_crude_pyridine', 2000)).outputFluids(Fluid.of('gtceu:azeotropic_crude_pyridine', 2000)).EUt(192).duration(5 * 20)
     e.recipes.gtceu.centrifuge().inputFluids(Fluid.of('gtceu:azeotropic_crude_pyridine', 1000)).outputFluids(Fluid.of('gtceu:refined_crude_pyridine', 1000), Fluid.of('minecraft:water', 1000), Fluid.of('gtceu:benzene', 375)).EUt(320).duration(5 * 20)
     e.recipes.gtceu.distillery().inputFluids(Fluid.of('gtceu:refined_crude_pyridine', 2000)).outputFluids(Fluid.of('gtceu:pyridine', 2000)).EUt(256).duration(6.5 * 20)
     e.recipes.gtceu.mixer().inputFluids(Fluid.of('gtceu:ammonia', 1000), Fluid.of('minecraft:water', 1000)).outputFluids(Fluid.of('gtceu:ammonia_solution', 1000)).EUt(160).duration(4 * 20)
     e.recipes.gtceu.chemical_reactor().inputFluids(Fluid.of('minecraft:water', 1000), Fluid.of('gtceu:sulfuric_acid', 1000)).outputFluids(Fluid.of('gtceu:diluted_sulfuric_acid', 1000)).EUt(144).duration(4 * 20).circuit(5)
+    e.recipes.gtceu.chemical_plant().inputFluids(Fluid.of('gtceu:light_oil_fraction', 1000), Fluid.of('gtceu:diluted_sulfuric_acid', 2000), Fluid.of('gtceu:ammonia_solution', 2000)).outputFluids(Fluid.of('gtceu:crude_light_pyridine', 2000)).EUt(288).duration(5.5 * 20).circuit(5)
 })
 /*
 过筛沸石颗粒粉+1000乙醇=湿过筛沸石颗粒粉+1000绝对乙醇 5*20t 120eu 搅拌 超净
@@ -48,7 +48,7 @@ ServerEvents.recipes(e => {
 1 碳酸钴粉 + 1000 乙酸 → 1 醋酸钴粉 + 1000 水 + 1000 二氧化碳 3.5*20t 128eu 化反
 8 钻石 → 16000 煤焦油 16*20t 96eu 热解炉 8电路
 1000 煤焦油 → 50 轻油馏分 6*20t 288eu 蒸馏室 13电路
-1000 轻油馏分 + 2000 稀硫酸 + 2000 氨水 → 2000 粗轻吡啶 5.5*20t 288eu 化反 5电路
+1000 轻油馏分 + 2000 稀硫酸 + 2000 氨水 → 2000 粗轻吡啶 5.5*20t 288eu 化工厂 5电路
 2000 粗轻吡啶 + 750 苯 → 2000 含苯粗轻吡啶 4*20t 144eu 搅拌
 2000 含苯粗轻吡啶 → 2000 共沸粗轻吡啶 5*20t 192eu 流体加热器
 1000 共沸粗轻吡啶 → 1000 精制粗轻吡啶 + 1000 水 + 375 苯 5*20t 320eu 离心机

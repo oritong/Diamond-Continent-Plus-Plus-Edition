@@ -27,7 +27,7 @@ ItemEvents.tooltip(event => {
 				}
 				coloredname.push(Text.of(namearray[j]).color(newcolor))
 			}
-		text.set(1,coloredname);
+		text.add(coloredname);
 		})
 	}
 })

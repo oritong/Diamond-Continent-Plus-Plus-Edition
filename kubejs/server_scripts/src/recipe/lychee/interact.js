@@ -75,4 +75,5 @@ ServerEvents.recipes(e => {
     e.recipes.lychee.item_inside('minecraft:iron_block', 'minecraft:lava').post([Post.drop_item('8x gtceu:wrought_iron_ingot')]).time(20)
     e.recipes.lychee.item_inside('gtceu:andesite_alloy_dust', 'industrialforegoing:latex').post([Post.drop_item('create:andesite_alloy')]).time(32.5).hide_in_viewer(true)
     e.recipes.lychee.item_inside('kubejs:wood_block', 'gtceu:creosote').post([Post.drop_item('gtceu:treated_wood_planks')]).time(45)
+    e.recipes.lychee.item_inside('mekanism:sawdust', 'gtceu:creosote').post([Post.drop_item('gtceu:treated_wood_dust')]).time(45)
 })

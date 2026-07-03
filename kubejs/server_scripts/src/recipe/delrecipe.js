@@ -269,7 +269,11 @@ let banlists = [
     'gtceu:large_chemical_reactor/hydrogen_peroxide',
     'industrialforegoing:gold_gear',
     'pipez:universal_pipe',
-    'gtceu:centrifuge/decomposition_centrifuging__cinnabar'
+    'gtceu:centrifuge/decomposition_centrifuging__cinnabar',
+    'gtceu:shaped/paper_dust',
+    'gtceu:chemical_bath/paper_from_sugar_cane_distilled',
+    'create:pressing/sugar_cane',
+    'gtceu:chemical_bath/paper_from_sugar_cane'
 ]
 let ban_gt_tools = [
     'pickaxe',

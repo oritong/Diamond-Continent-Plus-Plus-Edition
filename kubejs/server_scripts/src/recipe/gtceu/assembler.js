@@ -79,4 +79,5 @@ ServerEvents.recipes(e => {
     e.recipes.gtceu.assembler().itemInputs('rainrot:data_pearl', '3x #gtceu:circuits/ulv', 'createaddition:diamond_grit_sandpaper').inputFluids(Fluid.of('oritong:glimmer', 1250)).itemOutputs('replication:matter_blueprint').EUt(24).duration(20 * 60)
     e.recipes.gtceu.assembler().itemInputs('3x gtceu:steel_turbine_blade', 'gtceu:lv_electric_motor', '5x mekanism:ingot_steel', '3x gtceu:manasteel_rod', '2x gtceu:tin_single_cable', '4x #gtceu:circuits/lv', '3x botania:rune_air').itemOutputs('mekanismgenerators:wind_generator').EUt(32).duration(45 * 20).inputFluids(Fluid.of('gtceu:red_alloy', 576))
     e.recipes.gtceu.assembler().itemInputs('8x gtceu:fine_red_alloy_wire', '4x gtceu:fine_copper_wire', 'gtceu:lv_electric_motor', 'create:shaft', '4x gtceu:tin_single_cable', '2x #gtceu:circuits/lv', '12x gtceu:steel_plate').itemOutputs('createaddition:alternator').EUt(16).duration(20 * 20)
+    e.recipes.gtceu.assembler().itemInputs('gtceu:wood_plate', '4x gtceu:copper_foil').itemOutputs('gtceu:resin_printed_circuit_board').EUt(7).duration(11.5 * 20).inputFluids(Fluid.of('industrialforegoing:latex', 150))
 })

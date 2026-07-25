@@ -1,4 +1,4 @@
-// priority: 1
+// priority: 6
 ServerEvents.recipes(e => {
     banthings.forEach(Item => {
         e.remove({ output: Item })
@@ -6,7 +6,6 @@ ServerEvents.recipes(e => {
     banlists.forEach(Lists => {
         e.remove({ id: Lists })
     })
-    e.remove({ output: '#minecraft:pickaxes' })
     ban_gt_tools.forEach(a => {
         ban_gt_materials.forEach(b => {
             e.remove({ id: `gtceu:shaped/${a}_${b}` })
@@ -16,6 +15,7 @@ ServerEvents.recipes(e => {
     e.remove({ not: { id: 'mekanism:metallurgic_infusing/alloy/infused' }, output: 'mekanism:alloy_infused' })
     e.remove({ type: 'createaddition:rolling' })
     e.remove({ type: 'create:cutting' })
+    e.remove({ type: 'mekanism:crushing' })
     e.remove({ type: 'replication:matter_value' })
     e.remove({ not: { type: 'gtceu:cutter' }, output: 'gtceu:alumina_ceramic_plate' })
     e.remove({ type: 'botania:mana_infusion' })
@@ -101,7 +101,26 @@ let banthings = [
     'replication:chip_storage',
     'replication:memory_chip',
     "angelring:angel_ring",
-    "mekanism:elite_control_circuit"
+    "mekanism:elite_control_circuit",
+    '#gtceu:tools/crafting_mallets',
+    "gtceu:wood_mallet",
+    "gtceu:styrene_butadiene_rubber_mallet",
+    "gtceu:rubber_mallet",
+    "gtceu:polybenzimidazole_mallet",
+    "gtceu:polyethylene_mallet",
+    "gtceu:silicone_rubber_mallet",
+    "gtceu:polytetrafluoroethylene_mallet",
+    "pipez:improved_upgrade",
+    "pipez:advanced_upgrade",
+    "pipez:ultimate_upgrade",
+    "ae2:basic_card",
+    "ae2:advanced_card",
+    "botania:rune_winter",
+    "botania:rune_earth",
+    "botania:rune_summer",
+    "botania:rune_air",
+    'gtceu:mv_energy_input_hatch',
+    "gtceu:hv_machine_hull"
 ]
 let banlists = [
     'minecraft:crafting_table',
@@ -273,7 +292,21 @@ let banlists = [
     'gtceu:shaped/paper_dust',
     'gtceu:chemical_bath/paper_from_sugar_cane_distilled',
     'create:pressing/sugar_cane',
-    'gtceu:chemical_bath/paper_from_sugar_cane'
+    'gtceu:chemical_bath/paper_from_sugar_cane',
+    'mekanism:cardboard_box',
+    'industrialforegoing:diamond_gear',
+    'gtceu:shaped/conveyor_module_lv_styrene_butadiene_rubber',
+    'gtceu:shaped/conveyor_module_lv_rubber',
+    'gtceu:shaped/conveyor_module_lv_silicone_rubber',
+    'gtceu:mixer/palladium_on_carbon',
+    'tconstruct:smeltery/casting/seared/smeltery_controller',
+    'gtceu:centrifuge/quartz_sand_separation',
+    'gtceu:alloy_smelter/alloy_smelt_alumina_ceramic_dust_to_block',
+    'ars_nouveau:dominion_wand',
+    'create:mechanical_crafting/crushing_wheel',
+    'industrialforegoing:mob_slaughter_factory',
+    'gtceu:assembler/chemical_plant',
+    'gm_construct:smeltery/melting/metal/aluminium/dust'
 ]
 let ban_gt_tools = [
     'pickaxe',

@@ -1,0 +1,694 @@
+﻿[
+    {
+        "matchItems": [
+            "gtceu:apatite_ore",
+            "gtceu:basalt_apatite_ore",
+            "gtceu:blackstone_apatite_ore",
+            "gtceu:deepslate_apatite_ore",
+            "gtceu:diorite_apatite_ore",
+            "gtceu:endstone_apatite_ore",
+            "gtceu:granite_apatite_ore",
+            "gtceu:gravel_apatite_ore",
+            "gtceu:marble_apatite_ore",
+            "gtceu:netherrack_apatite_ore",
+            "gtceu:red_granite_apatite_ore",
+            "gtceu:red_sand_apatite_ore",
+            "gtceu:sand_apatite_ore",
+            "gtceu:tuff_apatite_ore"
+        ],
+        "resultItems": "gtceu:andesite_apatite_ore"
+    },
+    {
+        "matchItems": [
+            "create:brass_nugget"
+        ],
+        "resultItems": "gtceu:brass_nugget"
+    },
+    {
+        "matchItems": [
+            "create:brass_ingot"
+        ],
+        "resultItems": "gtceu:brass_ingot"
+    },
+    {
+        "matchItems": [
+            "create:brass_sheet"
+        ],
+        "resultItems": "gtceu:brass_plate"
+    },
+    {
+        "matchItems": [
+            "createaddition:brass_rod"
+        ],
+        "resultItems": "gtceu:brass_rod"
+    },
+    {
+        "matchItems": [
+            "create:brass_block"
+        ],
+        "resultItems": "gtceu:brass_block"
+    },
+    {
+        "matchItems": [
+            "mekanism:nugget_bronze"
+        ],
+        "resultItems": "gtceu:bronze_nugget"
+    },
+    {
+        "matchItems": [
+            "mekanism:dust_bronze"
+        ],
+        "resultItems": "gtceu:bronze_dust"
+    },
+    {
+        "matchItems": [
+            "mekanism:ingot_bronze"
+        ],
+        "resultItems": "gtceu:bronze_ingot"
+    },
+    {
+        "matchItems": [
+            "mekanism:block_bronze"
+        ],
+        "resultItems": "gtceu:bronze_block"
+    },
+    {
+        "matchItems": [
+            "mekanism:dust_charcoal"
+        ],
+        "resultItems": "gtceu:charcoal_dust"
+    },
+    {
+        "matchItems": [
+            "mekanism:block_charcoal"
+        ],
+        "resultItems": "gtceu:charcoal_block"
+    },
+    {
+        "matchItems": [
+            "gtceu:basalt_cinnabar_ore",
+            "gtceu:blackstone_cinnabar_ore",
+            "gtceu:cinnabar_ore",
+            "gtceu:deepslate_cinnabar_ore",
+            "gtceu:diorite_cinnabar_ore",
+            "gtceu:endstone_cinnabar_ore",
+            "gtceu:granite_cinnabar_ore",
+            "gtceu:gravel_cinnabar_ore",
+            "gtceu:marble_cinnabar_ore",
+            "gtceu:netherrack_cinnabar_ore",
+            "gtceu:red_granite_cinnabar_ore",
+            "gtceu:red_sand_cinnabar_ore",
+            "gtceu:sand_cinnabar_ore",
+            "gtceu:tuff_cinnabar_ore"
+        ],
+        "resultItems": "gtceu:andesite_cinnabar_ore"
+    },
+    {
+        "matchItems": [
+            "mekanism:dust_coal"
+        ],
+        "resultItems": "gtceu:coal_dust"
+    },
+    {
+        "matchItems": [
+            "tconstruct:cobalt_nugget"
+        ],
+        "resultItems": "gtceu:cobalt_nugget"
+    },
+    {
+        "matchItems": [
+            "tconstruct:cobalt_ingot"
+        ],
+        "resultItems": "gtceu:cobalt_ingot"
+    },
+    {
+        "matchItems": [
+            "tconstruct:raw_cobalt"
+        ],
+        "resultItems": "gtceu:raw_cobalt"
+    },
+    {
+        "matchItems": [
+            "tgears:cobalt_sheet"
+        ],
+        "resultItems": "gtceu:cobalt_plate"
+    },
+    {
+        "matchItems": [
+            "tconstruct:cobalt_block"
+        ],
+        "resultItems": "gtceu:cobalt_block"
+    },
+    {
+        "matchItems": [
+            "create:copper_nugget",
+            "pneumaticcraft:copper_nugget",
+            "tconstruct:copper_nugget",
+            "embers:copper_nugget"
+        ],
+        "resultItems": "gtceu:copper_nugget"
+    },
+    {
+        "matchItems": [
+            "mekanism:dust_copper",
+            "occultism:copper_dust"
+        ],
+        "resultItems": "gtceu:copper_dust"
+    },
+    {
+        "matchItems": [
+            "create:copper_sheet",
+            "embers:copper_plate"
+        ],
+        "resultItems": "gtceu:copper_plate"
+    },
+    {
+        "matchItems": [
+            "createaddition:copper_rod"
+        ],
+        "resultItems": "gtceu:copper_rod"
+    },
+    {
+        "matchItems": [
+            "createaddition:diamond_grit",
+            "gtceu:diamond_dust"
+        ],
+        "resultItems": "mekanism:dust_diamond"
+    },
+    {
+        "matchItems": [
+            "industrialforegoing:diamond_gear"
+        ],
+        "resultItems": "gtceu:diamond_gear"
+    },
+    {
+        "matchItems": [
+            "createaddition:electrum_nugget"
+        ],
+        "resultItems": "gtceu:electrum_nugget"
+    },
+    {
+        "matchItems": [
+            "createaddition:electrum_ingot"
+        ],
+        "resultItems": "gtceu:electrum_ingot"
+    },
+    {
+        "matchItems": [
+            "createaddition:electrum_sheet"
+        ],
+        "resultItems": "gtceu:electrum_plate"
+    },
+    {
+        "matchItems": [
+            "createaddition:electrum_rod"
+        ],
+        "resultItems": "gtceu:electrum_rod"
+    },
+    {
+        "matchItems": [
+            "createaddition:electrum_block"
+        ],
+        "resultItems": "gtceu:electrum_block"
+    },
+    {
+        "matchItems": [
+            "mekanism:dust_emerald"
+        ],
+        "resultItems": "gtceu:emerald_dust"
+    },
+    {
+        "matchItems": [
+            "mekanism:fluorite_ore"
+        ],
+        "resultItems": "mekanism:deepslate_fluorite_ore"
+    },
+    {
+        "matchItems": [
+            "mekanism:dust_gold",
+            "gtceu:gold_dust"
+        ],
+        "resultItems": "occultism:gold_dust"
+    },
+    {
+        "matchItems": [
+            "create:golden_sheet"
+        ],
+        "resultItems": "gtceu:gold_plate"
+    },
+    {
+        "matchItems": [
+            "createaddition:gold_rod"
+        ],
+        "resultItems": "gtceu:gold_rod"
+    },
+    {
+        "matchItems": [
+            "industrialforegoing:gold_gear"
+        ],
+        "resultItems": "gtceu:gold_gear"
+    },
+    {
+        "matchItems": [
+            "gtceu:basalt_graphite_ore",
+            "gtceu:blackstone_graphite_ore",
+            "gtceu:deepslate_graphite_ore",
+            "gtceu:diorite_graphite_ore",
+            "gtceu:endstone_graphite_ore",
+            "gtceu:granite_graphite_ore",
+            "gtceu:graphite_ore",
+            "gtceu:gravel_graphite_ore",
+            "gtceu:marble_graphite_ore",
+            "gtceu:netherrack_graphite_ore",
+            "gtceu:red_granite_graphite_ore",
+            "gtceu:red_sand_graphite_ore",
+            "gtceu:sand_graphite_ore",
+            "gtceu:tuff_graphite_ore"
+        ],
+        "resultItems": "gtceu:andesite_graphite_ore"
+    },
+    {
+        "matchItems": [
+            "mekanism:dust_iron",
+            "occultism:iron_dust"
+        ],
+        "resultItems": "gtceu:iron_dust"
+    },
+    {
+        "matchItems": [
+            "industrialforegoing:iron_gear"
+        ],
+        "resultItems": "gtceu:iron_gear"
+    },
+    {
+        "matchItems": [
+            "create:iron_sheet",
+            "embers:iron_plate"
+        ],
+        "resultItems": "gtceu:iron_plate"
+    },
+    {
+        "matchItems": [
+            "createaddition:iron_rod"
+        ],
+        "resultItems": "gtceu:iron_rod"
+    },
+    {
+        "matchItems": [
+            "mekanism:dust_lapis_lazuli"
+        ],
+        "resultItems": "gtceu:lapis_dust"
+    },
+    {
+        "matchItems": [
+            "mekanism:nugget_lead",
+            "embers:lead_nugget"
+        ],
+        "resultItems": "gtceu:lead_nugget"
+    },
+    {
+        "matchItems": [
+            "mekanism:dust_lead"
+        ],
+        "resultItems": "gtceu:lead_dust"
+    },
+    {
+        "matchItems": [
+            "mekanism:ingot_lead",
+            "embers:lead_ingot"
+        ],
+        "resultItems": "gtceu:lead_ingot"
+    },
+    {
+        "matchItems": [
+            "mekanism:raw_lead",
+            "embers:raw_lead"
+        ],
+        "resultItems": "gtceu:raw_lead"
+    },
+    {
+        "matchItems": [
+            "embers:lead_plate"
+        ],
+        "resultItems": "gtceu:lead_plate"
+    },
+    {
+        "matchItems": [
+            "mekanism:block_lead",
+            "embers:lead_block"
+        ],
+        "resultItems": "gtceu:lead_block"
+    },
+    {
+        "matchItems": [
+            "mekanism_extras:dust_naquadah"
+        ],
+        "resultItems": "gtceu:naquadah_dust"
+    },
+    {
+        "matchItems": [
+            "mekanism_extras:ingot_naquadah"
+        ],
+        "resultItems": "gtceu:naquadah_ingot"
+    },
+    {
+        "matchItems": [
+            "mekanism_extras:raw_naquadah"
+        ],
+        "resultItems": "gtceu:raw_naquadah"
+    },
+    {
+        "matchItems": [
+            "mekanism_extras:block_naquadah"
+        ],
+        "resultItems": "gtceu:naquadah_block"
+    },
+    {
+        "matchItems": [
+            "tconstruct:netherite_nugget"
+        ],
+        "resultItems": "gtceu:netherite_nugget"
+    },
+    {
+        "matchItems": [
+            "mekanism:dust_netherite"
+        ],
+        "resultItems": "gtceu:netherite_dust"
+    },
+    {
+        "matchItems": [
+            "gtceu:basalt_nickel_ore",
+            "gtceu:blackstone_nickel_ore",
+            "gtceu:deepslate_nickel_ore",
+            "gtceu:diorite_nickel_ore",
+            "gtceu:endstone_nickel_ore",
+            "gtceu:granite_nickel_ore",
+            "gtceu:gravel_nickel_ore",
+            "gtceu:marble_nickel_ore",
+            "gtceu:netherrack_nickel_ore",
+            "gtceu:nickel_ore",
+            "gtceu:red_granite_nickel_ore",
+            "gtceu:red_sand_nickel_ore",
+            "gtceu:sand_nickel_ore",
+            "gtceu:tuff_nickel_ore"
+        ],
+        "resultItems": "gtceu:andesite_nickel_ore"
+    },
+    {
+        "matchItems": [
+            "create:powdered_obsidian",
+            "mekanism:dust_obsidian",
+            "occultism:obsidian_dust"
+        ],
+        "resultItems": "gtceu:obsidian_dust"
+    },
+    {
+        "matchItems": [
+            "create:sturdy_sheet",
+            "gtceu:obsidian_plate"
+        ],
+        "resultItems": "tconstruct:obsidian_pane"
+    },
+    {
+        "matchItems": [
+            "mekanism:nugget_osmium"
+        ],
+        "resultItems": "gtceu:osmium_nugget"
+    },
+    {
+        "matchItems": [
+            "mekanism:dust_osmium"
+        ],
+        "resultItems": "gtceu:osmium_dust"
+    },
+    {
+        "matchItems": [
+            "mekanism:ingot_osmium"
+        ],
+        "resultItems": "gtceu:osmium_ingot"
+    },
+    {
+        "matchItems": [
+            "mekanism:block_osmium"
+        ],
+        "resultItems": "gtceu:osmium_block"
+    },
+    {
+        "matchItems": [
+            "gtceu:basalt_platinum_ore",
+            "gtceu:blackstone_platinum_ore",
+            "gtceu:deepslate_platinum_ore",
+            "gtceu:diorite_platinum_ore",
+            "gtceu:endstone_platinum_ore",
+            "gtceu:granite_platinum_ore",
+            "gtceu:gravel_platinum_ore",
+            "gtceu:marble_platinum_ore",
+            "gtceu:netherrack_platinum_ore",
+            "gtceu:platinum_ore",
+            "gtceu:red_granite_platinum_ore",
+            "gtceu:red_sand_platinum_ore",
+            "gtceu:sand_platinum_ore",
+            "gtceu:tuff_platinum_ore"
+        ],
+        "resultItems": "gtceu:andesite_platinum_ore"
+    },
+    {
+        "matchItems": [
+            "tconstruct:raw_cobalt_block"
+        ],
+        "resultItems": "gtceu:raw_cobalt_block"
+    },
+    {
+        "matchItems": [
+            "mekanism:block_raw_lead",
+            "embers:raw_lead_block"
+        ],
+        "resultItems": "gtceu:raw_lead_block"
+    },
+    {
+        "matchItems": [
+            "mekanism_extras:block_raw_naquadah"
+        ],
+        "resultItems": "gtceu:raw_naquadah_block"
+    },
+    {
+        "matchItems": [
+            "embers:raw_silver_block",
+            "occultism:raw_silver_block"
+        ],
+        "resultItems": "gtceu:raw_silver_block"
+    },
+    {
+        "matchItems": [
+            "mekanism:block_raw_tin"
+        ],
+        "resultItems": "gtceu:raw_tin_block"
+    },
+    {
+        "matchItems": [
+            "tconstruct:rose_gold_nugget"
+        ],
+        "resultItems": "gtceu:rose_gold_nugget"
+    },
+    {
+        "matchItems": [
+            "tconstruct:rose_gold_ingot"
+        ],
+        "resultItems": "gtceu:rose_gold_ingot"
+    },
+    {
+        "matchItems": [
+            "tconstruct:rose_gold_block"
+        ],
+        "resultItems": "gtceu:rose_gold_block"
+    },
+    {
+        "matchItems": [
+            "gtceu:basalt_ruby_ore",
+            "gtceu:blackstone_ruby_ore",
+            "gtceu:deepslate_ruby_ore",
+            "gtceu:diorite_ruby_ore",
+            "gtceu:endstone_ruby_ore",
+            "gtceu:granite_ruby_ore",
+            "gtceu:gravel_ruby_ore",
+            "gtceu:marble_ruby_ore",
+            "gtceu:netherrack_ruby_ore",
+            "gtceu:red_granite_ruby_ore",
+            "gtceu:red_sand_ruby_ore",
+            "gtceu:ruby_ore",
+            "gtceu:sand_ruby_ore",
+            "gtceu:tuff_ruby_ore"
+        ],
+        "resultItems": "gtceu:andesite_ruby_ore"
+    },
+    {
+        "matchItems": [
+            "gtceu:basalt_sapphire_ore",
+            "gtceu:blackstone_sapphire_ore",
+            "gtceu:deepslate_sapphire_ore",
+            "gtceu:diorite_sapphire_ore",
+            "gtceu:endstone_sapphire_ore",
+            "gtceu:granite_sapphire_ore",
+            "gtceu:gravel_sapphire_ore",
+            "gtceu:marble_sapphire_ore",
+            "gtceu:netherrack_sapphire_ore",
+            "gtceu:red_granite_sapphire_ore",
+            "gtceu:red_sand_sapphire_ore",
+            "gtceu:sand_sapphire_ore",
+            "gtceu:sapphire_ore",
+            "gtceu:tuff_sapphire_ore"
+        ],
+        "resultItems": "gtceu:andesite_sapphire_ore"
+    },
+    {
+        "matchItems": [
+            "embers:silver_nugget",
+            "occultism:silver_nugget"
+        ],
+        "resultItems": "gtceu:silver_nugget"
+    },
+    {
+        "matchItems": [
+            "occultism:silver_dust"
+        ],
+        "resultItems": "gtceu:silver_dust"
+    },
+    {
+        "matchItems": [
+            "embers:silver_ingot",
+            "occultism:silver_ingot"
+        ],
+        "resultItems": "gtceu:silver_ingot"
+    },
+    {
+        "matchItems": [
+            "embers:raw_silver",
+            "occultism:raw_silver"
+        ],
+        "resultItems": "gtceu:raw_silver"
+    },
+    {
+        "matchItems": [
+            "embers:silver_plate"
+        ],
+        "resultItems": "gtceu:silver_plate"
+    },
+    {
+        "matchItems": [
+            "embers:silver_block",
+            "occultism:silver_block"
+        ],
+        "resultItems": "gtceu:silver_block"
+    },
+    {
+        "matchItems": [
+            "tconstruct:steel_nugget",
+            "mekanism:nugget_steel"
+        ],
+        "resultItems": "gtceu:steel_nugget"
+    },
+    {
+        "matchItems": [
+            "mekanism:dust_steel"
+        ],
+        "resultItems": "gtceu:steel_dust"
+    },
+    {
+        "matchItems": [
+            "tconstruct:steel_ingot",
+            "gtceu:steel_ingot"
+        ],
+        "resultItems": "mekanism:ingot_steel"
+    },
+    {
+        "matchItems": [
+            "tconstruct:steel_block",
+            "mekanism:block_steel"
+        ],
+        "resultItems": "gtceu:steel_block"
+    },
+    {
+        "matchItems": [
+            "mekanism:dust_sulfur"
+        ],
+        "resultItems": "gtceu:sulfur_dust"
+    },
+    {
+        "matchItems": [
+            "mekanism:nugget_tin"
+        ],
+        "resultItems": "gtceu:tin_nugget"
+    },
+    {
+        "matchItems": [
+            "mekanism:dust_tin"
+        ],
+        "resultItems": "gtceu:tin_dust"
+    },
+    {
+        "matchItems": [
+            "mekanism:ingot_tin"
+        ],
+        "resultItems": "gtceu:tin_ingot"
+    },
+    {
+        "matchItems": [
+            "mekanism:raw_tin"
+        ],
+        "resultItems": "gtceu:raw_tin"
+    },
+    {
+        "matchItems": [
+            "mekanism:block_tin"
+        ],
+        "resultItems": "gtceu:tin_block"
+    },
+    {
+        "matchItems": [
+            "mekanism:nugget_uranium"
+        ],
+        "resultItems": "gtceu:uranium_nugget"
+    },
+    {
+        "matchItems": [
+            "mekanism:dust_uranium"
+        ],
+        "resultItems": "gtceu:uranium_dust"
+    },
+    {
+        "matchItems": [
+            "mekanism:ingot_uranium"
+        ],
+        "resultItems": "gtceu:uranium_ingot"
+    },
+    {
+        "matchItems": [
+            "mekanism:block_uranium"
+        ],
+        "resultItems": "gtceu:uranium_block"
+    },
+    {
+        "matchItems": [
+            "create:zinc_nugget"
+        ],
+        "resultItems": "gtceu:zinc_nugget"
+    },
+    {
+        "matchItems": [
+            "create:zinc_ingot"
+        ],
+        "resultItems": "gtceu:zinc_ingot"
+    },
+    {
+        "matchItems": [
+            "createaddition:zinc_sheet"
+        ],
+        "resultItems": "gtceu:zinc_plate"
+    },
+    {
+        "matchItems": [
+            "create:zinc_block"
+        ],
+        "resultItems": "gtceu:zinc_block"
+    }
+]

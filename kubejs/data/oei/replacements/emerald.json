@@ -1,9 +1,0 @@
-[
-  {
-    "tag": "forge:dusts/emerald",
-    "matchItems": [
-      "mekanism:dust_emerald"
-    ],
-    "resultItems": "gtceu:emerald_dust"
-  }
-]

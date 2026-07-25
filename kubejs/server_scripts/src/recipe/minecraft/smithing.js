@@ -23,6 +23,8 @@ ServerEvents.recipes(e => {
     e.recipes.minecraft.smithing_transform('create:spout', '#forge:glass', 'create:copper_casing', 'gtceu:styrene_butadiene_rubber_plate')
     e.recipes.minecraft.smithing_transform('create:spout', '#forge:glass', 'create:copper_casing', 'gtceu:silicone_rubber_plate')
     e.recipes.minecraft.smithing_transform('createaddition:rolling_mill', 'create:shaft', 'create:andesite_casing', 'create:shaft')
+    e.recipes.minecraft.smithing_transform('gtceu:wood_mallet', 'kubejs:wood_block', 'kubejs:wood_block', 'gtceu:treated_wood_rod')
+    e.recipes.minecraft.smithing_transform('ars_nouveau:dominion_wand', 'kubejs:the_source_of_the_earth', 'gtceu:long_electrum_rod', 'minecraft:amethyst_block')
 })
 
 ServerEvents.recipes(e => {

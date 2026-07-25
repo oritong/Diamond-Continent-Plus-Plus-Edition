@@ -15,6 +15,8 @@
   "avaritia:crafting_table": null,
   "avaritia:extreme_smithing": null,
   "balm:jade": null,
+  "bettergtae:extend_me_pattern_buffer": null,
+  "bettergtae:extend_me_pattern_buffer_proxy": null,
   "entangled:entangled_block_component": null,
   "expatternprovider:jade_chamber": null,
   "expatternprovider:jade_wireless": null,
@@ -141,5 +143,6 @@
   "pneumaticcraft:redstone": null,
   "pneumaticcraft:semiblock": null,
   "pneumaticcraft:tube_module": null,
-  "replication:matter_tank": null
+  "replication:matter_tank": null,
+  "superflatcore:tiab_info": null
 }

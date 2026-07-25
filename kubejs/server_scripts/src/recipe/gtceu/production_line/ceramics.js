@@ -1,4 +1,5 @@
 ServerEvents.recipes(e => {
+    //氧化铝陶瓷
     e.recipes.gtceu.chemical_reactor().itemInputs('5x gtceu:green_sapphire_dust', '6x gtceu:sodium_hydroxide_dust').itemOutputs('8x gtceu:sodium_aluminate_dust').outputFluids(Fluid.of('minecraft:water', 1000)).EUt(120).duration(100)
     e.recipes.gtceu.chemical_reactor().itemInputs('5x gtceu:sapphire_dust', '6x gtceu:sodium_hydroxide_dust').itemOutputs('8x gtceu:sodium_aluminate_dust').outputFluids(Fluid.of('minecraft:water', 1000)).EUt(120).duration(100)
     e.recipes.gtceu.mixer().itemInputs('4x gtceu:sodium_aluminate_dust').inputFluids(Fluid.of('minecraft:water', 3000)).itemOutputs('7x gtceu:aluminum_hydroxide_dust').outputFluids(Fluid.of('gtceu:sodium_hydroxide_solution', 1000)).EUt(30).duration(120)
@@ -8,6 +9,7 @@ ServerEvents.recipes(e => {
     e.recipes.gtceu.compressor().itemInputs('12x gtceu:alumina_ceramic_dust').itemOutputs('kubejs:raw_alumina_ceramic_block').EUt(120).duration(800)
     e.recipes.gtceu.chemical_bath().itemInputs('9x gtceu:alumina_ceramic_dust').inputFluids(Fluid.of('gtceu:glue', 1000)).itemOutputs('kubejs:raw_alumina_ceramic_block').EUt(500).duration(200)
     e.recipes.gtceu.electric_blast_furnace().itemInputs('kubejs:raw_alumina_ceramic_block').inputFluids(Fluid.of('gtceu:nitrogen', 500)).itemOutputs('gtceu:alumina_ceramic_block').EUt(120).duration(600).blastFurnaceTemp(2700)
+    //碳化钛陶瓷
 })
 //氧化铝陶瓷
 /*
@@ -19,4 +21,10 @@ ServerEvents.recipes(e => {
 12氧化铝陶瓷粉=氧化铝陶瓷粗坯 800t 120eu 压缩compressor
 9氧化铝陶瓷粉+1B胶水=氧化铝陶瓷粗坯 200t 500eu 化浸chemical_bath
 氧化铝陶瓷粗坯+500气态氮=氧化铝陶瓷块 600t 2700k 120eu 电高
+*/
+//钛陶瓷
+/*
+2钛粉+1000气态氮=2氮化钛陶瓷粉 20t 480EU 3400k 电高
+9氮化钛+1000环氧树脂=氮化钛陶瓷粗坯 200t 500eu 化浸
+氮化钛陶瓷粗坯+500气态氮=氮化钛陶瓷块 600t 2700k 120eu 电高
 */

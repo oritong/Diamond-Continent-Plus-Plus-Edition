@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    e.recipes.create.milling(Item.of('minecraft:redstone').withChance(0.2), 'gtceu:cinnabar_dust')
+    e.recipes.create.milling(Item.of('minecraft:redstone').withChance(0.8), 'gtceu:cinnabar_dust')
     e.forEachRecipe({ type: "gtceu:macerator" }, r => {
         try {
             let j = JSON.parse(String(r.json))

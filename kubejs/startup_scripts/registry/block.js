@@ -12,4 +12,5 @@ StartupEvents.registry('block', e => {
     e.create("grizzly_chute", "basic").noValidSpawns(true).soundType("metal").mapColor("metal").tagBlock("mineable/pickaxe").requiresTool(true).hardness(3)
     e.create("compress_diamond_block", "cardinal").noValidSpawns(true).soundType("metal").mapColor("metal").tagBlock("mineable/pickaxe").requiresTool(true).hardness(4)
     e.create('raw_alumina_ceramic_block').textureAll('kubejs:block/raw_ceramic_block').tagBlock('minecraft:mineable/pickaxe')
+    e.create('raw_titanium_nitride_ceramic_block').textureAll('kubejs:block/raw_titanium_nitride_ceramic_block').tagBlock('minecraft:mineable/pickaxe')
 })

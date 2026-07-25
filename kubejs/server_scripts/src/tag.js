@@ -11,6 +11,9 @@ ServerEvents.tags('item', e => {
     })
     e.add('minecraft:pickaxes', 'avaritia:blaze_pickaxe')
     e.add('gtceu:circuits/ulv', 'mekanism:basic_control_circuit')
+    e.add('gtceu:circuits/lv', 'mekanism:advanced_control_circuit')
+    e.add('gtceu:circuits/mv', 'mekanism:elite_control_circuit')
+    e.add('forge:dusts/nether_quartz', 'mekanism:dust_quartz')
 })
 ServerEvents.tags('block', e => {
     wrench_pickup.forEach(a => {
@@ -27,7 +30,8 @@ let no_fire_burn = [
     'minecraft:iron_block',
     'gtceu:diamond_plate',
     'gtceu:coke_oven_bricks',
-    'gtceu:caminite_brick_plate'
+    'gtceu:caminite_brick_plate',
+    'mekanism:cardboard_box'
 ]
 let wrench_pickup = [
     'minecraft:cobblestone',
@@ -40,5 +44,6 @@ let wrench_pickup = [
     'tconstruct:seared_channel',
     'minecraft:anvil',
     'minecraft:chipped_anvil',
-    'minecraft:damaged_anvil'
+    'minecraft:damaged_anvil',
+    'mekanism:cardboard_box'
 ]

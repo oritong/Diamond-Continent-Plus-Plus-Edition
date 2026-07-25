@@ -1,0 +1,15 @@
+[
+  {
+    "matchFluid": [
+      "mekanism:hydrogen",
+      "mekanism:flowing_hydrogen"
+    ],
+    "resultFluid": "gtceu:hydrogen"
+  },
+  {
+    "matchFluid": [
+      "industrialforegoing:latex"
+    ],
+    "resultFluid": "kubejs:latex"
+  }
+]

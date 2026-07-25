@@ -2,17 +2,17 @@ ServerEvents.recipes(e => {
     let dust_convert = [
         'mekanism:dust_diamond', 'gtceu:lazurite_dust', 'gtceu:cinnabar_dust', "occultism:gold_dust",
         'gtceu:silver_dust', 'gtceu:iron_dust', 'gtceu:copper_dust', 'gtceu:tin_dust',
-        'gtceu:lead_dust', 'gtceu:zinc_dust', 'gtceu:quartzite_dust', 'gtceu:stone_dust', "mekanism:sawdust"
+        'gtceu:lead_dust', 'gtceu:zinc_dust', 'gtceu:nickel_dust', 'gtceu:quartzite_dust', 'gtceu:stone_dust', "mekanism:sawdust"
     ]
     let ingot_convert = [
         'minecraft:diamond', 'gtceu:lazurite_gem', 'gtceu:cinnabar_gem', "minecraft:gold_ingot",
         'gtceu:silver_ingot', 'minecraft:iron_ingot', 'minecraft:copper_ingot', 'gtceu:tin_ingot',
-        'gtceu:lead_ingot', 'gtceu:zinc_ingot', 'gtceu:quartzite_gem', 'minecart:stone', 'kubejs:wood_ingot'
+        'gtceu:lead_ingot', 'gtceu:zinc_ingot', 'gtceu:nickel_ingot', 'gtceu:quartzite_gem', 'minecart:stone', 'kubejs:wood_ingot'
     ]
     let block_convert = [
         'minecraft:diamond_block', 'gtceu:cinnabar_block', 'gtceu:lazurite_block', 'minecraft:gold_block',
         'gtceu:silver_block', 'minecraft:iron_block', 'minecraft:copper_block', 'gtceu:tin_block',
-        'gtceu:lead_block', 'gtceu:zinc_block', 'gtceu:quartzite_block', '9x minecart:stone'
+        'gtceu:lead_block', 'gtceu:zinc_block', 'gtceu:nickel_block', 'gtceu:quartzite_block', '9x minecart:stone'
     ]
     let dyes = [
         'minecraft:white_dye', 'minecraft:orange_dye', 'minecraft:magenta_dye', 'minecraft:light_blue_dye',
@@ -73,7 +73,7 @@ ServerEvents.recipes(e => {
     e.recipes.lychee.item_inside('minecraft:iron_ingot', 'minecraft:lava').post([Post.drop_item('8x gtceu:wrought_iron_nugget')]).time(5)
     e.recipes.lychee.item_inside('gtceu:diamond_plate', 'minecraft:lava').post([Post.drop_item('embers:caminite_plate')]).time(15)
     e.recipes.lychee.item_inside('minecraft:iron_block', 'minecraft:lava').post([Post.drop_item('8x gtceu:wrought_iron_ingot')]).time(20)
-    e.recipes.lychee.item_inside('gtceu:andesite_alloy_dust', 'industrialforegoing:latex').post([Post.drop_item('create:andesite_alloy')]).time(32.5).hide_in_viewer(true)
+    e.recipes.lychee.item_inside('gtceu:andesite_alloy_dust', 'oritong:latex').post([Post.drop_item('create:andesite_alloy')])
     e.recipes.lychee.item_inside('kubejs:wood_block', 'gtceu:creosote').post([Post.drop_item('gtceu:treated_wood_planks')]).time(45)
     e.recipes.lychee.item_inside('mekanism:sawdust', 'gtceu:creosote').post([Post.drop_item('gtceu:treated_wood_dust')]).time(45)
 })

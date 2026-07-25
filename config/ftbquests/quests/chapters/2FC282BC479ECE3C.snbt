@@ -33,16 +33,18 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["其实这个也挺牛逼的"]
 			id: "78074A3E2215D8F8"
 			tasks: [{
 				id: "1676719D6EE8C3EE"
 				item: "mekanismgenerators:heat_generator"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.0d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
+			description: ["慢到你怀疑人生"]
 			id: "0E5F216AFDA88880"
 			tasks: [{
 				id: "418431B441F4F8FB"
@@ -64,6 +66,7 @@
 			y: -2.5d
 		}
 		{
+			description: ["但是我其实不推荐这个……"]
 			id: "17CAB09E72A51D66"
 			tasks: [{
 				id: "6839C3C096589A37"
@@ -82,6 +85,27 @@
 				type: "item"
 			}]
 			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "5DC13888F8601EB0"
+			tasks: [{
+				id: "1B2E8B2E96FFFC7B"
+				item: "gtceu:lv_gas_turbine"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			description: ["是的我更推荐这个，在前期，你可以通过直接大量的轻燃油来发电"]
+			id: "7ACF897D892975B0"
+			tasks: [{
+				id: "5506F97FF72EF385"
+				item: "gtceu:lv_combustion"
+				type: "item"
+			}]
+			x: 3.0d
 			y: -2.5d
 		}
 	]

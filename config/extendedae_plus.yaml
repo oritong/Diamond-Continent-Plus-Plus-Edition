@@ -1,14 +1,14 @@
 # 扩展样板供应器总槽位容量的倍率。
 # 基础为36，每页仍显示36格，倍率会增加总页数/总容量。
 # 建议范围 1-16
-pageMultiplier: 1
+pageMultiplier: 2
 
 # 设置AE构建合成计划过程中的 wait/notify 次数，提升吞吐但会降低调度响应性
 craftingPauseThreshold: 100000
 
 # 无线收发器最大连接距离（单位：方块）
 # 从端与主端的直线距离需小于等于该值才会建立连接
-wirelessMaxRange: 256.0
+wirelessMaxRange: 512.0
 
 # 是否允许无线收发器跨维度建立连接
 # 开启后，从端可连接到不同维度的主端（忽略距离限制）

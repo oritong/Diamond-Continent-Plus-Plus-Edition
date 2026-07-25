@@ -285,21 +285,21 @@ ServerEvents.recipes(e => {
         D: 'kubejs:machine_core_1',
         E: 'minecraft:smooth_stone'
     })
-    e.shaped('2x create:belt_connector', [
+    e.shaped('create:belt_connector', [
         'AAA',
         'AAA',
         '   '
     ], {
         A: 'gtceu:rubber_plate'
     })
-    e.shaped('4x create:belt_connector', [
+    e.shaped('2x create:belt_connector', [
         'AAA',
         'AAA',
         '   '
     ], {
         A: 'gtceu:silicone_rubber_plate'
     })
-    e.shaped('8x create:belt_connector', [
+    e.shaped('4x create:belt_connector', [
         'AAA',
         'AAA',
         '   '
@@ -447,7 +447,7 @@ ServerEvents.recipes(e => {
         'EFE'
     ], {
         A: 'gtceu:steel_plate',
-        B: 'tconstruct:clear_glass_pane',
+        B: '#forge:glass_panes/colorless',
         C: 'gtceu:lv_electric_motor',
         D: 'gtceu:lv_machine_hull',
         E: '#gtceu:circuits/lv',
@@ -459,7 +459,7 @@ ServerEvents.recipes(e => {
         'DDD'
     ], {
         A: 'gtceu:steel_plate',
-        B: '#gtceu:circuits/ulv',
+        B: '#gtceu:circuits/lv',
         C: 'industrialforegoing:pitiful_generator',
         D: 'minecraft:copper_ingot'
     })
@@ -686,11 +686,83 @@ ServerEvents.recipes(e => {
         A: 'kubejs:wood_ingot'
     })
     e.shaped('2x gtceu:paper_dust', [
-    '   ',
-    'AAA',
-    ' B '
-], {
-    A: 'mekanism:sawdust',
-    B: '#gtceu:tools/crafting_mortars'
-})
+        '   ',
+        'AAA',
+        ' B '
+    ], {
+        A: 'mekanism:sawdust',
+        B: '#gtceu:tools/crafting_mortars'
+    })
+    e.shaped('mekanism:cardboard_box', [
+        ' A ',
+        'A A',
+        ' A '
+    ], {
+        A: 'mekanism:sawdust'
+    }),
+        e.shaped('gtceu:ulv_input_bus', [
+            ' A ',
+            ' B ',
+            '   '
+        ], {
+            A: 'minecraft:chest',
+            B: 'gtceu:ulv_machine_hull'
+        })
+    e.shaped('gtceu:ulv_input_bus', [
+        ' A ',
+        ' B ',
+        '   '
+    ], {
+        A: 'minecraft:chest',
+        B: 'gtceu:ulv_machine_hull'
+    })
+    e.shaped('gtceu:lv_input_hatch', [
+        ' A ',
+        ' B ',
+        '   '
+    ], {
+        A: 'gtceu:wood_drum',
+        B: 'gtceu:lv_machine_hull'
+    })
+    e.shaped('gtceu:lv_input_bus', [
+        ' A ',
+        ' B ',
+        '   '
+    ], {
+        A: 'gtceu:wood_crate',
+        B: 'gtceu:lv_machine_hull'
+    })
+    e.shaped('gtceu:mv_energy_input_hatch', [
+        'AB ',
+        'ACD',
+        'AB '
+    ], {
+        A: 'gtceu:annealed_copper_single_cable',
+        B: 'gtceu:alumina_ceramic_plate',
+        C: 'gtceu:mv_machine_hull',
+        D: 'gtceu:ulpic_chip'
+    })
+    e.shaped('industrialforegoing:mob_slaughter_factory', [
+        'ABA',
+        'CDC',
+        'EBE'
+    ], {
+        A: 'create:crushing_wheel',
+        B: 'kubejs:general_circuit_hv',
+        C: 'gtceu:hv_electric_motor',
+        D: 'gtceu:hv_machine_hull',
+        E: 'gtceu:aluminium_fluid_cell'
+    })
+    e.shaped('gtnn:homemade_bedrock_ore_machine', [
+        'ABA',
+        'CDC',
+        'EFE'
+    ], {
+        A: 'gtceu:ulv_solar_panel',
+        B: 'gtceu:polytetrafluoroethylene_frame',
+        C: 'kubejs:general_circuit_hv',
+        D: 'gtceu:hv_machine_hull',
+        E: 'gtceu:red_steel_plate',
+        F: 'gtceu:damascus_steel_drill_head'
+    })
 })

@@ -1,0 +1,6 @@
+{
+    "gtceu.machine.parallel_hatch_mk5.tooltip": "允许同时处理至多16个配方。",
+    "gtceu.machine.parallel_hatch_mk6.tooltip": "允许同时处理至多64个配方。",
+    "gtceu.machine.parallel_hatch_mk7.tooltip": "允许同时处理至多256个配方。",
+    "gtceu.machine.parallel_hatch_mk8.tooltip": "允许同时处理至多1024个配方。"
+}

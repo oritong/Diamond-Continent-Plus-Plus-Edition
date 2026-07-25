@@ -1,0 +1,22 @@
+
+[enhanced_rain]
+	#是否启用增强雨渲染（增加密度和速度）
+	#Whether to enable enhanced rain rendering
+	enableEnhancedRain = false
+	#最大雨密度倍率（相对于原版）
+	#Maximum rain density multiplier (relative to vanilla)
+	#Range: 1.0 ~ 50.0
+	maxDensityMultiplier = 12.0
+	#最大雨速倍率（相对于原版）
+	#Maximum rain speed multiplier (relative to vanilla)
+	#Range: 1.0 ~ 50.0
+	maxSpeedMultiplier = 20.0
+	#达到最大增强效果所需时间（分钟）
+	#Time in minutes to reach maximum enhancement
+	#Range: 0.5 ~ 30.0
+	rampUpMinutes = 1.0
+	#增强雨的渲染距离（方块数，影响性能）
+	#Enhanced rain render distance in blocks (affects performance)
+	#Range: 8 ~ 32
+	rainRenderDistance = 16
+

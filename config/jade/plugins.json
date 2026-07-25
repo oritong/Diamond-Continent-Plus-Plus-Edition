@@ -75,6 +75,10 @@
     "crafting_table": true,
     "compressor": true
   },
+  "bettergtae": {
+    "extend_me_pattern_buffer_proxy": true,
+    "extend_me_pattern_buffer": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -131,14 +135,6 @@
   "mekanismcardboardtooltip": {
     "cardboard_box": true
   },
-  "pneumaticcraft": {
-    "pneumatic": true,
-    "tube_module": true,
-    "entity": true,
-    "redstone": true,
-    "camo": true,
-    "semiblock": true
-  },
   "gtceu": {
     "primitive_pump": true,
     "auto_output_info": true,
@@ -171,6 +167,9 @@
   "expatternprovider": {
     "jade_chamber": true,
     "jade_wireless": true
+  },
+  "superflatcore": {
+    "tiab_info": true
   },
   "functionalstorage": {
     "armory": true

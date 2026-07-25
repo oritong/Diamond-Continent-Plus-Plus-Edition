@@ -34,5 +34,15 @@
       "gtceu:salt_dust"
     ],
     "resultItems": "mekanism:salt"
+  },{
+    "matchItems": [
+      "gtceu:nether_quartz_dust"
+    ],
+    "resultItems": "mekanism:dust_quartz"
+  },{
+    "matchItems": [
+      "gtceu:certus_quartz_dust"
+    ],
+    "resultItems": "ae2:certus_quartz_dust"
   }
 ]

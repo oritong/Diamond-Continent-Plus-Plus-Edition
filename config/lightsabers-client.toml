@@ -1,0 +1,19 @@
+
+[dynamic_lights]
+	enabled = true
+	#Range: > 0
+	updateIntervalMilliseconds = 1000
+
+[rendering]
+	#Range: 0.0 ~ 1.7976931348623157E308
+	globalMultiplier = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	widthMultiplier = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	opacityMultiplier = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	smoothingMultiplier = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	lightingMultiplier = 1.0
+	enableShaders = true
+

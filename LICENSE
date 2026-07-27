@@ -1,166 +1,27 @@
+自定义协议
+
+钻石大陆加豪版
+Diamond Continent — Plus&Plus Edition
+[DC++]
+
+本协议为自定义协议。
+本协议以中文和英文两个版本撰写。
+如有歧义，以中文版本为准。
+
+## 中文
 
 
-================================================================================
-                        自定义许可证 / カスタムライセンス
-                        CUSTOM LICENSE AGREEMENT
-================================================================================
+---
 
-本文件以中文、英文、日文三语撰写。如有歧义，以中文版本为准。
-This document is written in Chinese, English, and Japanese. In case of ambiguity,
-the Chinese version shall prevail.
-本文書は中国語・英語・日本語で作成されています。解釈に相違がある場合、
-中国語版が優先されます。
+Custom Agreement
 
-================================================================================
+Diamond Continent — Plus&Plus Edition
+[DC++]
 
-【中文 / Chinese / 中国語】
+This agreement is a custom agreement.
+This agreement is written in Chinese and English.
+In case of any ambiguity, the Chinese version shall prevail.
 
-1. 适用范围
+## English
 
-本许可证适用于本仓库（以下简称"本包"）中的所有文件。
 
-2. 协议分发规则
-
-  (a) 以下文件夹内的所有文件均以 ARR（All Rights Reserved，保留所有权利）协议分发：
-      - config/
-      - defaultconfigs/
-      - template/
-
-  (b) kubejs/assets/ 目录下的所有 lang 文件（语言文件）均以 ARR 协议分发。
-
-  (c) oritong/ 文件夹（kubejs/assets/oritong/）内的所有文件均以 ARR 协议分发。
-
-  (d) 除上述 (a)(b)(c) 所列文件外，不在 oritong/ 文件夹内且不属于 lang 文件的
-      其他所有文件，均以 GNU General Public License v3（GPL v3）协议分发。
-
-  (e) 脚本文件（以下简称"JS 文件"，包括 .js 及其它 JavaScript 相关扩展名）
-      默认遵循 GPL v3 协议分发。
-
-  (f) 例外规则：若某个 JS 文件内部通过注释明确标注了代码来源及所适用的协议，
-      则该 JS 文件以注释中所标注的协议进行分发，而不再适用上述默认规则。
-
-3. 协议优先级
-
-  当某文件同时符合多条规则时，按以下优先级确定其适用协议（从高到低）：
-  (1) JS 文件内注释标注的协议
-  (2) 文件位于 oritong/ 文件夹内 → ARR
-  (3) 文件位于 config/、defaultconfigs/、template/ 文件夹内 → ARR
-  (4) 文件属于 kubejs/assets/ 下的 lang 文件 → ARR
-   (5) 上述均不适用 → GPL v3
-
-4. 相关链接
-
-  ARR（All Rights Reserved）：
-    默认著作权保留，无公开许可证文本。
-    https://en.wikipedia.org/wiki/All_rights_reserved
-
-  GPL v3（GNU General Public License v3）：
-    https://www.gnu.org/licenses/gpl-3.0.html
-
-================================================================================
-
-【English / 英文 / 英語】
-
-1. Scope
-
-This license applies to all files within this repository (hereinafter "the Package").
-
-2. Distribution Rules
-
-  (a) All files within the following directories are distributed under the
-      ARR (All Rights Reserved) license:
-      - config/
-      - defaultconfigs/
-      - template/
-
-  (b) All lang files (language files) under the kubejs/assets/ directory are
-      distributed under the ARR license.
-
-  (c) All files within the oritong/ directory (kubejs/assets/oritong/) are
-      distributed under the ARR license.
-
-  (d) All other files that are NOT within the oritong/ directory and are NOT
-      lang files are distributed under the GNU General Public License v3
-      (GPL v3).
-
-  (e) Script files (hereinafter "JS files", including .js and other JavaScript-
-      related extensions) are distributed under GPL v3 by default.
-
-  (f) Exception: If a JS file contains inline comments explicitly stating the
-      source of the code and the applicable license, that JS file shall be
-      distributed under the license specified in the comments, and the
-      default rule above shall not apply.
-
-3. Precedence
-
-  When a file matches multiple rules, its applicable license is determined
-  according to the following precedence (highest to lowest):
-  (1) License specified in JS file inline comments
-  (2) File is within the oritong/ directory → ARR
-  (3) File is within config/, defaultconfigs/, or template/ directories → ARR
-  (4) File is a lang file under kubejs/assets/ → ARR
-   (5) None of the above applies → GPL v3
-
-4. Related Links
-
-  ARR (All Rights Reserved):
-    Default copyright — no public license text available.
-    https://en.wikipedia.org/wiki/All_rights_reserved
-
-  GPL v3 (GNU General Public License v3):
-    https://www.gnu.org/licenses/gpl-3.0.html
-
-================================================================================
-
-【日本語 / Japanese / 日本語】
-
-1. 適用範囲
-
-本ライセンスは、本リポジトリ（以下「本パッケージ」）内のすべてのファイルに
-適用されます。
-
-2. 配布規則
-
-  (a) 以下のフォルダ内のすべてのファイルは、ARR（All Rights Reserved、
-      全著作権所有）ライセンスで配布されます：
-      - config/
-      - defaultconfigs/
-      - template/
-
-  (b) kubejs/assets/ ディレクトリ配下のすべての lang ファイル（言語ファイル）
-      は、ARR ライセンスで配布されます。
-
-  (c) oritong/ フォルダ（kubejs/assets/oritong/）内のすべてのファイルは、
-      ARR ライセンスで配布されます。
-
-  (d) 上記 (a)(b)(c) に該当せず、oritong/ フォルダ内になく、かつ lang ファイル
-      ではないその他すべてのファイルは、GNU General Public License v3
-      （GPL v3）で配布されます。
-
-  (e) スクリプトファイル（以下「JS ファイル」、.js およびその他 JavaScript
-      関連拡張子を含む）は、デフォルトで GPL v3 ライセンスで配布されます。
-
-  (f) 例外事項：JS ファイル内にコードの出典および適用ライセンスを明示する
-      コメントが記述されている場合、当該 JS ファイルはそのコメントに記載
-      されたライセンスで配布され、上記のデフォルト規則は適用されません。
-
-3. 優先順位
-
-  あるファイルが複数の規則に同時に該当する場合、以下の優先順位
-  （高いものから低いものへ）に従って適用ライセンスが決定されます：
-  (1) JS ファイル内コメントに記載されたライセンス
-  (2) oritong/ フォルダ内のファイル → ARR
-  (3) config/、defaultconfigs/、template/ フォルダ内のファイル → ARR
-  (4) kubejs/assets/ 配下の lang ファイル → ARR
-     (5) 上記いずれにも該当しない → GPL v3
-
-4. 関連リンク
-
-  ARR（All Rights Reserved）：
-    デフォルトの著作権留保であり、公開ライセンス文書はありません。
-    https://en.wikipedia.org/wiki/All_rights_reserved
-
-  GPL v3（GNU General Public License v3）：
-    https://www.gnu.org/licenses/gpl-3.0.html
-
-================================================================================

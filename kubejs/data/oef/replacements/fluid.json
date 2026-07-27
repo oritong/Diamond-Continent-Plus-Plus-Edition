@@ -10,6 +10,15 @@
     "matchFluid": [
       "industrialforegoing:latex"
     ],
-    "resultFluid": "kubejs:latex"
+    "resultFluid": "oritong:latex"
+  },
+  {
+    "matchFluid": [
+      "embers:flowing_steam",
+      "mekanism:flowing_steam",
+      "embers:steam",
+      "mekanism:steam"
+    ],
+    "resultFluid": "gtceu:steam"
   }
 ]

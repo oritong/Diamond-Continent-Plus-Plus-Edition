@@ -1,4 +1,4 @@
-// priority: 4
+// priority: 98
 ServerEvents.recipes(e => {
     e.replaceInput({ id: 'embers:ember_bore' }, 'embers:mechanical_core', 'kubejs:machine_core_1')
     e.replaceInput({ output: 'gtceu:fireclay_dust' }, 'gtceu:clay_dust', 'gtceu:caminite_brick_dust')

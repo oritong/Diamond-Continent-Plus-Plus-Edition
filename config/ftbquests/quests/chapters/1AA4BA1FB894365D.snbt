@@ -747,7 +747,8 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["59128394620BEA27"]
+			dependencies: ["267573CE52C3D840"]
+			hide_dependency_lines: true
 			id: "7C50239915877387"
 			rewards: [
 				{
@@ -829,6 +830,7 @@
 		}
 		{
 			dependencies: ["222DE3F2DA123486"]
+			description: ["注意到在这个路线，你会需要蒸汽，如果你蒸汽不用来发电这里推荐直接制作高压太阳能蒸汽，够用了"]
 			icon: "gtceu:polyethylene_bucket"
 			id: "4CBC5A84BE4BC7BA"
 			rewards: [
@@ -876,7 +878,7 @@
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -8.5d
 			y: 4.5d
 		}
 		{
@@ -909,11 +911,12 @@
 				}
 			]
 			title: "两个符文"
-			x: -8.5d
+			x: -7.0d
 			y: 4.5d
 		}
 		{
-			dependencies: ["16F434E40CEE4119"]
+			dependencies: ["5ED94F26402E7983"]
+			hide_dependency_lines: true
 			id: "4F719BA8877E171A"
 			rewards: [
 				{
@@ -943,10 +946,13 @@
 			]
 			title: "炼金台"
 			x: -7.0d
-			y: 4.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["4F719BA8877E171A"]
+			dependencies: [
+				"4F719BA8877E171A"
+				"16F434E40CEE4119"
+			]
 			id: "7CA7A07372909787"
 			rewards: [
 				{
@@ -1173,7 +1179,7 @@
 			]
 			title: "复 制"
 			x: -10.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0A801BE87DDB3EF5"]
@@ -1199,7 +1205,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -8.5d
+			x: -10.0d
 			y: 3.0d
 		}
 		{
@@ -1234,6 +1240,13 @@
 		}
 		{
 			dependencies: ["7502FCD6A0550797"]
+			description: [
+				"！？玫瑰金？！"
+				"你确定你真的要在电高里硬烧吗"
+				"为什么不去看看黎明石你当时是怎么做的呢"
+				""
+				"另外，我非常推荐你现在就把黏土粉产线做出来，接下来非常的消耗铝和黏土粉"
+			]
 			id: "3DBDFDF6FA0F3754"
 			tasks: [{
 				id: "6205B28B86C047C5"
@@ -1251,7 +1264,7 @@
 				item: "gtceu:plascrete"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
@@ -1263,18 +1276,21 @@
 				item: "gtceu:cleanroom"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["782E85781037D356"]
+			dependencies: [
+				"782E85781037D356"
+				"5C2E66D757D1E68F"
+			]
 			id: "61E32A9B65CFD1E2"
 			tasks: [{
 				id: "720A50699EFAFC25"
 				item: "tconstruct:smeltery_controller"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.5d
 			y: -1.5d
 		}
 		{
@@ -1296,14 +1312,13 @@
 				"你问钻石浸出液的矿从哪来？"
 				"请去看粗钻石块的配方"
 			]
-			hide_dependency_lines: true
 			id: "4991F65AE3B05137"
 			tasks: [{
 				id: "2068D47564249526"
 				item: "gtceu:mv_cutter"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: -3.0d
 		}
 		{
@@ -2198,11 +2213,12 @@
 				"21DD16F616F8E3D8"
 				"28EC9866F65A5C41"
 			]
-			description: ["占位：钛陶瓷"]
+			description: [""]
 			id: "1652AD2D0A4C04A0"
 			tasks: [{
-				id: "21F42B847491348C"
-				type: "checkmark"
+				id: "315D11C9F803A050"
+				item: "gtceu:titanium_nitride_ceramic_plate"
+				type: "item"
 			}]
 			x: 27.5d
 			y: 3.0d

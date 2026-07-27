@@ -1,4 +1,4 @@
-// priority: 6
+// priority: 99
 ServerEvents.recipes(e => {
     banthings.forEach(Item => {
         e.remove({ output: Item })
@@ -306,7 +306,11 @@ let banlists = [
     'create:mechanical_crafting/crushing_wheel',
     'industrialforegoing:mob_slaughter_factory',
     'gtceu:assembler/chemical_plant',
-    'gm_construct:smeltery/melting/metal/aluminium/dust'
+    'gm_construct:smeltery/melting/metal/aluminium/dust',
+    'createaddition:compat/tconstruct/rose_gold',
+    'create:milling/cobblestone',
+    'gtceu:bender/bend_titanium_nitride_ceramic_to_plate',
+    'gtceu:assembler/dual_import_bus_lv_polyethylene'
 ]
 let ban_gt_tools = [
     'pickaxe',

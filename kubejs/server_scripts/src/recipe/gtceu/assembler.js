@@ -3,7 +3,7 @@ ServerEvents.recipes(e => {
     //等级 等级 副材料 主材料 线缆 液体
     let machine_hull = [
         ['lv', '1', 'gtceu:wrought_iron_plate', 'gtceu:steel_plate', 'gtceu:tin_single_cable', 'oritong:latex'],
-        ['mv', '2', 'gtceu:invar_plate', 'gtceu:aluminium_plate', 'gtceu:copper_single_cable', 'gtceu:polyethylene'],
+        ['mv', '2', 'gtceu:rose_gold_plate', 'gtceu:aluminium_plate', 'gtceu:copper_single_cable', 'gtceu:polyethylene'],
         ['hv', '2', 'gtceu:sterling_silver_plate', 'gtceu:stainless_steel_plate', 'gtceu:gold_single_cable', 'gtceu:polyethylene']
     ]
     machine_hull.forEach(([a, b, c, d, f, g], i) => {
@@ -16,7 +16,8 @@ ServerEvents.recipes(e => {
         'gtceu:assembler/resistor_charcoal_annealed',
         'gtceu:assembler/resistor_coal_annealed',
         'gtceu:assembler/resistor_charcoal',
-        'gtceu:assembler/resistor_carbon_annealed'
+        'gtceu:assembler/resistor_carbon_annealed',
+        'gtceu:assembler/dual_import_bus_lv_glue'
     ]
     e.forEachRecipe({ type: "gtceu:assembler" }, r => {
         try {
@@ -36,7 +37,7 @@ ServerEvents.recipes(e => {
             let eu = 0
             if (j.tickInputs && j.tickInputs.eu && j.tickInputs.eu.length > 0)
                 eu = j.tickInputs.eu[0].content
-            let duration = Math.floor(j.duration * 0.6)
+            let duration = Math.floor(j.duration * 0.7)
             let inputs = []
             let circuit = null
             if (j.inputs && j.inputs.item)
@@ -63,7 +64,7 @@ ServerEvents.recipes(e => {
             inputs.forEach(i => recipe.itemInputs(i))
             outputs.forEach(o => recipe.itemOutputs(o))
             recipe.inputFluids(Fluid.of('gtceu:ethyl_cyanoacrylate', Math.floor(glueAmount / 2)))
-            recipe.EUt(Math.ceil(eu * 1.2)).duration(duration)
+            recipe.EUt(Math.ceil(eu * 0.95)).duration(duration)
         } catch (err) { }
     })
     e.recipes.gtceu.assembler().EUt(8).duration(4.5 * 20).itemInputs('6x mekanism:ingot_steel', '2x minecraft:dropper').itemOutputs('16x pipez:item_pipe').inputFluids(Fluid.of('oritong:latex', 2500))

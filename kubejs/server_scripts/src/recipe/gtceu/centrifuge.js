@@ -5,4 +5,5 @@ ServerEvents.recipes(e => {
     e.recipes.gtceu.centrifuge().itemInputs('14x gtceu:cinnabar_dust').outputFluids(Fluid.of('gtceu:mercury', 7000)).itemOutputs('24x minecraft:redstone', '6x gtceu:sulfur_dust', '4x gtceu:realgar_dust').duration(17.4*20).EUt(30)
     e.recipes.gtceu.centrifuge().itemInputs('3x gtceu:gelled_toluene').inputFluids(Fluid.of('oritong:latex', 1200)).outputFluids(Fluid.of('gtceu:glue', 1600)).duration(3.25*20).EUt(32*4*4)
     e.recipes.gtceu.centrifuge().itemInputs('4x gtceu:quartzite_dust').itemOutputs('2x mekanism:dust_quartz', 'gtceu:mica_dust', 'gtceu:biotite_dust').duration(3*20).EUt(48)
+    e.recipes.gtceu.centrifuge('gtceu:decomposition_centrifuging__realgar').itemInputs('2x gtceu:realgar_dust').itemOutputs("gtceu:arsenic_dust", "gtceu:sulfur_dust", "gtceu:small_antimony_dust").duration(7.95*20).EUt(30)
 })

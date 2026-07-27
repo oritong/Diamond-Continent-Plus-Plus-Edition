@@ -11,7 +11,7 @@ ServerEvents.recipes(e => {
     e.recipes.gtceu.electric_blast_furnace().itemInputs('kubejs:raw_alumina_ceramic_block').inputFluids(Fluid.of('gtceu:nitrogen', 500)).itemOutputs('gtceu:alumina_ceramic_block').EUt(120).duration(600).blastFurnaceTemp(2700)
     //碳化钛陶瓷
 })
-//氧化铝陶瓷
+//氮化铝陶瓷
 /*
 5(绿色)蓝宝石粉+6氢氧化钠粉=8铝酸钠粉+1000水 100t 120EU 化反chemical_reactor
 4铝酸钠+3000水=7氢氧化铝+1000氢氧化钠溶液 120t 30eu 搅拌mixer
@@ -22,7 +22,7 @@ ServerEvents.recipes(e => {
 9氧化铝陶瓷粉+1B胶水=氧化铝陶瓷粗坯 200t 500eu 化浸chemical_bath
 氧化铝陶瓷粗坯+500气态氮=氧化铝陶瓷块 600t 2700k 120eu 电高
 */
-//钛陶瓷
+//氮化钛陶瓷
 /*
 2钛粉+1000气态氮=2氮化钛陶瓷粉 20t 480EU 3400k 电高
 9氮化钛+1000环氧树脂=氮化钛陶瓷粗坯 200t 500eu 化浸

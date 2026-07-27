@@ -138,8 +138,7 @@ let material_gt_key_zh_cn = [
     ['deactivated_meteor_precipitate', '失活陨石沉淀物']
 ]
 let fluid_js_zh_cn = [
-    ['glimmer', '"微光"'],
-    ['latex', '胶乳']
+    ['glimmer', '"微光"']
 ]
 let mbd2_key_zh_cn = [
     ['glimmer_collector', '"微光"收集者'],

@@ -4,6 +4,10 @@ ServerEvents.tags('fluid', e => {
     e.remove('minecraft:water', 'createaddition:bioethanol')
     e.remove('minecraft:water', 'createaddition:flowing_bioethanol')
     e.add('oritong:glimmer', 'oritong:glimmer')
+    // e.remove('forge:steam', 'embers:flowing_steam')
+    // e.remove('forge:steam', 'mekanism:flowing_steam')
+    // e.remove('forge:steam', 'embers:steam')
+    // e.remove('forge:steam', 'mekanism:steam')
 })
 ServerEvents.tags('item', e => {
     no_fire_burn.forEach(a => {

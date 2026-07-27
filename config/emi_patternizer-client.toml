@@ -1,0 +1,12 @@
+#Delay per click
+#Range: 0 ~ 9223372036854775807
+delayPerOperation = 60
+#Additional delay after 3 clicks
+#Range: 0 ~ 9223372036854775807
+delayAdditionalPerPattern = 20
+#Delay before read patterns from terminal (Unit: Millisecond)
+#Range: 0 ~ 9223372036854775807
+delayBeforeRead = 1000
+#Play a sound after recipe fill
+isPlaySound = true
+

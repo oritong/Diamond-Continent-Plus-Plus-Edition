@@ -191,9 +191,9 @@ ClientEvents.lang('zh_cn', e => {
         e.add('tt.' + key, text)
     })
     color_tooltip_added.forEach(key => {
-        e.add('tt.' + key, '由钻石大陆嘉豪版添加')
+        e.add('tt.' + key, '由钻石大陆加豪版添加')
     })
     color_tooltip_modified.forEach(key => {
-        e.add('tt.' + key, '由钻石大陆嘉豪版修改')
+        e.add('tt.' + key, '由钻石大陆加豪版修改')
     })
 })

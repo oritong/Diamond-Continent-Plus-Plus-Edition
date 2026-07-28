@@ -42,6 +42,9 @@ let item_js_key_zh_cn = [
     ['physics_assembler', '物理组装器'],
     ['wood_ingot', '木锭'],
     ['silver_catalyst', '银基催化剂'],
+    ['overworld_data', '主世界数据'],
+    ['nether_data', '下界数据'],
+    ['end_data', '末地数据'],
     ['lost_item', '§c遗忘之物'],
     ['sn1ckers', '土力架']
 ]
@@ -146,11 +149,13 @@ let mbd2_key_zh_cn = [
 ]
 let gt_machine_zh_cn = [
     ['pcb_factory', 'PCB工厂'],
-    ['hyperdimensional_chemical_plant', '超维度等分子化工厂']
+    ['hyperdimensional_chemical_plant', '超维度等分子化工厂'],
+    ['directional_void_miner', '定向虚空矿机']
 ]
 let gt_recipe_type_zh_cn = [
     ['pcb_factory', 'PCB工厂'],
     ['super_chemical_plant', '超级化工厂'],
+    ['directional_void_miner', '定向虚空矿机']
 ]
 ClientEvents.lang('zh_cn', e => {
     key_zh_cn.forEach(([key, value]) => {

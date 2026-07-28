@@ -6,12 +6,13 @@
 	icon: "functionalstorage:diamond_upgrade"
 	id: "598AFF5D01053529"
 	images: [{
-		height: 8.0d
-		image: "kubejs:item/meow"
+		click: "quest_enhance:text_v2:17:minecraft:default这里应该有一个AI生成的玛门"
+		height: 0.4583333333333333d
+		image: ""
 		rotation: 0.0d
-		width: 8.0d
+		width: 4.5d
 		x: -3.0d
-		y: 1.0d
+		y: 2.0d
 	}]
 	order_index: 0
 	quest_links: [ ]
@@ -19,11 +20,6 @@
 		{
 			description: [
 				"微光收集者的贴图没做，，"
-				""
-				"剧情梗概是有个村有无限钻石矿，人们强行开采，最终惹出了贪婪恶魔玛门，全图图了"
-				"你是跨银河格雷科技有限公司的外勤员工，遭受FTB的小队袭击后迫降到这里"
-				""
-				"玛门形象参考上边那个&m我去扫福瑞&r"
 				""
 				"本包生物不自然生成 天气不改变 地图固定 时间固定 难度固定简单 开启作弊 默认生存 死亡不掉落 终为白日"
 				""
@@ -102,12 +98,7 @@
 		}
 		{
 			dependencies: ["4802924569365AFC"]
-			description: [
-				"将微光收集器置于1~5级的光中，它会缓慢收集微光"
-				"你可以打开F3来查看脚下的光亮度"
-				""
-				"这个马上就会被改成看y轴高度了，换成gt的机器"
-			]
+			description: ["将微光收集器放置在地底，然后挖开上方的方块，并且放一个太阳能板在顶端，可以缓慢的收集“微光”"]
 			id: "0D0716578DCCE42C"
 			rewards: [
 				{
@@ -1825,7 +1816,7 @@
 		}
 		{
 			dependencies: ["02F76171AF0EBF9A"]
-			description: ["在这个整合包里，&d支配之杖&r拥有&a森林法杖&r的所有功能"]
+			description: ["在这个整合包里，&d支配之杖&r拥有&a森林法杖&r的所有功能，但请注意，现在切换模式只对着空气生效"]
 			id: "0590C0C35A7877C3"
 			tasks: [{
 				id: "0C3A3403AA00593C"

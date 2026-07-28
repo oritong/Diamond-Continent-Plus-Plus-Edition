@@ -1007,7 +1007,10 @@
 		}
 		{
 			dependencies: ["1E2721FDD3080AED"]
-			description: ["不过你只能做单方块的覆盖版，距离多方块无线电还有那么一段距离"]
+			description: [
+				"如果你找不到焊锡的锑从哪里来，你可以看看雄黄粉的离心"
+				"不过你只能做单方块的覆盖版，距离多方块无线电还有那么一段距离"
+			]
 			id: "011B940C0130D153"
 			rewards: [
 				{
@@ -2142,15 +2145,15 @@
 		{
 			dependencies: ["47557042D9E07961"]
 			description: [
-				"占位：定向虚空矿机"
-				"定向虚空矿机可以快速开采你指定的矿物，但是它需要消耗对应的宝石浆液与钻井液"
+				"定向虚空矿机可以快速开采你指定的矿物或流体，但是它需要消耗对应的宝石浆液与钻井液"
 				"请注意：它在流程上是必须的"
 			]
 			hide_dependent_lines: true
 			id: "0FE94778F3C9A0BC"
 			tasks: [{
-				id: "6D4013417EAD8DD4"
-				type: "checkmark"
+				id: "017950D9B27C2E2C"
+				item: "gtceu:directional_void_miner"
+				type: "item"
 			}]
 			x: 24.5d
 			y: -3.0d

@@ -39,6 +39,8 @@ ServerEvents.recipes(e => {
     e.recipes.gtceu.assembler().itemInputs('4x gtceu:steel_rod', '2x gtceu:lv_field_generator', 'gtceu:aluminium_crate', 'ae2:fluix_crystal', 'gtceu:aluminium_drum').itemOutputs('ae2:interface').EUt(40).duration(8 * 20)
     e.recipes.gtceu.packer().itemInputs('ae2:interface').itemOutputs('ae2:cable_interface').EUt(8).duration(2 * 20)
     e.recipes.gtceu.packer().itemInputs('ae2:cable_interface').itemOutputs('ae2:interface').EUt(8).duration(2 * 20)
+    e.recipes.gtceu.packer().itemInputs('ae2:cable_pattern_provider').itemOutputs('ae2:pattern_provider').EUt(8).duration(2 * 20)
+    e.recipes.gtceu.packer().itemInputs('ae2:pattern_provider').itemOutputs('ae2:cable_pattern_provider').EUt(8).duration(2 * 20)
     e.recipes.gtceu.assembler().itemInputs('3x gtceu:aluminium_ingot', '2x gtceu:mv_electric_motor', 'ae2:fluix_crystal').itemOutputs('ae2:annihilation_plane').EUt(40).duration(8 * 20)
     e.shaped('ae2:interface', [
         'ABA',
@@ -61,15 +63,114 @@ ServerEvents.recipes(e => {
         C: 'ae2:fluix_crystal'
     })
     e.shaped('ae2:drive', [
-    'ABC',
-    'BDE',
-    'FBC'
+        'ABC',
+        'BDE',
+        'FBC'
+    ], {
+        A: 'gtceu:blue_alloy_screw',
+        B: 'gtceu:stainless_steel_plate',
+        C: 'kubejs:general_circuit_hv',
+        D: 'gtceu:hv_machine_hull',
+        E: 'replication:chip_storage',
+        F: 'gtceu:red_alloy_screw'
+    })
+    e.shaped('ae2:molecular_assembler', [
+        'ABA',
+        'CDE',
+        'CFE'
+    ], {
+        A: 'kubejs:general_circuit_hv',
+        B: 'gtceu:hv_robot_arm',
+        C: 'gtceu:hv_electric_motor',
+        D: 'gtceu:cleanroom_glass',
+        E: 'gtceu:hv_conveyor_module',
+        F: 'gtceu:stainless_steel_frame'
+    })
+    e.shaped('expatternprovider:ex_molecular_assembler', [
+        'ABA',
+        'CDC',
+        'ACA'
+    ], {
+        A: 'kubejs:general_circuit_hv',
+        B: 'gtceu:tungsten_steel_frame',
+        C: 'gtceu:hv_robot_arm',
+        D: 'ae2:molecular_assembler'
+    })
+    e.recipes.gtceu.mixer().itemInputs('4x minecraft:redstone', '6x gtceu:aluminium_dust', '8x ae2:certus_quartz_dust').itemOutputs('16x ae2:fluix_dust').EUt(60).duration(6 * 20).circuit(2)
+    e.shaped('ae2:pattern_provider', [
+        'ABA',
+        'CDC',
+        'AEA'
+    ], {
+        A: 'gtceu:polyethylene_plate',
+        B: 'gtceu:hv_electric_pump',
+        C: 'kubejs:general_circuit_hv',
+        D: 'ae2:interface',
+        E: 'gtceu:hv_conveyor_module'
+    })
+    e.recipes.gtceu.assembler().itemInputs('4x gtceu:polyethylene_plate', 'gtceu:hv_electric_pump', '2x kubejs:general_circuit_hv', 'ae2:interface', 'gtceu:hv_conveyor_module').itemOutputs('ae2:pattern_provider').EUt(80).duration(160)
+    e.recipes.gtceu.assembler().itemInputs('8x gtceu:double_stainless_steel_plate', '16x gtceu:aluminium_foil', '2x gtceu:nand_memory_chip', '2x gtceu:nor_memory_chip', '4x #gtceu:circuits/mv').itemOutputs('16x ae2:blank_pattern').inputFluids(Fluid.of('gtceu:polyethylene', 1296)).EUt(GTValues.VA[GTValues.HV]).duration(8 * 20)
+    e.recipes.gtceu.assembler().itemInputs('8x gtceu:double_titanium_plate', '16x gtceu:stainless_steel_foil', '4x gtceu:nand_memory_chip', '4x gtceu:nor_memory_chip', '4x #gtceu:circuits/ev').itemOutputs('64x ae2:blank_pattern').inputFluids(Fluid.of('gtceu:polytetrafluoroethylene', 1296)).EUt(GTValues.VA[GTValues.EV]).duration(4 * 20).cleanroom(CleanroomType.CLEANROOM)
+    e.recipes.gtceu.assembler().itemInputs('8x gtceu:double_rhodium_plated_palladium_plate', '16x gtceu:platinum_foil', '8x gtceu:nand_memory_chip', '8x gtceu:nor_memory_chip', '4x #gtceu:circuits/iv').itemOutputs('256x ae2:blank_pattern').inputFluids(Fluid.of('gtceu:polybenzimidazole', 1296)).EUt(GTValues.VA[GTValues.IV]).duration(2 * 20).cleanroom(CleanroomType.CLEANROOM)
+    e.shaped('2x ae2:semi_dark_monitor', [
+        ' AB',
+        ' AB',
+        ' AB'
+    ], {
+        A: 'ae2:fluix_dust',
+        B: 'gtceu:tempered_glass'
+    })
+    e.shaped('ae2:crafting_terminal', [
+        ' AB',
+        'CDE',
+        ' AB'
+    ], {
+        A: 'kubejs:general_circuit_hv',
+        B: 'gtceu:polyethylene_plate',
+        C: 'minecraft:crafting_table',
+        D: 'ae2:semi_dark_monitor',
+        E: 'gtceu:computer_monitor_cover'
+    })
+    e.shaped('expatternprovider:ex_pattern_access_part', [
+        ' AB',
+        'CDE',
+        ' AB'
+    ], {
+        A: 'kubejs:general_circuit_hv',
+        B: 'gtceu:polyethylene_plate',
+        C: 'ae2:blank_pattern',
+        D: 'ae2:semi_dark_monitor',
+        E: 'gtceu:computer_monitor_cover'
+    })
+    e.shaped('merequester:requester_terminal', [
+        ' AB',
+        'CDE',
+        ' AB'
+    ], {
+        A: 'kubejs:general_circuit_hv',
+        B: 'gtceu:polyethylene_plate',
+        C: 'merequester:requester',
+        D: 'ae2:semi_dark_monitor',
+        E: 'gtceu:computer_monitor_cover'
+    })
+    e.shaped('ae2:pattern_encoding_terminal', [
+        ' AB',
+        'CDE',
+        ' AB'
+    ], {
+        A: 'kubejs:general_circuit_hv',
+        B: 'gtceu:polyethylene_plate',
+        C: 'gtmthings:advanced_terminal',
+        D: 'ae2:semi_dark_monitor',
+        E: 'gtceu:computer_monitor_cover'
+    })
+    e.shaped('ae2:condenser', [
+    'ABA',
+    'BCB',
+    'ABA'
 ], {
-    A: 'gtceu:blue_alloy_screw',
-    B: 'gtceu:stainless_steel_plate',
-    C: 'kubejs:general_circuit_hv',
-    D: 'gtceu:hv_machine_hull',
-    E: 'replication:chip_storage',
-    F: 'gtceu:red_alloy_screw'
+    A: 'ae2:fluix_dust',
+    B: '#forge:glass_panes/colorless',
+    C: 'gtceu:steel_frame'
 })
 })

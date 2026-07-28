@@ -107,7 +107,29 @@ ItemEvents.tooltip(event => {
 	"tt.superflatcore:luv_4194304a_wireless_laser_source_hatch":{id:'superflatcore:luv_4194304a_wireless_laser_source_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
 	"tt.superflatcore:zpm_4194304a_wireless_laser_source_hatch":{id:'superflatcore:zpm_4194304a_wireless_laser_source_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
 	"tt.superflatcore:uv_4194304a_wireless_laser_source_hatch":{id:'superflatcore:uv_4194304a_wireless_laser_source_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
-	"tt.superflatcore:uhv_4194304a_wireless_laser_source_hatch":{id:'superflatcore:uhv_4194304a_wireless_laser_source_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2}
+	"tt.superflatcore:uhv_4194304a_wireless_laser_source_hatch":{id:'superflatcore:uhv_4194304a_wireless_laser_source_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:lv_dual_input_hatch":{id:'gtceu:lv_dual_input_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:mv_dual_input_hatch":{id:'gtceu:mv_dual_input_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:hv_dual_input_hatch":{id:'gtceu:hv_dual_input_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:ev_dual_input_hatch":{id:'gtceu:ev_dual_input_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:iv_dual_input_hatch":{id:'gtceu:iv_dual_input_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:lv_dual_output_hatch":{id:'gtceu:lv_dual_output_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:mv_dual_output_hatch":{id:'gtceu:mv_dual_output_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:hv_dual_output_hatch":{id:'gtceu:hv_dual_output_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:ev_dual_output_hatch":{id:'gtceu:ev_dual_output_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:iv_dual_output_hatch":{id:'gtceu:iv_dual_output_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:pcb_factory":{id:'gtceu:pcb_factory',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:hyperdimensional_chemical_plant":{id:'gtceu:hyperdimensional_chemical_plant',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:directional_void_miner":{id:'gtceu:directional_void_miner',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.ars_nouveau:dominion_wand":{id:'ars_nouveau:dominion_wand',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:luv_dual_input_hatch":{id:'gtceu:luv_dual_input_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:zpm_dual_input_hatch":{id:'gtceu:zpm_dual_input_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:uv_dual_input_hatch":{id:'gtceu:uv_dual_input_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:uhv_dual_input_hatch":{id:'gtceu:uhv_dual_input_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:luv_dual_output_hatch":{id:'gtceu:luv_dual_output_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:zpm_dual_output_hatch":{id:'gtceu:zpm_dual_output_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:uv_dual_output_hatch":{id:'gtceu:uv_dual_output_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2},
+	"tt.gtceu:uhv_dual_output_hatch":{id:'gtceu:uhv_dual_output_hatch',nodes:[[255,255,0],[0,255,255],[255,0,255]],length:4,time:2}
 	}
 	for(let key in colorfulnames){
 		let cname=colorfulnames[key];

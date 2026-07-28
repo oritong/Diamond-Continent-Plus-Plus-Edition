@@ -310,7 +310,9 @@ let banlists = [
     'createaddition:compat/tconstruct/rose_gold',
     'create:milling/cobblestone',
     'gtceu:bender/bend_titanium_nitride_ceramic_to_plate',
-    'gtceu:assembler/dual_import_bus_lv_polyethylene'
+    'gtceu:assembler/dual_import_bus_lv_polyethylene',
+    'gtceu:shaped/maintenance_hatch_automatic',
+    'gtceu:laser_engraver/engrave_ssoc_silicon'
 ]
 let ban_gt_tools = [
     'pickaxe',

@@ -44,6 +44,9 @@ StartupEvents.registry('item', e => {
     e.create('vaporeon_in_a_bottle')
     e.create('physics_assembler')
     e.create('silver_catalyst')
+    e.create('overworld_data').texture('kubejs:item/data_world')
+    e.create('nether_data').texture('kubejs:item/data_nether')
+    e.create('end_data').texture('kubejs:item/data_end')
     e.create('lost_item').texture('minecraft:item/barrier')
     e.create('sn1ckers').texture('create:item/bar_of_chocolate').food(foodBuilder => {
         foodBuilder.effect("minecraft:saturation", 75 * 20, 0, 1)

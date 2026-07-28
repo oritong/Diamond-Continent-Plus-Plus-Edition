@@ -5,4 +5,7 @@ ServerEvents.recipes(e => {
     e.recipes.botania.pure_daisy('minecraft:lava', 'gtceu:creosote')
     e.recipes.botania.pure_daisy('oritong:latex', 'kubejs:wood_block', 45)
     e.recipes.botania.pure_daisy('minecraft:emerald_block', 'botania:mana_diamond_block')
+    e.recipes.botania.pure_daisy('minecraft:emerald_block', 'gtceu:sapphire_block', 35)
+    e.recipes.botania.pure_daisy('gtceu:sapphire_block', 'gtceu:ruby_block', 35)
+    e.recipes.botania.pure_daisy('gtceu:ruby_block', 'minecraft:emerald_block', 35)
 })

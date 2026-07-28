@@ -141,7 +141,8 @@ let color_tooltip_added = [
     "gtceu:ev_dual_output_hatch",
     "gtceu:iv_dual_output_hatch",
     'gtceu:pcb_factory',
-    'gtceu:hyperdimensional_chemical_plant'
+    'gtceu:hyperdimensional_chemical_plant',
+    'gtceu:directional_void_miner'
 ]
 let color_tooltip_modified = [
     'gtceu:iv_parallel_hatch',
@@ -149,7 +150,6 @@ let color_tooltip_modified = [
     'gtceu:zpm_parallel_hatch',
     'gtceu:uv_parallel_hatch',
     'expatternprovider:infinity_cell',
-    'ae2:pattern_encoding_terminal',
     'merequester:requester',
     'ars_nouveau:dominion_wand',
     "gtceu:luv_dual_input_hatch",

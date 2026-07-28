@@ -129,6 +129,9 @@
   "pipez": {
     "pipe": true
   },
+  "industrial_platform": {
+    "common": true
+  },
   "replication": {
     "matter_tank": true
   },

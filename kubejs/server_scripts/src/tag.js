@@ -4,10 +4,6 @@ ServerEvents.tags('fluid', e => {
     e.remove('minecraft:water', 'createaddition:bioethanol')
     e.remove('minecraft:water', 'createaddition:flowing_bioethanol')
     e.add('oritong:glimmer', 'oritong:glimmer')
-    // e.remove('forge:steam', 'embers:flowing_steam')
-    // e.remove('forge:steam', 'mekanism:flowing_steam')
-    // e.remove('forge:steam', 'embers:steam')
-    // e.remove('forge:steam', 'mekanism:steam')
 })
 ServerEvents.tags('item', e => {
     no_fire_burn.forEach(a => {
@@ -25,6 +21,9 @@ ServerEvents.tags('block', e => {
     })
     e.add('oritong:grizzly_chute', 'kubejs:grizzly_chute')
     e.add('oritong:compress/diamond', 'kubejs:compress_diamond_block')
+    e.remove('sfm:anvil_printing_press_forming', 'copper_block')
+    e.remove('sfm:anvil_printing_press_forming', 'iron_block')
+    e.add('sfm:anvil_printing_press_forming', 'gtceu:steel_block')
 })
 let no_fire_burn = [
     'gtceu:wrought_iron_nugget',

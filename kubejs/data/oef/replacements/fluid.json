@@ -20,5 +20,26 @@
       "mekanism:steam"
     ],
     "resultFluid": "gtceu:steam"
+  },
+  {
+    "matchFluid": [
+      "mekanism:flowing_sulfuric_acid",
+      "mekanism:sulfuric_acid"
+    ],
+    "resultFluid": "gtceu:sulfuric_acid"
+  },
+  {
+    "matchFluid": [
+      "mekanism:flowing_oxygen",
+      "mekanism:oxygen"
+    ],
+    "resultFluid": "gtceu:oxygen"
+  },
+  {
+    "matchFluid": [
+      "mekanism:flowing_brine",
+      "mekanism:brine"
+    ],
+    "resultFluid": "gtceu:salt_water"
   }
 ]

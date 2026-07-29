@@ -19,6 +19,10 @@ ServerEvents.recipes(e => {
     e.remove({ type: 'replication:matter_value' })
     e.remove({ not: { type: 'gtceu:cutter' }, output: 'gtceu:alumina_ceramic_plate' })
     e.remove({ type: 'botania:mana_infusion' })
+    e.remove({ type: 'mekanism:chemical_infusing' })
+    e.remove({ type: 'mekanism:injecting' })
+    e.remove({ type: 'mekanism:rotary' })
+    e.remove({ type: 'mekanism:reaction' })
 })
 
 let banthings = [
@@ -120,7 +124,21 @@ let banthings = [
     "botania:rune_summer",
     "botania:rune_air",
     'gtceu:mv_energy_input_hatch',
-    "gtceu:hv_machine_hull"
+    "gtceu:hv_machine_hull",
+    'industrialforegoing:pink_slime_ingot',
+    'shrink:shrinking_device',
+    'occultism:wormhole_frame',
+    'sfm:cable',
+    'sfm:fancy_cable',
+    'sfm:labelgun',
+    "sfm:tunnelled_manager",
+    "sfm:manager",
+    "sfm:tough_cable",
+    "sfm:tough_fancy_cable",
+    "sfm:tunnelled_cable",
+    "sfm:tunnelled_fancy_cable",
+    'sfm:network_tool',
+    'gtceu:hv_energy_input_hatch',
 ]
 let banlists = [
     'minecraft:crafting_table',
@@ -299,6 +317,7 @@ let banlists = [
     'gtceu:shaped/conveyor_module_lv_rubber',
     'gtceu:shaped/conveyor_module_lv_silicone_rubber',
     'gtceu:mixer/palladium_on_carbon',
+    'gtceu:shapeless/centrifuged_ore_to_dust_neutronium',
     'tconstruct:smeltery/casting/seared/smeltery_controller',
     'gtceu:centrifuge/quartz_sand_separation',
     'gtceu:alloy_smelter/alloy_smelt_alumina_ceramic_dust_to_block',
@@ -312,7 +331,16 @@ let banlists = [
     'gtceu:bender/bend_titanium_nitride_ceramic_to_plate',
     'gtceu:assembler/dual_import_bus_lv_polyethylene',
     'gtceu:shaped/maintenance_hatch_automatic',
-    'gtceu:laser_engraver/engrave_ssoc_silicon'
+    'gtceu:laser_engraver/engrave_ssoc_silicon',
+    'gtceu:forge_hammer/hammer_titanium_nitride_ceramic_to_plate',
+    'gtceu:extruder/extrude_titanium_nitride_ceramic_to_plate',
+    'gtceu:shaped/plate_titanium_nitride_ceramic',
+    'gtceu:alloy_smelter/alloy_smelt_titanium_nitride_ceramic_dust_to_block',
+    'gtceu:smelting/smelt_dust_titanium_nitride_ceramic_to_ingot',
+    'sfm:program_copy',
+    'sfm:disk',
+    'moreburners:converter_cover',
+    'moreburners:item_application/heat_converter',
 ]
 let ban_gt_tools = [
     'pickaxe',

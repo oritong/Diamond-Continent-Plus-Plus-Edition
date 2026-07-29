@@ -11,4 +11,5 @@ ServerEvents.recipes(e => {
     e.recipes.kubejs.shapeless('create:large_cogwheel', ['create:cogwheel', 'gtceu:treated_wood_planks'])
     e.recipes.kubejs.shapeless('create:cogwheel', ['create:shaft', 'gtceu:treated_wood_planks'])
     e.recipes.kubejs.shapeless('create:large_cogwheel', ['create:shaft', 'gtceu:treated_wood_planks', 'gtceu:treated_wood_planks'])
+    e.recipes.kubejs.shapeless('sfm:disk', ['sfm:disk'])
 })

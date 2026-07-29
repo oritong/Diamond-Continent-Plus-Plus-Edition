@@ -24,7 +24,8 @@ let tooltip_zh_cn = [
     ['kubejs:general_circuit_max', 'MAX级电路'],
     ['kubejs:physics_assembler', '在几年后的世界似乎可以将黏在一起的东西变得"物理化"，可惜现在只是一个能帮助太空电梯模块运行的核心硬件'],
     ['gtceu:pcb_factory', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：PCB工厂'],
-    ['gtceu:hyperdimensional_chemical_plant', '耗时倍数：0.2，耗能倍数：0.4\n按照线圈温度并行，每提高900K并行x2\n此机器以批处理模式运行配方\n仅支持激光仓\n该机器拥有跨配方并行机制\n无损超频\n可用配方类型：大型化学反应釜、化学浸洗机、超级化工厂、PCB工厂']
+    ['gtceu:hyperdimensional_chemical_plant', '耗时倍数：0.2，耗能倍数：0.4\n按照线圈温度并行，每提高900K并行x2\n此机器以批处理模式运行配方\n仅支持激光仓\n该机器拥有跨配方并行机制\n无损超频\n可用配方类型：大型化学反应釜、化学浸洗机、超级化工厂、PCB工厂'],
+    ['gtceu:directional_void_miner', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：定向虚空矿机']
 ]
 let color_tooltip_zh_cn = [
     ['avaritia:infinity_elytra', '"圣城！请带着无翼的我们乘风而起吧！"'],

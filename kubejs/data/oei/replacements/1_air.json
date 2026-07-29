@@ -663,7 +663,13 @@
             "mekanism:elite_logistical_transporter",
             "mekanism:ultimate_logistical_transporter",
             "mekanism:restrictive_transporter",
-            "mekanism:diversion_transporter"
+            "mekanism:diversion_transporter",
+            "gtceu:lp_steam_miner",
+            "gtceu:hp_steam_miner",
+            "gtceu:lv_miner",
+            "gtceu:mv_miner",
+            "gtceu:hv_miner",
+            "sfm:water_tank"
         ],
         "resultItems": "kubejs:lost_item"
     }

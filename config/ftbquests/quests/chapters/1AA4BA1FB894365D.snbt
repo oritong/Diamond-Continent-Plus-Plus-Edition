@@ -1961,6 +1961,11 @@
 		}
 		{
 			dependencies: ["0AB658BB37CE8852"]
+			description: [
+				"这里是魔法线！"
+				"想我了吗？"
+				"余烬炼金台如是说"
+			]
 			id: "212DB96CD57E4788"
 			tasks: [{
 				id: "20FB65FFEA720A04"
@@ -1975,6 +1980,7 @@
 				"107EAEEE788AF74B"
 				"012BAB48DF58C558"
 			]
+			description: ["老大你怎么在魔法线里"]
 			id: "2FE5EBFC1A6F6522"
 			tasks: [{
 				id: "070684942A2A4B0C"
@@ -2016,10 +2022,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"30878E395CA397A5"
-				"0AB658BB37CE8852"
-			]
+			dependencies: ["30878E395CA397A5"]
 			id: "7D7F11A4AB3D66EE"
 			tasks: [{
 				id: "52B0AC7F81855663"
@@ -2102,6 +2105,7 @@
 		}
 		{
 			dependencies: ["212DB96CD57E4788"]
+			description: ["不过，你可以在IV做了镧系处理后获得它"]
 			icon: {
 				Count: 1
 				id: "entangled:block"
@@ -2147,9 +2151,30 @@
 			description: [
 				"定向虚空矿机可以快速开采你指定的矿物或流体，但是它需要消耗对应的宝石浆液与钻井液"
 				"请注意：它在流程上是必须的"
+				"目前没有完全做好，所以你可以带上这个"
 			]
 			hide_dependent_lines: true
 			id: "0FE94778F3C9A0BC"
+			rewards: [
+				{
+					count: 64
+					id: "339B3F8A7830393C"
+					item: "kubejs:overworld_data"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7DE5D681C656D9A1"
+					item: "kubejs:nether_data"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "008E709821369161"
+					item: "kubejs:end_data"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "017950D9B27C2E2C"
 				item: "gtceu:directional_void_miner"
@@ -2338,14 +2363,12 @@
 		}
 		{
 			dependencies: ["36B47A0460B23945"]
-			description: [
-				"占位：等级更高的锭"
-				"从现在开始，你可以制作大型机器了，可喜可贺，可喜可贺"
-			]
+			description: ["从现在开始，你可以制作大型机器了，可喜可贺，可喜可贺"]
 			id: "1A244E61C382C390"
 			tasks: [{
-				id: "137F22A4F9D408BA"
-				type: "checkmark"
+				id: "5D4A9686DCA2B98A"
+				item: "gtceu:beryllium_copper_ingot"
+				type: "item"
 			}]
 			x: 30.5d
 			y: 3.0d
@@ -2444,7 +2467,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["78E37B173F124C9F"]
+			dependencies: [
+				"78E37B173F124C9F"
+				"0173FC868285B307"
+			]
 			id: "0A5F155793BE9E9E"
 			tasks: [{
 				id: "00D31315B1775D87"
@@ -2493,8 +2519,8 @@
 			dependencies: ["0173FC868285B307"]
 			id: "2D41563340CB3631"
 			tasks: [{
-				id: "2EE62F77078008F6"
-				item: "constructionwand:core_angel"
+				id: "35C99EF9114D3362"
+				item: "avaritia:infinity_elytra"
 				type: "item"
 			}]
 			x: 27.5d
@@ -2953,6 +2979,27 @@
 			}]
 			x: 9.0d
 			y: -1.5d
+		}
+		{
+			id: "16AE7119AE156B0D"
+			tasks: [{
+				id: "421A17FA33CDA11C"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: 44.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["063FD60FD3B0E34D"]
+			id: "34AF0DC553FADADB"
+			tasks: [{
+				id: "0FD828151C73ACCA"
+				item: "gtceu:cleaning_maintenance_hatch"
+				type: "item"
+			}]
+			x: 33.5d
+			y: 3.0d
 		}
 	]
 	title: "第二章 第零次工业革命"

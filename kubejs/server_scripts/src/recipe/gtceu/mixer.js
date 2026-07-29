@@ -4,4 +4,5 @@ ServerEvents.recipes(e => {
     e.recipes.gtceu.mixer().EUt(6).duration(20).itemInputs('minecraft:paper', 'mekanism:dust_diamond').itemOutputs('createaddition:diamond_grit_sandpaper')
     e.recipes.gtceu.mixer().EUt(96).duration(20*4).itemInputs('3x gtceu:sodium_hydroxide_dust').inputFluids(Fluid.of('minecraft:water', 1000)).outputFluids(Fluid.of('gtceu:sodium_hydroxide_solution', 1000))
     e.recipes.gtceu.mixer().inputFluids(Fluid.of('oritong:glimmer', 750), Fluid.of('industrialforegoing:pink_slime', 250)).outputFluids(Fluid.of('gtceu:pink_glimmer', 1000)).duration(6*20).EUt(GTValues.VA[GTValues.MV])
+    e.recipes.gtceu.mixer().itemInputs('8x gtceu:copper_dust', 'gtceu:beryllium_dust').circuit(2).itemOutputs('9x gtceu:beryllium_copper_dust').duration(26*20).EUt(GTValues.VA[GTValues.HV])
 })

@@ -87,4 +87,5 @@ GTCEuStartupEvents.registry('gtceu:material', e => {
     e.create('mixed_quartz_fiber').dust().color(0xd8e8f0)
     e.create('tungsten_trioxide').dust().color(0x00cc00).components("1x tungsten", "3x oxygen")
     e.create('deactivated_meteor_precipitate').dust().color(0x1a1a1a)
+    e.create('beryllium_copper').ingot().color(0x4a8c6f).iconSet(GTMaterialIconSet.METALLIC).flags(GTMaterialFlags.GENERATE_PLATE).blastTemp(2800, 'MID', 1000, 768).components("1x beryllium", "8x copper").flags(GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING).liquid()
 })

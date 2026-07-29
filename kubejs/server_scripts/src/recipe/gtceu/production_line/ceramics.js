@@ -9,7 +9,10 @@ ServerEvents.recipes(e => {
     e.recipes.gtceu.compressor().itemInputs('12x gtceu:alumina_ceramic_dust').itemOutputs('kubejs:raw_alumina_ceramic_block').EUt(120).duration(800)
     e.recipes.gtceu.chemical_bath().itemInputs('9x gtceu:alumina_ceramic_dust').inputFluids(Fluid.of('gtceu:glue', 1000)).itemOutputs('kubejs:raw_alumina_ceramic_block').EUt(500).duration(200)
     e.recipes.gtceu.electric_blast_furnace().itemInputs('kubejs:raw_alumina_ceramic_block').inputFluids(Fluid.of('gtceu:nitrogen', 500)).itemOutputs('gtceu:alumina_ceramic_block').EUt(120).duration(600).blastFurnaceTemp(2700)
-    //碳化钛陶瓷
+    //氮化钛陶瓷
+    e.recipes.gtceu.electric_blast_furnace().itemInputs('2x gtceu:titanium_dust').inputFluids(Fluid.of('gtceu:nitrogen', 1000)).itemOutputs('2x gtceu:titanium_nitride_ceramic_dust').EUt(480).duration(20).blastFurnaceTemp(3400)
+    e.recipes.gtceu.chemical_bath().itemInputs('9x gtceu:titanium_nitride_ceramic_dust').inputFluids(Fluid.of('gtceu:epoxy', 1000)).itemOutputs('kubejs:raw_titanium_nitride_ceramic_block').EUt(500).duration(200)
+    e.recipes.gtceu.electric_blast_furnace().itemInputs('kubejs:raw_titanium_nitride_ceramic_block').inputFluids(Fluid.of('gtceu:nitrogen', 500)).itemOutputs('gtceu:titanium_nitride_ceramic_block').EUt(120).duration(600).blastFurnaceTemp(2700)
 })
 //氮化铝陶瓷
 /*

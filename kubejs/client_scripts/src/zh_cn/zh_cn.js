@@ -138,7 +138,8 @@ let material_gt_key_zh_cn = [
     ['excited_meteor_slurry', '激发态陨石浆液'],
     ['excited_space_fluid', '激发太空流体'],
     ['space_glimmer_mixture', '太空"微光"混合液'],
-    ['deactivated_meteor_precipitate', '失活陨石沉淀物']
+    ['deactivated_meteor_precipitate', '失活陨石沉淀物'],
+    ['beryllium_copper', '铍铜合金']
 ]
 let fluid_js_zh_cn = [
     ['glimmer', '"微光"']

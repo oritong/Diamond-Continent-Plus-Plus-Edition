@@ -179,7 +179,14 @@ ItemEvents.tooltip(event => {
 		nodes:[[255,255,0],[0,255,255],[255,0,255]],
 		length:4,
 		time:2
-	}
+	},
+	{
+		id:"angelring:angel_ring",
+		name:"天使戒指",
+		nodes:[[255,255,0],[0,255,255],[255,0,255]],
+		length:4,
+		time:2
+	}	
 	]
 	for(let i=0;i<colorfulnames_static.length;i++){
 		let cname=colorfulnames_static[i];

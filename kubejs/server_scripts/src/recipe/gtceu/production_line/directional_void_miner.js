@@ -100,7 +100,7 @@ ServerEvents.recipes(e => {
             .inputFluids(Fluid.of('gtceu:drilling_fluid', 1000), Fluid.of('gtceu:sapphire_slurry', 20))
             .notConsumable('kubejs:overworld_data')
             .circuit(parseInt(overworld_ore[1]))
-            .EUt(GTValues.VA[GTValues.EV])
+            .EUt(GTValues.VA[GTValues.MV])
             .duration(20)
         let output = overworld_ore[0]
         output.forEach(item => {
@@ -163,9 +163,9 @@ ServerEvents.recipes(e => {
     nether_raw_ores.forEach((nether_ore) => {
         let recipe = e.recipes.gtceu.directional_void_miner("nether_void_ore_" + nether_ore[1])
             .inputFluids(Fluid.of('gtceu:drilling_fluid', 1000), Fluid.of('gtceu:green_sapphire_slurry', 20))
-            .notConsumable('2x kubejs:nether_data')
+            .notConsumable('kubejs:nether_data')
             .circuit(parseInt(nether_ore[1]))
-            .EUt(2 * GTValues.VA[GTValues.EV])
+            .EUt(2 * GTValues.VA[GTValues.HV])
             .duration(20)
         let output = nether_ore[0]
         output.forEach(item => {
@@ -201,9 +201,9 @@ ServerEvents.recipes(e => {
     end_raw_ores.forEach((end_ore) => {
         let recipe = e.recipes.gtceu.directional_void_miner("end_void_ore_" + end_ore[1])
             .inputFluids(Fluid.of('gtceu:drilling_fluid', 1000), Fluid.of('gtceu:ruby_slurry', 20))
-            .notConsumable('4x kubejs:end_data')
+            .notConsumable('kubejs:end_data')
             .circuit(parseInt(end_ore[1]))
-            .EUt(GTValues.VA[GTValues.IV])
+            .EUt(GTValues.VA[GTValues.EV])
             .duration(20)
         let output = end_ore[0]
         output.forEach(item => {

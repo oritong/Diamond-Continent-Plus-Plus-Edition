@@ -763,6 +763,46 @@ ServerEvents.recipes(e => {
         C: 'kubejs:general_circuit_hv',
         D: 'gtceu:hv_machine_hull',
         E: 'gtceu:red_steel_plate',
-        F: 'gtceu:damascus_steel_drill_head'
+        F: 'gtceu:stainless_steel_drill_head'
     })
+    e.shaped('shrink:shrinking_device', [
+        'ABC',
+        'DAB',
+        'BDA'
+    ], {
+        A: 'minecraft:ender_eye',
+        B: 'industrialforegoing:pink_slime_ingot',
+        C: '#forge:glass_panes/colorless',
+        D: 'embers:caminite_button'
+    })
+    e.shaped('4x occultism:wormhole_frame', [
+        'ABA',
+        'B B',
+        'ABA'
+    ], {
+        A: 'gtceu:electrum_ingot',
+        B: 'gtceu:damascus_steel_ingot'
+    })
+    e.shaped('sfm:labelgun', [
+        'AAB',
+        'CDA',
+        'DC '
+    ], {
+        A: 'gtceu:polyethylene_ingot',
+        B: 'gtceu:name_casting_mold',
+        C: 'gtceu:chemical_red_dye',
+        D: 'gtceu:polytetrafluoroethylene_rod'
+    })
+    e.shaped('sfm:network_tool', [
+    'ABC',
+    'DEB',
+    'FDA'
+], {
+    A: 'gtceu:lv_sodium_battery',
+    B: 'kubejs:general_circuit_hv',
+    C: 'gtceu:computer_monitor_cover',
+    D: 'gtceu:ulv_solar_panel',
+    E: 'gtceu:double_iron_plate',
+    F: 'gtceu:polyethylene_ingot'
+})
 })

@@ -6,6 +6,27 @@
 	id: "63C3B6C0CC35D841"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "1ADEA78EB8B1D00C"
+			tasks: [{
+				id: "14D715C527AD31D5"
+				item: "gtceu:pcb_factory"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "7D09E4B3AF3E42A3"
+			tasks: [{
+				id: "211542CA23760392"
+				item: "gtceu:hyperdimensional_chemical_plant"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+	]
 	title: "第三章 量子神秘仪式"
 }

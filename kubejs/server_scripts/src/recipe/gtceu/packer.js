@@ -1,4 +1,30 @@
 ServerEvents.recipes(e => {
+    function registerPipePacking(type) {
+        let tiers = [
+            'tiny_' + type,
+            'small_' + type,
+            'medium_' + type,
+            'large_' + type,
+            'huge_' + type
+        ]
+
+        for (let i = 0; i < tiers.length; i++) {
+            for (let j = 0; j < tiers.length; j++) {
+                if (i == j) continue
+
+                let amount = 4 ** Math.abs(i - j)
+
+                e.recipes.gtceu.packer()
+                    .itemInputs(`${i < j ? amount : 1}x curvy_pipes:${tiers[i]}`)
+                    .itemOutputs(`${i < j ? 1 : amount}x curvy_pipes:${tiers[j]}`)
+                    .circuit(j + 1)
+                    .EUt(16)
+                    .duration(4 * 20)
+            }
+        }
+    }
+    registerPipePacking('item_pipe')
+    registerPipePacking('fluid_pipe')
     let circuits = ['ulv', 'lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv', 'uhv', 'uev', 'uiv', 'uxv', 'opv', 'max']
     circuits.forEach((a, n) => {
         let tier = n + 1

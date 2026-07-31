@@ -25,6 +25,8 @@ ServerEvents.recipes(e => {
     e.recipes.minecraft.smithing_transform('createaddition:rolling_mill', 'create:shaft', 'create:andesite_casing', 'create:shaft')
     e.recipes.minecraft.smithing_transform('gtceu:wood_mallet', 'kubejs:wood_block', 'kubejs:wood_block', 'gtceu:treated_wood_rod')
     e.recipes.minecraft.smithing_transform('ars_nouveau:dominion_wand', 'kubejs:the_source_of_the_earth', 'gtceu:long_electrum_rod', 'minecraft:amethyst_block')
+    e.recipes.minecraft.smithing_transform('pipez:ultimate_upgrade', 'minecraft:netherite_upgrade_smithing_template', 'pipez:advanced_upgrade', 'minecraft:netherite_ingot')
+    e.recipes.minecraft.smithing_transform('angelring:angel_ring', 'gtceu:ender_eye_block', 'gtceu:electrum_ring', 'avaritia:infinity_elytra')
 })
 
 ServerEvents.recipes(e => {

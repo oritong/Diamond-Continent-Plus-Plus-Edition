@@ -8,4 +8,8 @@ ServerEvents.recipes(e => {
     e.recipes.botania.mana_infusion('botania:mana_pearl', 'minecraft:ender_pearl', 3612)
     e.recipes.botania.mana_infusion('9x botania:mana_pearl', 'gtceu:ender_pearl_block', 32508)
     e.recipes.botania.mana_infusion('replication:raw_replica', 'minecraft:glowstone_dust', 2000, 'botania:alchemy_catalyst')
+    e.recipes.botania.mana_infusion('minecraft:stone', 'minecraft:granite', 500)
+    e.recipes.botania.mana_infusion('minecraft:granite', 'minecraft:diorite', 500)
+    e.recipes.botania.mana_infusion('minecraft:diorite', 'minecraft:andesite', 500)
+    e.recipes.botania.mana_infusion('minecraft:andesite', 'minecraft:stone', 500)
 })

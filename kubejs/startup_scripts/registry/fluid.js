@@ -6,6 +6,7 @@ GTCEuStartupEvents.registry('gtceu:material', e => {
     e.create('enriched_redstone').liquid().color(0xe60000)
     e.create('diamond_ore_leachate').liquid().color(0xb7fff7)
     e.create('enriched_diamond').liquid().color(0x00f0ff)
+    e.create('enriched_obsidian').liquid().color(0x5c009c)
     e.create('sodium_hydroxide_solution').liquid().color(0x80f0f0)
     e.create('absolute_ethanol').liquid().color(0xffa500).components("2x carbon", "6x hydrogen", "1x oxygen")
     e.create('silica_gel_matrix').liquid().color(0x006060)

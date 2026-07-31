@@ -66,6 +66,7 @@ ServerEvents.recipes(e => {
     e.recipes.lychee.block_crushing('minecraft:diamond_block').post([Post.drop_item('4x gtceu:diamond_plate')])
     e.recipes.lychee.block_crushing('gtceu:quartzite_block').post([Post.drop_item('4x gtceu:quartzite_plate')])
     e.recipes.lychee.block_crushing('gtceu:lazurite_block').post([Post.drop_item('4x gtceu:lazurite_plate')])
+    e.recipes.lychee.block_crushing('minecraft:emerald_block').post([Post.drop_item('4x gtceu:emerald_plate')])
     e.recipes.lychee.block_crushing('kubejs:raw_compressed_fireclay').post([Post.drop_item('gtceu:compressed_fireclay')])
     e.recipes.lychee.item_inside('embers:dawnstone_ingot', 'oritong:glimmer').post([Post.place('minecraft:water'), Post.drop_item('gtceu:lead_dust')]).time(45)
     e.recipes.lychee.item_inside('minecart:stone', 'minecraft:water').post([Post.drop_item('minecraft:cobblestone'), Post.drop_item('minecraft:bone_meal').withChance('0.12'), Post.drop_item('mysticalagriculture:soulstone').withChance('0.04')]).time(10)

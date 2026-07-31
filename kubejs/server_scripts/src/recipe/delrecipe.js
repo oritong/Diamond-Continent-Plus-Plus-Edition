@@ -23,21 +23,15 @@ ServerEvents.recipes(e => {
     e.remove({ type: 'mekanism:injecting' })
     e.remove({ type: 'mekanism:rotary' })
     e.remove({ type: 'mekanism:reaction' })
+    e.remove({ type: 'minecraft:crafting_shaped', output: 'gtceu:lv_conveyor_module' })
+    e.remove({ type: 'minecraft:crafting_shaped', output: 'gtceu:mv_conveyor_module' })
+    e.remove({ type: 'minecraft:crafting_shaped', output: 'gtceu:hv_conveyor_module' })
+    e.remove({ type: 'minecraft:crafting_shaped', output: 'gtceu:ev_conveyor_module' })
+    e.remove({ type: 'mekanism:metallurgic_infusing' })
 })
 
 let banthings = [
     'botania:apothecary_plains',
-    'botania:apothecary_default',
-    'botania:apothecary_forest',
-    'botania:apothecary_swamp',
-    'botania:apothecary_mountain',
-    'botania:apothecary_fungal',
-    'botania:apothecary_mesa',
-    'botania:apothecary_desert',
-    'botania:apothecary_taiga',
-    'botania:apothecary_mossy',
-    'botania:apothecary_livingrock',
-    'botania:apothecary_deepslate',
     'botania:pure_daisy',
     'botania:mana_spreader',
     'botania:mana_void',
@@ -139,6 +133,40 @@ let banthings = [
     "sfm:tunnelled_fancy_cable",
     'sfm:network_tool',
     'gtceu:hv_energy_input_hatch',
+    "curvy_pipes:redstone_cable",
+    "functionalstorage:oak_1",
+    "functionalstorage:oak_2",
+    "functionalstorage:oak_4",
+    "functionalstorage:fluid_1",
+    "functionalstorage:fluid_2",
+    "functionalstorage:fluid_4",
+    "functionalstorage:linking_tool",
+    "functionalstorage:configuration_tool",
+    "functionalstorage:compacting_drawer",
+    "functionalstorage:compacting_framed_drawer",
+    "functionalstorage:storage_controller",
+    "functionalstorage:framed_storage_controller",
+    "functionalstorage:controller_extension",
+    "functionalstorage:framed_controller_extension",
+    "functionalstorage:copper_upgrade",
+    "functionalstorage:iron_downgrade",
+    "functionalstorage:collector_upgrade",
+    "functionalstorage:redstone_upgrade",
+    "functionalstorage:armory_cabinet",
+    "functionalstorage:void_upgrade",
+    "functionalstorage:puller_upgrade",
+    "functionalstorage:pusher_upgrade",
+    'pipez:filter_destination_tool',
+    "mekanism:teleporter",
+    "mekanism:teleporter_frame",
+    "mekanism:teleportation_core",
+    "mekanism:portable_teleporter",
+    'mekanism:hdpe_elytra',
+    'avaritia:infinity_elytra',
+    'gtceu:cleaning_maintenance_hatch',
+    'ae2:not_so_mysterious_cube',
+    'industrial_platform:industrial_platform',
+    'moreburners:electric_burner'
 ]
 let banlists = [
     'minecraft:crafting_table',
@@ -313,9 +341,6 @@ let banlists = [
     'gtceu:chemical_bath/paper_from_sugar_cane',
     'mekanism:cardboard_box',
     'industrialforegoing:diamond_gear',
-    'gtceu:shaped/conveyor_module_lv_styrene_butadiene_rubber',
-    'gtceu:shaped/conveyor_module_lv_rubber',
-    'gtceu:shaped/conveyor_module_lv_silicone_rubber',
     'gtceu:mixer/palladium_on_carbon',
     'gtceu:shapeless/centrifuged_ore_to_dust_neutronium',
     'tconstruct:smeltery/casting/seared/smeltery_controller',
@@ -341,6 +366,21 @@ let banlists = [
     'sfm:disk',
     'moreburners:converter_cover',
     'moreburners:item_application/heat_converter',
+    'curvy_pipes:item_base',
+    'curvy_pipes:fluid_base',
+    'sophisticatedbackpacks:backpack',
+    'ars_nouveau:imbuement_earth_essence',
+    'ars_nouveau:imbuement_fire_essence',
+    'minecraft:fire_charge',
+    'ars_nouveau:fire_essence_to_charge',
+    'tconstruct:smeltery/scorched/scorched_brick_kiln',
+    'tconstruct:smeltery/scorched/scorched_brick',
+    'tgears:compacting/scorched_brick',
+    'embers:alchemy/archaic_brick',
+    'tconstruct:smeltery/casting/scorched/brick_composite',
+    'entangled:block',
+    'ars_nouveau:imbuement_water_essence',
+    'expatternprovider:water_cell',
 ]
 let ban_gt_tools = [
     'pickaxe',

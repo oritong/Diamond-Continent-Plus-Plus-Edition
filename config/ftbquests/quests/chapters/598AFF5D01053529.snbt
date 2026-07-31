@@ -23,6 +23,8 @@
 				""
 				"本包生物不自然生成 天气不改变 地图固定 时间固定 难度固定简单 开启作弊 默认生存 死亡不掉落 终为白日"
 				""
+				"应急物品里每过一段时间可以领取几个土力架"
+				""
 				"前期在没出镐子之前很多方块都能直接用扳手扳掉，比如钻石矿，所以请试试"
 				""
 				"暂时还没禁用/fly指令，如果你想飞就输入一个，HV末可以做无消耗的天使指环"
@@ -126,7 +128,7 @@
 			dependencies: ["4802924569365AFC"]
 			description: [
 				"用扳手潜行右键钻石矿，钻石矿会被拆除，原地留下小堆钻石粉"
-				"钻石是耐烧王，包括钻石粉（这描述怎么感觉在哪听过，怎么辉石呢）"
+				"钻石是耐烧王，包括钻石粉（这描述让你感到熟悉，怎么辉石呢）"
 			]
 			id: "3BD41D73FD9B3D23"
 			rewards: [
@@ -997,10 +999,7 @@
 		}
 		{
 			dependencies: ["02F76171AF0EBF9A"]
-			description: [
-				"把木块放在白雏菊周围9格进行转化，过一会就会变成一桶胶乳"
-				"现在EMI有BUG，莫名的无法显示mbd2的配方，可能之后我给全面换成格雷配方系统会解决（画大饼）"
-			]
+			description: ["把木块放在白雏菊周围9格进行转化，过一会就会变成一桶胶乳"]
 			id: "30E4C47192BBF26C"
 			rewards: [
 				{
@@ -1017,8 +1016,8 @@
 				}
 			]
 			tasks: [{
-				id: "51EA590D7BD197B7"
-				item: "industrialforegoing:latex_bucket"
+				id: "7B20FB4E13311FB2"
+				item: "oritong:latex_bucket"
 				type: "item"
 			}]
 			x: 7.5d
@@ -1478,6 +1477,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "溶解之爱"
 			tasks: [{
 				id: "0BA1251274C8F71F"
 				item: "industrialforegoing:dissolution_chamber"
@@ -1485,49 +1485,6 @@
 			}]
 			x: 9.0d
 			y: 11.0d
-		}
-		{
-			dependencies: ["7503EF8B395A91F4"]
-			id: "70EA058F6AE7F57E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0EA255375B20A5ED"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "47223AE7639EBA1F"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
-			tasks: [
-				{
-					id: "52CFD39ACB0F1766"
-					item: "pipez:item_pipe"
-					type: "item"
-				}
-				{
-					id: "58635C5FA8BCF4B4"
-					item: "pipez:fluid_pipe"
-					type: "item"
-				}
-				{
-					id: "34F066AD426D9155"
-					item: "pipez:energy_pipe"
-					type: "item"
-				}
-				{
-					id: "068678E26E2EA9C3"
-					item: "pipez:universal_pipe"
-					type: "item"
-				}
-			]
-			title: "PIPEZ"
-			x: 9.0d
-			y: 12.5d
 		}
 		{
 			dependencies: ["1DFFF478176609DD"]
@@ -1646,7 +1603,7 @@
 			description: [
 				"恭喜你完成了第一章"
 				"接下来是第二章"
-				"这个东西给你，防止你真的饿死"
+				"这个东西给你，它可以给你喝很多好喝的汽水"
 				"如果你搞丢了它，你只能在MV把它重新制作回来了"
 			]
 			id: "71D253D427B51A9F"

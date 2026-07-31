@@ -345,7 +345,7 @@
 	#.
 	#配置哪些流体可被无限抽取。
 	#允许值：ALLOW_ALL（允许全部）, DENY_ALL（禁止全部）, ALLOW_BY_TAG（按标签允许）, DENY_BY_TAG（按标签禁止）
-	bottomlessFluidMode = "ALLOW_BY_TAG"
+	bottomlessFluidMode = "DENY_ALL"
 	#.
 	#是否允许软管滑轮放置流体源方块。
 	fluidFillPlaceFluidSourceBlocks = true

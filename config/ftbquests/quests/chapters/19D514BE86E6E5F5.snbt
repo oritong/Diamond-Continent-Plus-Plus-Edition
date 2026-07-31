@@ -1,0 +1,1052 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "19D514BE86E6E5F5"
+	group: ""
+	icon: "create:fluid_pipe"
+	id: "19D514BE86E6E5F5"
+	images: [
+		{
+			click: "quest_enhance:text_v2:17:minecraft:defaultCurvy Pipes"
+			height: 0.9d
+			image: ""
+			rotation: 0.0d
+			width: 2.6d
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default功能性存储"
+			height: 0.9d
+			image: ""
+			rotation: 0.0d
+			width: 2.6d
+			x: -14.0d
+			y: -5.0d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:defaultPipez"
+			height: 0.9d
+			image: ""
+			rotation: 0.0d
+			width: 2.6d
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default机械动力：存储"
+			height: 0.9d
+			hover: ["我的意思是，你是在什么情况下才会用到机械动力？"]
+			image: ""
+			rotation: 0.0d
+			width: 2.6d
+			x: -14.0d
+			y: 2.0d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default机械动力：物流"
+			height: 0.9d
+			hover: ["我的意思是，你是在什么情况下才会用到机械动力？"]
+			image: ""
+			rotation: 0.0d
+			width: 2.6d
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default精妙背包"
+			height: 0.9d
+			image: ""
+			rotation: 0.0d
+			width: 2.6d
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default←存储"
+			height: 4.8d
+			image: ""
+			rotation: 0.0d
+			width: 4.0d
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default物流→"
+			height: 4.8d
+			image: ""
+			rotation: 0.0d
+			width: 4.0d
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default超级工厂管理器"
+			height: 0.9d
+			image: ""
+			rotation: 0.0d
+			width: 2.6d
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default超越维度"
+			height: 0.9d
+			image: ""
+			rotation: 0.0d
+			width: 2.6d
+			x: -14.0d
+			y: 5.0d
+		}
+	]
+	order_index: 3
+	quest_links: [
+		{
+			id: "7D8EB469A653EC72"
+			linked_quest: "67F7313F0F3B2383"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			id: "3C683B47FC6AFE29"
+			linked_quest: "4391D56AFCC8F76B"
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			id: "1BFB22B78125EF6D"
+			linked_quest: "5C83119D6F756527"
+			x: -5.0d
+			y: -3.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "186B547984ABE85E"
+			tasks: [{
+				id: "06B35AAF19654E4D"
+				item: "functionalstorage:oak_1"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "04B444CB6104D0A5"
+			tasks: [{
+				id: "4D6E2554A28F749F"
+				item: "functionalstorage:oak_2"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "0136149C6080190C"
+			tasks: [{
+				id: "6F96DDB8CD6E0FE7"
+				item: "functionalstorage:oak_4"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "396CB9F305D8100B"
+			tasks: [{
+				id: "5A46559839371D5B"
+				item: "functionalstorage:fluid_1"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "6381E415230B7A1A"
+			tasks: [{
+				id: "1A7D26E63656692E"
+				item: "functionalstorage:fluid_2"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "5E1B621AACC7BAFD"
+			tasks: [{
+				id: "0A10C5EA2D1C460E"
+				item: "functionalstorage:fluid_4"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "7964F50BA09D10EB"
+			tasks: [{
+				id: "4820420022C6E543"
+				item: "functionalstorage:framed_1"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "2C634EB4E668328D"
+			tasks: [{
+				id: "22ABA72024A28659"
+				item: "functionalstorage:framed_2"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "22A53638DAB73509"
+			tasks: [{
+				id: "169ACF6B51F4B544"
+				item: "functionalstorage:framed_4"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "33CEE968BC2CCCE9"
+			tasks: [{
+				id: "4DDF127113F2825D"
+				item: "functionalstorage:compacting_drawer"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "2441FE8F6FD9FF15"
+			tasks: [{
+				id: "525FC380CE1A418A"
+				item: "functionalstorage:compacting_framed_drawer"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "23B2E4F8EE42A569"
+			tasks: [{
+				id: "29CF68D22B05B5F3"
+				item: "functionalstorage:armory_cabinet"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "1EE01CDD899BBC8E"
+			tasks: [{
+				id: "0629F3667ECB7C45"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "661373FEA25C6313"
+			tasks: [{
+				id: "24BE300AFCD2A4C8"
+				item: "functionalstorage:controller_extension"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "532E2E2646E2DE93"
+			tasks: [{
+				id: "2534566441A52355"
+				item: "functionalstorage:framed_storage_controller"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "48718B142B3EF368"
+			tasks: [{
+				id: "18D43506305C3F88"
+				item: "functionalstorage:framed_controller_extension"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "30CE2A403B4F98E9"
+			tasks: [{
+				id: "552A2C6B16AFBD97"
+				item: {
+					Count: 1
+					id: "functionalstorage:linking_tool"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -20.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "29F2FF035B46F016"
+			tasks: [{
+				id: "56329611FEC083B6"
+				item: "functionalstorage:configuration_tool"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "3D532016D75F8996"
+			tasks: [{
+				id: "0ECE4690771D6600"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"2A5A5515DF1BD1FB"
+				"3D532016D75F8996"
+			]
+			id: "193ECB5B94D53DC5"
+			tasks: [{
+				id: "347680D1FD7F6C72"
+				item: "functionalstorage:gold_upgrade"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"2A5A5515DF1BD1FB"
+				"193ECB5B94D53DC5"
+			]
+			id: "3EC86D3F9C76A784"
+			tasks: [{
+				id: "5C2A12E74A6F68E3"
+				item: "functionalstorage:diamond_upgrade"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2A5A5515DF1BD1FB"
+				"3EC86D3F9C76A784"
+			]
+			id: "4D6C81D06550E8B0"
+			tasks: [{
+				id: "10F417928019D1FE"
+				item: "functionalstorage:netherite_upgrade"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "41E2B7B5F41A5F48"
+			tasks: [{
+				id: "4EB4A7AAC6A271A6"
+				item: "functionalstorage:iron_downgrade"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "4A19C4AF6FE7BA6F"
+			tasks: [{
+				id: "29526CB27A34D485"
+				item: "functionalstorage:collector_upgrade"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "1B0428910317F6E4"
+			tasks: [{
+				id: "40180D1AAF3ADFD4"
+				item: "functionalstorage:puller_upgrade"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "031A11F5E65329B7"
+			tasks: [{
+				id: "31EFB4246FC2C680"
+				item: "functionalstorage:pusher_upgrade"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "4A4899F9F713F8DA"
+			tasks: [{
+				id: "63F93AE2E4C614DD"
+				item: "functionalstorage:void_upgrade"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "25CFCE3088E936A0"
+			tasks: [{
+				id: "63C358AF608F4BD0"
+				item: {
+					Count: 1
+					id: "functionalstorage:redstone_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -23.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["11260770ADD32CCE"]
+			id: "402FDB2B5DE9527E"
+			tasks: [{
+				id: "6AC9C791539D05AD"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["11260770ADD32CCE"]
+			id: "61EB257DBB9830BA"
+			tasks: [{
+				id: "7721EA176DB15494"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"402FDB2B5DE9527E"
+				"61EB257DBB9830BA"
+				"5C83119D6F756527"
+			]
+			id: "22975B715A5A36DA"
+			tasks: [{
+				id: "3E2E6926CCD89987"
+				item: "pipez:universal_pipe"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0A801BE87DDB3EF5"]
+			id: "2B5E39BF5EC11ADE"
+			tasks: [{
+				id: "5B1F4C86F07490EA"
+				item: "curvy_pipes:tiny_item_pipe"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0A801BE87DDB3EF5"
+				"2B5E39BF5EC11ADE"
+			]
+			id: "6341210EECCF79A8"
+			tasks: [{
+				id: "6E1BF8F840449723"
+				item: "curvy_pipes:small_item_pipe"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0A801BE87DDB3EF5"
+				"2B5E39BF5EC11ADE"
+			]
+			id: "3B6EE69E4009F537"
+			tasks: [{
+				id: "1CD14EDB75571904"
+				item: "curvy_pipes:medium_item_pipe"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0A801BE87DDB3EF5"
+				"2B5E39BF5EC11ADE"
+			]
+			id: "215B61932231466D"
+			tasks: [{
+				id: "48769208446A8FE6"
+				item: "curvy_pipes:large_item_pipe"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0A801BE87DDB3EF5"
+				"292D854C76652F4C"
+			]
+			id: "383DDDFB68A5737B"
+			tasks: [{
+				id: "69C69994A771CACC"
+				item: "curvy_pipes:large_fluid_pipe"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0A801BE87DDB3EF5"
+				"292D854C76652F4C"
+			]
+			id: "724BAE77F0CF31F7"
+			tasks: [{
+				id: "1173C9A1C8A4CD55"
+				item: "curvy_pipes:medium_fluid_pipe"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0A801BE87DDB3EF5"
+				"292D854C76652F4C"
+			]
+			id: "00BFED97E1CC1905"
+			tasks: [{
+				id: "251DFA1903CCC4D8"
+				item: "curvy_pipes:small_fluid_pipe"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A801BE87DDB3EF5"]
+			id: "292D854C76652F4C"
+			tasks: [{
+				id: "43FDAB7EB59EFA9F"
+				item: "curvy_pipes:tiny_fluid_pipe"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0A801BE87DDB3EF5"
+				"2B5E39BF5EC11ADE"
+			]
+			id: "104AC1944566F63D"
+			tasks: [{
+				id: "39894F58BF77B556"
+				item: "curvy_pipes:huge_item_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0A801BE87DDB3EF5"
+				"292D854C76652F4C"
+			]
+			id: "3C673789ACBA8898"
+			tasks: [{
+				id: "1C4036F5FC1D63CA"
+				item: "curvy_pipes:huge_fluid_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A801BE87DDB3EF5"]
+			id: "1395EDC196AF5A6A"
+			tasks: [{
+				id: "516B8D596B577F36"
+				item: "curvy_pipes:redstone_cable"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "6EAA8DA3EB22F0BC"
+			tasks: [{
+				id: "1E5D3F27D73F01D9"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0A801BE87DDB3EF5"]
+			id: "152278F79DEF8B0A"
+			tasks: [{
+				id: "71469CE94EC3048F"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5F7F2159EB60A4BE"]
+			id: "0F7231B67298D623"
+			tasks: [{
+				id: "08450F023B34808C"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0F7231B67298D623"]
+			id: "1939BC71F5306531"
+			tasks: [{
+				id: "2A3B0BDD6403B2C6"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A801BE87DDB3EF5"]
+			id: "5FCD568473AFF84E"
+			tasks: [{
+				id: "550A29142EF14195"
+				item: "pipez:filter_destination_tool"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "127FE4009EDBED17"
+			tasks: [{
+				id: "00D8C603B26FCE4E"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "1D885E3CC72B5A23"
+			tasks: [{
+				id: "76D23FDD660AF916"
+				item: "create_connected:item_silo"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "164017EF7D3CFD03"
+			tasks: [{
+				id: "336B455AA3C649F8"
+				item: "create:fluid_valve"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "3B05B6FF88546020"
+			tasks: [{
+				id: "61047C3132B9E418"
+				item: "create_connected:fluid_vessel"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "647C56EED3E6A856"
+			tasks: [{
+				id: "31E5904F194BAF09"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "2238D42F7D0CE381"
+			tasks: [{
+				id: "266481814D5B21E3"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "5954115CAED527DD"
+			tasks: [{
+				id: "0CBFC1A09D451570"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "23A1C331C0F645EE"
+			tasks: [{
+				id: "6510E12F553AE4F5"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "2D45503577CAB01D"
+			tasks: [{
+				id: "78B87D0F11EFD573"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2A5A5515DF1BD1FB"
+				"2D45503577CAB01D"
+			]
+			id: "15BD6CF4AB4645F6"
+			tasks: [{
+				id: "74B646515FBB7A15"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "136108031A856436"
+			tasks: [{
+				id: "384E35CDCE269DF8"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "6DA552BAD013CD16"
+			x: -10.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4CBC5A84BE4BC7BA"]
+			id: "0805B4DDCEB4D3D2"
+			tasks: [{
+				id: "549E45B199421FDD"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0805B4DDCEB4D3D2"]
+			id: "482FD136A3C3F0E1"
+			tasks: [{
+				id: "106C4868FDB1DBA5"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"482FD136A3C3F0E1"
+				"0805B4DDCEB4D3D2"
+			]
+			dependency_requirement: "one_completed"
+			id: "6ACC3C06CCCC0492"
+			tasks: [{
+				id: "173F332C132F11D4"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6ACC3C06CCCC0492"]
+			id: "16ABFD50EA4AAAA3"
+			tasks: [{
+				id: "25C0718D26C09E5D"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16ABFD50EA4AAAA3"]
+			id: "20250984B0060248"
+			tasks: [{
+				id: "4217476A797F0BC0"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["20250984B0060248"]
+			id: "18FEDD51D2BFB835"
+			tasks: [{
+				id: "76B2BCC917BEB811"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3DBDFDF6FA0F3754"]
+			description: [
+				"为了得到背包升级，你需要线……"
+				"聚乙内酰胺条是什么意思？"
+			]
+			id: "79F9A232A112BC13"
+			tasks: [{
+				id: "75C3C28BB8A72401"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "5F248E096166A605"
+			tasks: [{
+				id: "4C0C3DAC1B90F9D2"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67F7313F0F3B2383"]
+			hide_dependency_lines: true
+			id: "24E148E41B8A8918"
+			tasks: [{
+				id: "3F5AAF1F2164D950"
+				item: "sfm:tunnelled_cable"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67F7313F0F3B2383"]
+			hide_dependency_lines: true
+			id: "16634BF353CC2D87"
+			tasks: [{
+				id: "21D09CF4F197895B"
+				item: "sfm:tunnelled_manager"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["67F7313F0F3B2383"]
+			hide_dependency_lines: true
+			id: "60943E27E0CEAAA6"
+			tasks: [{
+				id: "5466D56C1DB98582"
+				item: "sfm:fancy_cable"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["67F7313F0F3B2383"]
+			hide_dependency_lines: true
+			id: "3570A896D32D9F0C"
+			tasks: [{
+				id: "1EF9314590323ABD"
+				item: "sfm:tough_cable"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67F7313F0F3B2383"]
+			hide_dependency_lines: true
+			id: "44E355FCB88F1F5A"
+			tasks: [{
+				id: "7691BBE9F5D3F8F0"
+				item: "sfm:tough_fancy_cable"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["67F7313F0F3B2383"]
+			hide_dependency_lines: true
+			id: "03FFE65D4E93DE52"
+			tasks: [{
+				id: "40B034C6CC2E17BB"
+				item: "sfm:tunnelled_fancy_cable"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4EAC3EB0280AB24F"]
+			id: "5C39762AB5E73946"
+			tasks: [{
+				id: "5D752A2953D8EFF4"
+				item: {
+					Count: 1
+					id: "sfm:disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4CBC5A84BE4BC7BA"]
+			id: "7CD407DACE1841F8"
+			tasks: [{
+				id: "5CE680D9AFBCAFFC"
+				item: {
+					Count: 1
+					id: "sfm:labelgun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0AB658BB37CE8852"]
+			id: "62255E3AC245B8F4"
+			tasks: [{
+				id: "39818A9788EDA9DC"
+				item: "sfm:network_tool"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "53D25D8CB8B87013"
+			tasks: [{
+				id: "33711DB2A07804E2"
+				item: "beyonddimensions:net_creater"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2A5A5515DF1BD1FB"
+				"53D25D8CB8B87013"
+			]
+			id: "21711A0BEA30AF28"
+			tasks: [{
+				id: "0EA1EB7EC5A8D7D6"
+				item: "beyonddimensions:net_ae_storage_cell"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 5.0d
+		}
+	]
+	title: "物流存储"
+}

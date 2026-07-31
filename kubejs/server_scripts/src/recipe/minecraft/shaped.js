@@ -426,21 +426,6 @@ ServerEvents.recipes(e => {
         A: '#gtceu:tools/crafting_knives',
         B: 'kubejs:wood_ingot'
     })
-    e.shaped('tiab:time_in_a_bottle', [
-        'ABC',
-        'DEF',
-        'GHI'
-    ], {
-        A: 'kubejs:fear_in_a_bottle',
-        B: 'kubejs:fighting_spirit_in_a_bottle',
-        C: 'kubejs:fog_in_a_bottle',
-        D: 'kubejs:vaporeon_in_a_bottle',
-        E: 'botania:mana_bottle',
-        F: 'kubejs:glaceon_in_a_bottle',
-        G: 'kubejs:sleppy_in_a_bottle',
-        H: 'kubejs:sand_storm_in_a_bottle',
-        I: 'kubejs:happiness_in_a_bottle'
-    })
     e.shaped('gtceu:lv_enrichment_chamber', [
         'ABA',
         'CDC',
@@ -748,7 +733,7 @@ ServerEvents.recipes(e => {
         'EBE'
     ], {
         A: 'create:crushing_wheel',
-        B: 'kubejs:general_circuit_hv',
+        B: '#gtceu:circuits/hv',
         C: 'gtceu:hv_electric_motor',
         D: 'gtceu:hv_machine_hull',
         E: 'gtceu:aluminium_fluid_cell'
@@ -760,7 +745,7 @@ ServerEvents.recipes(e => {
     ], {
         A: 'gtceu:ulv_solar_panel',
         B: 'gtceu:polytetrafluoroethylene_frame',
-        C: 'kubejs:general_circuit_hv',
+        C: '#gtceu:circuits/hv',
         D: 'gtceu:hv_machine_hull',
         E: 'gtceu:red_steel_plate',
         F: 'gtceu:stainless_steel_drill_head'
@@ -775,13 +760,14 @@ ServerEvents.recipes(e => {
         C: '#forge:glass_panes/colorless',
         D: 'embers:caminite_button'
     })
-    e.shaped('4x occultism:wormhole_frame', [
+    e.shaped('2x occultism:wormhole_frame', [
         'ABA',
-        'B B',
+        'BCB',
         'ABA'
     ], {
         A: 'gtceu:electrum_ingot',
-        B: 'gtceu:damascus_steel_ingot'
+        B: 'gtceu:damascus_steel_ingot',
+        C: 'minecraft:ender_eye'
     })
     e.shaped('sfm:labelgun', [
         'AAB',
@@ -794,15 +780,288 @@ ServerEvents.recipes(e => {
         D: 'gtceu:polytetrafluoroethylene_rod'
     })
     e.shaped('sfm:network_tool', [
-    'ABC',
-    'DEB',
-    'FDA'
-], {
-    A: 'gtceu:lv_sodium_battery',
-    B: 'kubejs:general_circuit_hv',
-    C: 'gtceu:computer_monitor_cover',
-    D: 'gtceu:ulv_solar_panel',
-    E: 'gtceu:double_iron_plate',
-    F: 'gtceu:polyethylene_ingot'
-})
+        'ABC',
+        'DEB',
+        'FDA'
+    ], {
+        A: 'gtceu:lv_sodium_battery',
+        B: '#gtceu:circuits/hv',
+        C: 'gtceu:computer_monitor_cover',
+        D: 'gtceu:ulv_solar_panel',
+        E: 'gtceu:double_iron_plate',
+        F: 'gtceu:polyethylene_ingot'
+    })
+    e.shaped('functionalstorage:configuration_tool', [
+        'AAB',
+        'CDB',
+        'EEC'
+    ], {
+        A: 'gtceu:iron_plate',
+        B: 'gtceu:fine_gold_wire',
+        C: 'minecraft:paper',
+        D: 'minecraft:black_dye',
+        E: 'gtceu:emerald_plate'
+    })
+    e.shaped('functionalstorage:linking_tool', [
+        'AAB',
+        'CDB',
+        'EEC'
+    ], {
+        A: 'gtceu:iron_plate',
+        B: 'gtceu:fine_gold_wire',
+        C: 'minecraft:paper',
+        D: 'minecraft:black_dye',
+        E: 'gtceu:diamond_plate'
+    })
+    e.shaped('4x minecraft:chest', [
+        'AAA',
+        'A A',
+        'AAA'
+    ], {
+        A: 'kubejs:wood_block'
+    })
+    e.shaped('functionalstorage:oak_1', [
+        'AAA',
+        'ABA',
+        'AAA'
+    ], {
+        A: 'kubejs:wood_ingot',
+        B: '#forge:chests/wooden'
+    })
+    e.shaped('2x functionalstorage:oak_2', [
+        'ABA',
+        'AAA',
+        'ABA'
+    ], {
+        A: 'kubejs:wood_ingot',
+        B: '#forge:chests/wooden'
+    })
+    e.shaped('4x functionalstorage:oak_4', [
+        'ABA',
+        'BBB',
+        'ABA'
+    ], {
+        A: '#forge:chests/wooden',
+        B: 'kubejs:wood_ingot'
+    })
+    e.shaped('functionalstorage:fluid_1', [
+        'AAA',
+        'ABA',
+        'AAA'
+    ], {
+        A: 'minecraft:smooth_stone_slab',
+        B: 'minecraft:bucket'
+    })
+    e.shaped('2x functionalstorage:fluid_2', [
+        'ABA',
+        'AAA',
+        'ABA'
+    ], {
+        A: 'minecraft:smooth_stone_slab',
+        B: 'minecraft:bucket'
+    })
+    e.shaped('4x functionalstorage:fluid_4', [
+        'ABA',
+        'BBB',
+        'ABA'
+    ], {
+        A: 'minecraft:bucket',
+        B: 'minecraft:smooth_stone_slab'
+    })
+    e.shaped('functionalstorage:copper_upgrade', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'minecraft:copper_ingot',
+        B: 'minecraft:copper_block',
+        C: '#forge:chests/wooden',
+        D: 'gtceu:steel_plate'
+    })
+    e.shaped('functionalstorage:storage_controller', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'minecraft:smooth_stone',
+        B: 'gtceu:dense_steel_plate',
+        C: 'minecraft:quartz_block',
+        D: 'minecraft:ender_eye'
+    })
+    e.shaped('functionalstorage:framed_storage_controller', [
+        'AAA',
+        'ABA',
+        'AAA'
+    ], {
+        A: 'minecraft:iron_nugget',
+        B: 'functionalstorage:storage_controller'
+    })
+    e.shaped('functionalstorage:framed_controller_extension', [
+        'AAA',
+        'ABA',
+        'AAA'
+    ], {
+        A: 'minecraft:iron_nugget',
+        B: 'functionalstorage:controller_extension'
+    })
+    e.shaped('functionalstorage:controller_extension', [
+        'ABA',
+        'ABA',
+        'CCC'
+    ], {
+        A: 'minecraft:smooth_stone',
+        B: 'minecraft:quartz_block',
+        C: 'gtceu:steel_plate'
+    })
+    e.shaped('functionalstorage:compacting_drawer', [
+        'ABA',
+        'ACA',
+        'DED'
+    ], {
+        A: 'minecraft:smooth_stone',
+        B: 'functionalstorage:oak_1',
+        C: 'minecraft:piston',
+        D: 'gtceu:dense_steel_plate',
+        E: 'functionalstorage:oak_2'
+    })
+    e.shaped('functionalstorage:compacting_framed_drawer', [
+        'AAA',
+        'ABA',
+        'AAA'
+    ], {
+        A: 'minecraft:iron_nugget',
+        B: 'functionalstorage:compacting_drawer'
+    })
+    e.shaped('functionalstorage:iron_downgrade', [
+        'AAA',
+        'ABA',
+        'AAA'
+    ], {
+        A: 'minecraft:iron_ingot',
+        B: 'gtceu:steel_plate'
+    })
+    e.shaped('functionalstorage:collector_upgrade', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'minecraft:iron_nugget',
+        B: 'minecraft:hopper',
+        C: 'minecraft:redstone',
+        D: 'gtceu:steel_plate'
+    })
+    e.shaped('functionalstorage:puller_upgrade', [
+        'ABA',
+        'ACA',
+        'ADA'
+    ], {
+        A: 'minecraft:iron_nugget',
+        B: 'minecraft:hopper',
+        C: 'gtceu:steel_plate',
+        D: 'minecraft:redstone'
+    })
+    e.shaped('functionalstorage:pusher_upgrade', [
+        'ABA',
+        'ACA',
+        'ADA'
+    ], {
+        A: 'minecraft:iron_nugget',
+        B: 'minecraft:redstone',
+        C: 'gtceu:steel_plate',
+        D: 'minecraft:hopper'
+    })
+    e.shaped('functionalstorage:void_upgrade', [
+        'ABA',
+        'BCB',
+        'ABA'
+    ], {
+        A: 'minecraft:iron_nugget',
+        B: 'tconstruct:obsidian_pane',
+        C: 'gtceu:steel_plate'
+    })
+    e.shaped('functionalstorage:redstone_upgrade', [
+        'ABA',
+        'CDC',
+        'EBE'
+    ], {
+        A: 'minecraft:redstone_torch',
+        B: 'minecraft:comparator',
+        C: 'minecraft:redstone',
+        D: 'gtceu:steel_plate',
+        E: 'minecraft:redstone_block'
+    })
+    e.shaped('functionalstorage:armory_cabinet', [
+        'ABA',
+        'BCB',
+        'ACA'
+    ], {
+        A: 'functionalstorage:oak_4',
+        B: 'minecraft:smooth_stone',
+        C: 'gtceu:dense_steel_plate'
+    })
+    e.shaped('sophisticatedbackpacks:backpack', [
+        'ABA',
+        'ACA',
+        'BBB'
+    ], {
+        A: 'gtceu:steel_rod',
+        B: 'gtceu:carbon_fiber_plate',
+        C: '#forge:chests/wooden'
+    })
+    e.shaped('gtceu:mv_conveyor_module', [
+        'A A',
+        'BCB',
+        'A A'
+    ], {
+        A: 'gtceu:copper_single_cable',
+        B: 'gtceu:mv_electric_motor',
+        C: 'create:belt_connector'
+    })
+    e.shaped('2x mekanism:teleporter_frame', [
+        'ABA',
+        'BCB',
+        'ABA'
+    ], {
+        A: 'gtceu:beryllium_ingot',
+        B: 'gtceu:damascus_steel_ingot',
+        C: 'occultism:wormhole_frame'
+    })
+    e.shaped('mekanism:teleporter', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:beryllium_ingot',
+        B: 'mekanism:teleporter_frame',
+        C: 'mekanism:teleportation_core',
+        D: 'occultism:wormhole_frame'
+    })
+    e.shaped('mekanism:teleportation_core', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'mekanism:alloy_atomic',
+        B: 'mekanism:alloy_reinforced',
+        C: 'mekanism:alloy_infused',
+        D: 'gtceu:exquisite_emerald_gem'
+    })
+    e.shaped('mekanism:hdpe_elytra', [
+        'ABA',
+        'C C',
+        'C C'
+    ], {
+        A: 'mekanism:alloy_atomic',
+        B: 'gtceu:fine_steel_wire',
+        C: 'gtceu:polyethylene_plate'
+    })
+    e.shaped('moreburners:electric_burner', [
+        'ABA',
+        'CCC',
+        ' C '
+    ], {
+        A: 'gtceu:copper_quadruple_cable',
+        B: 'gtceu:cupronickel_coil_block',
+        C: 'gtceu:steel_plate'
+    })
 })

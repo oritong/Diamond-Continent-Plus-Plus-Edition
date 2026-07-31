@@ -1,12 +1,20 @@
+function normalizeIngredientId(id) {
+    let text = String(id)
+    if (text.startsWith('kubejs:general_circuit_')) {
+        return `#gtceu:circuits/${text.slice('kubejs:general_circuit_'.length)}`
+    }
+    return text
+}
+
 PlayerEvents.chat(event => {
     let { message, player, server } = event
     if (message != 'c') return
     function getitem(slot) { return player.inventory.getItem(slot) }
     //读背包指定格子物品当配方
     let input = [
-        getitem(9).id, getitem(10).id, getitem(11).id,
-        getitem(18).id, getitem(19).id, getitem(20).id,
-        getitem(27).id, getitem(28).id, getitem(29).id
+        normalizeIngredientId(getitem(9).id), normalizeIngredientId(getitem(10).id), normalizeIngredientId(getitem(11).id),
+        normalizeIngredientId(getitem(18).id), normalizeIngredientId(getitem(19).id), normalizeIngredientId(getitem(20).id),
+        normalizeIngredientId(getitem(27).id), normalizeIngredientId(getitem(28).id), normalizeIngredientId(getitem(29).id)
     ]
     let output = getitem(21)
     //处理合成配方需要的key
@@ -58,7 +66,7 @@ PlayerEvents.chat(event => {
     let materials = inputSlots
         .map(slot => getitem(slot))
         .filter(item => item.id != 'minecraft:air')
-        .map(item => `'${item.id}'`)
+        .map(item => `'${normalizeIngredientId(item.id)}'`)
 
     // 生成配方字符串
     let count = output.count > 1 ? `${output.count}x ` : ''
@@ -87,7 +95,7 @@ PlayerEvents.chat(event => {
     let count = output.count > 1 ? `${output.count}x ` : ''
     
     // 生成你指定的私人口味格式：e.recipes.minecraft.smelting('output', 'input')
-    let str = `e.recipes.minecraft.smelting('${count}${output.id}', '${input.id}')`
+    let str = `e.recipes.minecraft.smelting('${count}${output.id}', '${normalizeIngredientId(input.id)}')`
 
     // 输出并支持点击复制
     player.tell(Text.of('配方已生成，点击复制').hover(str).clickCopy(str))
@@ -122,9 +130,9 @@ PlayerEvents.chat(event => {
 
     function getitem(slot) { return player.inventory.getItem(slot) }
 
-    let i18 = getitem(18).id
-    let i19 = getitem(19).id
-    let i20 = getitem(20).id
+    let i18 = normalizeIngredientId(getitem(18).id)
+    let i19 = normalizeIngredientId(getitem(19).id)
+    let i20 = normalizeIngredientId(getitem(20).id)
     let i21 = getitem(21).id
 
     let str = `e.recipes.minecraft.smithing_transform('${i21}', '${i18}', '${i19}', '${i20}')`

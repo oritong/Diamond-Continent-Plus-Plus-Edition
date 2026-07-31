@@ -917,6 +917,7 @@
 		{
 			dependencies: ["5ED94F26402E7983"]
 			hide_dependency_lines: true
+			icon: "embers:alchemy_tablet"
 			id: "4F719BA8877E171A"
 			rewards: [
 				{
@@ -934,13 +935,14 @@
 			]
 			tasks: [
 				{
-					id: "40B9AC78ED54CADB"
-					item: "embers:alchemy_pedestal"
+					id: "00AB457030B1EE7A"
+					item: "embers:alchemy_tablet"
 					type: "item"
 				}
 				{
-					id: "00AB457030B1EE7A"
-					item: "embers:alchemy_tablet"
+					count: 4L
+					id: "40B9AC78ED54CADB"
+					item: "embers:alchemy_pedestal"
 					type: "item"
 				}
 			]
@@ -1123,6 +1125,7 @@
 				"5072F20A545AD750"
 				"5811A0C1FA36B6C3"
 			]
+			icon: "replication:replication_terminal"
 			id: "34F235A4FB76F7DC"
 			rewards: [
 				{
@@ -1722,7 +1725,10 @@
 		}
 		{
 			dependencies: ["776033E7A78A3217"]
-			description: ["占位符：乙醇线路"]
+			description: [
+				"占位符：乙醇线路"
+				"目前尚未制作，且优先级很低，因为这里其实并不产什么东西，后续也有可能考虑直接删掉"
+			]
 			id: "12F92795DDC579D8"
 			tasks: [{
 				id: "76CC7459851F9565"
@@ -1820,8 +1826,8 @@
 				item: "gtceu:damascus_steel_ingot"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 0.0d
+			x: 18.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0AB658BB37CE8852"]
@@ -1879,6 +1885,16 @@
 				{
 					id: "4693596BA70C4025"
 					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					id: "17C07F0DD5678228"
+					item: "ae2:item_cell_housing"
+					type: "item"
+				}
+				{
+					id: "55B41E88ADF98AE9"
+					item: "ae2:fluid_cell_housing"
 					type: "item"
 				}
 			]
@@ -1980,7 +1996,10 @@
 				"107EAEEE788AF74B"
 				"012BAB48DF58C558"
 			]
-			description: ["老大你怎么在魔法线里"]
+			description: [
+				"老大你怎么在魔法线里"
+				"不过后面LuV出了聚变也是能完成的"
+			]
 			id: "2FE5EBFC1A6F6522"
 			tasks: [{
 				id: "070684942A2A4B0C"
@@ -2024,6 +2043,7 @@
 		{
 			dependencies: ["30878E395CA397A5"]
 			id: "7D7F11A4AB3D66EE"
+			subtitle: "MassacrE II 3rc4224M"
 			tasks: [{
 				id: "52B0AC7F81855663"
 				item: "industrialforegoing:mob_slaughter_factory"
@@ -2411,12 +2431,9 @@
 			dependencies: ["51ABE2B35BB0F02A"]
 			id: "46D2C4821B19BD62"
 			tasks: [{
-				id: "704D9108C3CE299B"
-				item: {
-					Count: 1
-					id: "wormhole:portal_stabilizer"
-					tag: { }
-				}
+				id: "40B9223EB03D7626"
+				item: "mekanism:portable_teleporter"
+				match_nbt: false
 				type: "item"
 			}]
 			x: 27.5d
@@ -2424,12 +2441,20 @@
 		}
 		{
 			dependencies: ["4ADD72B7ADF020B0"]
+			icon: "mekanism:teleporter"
 			id: "51ABE2B35BB0F02A"
-			tasks: [{
-				id: "5B8E7CD522B2E142"
-				item: "wormhole:portal_frame"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "30303A259A2A3EE5"
+					item: "mekanism:teleporter"
+					type: "item"
+				}
+				{
+					id: "06D48F4273AF73C0"
+					item: "mekanism:teleporter_frame"
+					type: "item"
+				}
+			]
 			x: 26.0d
 			y: -6.0d
 		}
@@ -2485,7 +2510,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["2D41563340CB3631"]
+			dependencies: [
+				"2D41563340CB3631"
+				"0173FC868285B307"
+			]
 			description: [
 				"我为员工的工作而兴奋"
 				"中分刘海与量子发旋"
@@ -2510,21 +2538,24 @@
 			tasks: [{
 				id: "3D1083453522F822"
 				item: "angelring:angel_ring"
-				type: "item"
-			}]
-			x: 29.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["0173FC868285B307"]
-			id: "2D41563340CB3631"
-			tasks: [{
-				id: "35C99EF9114D3362"
-				item: "avaritia:infinity_elytra"
+				match_nbt: false
 				type: "item"
 			}]
 			x: 27.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["0AB658BB37CE8852"]
+			hide_dependency_lines: true
+			id: "2D41563340CB3631"
+			tasks: [{
+				id: "35C99EF9114D3362"
+				item: "avaritia:infinity_elytra"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 29.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["063FD60FD3B0E34D"]
@@ -3000,6 +3031,28 @@
 			}]
 			x: 33.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["431BEAE85A182D7D"]
+			id: "23D236104AF67215"
+			tasks: [{
+				id: "02A7396FFE4519F8"
+				item: "oritong:steel_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3DBDFDF6FA0F3754"]
+			id: "2395296EE8FBCFCB"
+			tasks: [{
+				id: "55C281DB2E275AAC"
+				item: "industrial_platform:industrial_platform"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
 		}
 	]
 	title: "第二章 第零次工业革命"

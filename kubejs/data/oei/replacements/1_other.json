@@ -4,45 +4,71 @@
       "gtceu:wood_dust"
     ],
     "resultItems": "mekanism:sawdust"
-  },{
+  },
+  {
     "matchItems": [
       "gtceu:andesite_alloy_ingot"
     ],
     "resultItems": "create:andesite_alloy"
-  },{
+  },
+  {
     "matchItems": [
       "gtceu:andesite_alloy_block"
     ],
     "resultItems": "create:andesite_alloy_block"
-  },{
+  },
+  {
     "matchItems": [
       "embers:caminite_brick"
     ],
     "resultItems": "gtceu:caminite_brick_ingot"
-  },{
+  },
+  {
     "matchItems": [
       "embers:caminite_plate"
     ],
     "resultItems": "gtceu:caminite_brick_plate"
-  },{
+  },
+  {
     "matchItems": [
       "gtceu:infused_alloy_ingot"
     ],
     "resultItems": "mekanism:alloy_infused"
-  },{
+  },
+  {
+    "matchItems": [
+      "gtceu:atomic_alloy_ingot"
+    ],
+    "resultItems": "mekanism:alloy_atomic"
+  },
+  {
     "matchItems": [
       "gtceu:salt_dust"
     ],
     "resultItems": "mekanism:salt"
-  },{
+  },
+  {
     "matchItems": [
       "gtceu:nether_quartz_dust"
     ],
     "resultItems": "mekanism:dust_quartz"
-  },{
+  },
+  {
     "matchItems": [
       "gtceu:certus_quartz_dust"
     ],
     "resultItems": "ae2:certus_quartz_dust"
+  },
+  {
+    "matchItems": [
+      "embers:archaic_brick"
+    ],
+    "resultItems": "tconstruct:scorched_brick"
+  },
+  {
+    "matchItems": [
+      "gtceu:certus_quartz_gem"
+    ],
+    "resultItems": "ae2:certus_quartz_crystal"
   }
 ]

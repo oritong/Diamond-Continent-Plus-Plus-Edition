@@ -15,4 +15,5 @@ ServerEvents.recipes(e => {
     e.replaceOutput({ id: 'create:pressing/cardboard' }, 'create:cardboard', 'minecraft:paper')
     e.replaceInput({ output: 'gtceu:lv_dual_input_hatch' }, 'gtceu:titanium_nonuple_fluid_pipe', 'gtceu:aluminium_nonuple_fluid_pipe')
     e.replaceInput({ output: 'gtceu:lv_dual_output_hatch' }, 'gtceu:titanium_nonuple_fluid_pipe', 'gtceu:aluminium_nonuple_fluid_pipe')
+    e.replaceInput({ mod: 'sophisticatedbackpacks'}, 'minecraft:leather', 'gtceu:carbon_fiber_plate')
 })

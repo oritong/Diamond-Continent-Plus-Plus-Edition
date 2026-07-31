@@ -28,6 +28,14 @@
 			x: 0.0d
 			y: -2.5d
 		}
+		{
+			height: 1.0d
+			image: "kubejs:item/circuit/general/general_circuit_mv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -107,6 +115,36 @@
 			}]
 			x: 3.0d
 			y: -2.5d
+		}
+		{
+			id: "7A53EF3F6556182A"
+			tasks: [{
+				id: "445076300E0783B1"
+				item: "gtceu:mv_steam_turbine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "1477C81877A7097A"
+			tasks: [{
+				id: "1B0A715A2271B955"
+				item: "gtceu:mv_combustion"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "51A568ECD569E80C"
+			tasks: [{
+				id: "746AA5B7FE7C18E9"
+				item: "gtceu:mv_gas_turbine"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
 		}
 	]
 	title: "发电"

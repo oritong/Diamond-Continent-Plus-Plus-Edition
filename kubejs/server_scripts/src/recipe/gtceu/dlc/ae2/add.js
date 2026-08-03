@@ -13,16 +13,16 @@ ServerEvents.recipes(e => {
     e.recipes.gtceu.forming_press().itemInputs('ae2:cell_component_16k', '4x gtceu:silicon_plate', '4x gtceu:certus_quartz_plate', '32x gtceu:diamond_plate', '#gtceu:circuits/hv').itemOutputs('ae2:cell_component_64k').EUt(GTValues.VA[GTValues.MV]).duration(14 * 20)
     e.recipes.gtceu.forming_press().itemInputs('ae2:cell_component_64k', '4x gtceu:silicon_plate', '4x gtceu:certus_quartz_plate', '64x gtceu:atomic_alloy_plate', '#gtceu:circuits/ev').itemOutputs('ae2:cell_component_256k').EUt(GTValues.VA[GTValues.HV]).duration(16 * 20)
 
-    e.recipes.gtceu.packer().itemInputs('ae2:item_cell_housing', 'ae2:cell_component_1k').itemOutputs('ae2:item_storage_cell_1k').duration(4*20).EUt(32)
-    e.recipes.gtceu.packer().itemInputs('ae2:fluid_cell_housing', 'ae2:cell_component_1k').itemOutputs('ae2:fluid_storage_cell_1k').duration(4*20).EUt(32)
-    e.recipes.gtceu.packer().itemInputs('ae2:item_cell_housing', 'ae2:cell_component_4k').itemOutputs('ae2:item_storage_cell_4k').duration(4*20).EUt(32)
-    e.recipes.gtceu.packer().itemInputs('ae2:fluid_cell_housing', 'ae2:cell_component_4k').itemOutputs('ae2:fluid_storage_cell_4k').duration(4*20).EUt(32)
-    e.recipes.gtceu.packer().itemInputs('ae2:item_cell_housing', 'ae2:cell_component_16k').itemOutputs('ae2:item_storage_cell_16k').duration(4*20).EUt(32)
-    e.recipes.gtceu.packer().itemInputs('ae2:fluid_cell_housing', 'ae2:cell_component_16k').itemOutputs('ae2:fluid_storage_cell_16k').duration(4*20).EUt(32)
-    e.recipes.gtceu.packer().itemInputs('ae2:item_cell_housing', 'ae2:cell_component_64k').itemOutputs('ae2:item_storage_cell_64k').duration(4*20).EUt(32)
-    e.recipes.gtceu.packer().itemInputs('ae2:fluid_cell_housing', 'ae2:cell_component_64k').itemOutputs('ae2:fluid_storage_cell_64k').duration(4*20).EUt(32)
-    e.recipes.gtceu.packer().itemInputs('ae2:item_cell_housing', 'ae2:cell_component_256k').itemOutputs('ae2:item_storage_cell_256k').duration(4*20).EUt(32)
-    e.recipes.gtceu.packer().itemInputs('ae2:fluid_cell_housing', 'ae2:cell_component_256k').itemOutputs('ae2:fluid_storage_cell_256k').duration(4*20).EUt(32)
+    e.recipes.gtceu.packer().itemInputs('ae2:item_cell_housing', 'ae2:cell_component_1k').itemOutputs('ae2:item_storage_cell_1k').duration(4 * 20).EUt(32)
+    e.recipes.gtceu.packer().itemInputs('ae2:fluid_cell_housing', 'ae2:cell_component_1k').itemOutputs('ae2:fluid_storage_cell_1k').duration(4 * 20).EUt(32)
+    e.recipes.gtceu.packer().itemInputs('ae2:item_cell_housing', 'ae2:cell_component_4k').itemOutputs('ae2:item_storage_cell_4k').duration(4 * 20).EUt(32)
+    e.recipes.gtceu.packer().itemInputs('ae2:fluid_cell_housing', 'ae2:cell_component_4k').itemOutputs('ae2:fluid_storage_cell_4k').duration(4 * 20).EUt(32)
+    e.recipes.gtceu.packer().itemInputs('ae2:item_cell_housing', 'ae2:cell_component_16k').itemOutputs('ae2:item_storage_cell_16k').duration(4 * 20).EUt(32)
+    e.recipes.gtceu.packer().itemInputs('ae2:fluid_cell_housing', 'ae2:cell_component_16k').itemOutputs('ae2:fluid_storage_cell_16k').duration(4 * 20).EUt(32)
+    e.recipes.gtceu.packer().itemInputs('ae2:item_cell_housing', 'ae2:cell_component_64k').itemOutputs('ae2:item_storage_cell_64k').duration(4 * 20).EUt(32)
+    e.recipes.gtceu.packer().itemInputs('ae2:fluid_cell_housing', 'ae2:cell_component_64k').itemOutputs('ae2:fluid_storage_cell_64k').duration(4 * 20).EUt(32)
+    e.recipes.gtceu.packer().itemInputs('ae2:item_cell_housing', 'ae2:cell_component_256k').itemOutputs('ae2:item_storage_cell_256k').duration(4 * 20).EUt(32)
+    e.recipes.gtceu.packer().itemInputs('ae2:fluid_cell_housing', 'ae2:cell_component_256k').itemOutputs('ae2:fluid_storage_cell_256k').duration(4 * 20).EUt(32)
 
     e.recipes.gtceu.electric_blast_furnace().itemInputs('4x gtceu:alumina_ceramic_dust', '3x mekanism:dust_quartz', 'ae2:certus_quartz_dust').inputFluids(Fluid.of('gtceu:glue', 500)).itemOutputs('5x gtceu:mixed_quartz_fiber_dust').EUt(120).duration(8 * 20).blastFurnaceTemp(2200)
     e.recipes.gtceu.wiremill().itemInputs('gtceu:mixed_quartz_fiber_dust').itemOutputs('3x ae2:quartz_fiber').EUt(9).duration(6 * 20)
@@ -193,4 +193,14 @@ ServerEvents.recipes(e => {
     e.recipes.gtceu.assembler().itemInputs('ae2:fluid_cell_housing', '4x gtceu:mv_field_generator', 'superflatcore:super_infinite_water_cover', '8x gtceu:infinite_water_cover').circuit(1).inputFluids(Fluid.of('gtceu:polyethylene', 288)).itemOutputs(Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:f",id:"minecraft:water"}}')).EUt(300).duration(45 * 20)
     e.recipes.gtceu.assembler().itemInputs('2x gtceu:double_damascus_steel_plate', 'gtceu:tempered_glass', 'gtceu:mv_field_generator', '8x gtceu:fine_electrum_wire').inputFluids(Fluid.of('gtceu:polyethylene', 576)).itemOutputs('ae2:item_cell_housing').EUt(GTValues.VA[GTValues.HV]).duration(8.5 * 20).cleanroom(CleanroomType.CLEANROOM)
     e.recipes.gtceu.assembler().itemInputs('2x gtceu:double_red_steel_plate', 'gtceu:tempered_glass', 'gtceu:mv_field_generator', '8x gtceu:fine_electrum_wire').inputFluids(Fluid.of('gtceu:polyethylene', 576)).itemOutputs('ae2:fluid_cell_housing').EUt(GTValues.VA[GTValues.HV]).duration(8.5 * 20).cleanroom(CleanroomType.CLEANROOM)
+    e.shaped('expatternprovider:ex_pattern_provider', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: '#gtceu:circuits/hv',
+        B: 'ae2:pattern_provider',
+        C: 'ae2:capacity_card',
+        D: 'gtceu:hv_field_generator'
+    })
 })

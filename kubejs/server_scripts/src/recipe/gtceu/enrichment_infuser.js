@@ -5,4 +5,6 @@ ServerEvents.recipes(e => {
     e.recipes.gtceu.enrichment_infuser().itemInputs('mekanism:alloy_reinforced').itemOutputs('mekanism:alloy_atomic').inputFluids(Fluid.of('gtceu:enriched_obsidian', 30)).EUt(16).duration(20 * 12)
     e.recipes.gtceu.enrichment_infuser().itemInputs('gtceu:obsidian_dust').itemOutputs('mekanism:dust_refined_obsidian').inputFluids(Fluid.of('gtceu:enriched_diamond', 40)).EUt(16).duration(20 * 12)
     e.recipes.gtceu.enrichment_infuser().itemInputs('gtceu:dense_steel_plate').itemOutputs('oritong:diamond_upgrade_smithing_template').inputFluids(Fluid.of('gtceu:enriched_diamond', 540)).EUt(16).duration(20 * 12)
+    e.recipes.gtceu.enrichment_infuser().itemInputs('minecraft:granite').itemOutputs('minecraft:netherrack').inputFluids(Fluid.of('gtceu:liquid_nether_air', 1000)).EUt(GTValues.VA[GTValues.EV] * 0.5).duration(20 * 40)
+    e.recipes.gtceu.enrichment_infuser().itemInputs('minecraft:andesite').itemOutputs('minecraft:end_stone').inputFluids(Fluid.of('gtceu:liquid_nether_air', 1000)).EUt(GTValues.VA[GTValues.IV] * 0.5).duration(20 * 40)
 })

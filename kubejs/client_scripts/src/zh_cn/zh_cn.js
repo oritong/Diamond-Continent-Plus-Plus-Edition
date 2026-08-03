@@ -1,10 +1,6 @@
 let key_zh_cn = [
     ['block.minecart.stone', '§o石头'],
-    ['gtceu.enrichment_infuser', '富集灌注器'],
-    ['gtceu.glimmer_collector', '"微光"收集器'],
-    ['gtceu.enrichment_chamber', '冶金富集器'],
-    ['gtceu.infused_extracter', '富集提取器'],
-    ["kubejs.multiblock.hyperdimensional_chemical_plant.coil_parallel", "温度并行上限: %s"]
+    ["kubejs.multiblock.hyperdimensional_chemical_plant.coil_parallel", "同时处理至多%s个配方"]
 ]
 let item_js_key_zh_cn = [
     ['stone_hammer', '石锤'],
@@ -153,12 +149,28 @@ let mbd2_key_zh_cn = [
 let gt_machine_zh_cn = [
     ['pcb_factory', 'PCB工厂'],
     ['hyperdimensional_chemical_plant', '超维度等分子化工厂'],
-    ['directional_void_miner', '定向虚空矿机']
+    ['directional_void_miner', '定向虚空矿机'],
+    ['dissolving_tank', '溶解罐'],
+    ['large_gas_collector', '大型集气室'],
+    ['large_metallurgic_infuser', '大型冶金灌注机'],
+    ['large_rock_breaker', '大型碎岩机']
 ]
 let gt_recipe_type_zh_cn = [
     ['pcb_factory', 'PCB工厂'],
     ['super_chemical_plant', '超级化工厂'],
-    ['directional_void_miner', '定向虚空矿机']
+    ['directional_void_miner', '定向虚空矿机'],
+    ['dissolving_tank', '溶解罐'],
+    ['large_gas_collector', '大型集气室'],
+    ['enrichment_infuser', '富集灌注器'],
+    ['glimmer_collector', '"微光"收集器'],
+    ['enrichment_chamber', '冶金富集器'],
+    ['infused_extracter', '富集提取器']
+]
+let machine_single_zh_cn = [
+    ['enrichment_infuser', '富集灌注器'],
+    ['glimmer_collector', '"微光"收集器'],
+    ['enrichment_chamber', '冶金富集器'],
+    ['infused_extracter', '富集提取器']
 ]
 ClientEvents.lang('zh_cn', e => {
     key_zh_cn.forEach(([key, value]) => {
@@ -189,5 +201,11 @@ ClientEvents.lang('zh_cn', e => {
     })
     gt_recipe_type_zh_cn.forEach(([key, name]) => {
         e.add(`gtceu.${key}`, name)
+    })
+    machine_single_zh_cn.forEach(([id, name]) => {
+        e.add(`block.gtceu.lv_${id}`, `基础${name}`)
+        e.add(`block.gtceu.mv_${id}`, `§b进阶${name}`)
+        e.add(`block.gtceu.hv_${id}`, `§6进阶${name} I`)
+        e.add(`block.gtceu.ev_${id}`, `§d进阶${name} II`)
     })
 })

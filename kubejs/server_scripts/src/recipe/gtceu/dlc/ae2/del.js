@@ -42,7 +42,8 @@ let banae2things = [
     "ae2:item_storage_cell_64k",
     "ae2:fluid_storage_cell_16k",
     "ae2:item_storage_cell_256k",
-    "ae2:fluid_storage_cell_64k"
+    "ae2:fluid_storage_cell_64k",
+    'expatternprovider:epp'
 ]
 let banae2lists = [
     'ae2:network/blocks/energy_energy_acceptor',

@@ -28,8 +28,102 @@ ServerEvents.recipes(e => {
     e.remove({ type: 'minecraft:crafting_shaped', output: 'gtceu:hv_conveyor_module' })
     e.remove({ type: 'minecraft:crafting_shaped', output: 'gtceu:ev_conveyor_module' })
     e.remove({ type: 'mekanism:metallurgic_infusing' })
+    e.remove({ type: 'cmr:block_spouting' })
 })
+let tconstruct_melting_whitelist = [
+    "rose_gold"
+]
+ServerEvents.recipes(e => {
 
+    let allowed_dust = []
+
+
+    // 获取所有普通熔炉可以烧成锭的粉
+    e.forEachRecipe({ type: "minecraft:smelting" }, r => {
+
+        try {
+
+            let j = JSON.parse(String(r.json))
+
+            let ingredient = j.ingredient
+            let result = j.result
+
+            if (!ingredient || !ingredient.tag)
+                return
+
+
+            let match = ingredient.tag.match(/dusts\/(.+)/)
+
+            if (!match)
+                return
+
+
+            let material = match[1]
+
+
+            // 检查输出是否为对应锭
+            if (
+                result.includes(material + "_ingot")
+            ) {
+                allowed_dust.push(material)
+            }
+
+
+        } catch (err) { }
+
+    })
+
+
+    console.log("Allowed dust: " + allowed_dust)
+
+
+    // 删除非法匠魂熔炼
+    e.forEachRecipe({ type: "tconstruct:melting" }, r => {
+
+        try {
+
+            let j = JSON.parse(String(r.json))
+
+            let ingredient = j.ingredient
+
+            if (!ingredient || !ingredient.tag)
+                return
+
+
+            let match = ingredient.tag.match(/dusts\/(.+)/)
+
+            if (!match)
+                return
+
+
+            let material = match[1]
+
+
+            // 白名单
+            if (tconstruct_melting_whitelist.includes(material))
+                return
+
+
+            // 不存在粉烧锭
+            if (!allowed_dust.includes(material)) {
+
+                console.log(
+                    "Remove TConstruct melting: "
+                    + r.getId()
+                    + " dusts/" + material
+                )
+
+                e.remove({
+                    id: r.getId()
+                })
+            }
+
+
+        } catch (err) { }
+
+    })
+
+})
 let banthings = [
     'botania:apothecary_plains',
     'botania:pure_daisy',
@@ -166,7 +260,83 @@ let banthings = [
     'gtceu:cleaning_maintenance_hatch',
     'ae2:not_so_mysterious_cube',
     'industrial_platform:industrial_platform',
-    'moreburners:electric_burner'
+    'moreburners:electric_burner',
+    "gtceu:large_circuit_assembler",
+    "gtceu:large_assembler",
+    "gtceu:large_packer",
+    "gtceu:large_electromagnet",
+    "gtceu:large_electrolyzer",
+    "gtceu:large_maceration_tower",
+    "gtceu:large_mixer",
+    "gtceu:large_centrifuge",
+    "gtceu:large_chemical_bath",
+    "gtnn:large_dehydrator",
+    "gtceu:large_wiremill",
+    "gtceu:large_solidifier",
+    "gtceu:large_extruder",
+    "gtceu:large_extractor",
+    "gtceu:large_distillery",
+    "gtceu:large_cutter",
+    "gtceu:large_brewer",
+    "gtceu:large_material_press",
+    "gtceu:large_autoclave",
+    "gtceu:large_sifting_funnel",
+    "gtceu:large_engraving_laser",
+    "gtceu:large_arc_smelter",
+    "gtceu:high_temperature_smelting_casing",
+    "gtceu:large_scale_assembler_casing",
+    "gtceu:stress_proof_casing",
+    "gtceu:laser_safe_engraving_casing",
+    "gtceu:reaction_safe_mixing_casing",
+    "gtceu:vibration_safe_casing",
+    "gtceu:watertight_casing",
+    "gtceu:shock_proof_cutting_casing",
+    "gtceu:secure_maceration_casing",
+    "gtceu:slicing_blades",
+    "gtceu:crushing_wheels",
+    "gtceu:electrolytic_cell",
+    "expatternprovider:ingredient_buffer",
+    "industrialforegoing:range_addon0",
+    "industrialforegoing:range_addon1",
+    "industrialforegoing:range_addon2",
+    "industrialforegoing:efficiency_addon_2",
+    "industrialforegoing:efficiency_addon_1",
+    "industrialforegoing:range_addon8",
+    "industrialforegoing:range_addon11",
+    "industrialforegoing:speed_addon_2",
+    "industrialforegoing:processing_addon_1",
+    "ifeu:speed_addon_4",
+    "ifeu:processing_addon_5",
+    "industrialforegoing:range_addon3",
+    "industrialforegoing:range_addon5",
+    "industrialforegoing:range_addon6",
+    "industrialforegoing:range_addon7",
+    "industrialforegoing:range_addon9",
+    "ifeu:speed_addon_5",
+    "ifeu:speed_addon_6",
+    "ifeu:efficiency_addon_4",
+    "ifeu:efficiency_addon_5",
+    "ifeu:processing_addon_3",
+    "industrialforegoing:range_addon4",
+    "industrialforegoing:range_addon10",
+    "industrialforegoing:processing_addon_2",
+    "ifeu:speed_addon_3",
+    "ifeu:efficiency_addon_3",
+    "ifeu:processing_addon_4",
+    "industrialforegoing:speed_addon_1",
+    "ifeu:efficiency_addon_6",
+    "ifeu:processing_addon_6",
+    'bettergtae:large_molecular_assembler',
+    'gtceu:assembly_line_casing',
+    'bettergtae:crafting_pattern_hatch',
+    'gtceu:iv_parallel_hatch',
+    'industrialforegoing:meat_feeder',
+    'pylons:infusion_pylon',
+    'pylons:potion_filter',
+    'ifeu:empty_nether_star',
+    'create:brass_funnel',
+    'create:andesite_funnel',
+    'embers:fluid_pipe'
 ]
 let banlists = [
     'minecraft:crafting_table',
@@ -381,6 +551,14 @@ let banlists = [
     'entangled:block',
     'ars_nouveau:imbuement_water_essence',
     'expatternprovider:water_cell',
+    'gtceu:electrolyzer/tungstic_acid_electrolysis',
+    'gtceu:electrolyzer/decomposition_electrolyzing_tungsten_trioxide',
+    'gtceu:large_chemical_reactor/indium_concentrate_separation_4x',
+    'gtceu:chemical_reactor/indium_concentrate_separation_4x',
+    'createaddition:mixing/netherrack',
+    'gtceu:chemical_plant/hydrogen_peroxide_air',
+    'gtceu:chemical_reactor/hydrogen_peroxide',
+    'gtceu:pyrolyse_oven/log_to_coal_gas'
 ]
 let ban_gt_tools = [
     'pickaxe',

@@ -28,9 +28,11 @@ ServerEvents.recipes(e => {
         [["13x gtceu:raw_chalcopyrite",
             "1x gtceu:raw_zeolite",
             "1x gtceu:raw_cassiterite",
-            "3x gtceu:raw_realgar"], "6"],
+            "3x gtceu:raw_realgar",
+            "64x gtceu:raw_diamond"], "6"],
 
-        [["12x gtceu:raw_coal"], "7"],
+        [["12x gtceu:raw_coal",
+            "64x gtceu:raw_diamond"], "7"],
 
         [["2x gtceu:raw_chalcopyrite",
             "8x minecraft:raw_iron",
@@ -39,7 +41,8 @@ ServerEvents.recipes(e => {
 
         [["12x gtceu:raw_magnetite",
             "8x gtceu:raw_vanadium_magnetite",
-            "4x minecraft:raw_gold"], "9"],
+            "4x minecraft:raw_gold",
+            "64x gtceu:raw_diamond"], "9"],
 
         [["6x gtceu:raw_lazurite",
             "4x gtceu:raw_sodalite",
@@ -48,14 +51,17 @@ ServerEvents.recipes(e => {
 
         [["6x gtceu:raw_galena",
             "4x gtceu:raw_silver",
-            "2x gtceu:raw_lead"], "11"],
+            "2x gtceu:raw_lead",
+            "64x gtceu:raw_diamond"], "11"],
 
         [["3x gtceu:raw_kyanite",
             "2x gtceu:raw_mica",
-            "1x gtceu:raw_pollucite"], "12"],
+            "1x gtceu:raw_pollucite",
+            "64x gtceu:raw_diamond"], "12"],
 
         [["16x gtceu:raw_tin",
-            "8x gtceu:raw_cassiterite"], "13"],
+            "8x gtceu:raw_cassiterite",
+            "64x gtceu:raw_diamond"], "13"],
 
         [["6x gtceu:raw_red_garnet",
             "4x gtceu:raw_yellow_garnet",
@@ -74,10 +80,12 @@ ServerEvents.recipes(e => {
 
         [["9x gtceu:raw_redstone",
             "6x gtceu:raw_ruby",
-            "3x gtceu:raw_cinnabar"], "17"],
+            "3x gtceu:raw_cinnabar",
+            "64x gtceu:raw_diamond"], "17"],
 
         [["6x gtceu:raw_apatite",
-            "4x gtceu:raw_tricalcium_phosphate"], "18"],
+            "4x gtceu:raw_tricalcium_phosphate",
+            "64x gtceu:raw_diamond"], "18"],
 
         [["12x gtceu:raw_cassiterite_sand",
             "8x gtceu:raw_garnet_sand",
@@ -87,7 +95,7 @@ ServerEvents.recipes(e => {
         [["12x gtceu:raw_oilsands"], "20"],
 
         [["6x gtceu:raw_graphite",
-            "4x gtceu:raw_diamond",
+            "64x gtceu:raw_diamond",
             "2x gtceu:raw_coal"], "21"],
 
         [["6x gtceu:raw_garnierite",
@@ -111,28 +119,33 @@ ServerEvents.recipes(e => {
     const nether_raw_ores =
         [[["14x gtceu:raw_tetrahedrite",
             "7x minecraft:raw_copper",
-            "4x gtceu:raw_stibnite"], "1"],
+            "4x gtceu:raw_stibnite",
+            'minecraft:ancient_debris'], "1"],
 
-        [["5x gtceu:raw_bastnasite",
-            "2x gtceu:raw_molybdenum",
-            "2x gtceu:raw_neodymium",
-            "2x gtceu:raw_monazite"], "2"],
+        [["8x gtceu:raw_bauxite",
+            "4x gtceu:raw_ilmenite",
+            "4x gtceu:raw_aluminium",
+            'minecraft:ancient_debris'], "2"],
 
         [["9x gtceu:raw_redstone",
             "6x gtceu:raw_ruby",
-            "3x gtceu:raw_cinnabar"], "3"],
+            "3x gtceu:raw_cinnabar",
+            'minecraft:ancient_debris'], "3"],
 
         [["6x gtceu:raw_saltpeter",
             "4x gtceu:raw_diatomite",
             "4x gtceu:raw_electrotine",
-            "2x gtceu:raw_alunite"], "4"],
+            "2x gtceu:raw_alunite",
+            'minecraft:ancient_debris'], "4"],
 
         [["5x gtceu:raw_beryllium",
-            "6x gtceu:raw_emerald"], "5"],
+            "6x gtceu:raw_emerald",
+            'minecraft:ancient_debris'], "5"],
 
         [["3x gtceu:raw_grossular",
             "2x gtceu:raw_pyrolusite",
-            "1x gtceu:raw_tantalite"], "6"],
+            "1x gtceu:raw_tantalite",
+            'minecraft:ancient_debris'], "6"],
 
         [["8x gtceu:raw_wulfenite",
             "5x gtceu:raw_molybdenite",
@@ -146,7 +159,8 @@ ServerEvents.recipes(e => {
 
         [["6x gtceu:raw_quartzite",
             "4x gtceu:raw_certus_quartz",
-            "2x gtceu:raw_barite"], "9"],
+            "2x gtceu:raw_barite",
+            'minecraft:ancient_debris'], "9"],
 
         [["11x gtceu:raw_blue_topaz",
             "7x gtceu:raw_topaz",
@@ -154,11 +168,26 @@ ServerEvents.recipes(e => {
             "4x gtceu:raw_bornite"], "10"],
 
         [["12x gtceu:raw_nether_quartz",
-            "4x gtceu:raw_quartzite"], "11"],
+            "4x gtceu:raw_quartzite",
+            'minecraft:ancient_debris'], "11"],
 
         [["15x gtceu:raw_sulfur",
             "10x gtceu:raw_pyrite",
-            "5x gtceu:raw_sphalerite"], "12"]]
+            "5x gtceu:raw_sphalerite",
+            'minecraft:ancient_debris'], "12"],
+
+        [["6x gtceu:raw_scheelite",
+            "4x gtceu:raw_tungstate",
+            "2x gtceu:raw_lithium",
+            'minecraft:ancient_debris'], "13"],
+
+        [["9x gtceu:raw_pitchblende",
+            "6x gtceu:raw_uraninite",
+            'minecraft:ancient_debris'], "14"],
+
+        [['24x gtceu:raw_pyrochlore',
+            '8x gtceu:raw_plutonium',
+            'minecraft:ancient_debris'], '15']]
 
     nether_raw_ores.forEach((nether_ore) => {
         let recipe = e.recipes.gtceu.directional_void_miner("nether_void_ore_" + nether_ore[1])
@@ -179,24 +208,18 @@ ServerEvents.recipes(e => {
             "6x gtceu:raw_chromite",
             "3x minecraft:raw_gold"], "1"],
 
-        [["8x gtceu:raw_bauxite",
-            "4x gtceu:raw_ilmenite",
-            "4x gtceu:raw_aluminium"], "2"],
+        [["5x gtceu:raw_bastnasite",
+            "2x gtceu:raw_molybdenum",
+            "2x gtceu:raw_neodymium",
+            "2x gtceu:raw_monazite"], "2"],
 
         [["3x gtceu:raw_bornite",
             "2x gtceu:raw_cooperite",
             "2x gtceu:raw_platinum",
             "1x gtceu:raw_palladium"], "3"],
 
-        [["6x gtceu:raw_scheelite",
-            "4x gtceu:raw_tungstate",
-            "2x gtceu:raw_lithium"], "4"],
-
-        [["9x gtceu:raw_pitchblende",
-            "6x gtceu:raw_uraninite"], "5"],
-
         [["9x gtceu:raw_naquadah",
-            "3x gtceu:raw_plutonium"], "6"]]
+            "3x gtceu:raw_plutonium"], "4"]]
 
     end_raw_ores.forEach((end_ore) => {
         let recipe = e.recipes.gtceu.directional_void_miner("end_void_ore_" + end_ore[1])

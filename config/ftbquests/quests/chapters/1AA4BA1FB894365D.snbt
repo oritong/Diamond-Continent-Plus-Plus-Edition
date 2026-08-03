@@ -5,7 +5,49 @@
 	group: "1118A4C838238AC3"
 	icon: "avaritia:diamond_lattice"
 	id: "1AA4BA1FB894365D"
+	images: [{
+		click: "quest_enhance:decorative_anchor:540d3ee8-0c8c-45cc-8f6e-bc428abbe637"
+		height: 0.4d
+		image: ""
+		rotation: 0.0d
+		width: 0.4d
+		x: 9.5d
+		y: -4.5d
+	}]
 	order_index: 1
+	quest_enhance_decorative_lines: [
+		{
+			nodes: [
+				"q:111d96a7d3efd813"
+				"a:540d3ee8-0c8c-45cc-8f6e-bc428abbe637"
+			]
+		}
+		{
+			nodes: [
+				"q:15352d358b718beb"
+				"a:540d3ee8-0c8c-45cc-8f6e-bc428abbe637"
+			]
+		}
+		{
+			nodes: [
+				"q:48e35d44fcc79d11"
+				"a:540d3ee8-0c8c-45cc-8f6e-bc428abbe637"
+			]
+		}
+		{
+			nodes: [
+				"q:26b96b08f23d6879"
+				"a:540d3ee8-0c8c-45cc-8f6e-bc428abbe637"
+			]
+		}
+		{
+			nodes: [
+				"q:716c059b55d6cc86"
+				"a:540d3ee8-0c8c-45cc-8f6e-bc428abbe637"
+			]
+		}
+	]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [{
 		id: "523EB573C53A44C4"
 		linked_quest: "71D253D427B51A9F"
@@ -18,20 +60,12 @@
 			description: ["通过制作富集仓，富集提取机，冶金灌注机，你可以用黑曜石板和红石快速制作ULV级电路"]
 			hide_dependent_lines: true
 			id: "64BBF484E99DA208"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1A0898B28F3BF964"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "632CF91AFE4F6CBF"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "156B94C63ABE8FD9"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "06BBFD814E0BBB0E"
 				item: "mekanism:basic_control_circuit"
@@ -44,20 +78,12 @@
 			dependencies: ["19DB31004C991895"]
 			description: ["而且，你还可以获得灌注合金，它可以制作LV等级的超导体"]
 			id: "753E6963A939C10C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "42199B44675B6721"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0794ED4C9100F500"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07D313364BFF3489"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2F0B8464C8E18609"
 				item: "mekanism:alloy_infused"
@@ -75,20 +101,12 @@
 				"如果你想要找到减少麻烦的机器，请参照EMI"
 			]
 			id: "267573CE52C3D840"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "61171A6C89381D9B"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "46935E03CD34AF07"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C7B66925F8FB05B"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4D5CE56AB53B6AC0"
 				item: "gtceu:basic_electronic_circuit"
@@ -101,20 +119,12 @@
 			dependencies: ["267573CE52C3D840"]
 			description: ["你会需要它的……"]
 			id: "0A801BE87DDB3EF5"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5C4B9FCB2D1DA478"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "37C6BE74F61FEBA1"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3950F2E72575B857"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "657128B8FF91D180"
 				item: "gtceu:lv_assembler"
@@ -127,20 +137,12 @@
 			dependencies: ["267573CE52C3D840"]
 			description: ["最重要的是，你获得了比白雏菊更快，更利于自动化的胶乳获得方式"]
 			id: "31542A56C5EB426A"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3FE3360B233E22D2"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "77B3F57FC3883B5C"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "373CE470BC7B9C2B"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "28957112BC071F58"
 				item: "gtceu:lv_extractor"
@@ -159,20 +161,12 @@
 				"你应该制作搅拌机或者合金机"
 			]
 			id: "75D53910955076F4"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0DF19C2FAFC26187"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "03838D87CF505CFF"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16950631C99AFD2E"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				count: 16L
 				id: "20E65C9F001DFBC2"
@@ -185,20 +179,12 @@
 		{
 			dependencies: ["2A5A5515DF1BD1FB"]
 			id: "520AA8FCA3262F01"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4D87CD2AF9C598B8"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2A8077B9A2F3EECD"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58B94646B1C1B749"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "67D09165290AD3CE"
 				item: "gtceu:heatproof_machine_casing"
@@ -214,20 +200,12 @@
 				"4A8E8D823DF637E7"
 			]
 			id: "094FE4A5EB340B2F"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "01C378511DEB7412"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "523380D0CA963BAB"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A160AED19386090"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "526363F5BD823565"
 				item: "gtceu:electric_blast_furnace"
@@ -245,20 +223,12 @@
 			]
 			hide_dependency_lines: true
 			id: "06E3BEC42EDF00B3"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3A14A77E94A1A0B7"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1BDE2185D415F829"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60AA4238F1D1AE4E"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "496952A1AF5C1BC3"
 				item: "gtceu:lv_centrifuge"
@@ -270,20 +240,12 @@
 		{
 			dependencies: ["06E3BEC42EDF00B3"]
 			id: "7CE364036232BB71"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "42CC7D3274E82952"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3E99017B36F949FE"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E79F06062149E34"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "3BF3924AE27AD88E"
@@ -302,20 +264,12 @@
 		{
 			dependencies: ["7CE364036232BB71"]
 			id: "1EECEBB179CBDAE3"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3AAFB67497053A35"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5E075263FDF7884D"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DED0378981EEB9E"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3F76B40DA3309C4C"
 				item: "gtceu:gallium_arsenide_dust"
@@ -328,20 +282,12 @@
 			dependencies: ["267573CE52C3D840"]
 			hide_dependency_lines: true
 			id: "76EE097DFAF0A738"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4EA0C30B4BA49131"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "242EB3D5EA582782"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "427A09D30DC30C33"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "51CD4640309BD8D4"
 				item: "gtceu:lv_electrolyzer"
@@ -354,20 +300,12 @@
 			dependencies: ["76EE097DFAF0A738"]
 			description: ["电解蓝宝石获得铝粉"]
 			id: "140E6453D0046FA6"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "131884CF60E9A78C"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0F71FB1E70244325"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24F84B239DC803CE"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5139CBC8D21E0960"
 				item: "gtceu:aluminium_dust"
@@ -382,20 +320,12 @@
 				"140E6453D0046FA6"
 			]
 			id: "5F7F2159EB60A4BE"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7CEEDA043ED29212"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4B9D3BCE162E7F43"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DD9FA96181799F0"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7E87D2675767883E"
 				item: "gtceu:aluminium_ingot"
@@ -412,20 +342,12 @@
 				"先把组装机和提取机做了"
 			]
 			id: "30BD2D2DCD362761"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4849BA6C0A6CA561"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "609D3948E55FF38E"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10DD49AAB4553242"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7FC5A50533995C07"
 				item: "gtceu:good_electronic_circuit"
@@ -440,20 +362,12 @@
 				"4CBC5A84BE4BC7BA"
 			]
 			id: "7502FCD6A0550797"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "40F88626E27AA644"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2261DD0A68039FFC"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1084FF90BDC85421"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5170ABAEA0C3084F"
 				item: "kubejs:machine_core_2"
@@ -466,20 +380,12 @@
 			dependencies: ["30BD2D2DCD362761"]
 			description: [""]
 			id: "33C204440D09B2A0"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "63392E2B7C44E87B"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2E26307534576BE6"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65015AD74B3C80CB"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "72F6A043B5366BD0"
 				item: "gtceu:lv_circuit_assembler"
@@ -496,20 +402,12 @@
 			]
 			description: ["更便宜的LV级电路，但是吃魔法"]
 			id: "15B08CC0E3BAB61C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5E3A9FFC807B06E0"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "08F4FAC54C8DDC08"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E6C913358687347"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "11148073E3B4CD4A"
 				item: "mekanism:advanced_control_circuit"
@@ -521,20 +419,12 @@
 		{
 			dependencies: ["74C49D595061D61D"]
 			id: "0915454B214E367B"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4542782D93406CF0"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2B5A95344D2E8C8F"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A3F89B03928EFD9"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4F8F6719EEA460C3"
 				item: "ars_nouveau:imbuement_chamber"
@@ -546,20 +436,12 @@
 		{
 			dependencies: ["0915454B214E367B"]
 			id: "5A0D1CCAC594BCD9"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0CB404DE6DE472B8"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3F2BCC6858ABEA72"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18A77065A8C5E113"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "67F5DD1401D55D32"
 				item: "botania:livingrock"
@@ -571,20 +453,12 @@
 		{
 			dependencies: ["5A0D1CCAC594BCD9"]
 			id: "5ED94F26402E7983"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "128FFF67D7D92076"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "564C485111AB9B4B"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B95FD2D02194B0D"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "64B8241AC6CCBF10"
 				item: "botania:mana_pool"
@@ -596,20 +470,12 @@
 		{
 			dependencies: ["5ED94F26402E7983"]
 			id: "4973A4076DD6F8E6"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "10BA5F1522364B46"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "70C7DAA52057AC3F"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A25134CB1B55D5E"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0C69192116411E58"
 				item: "botania:manasteel_ingot"
@@ -623,20 +489,12 @@
 			description: ["为了烧铝锭，你需要将两个能源仓放在舱室位置，并且都输入电"]
 			hide_dependency_lines: true
 			id: "4A8E8D823DF637E7"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "15B60A4F4E32FA3C"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "59E7E26BD33320F2"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D0BEC94B74EECF8"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "4D5AC8478C939F9B"
@@ -661,20 +519,12 @@
 		{
 			dependencies: ["267573CE52C3D840"]
 			id: "19DB31004C991895"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2CE17B4BAF16E6A6"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0D6691573CADC6BD"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DA64EBA75D0718B"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "53BE7DE5299B43F3"
@@ -692,27 +542,19 @@
 					type: "item"
 				}
 			]
-			title: "富集灌注系列"
+			title: "冶金灌注系列"
 			x: -10.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5F7F2159EB60A4BE"]
 			id: "4B2A497349B37FF0"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1DDBBED880AD9345"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2D6F86343C3E590E"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DF819B0D929B243"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "37EFA3E9F88C64E2"
 				item: "kubejs:grizzly_chute"
@@ -724,20 +566,12 @@
 		{
 			dependencies: ["4B2A497349B37FF0"]
 			id: "2CA320A187DEF513"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "690C16815FCC793F"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "61068F5C9CB2AC9E"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AE7FD17C2A146C8"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "13E118E58531D0F5"
 				item: "gtceu:oilsands_dust"
@@ -750,20 +584,12 @@
 			dependencies: ["267573CE52C3D840"]
 			hide_dependency_lines: true
 			id: "7C50239915877387"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "169290AC63EBDE34"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3923C497D1463000"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14C760BF5E3472C3"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0CBF0A9A81560A58"
 				item: "moreburners:ember_burner"
@@ -780,20 +606,12 @@
 			description: ["请注意，油砂离心出来的重油在MV才可以使用，所以你现在只能使用机械动力获得次一些的原油和轻油"]
 			icon: "gtceu:oil_medium_bucket"
 			id: "222DE3F2DA123486"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "68DE4EDB6CF0D9CA"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "061C9C1536A610C1"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4645A3691FC150B3"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "510890B3A95E4301"
 				type: "checkmark"
@@ -806,20 +624,12 @@
 			dependencies: ["267573CE52C3D840"]
 			hide_dependency_lines: true
 			id: "59128394620BEA27"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7B0981CC88BED483"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7B7FC2B8AC5D82A9"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2ECFEFB2EA948B70"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1C554B3ED2FF7D9A"
 				item: "gtceu:lv_mixer"
@@ -833,20 +643,12 @@
 			description: ["注意到在这个路线，你会需要蒸汽，如果你蒸汽不用来发电这里推荐直接制作高压太阳能蒸汽，够用了"]
 			icon: "gtceu:polyethylene_bucket"
 			id: "4CBC5A84BE4BC7BA"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "429E4CFC622BBAF0"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0B4060B019B03E9F"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49977A14E47184DD"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6885A54B6AE2E634"
 				type: "checkmark"
@@ -859,20 +661,12 @@
 			dependencies: ["5ED94F26402E7983"]
 			hide_dependency_lines: true
 			id: "5072F20A545AD750"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "73902FBA896A56E5"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1A4147DE2CAE7289"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CF6480BD812E07D"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7FCA4255C07B03DF"
 				item: "botania:runic_altar"
@@ -884,20 +678,12 @@
 		{
 			dependencies: ["5072F20A545AD750"]
 			id: "16F434E40CEE4119"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "667544C165EC4021"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4F994F1959656637"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "365D99F93146A92D"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "4BB20648C671AC19"
@@ -919,20 +705,12 @@
 			hide_dependency_lines: true
 			icon: "embers:alchemy_tablet"
 			id: "4F719BA8877E171A"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1670BAF2ACE11898"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6F101762E9F653B8"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3ADF44A9A7F7D108"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "00AB457030B1EE7A"
@@ -956,20 +734,12 @@
 				"16F434E40CEE4119"
 			]
 			id: "7CA7A07372909787"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7ECE9A0235D05B72"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0FBAE7E852E88178"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A02044EB1E6DD14"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4C5C7D928AAA2E2F"
 				item: "botania:ender_hand"
@@ -985,20 +755,12 @@
 			]
 			description: ["你可以把它放进熔化炉熔成熔融末影珍珠，然后再倒进铸造盆，得到末影珍珠块，当你到了HV，解锁了聚爆压缩机，你就可以以4:3的转化率快速得到末影珍珠了"]
 			id: "1E2721FDD3080AED"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4687E1E0750D8CA1"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1213C4C09869AE90"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "332C1BDBE1411E25"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "00798492E580D35D"
 				item: "gtceu:ender_pearl_dust"
@@ -1014,20 +776,12 @@
 				"不过你只能做单方块的覆盖版，距离多方块无线电还有那么一段距离"
 			]
 			id: "011B940C0130D153"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0FE2D591DA44E630"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "695B13F1D2268416"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AF04D6C9AC016A1"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "59D8197E9C4DC384"
 				item: "gtmthings:lv_wireless_energy_receive_cover"
@@ -1043,20 +797,12 @@
 			]
 			description: ["MEK正在被删除"]
 			id: "431BEAE85A182D7D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5D95BAD1A095EA11"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "76783CAB6A4B2E0A"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71D579CD266F7E6E"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "13343E6C4094C473"
 				item: "oritong:diamond_upgrade_smithing_template"
@@ -1072,20 +818,12 @@
 				"至于气态氯？电解盐就有了"
 			]
 			id: "1E558461C9AF6677"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1F129D25F8C6DEE3"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "022F807969806EBE"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08726B919B7458B1"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "11398A7FD9A8BED1"
 				item: "gtceu:terminal"
@@ -1098,49 +836,34 @@
 			dependencies: ["753E6963A939C10C"]
 			description: ["前期也是非常牛逼的管道了，要不是复制这模组管道连不上gt，我都不想给你这个"]
 			id: "5C83119D6F756527"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7EDFED2C18722D1B"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2FCF06D7F2E65A71"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F6439C4F04ADCA7"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "592D713C12F33ECC"
 				item: "pipez:energy_pipe"
 				type: "item"
 			}]
 			x: -13.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
 				"5072F20A545AD750"
 				"5811A0C1FA36B6C3"
 			]
+			description: ["前期轮椅来了，但是有些复杂"]
 			icon: "replication:replication_terminal"
 			id: "34F235A4FB76F7DC"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "53FA769E670FFADC"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6C5C77886001002D"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "341480B0AD990029"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "4CF316150BE1711B"
@@ -1191,20 +914,12 @@
 			dependencies: ["0A801BE87DDB3EF5"]
 			hide_dependency_lines: true
 			id: "5811A0C1FA36B6C3"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3CAAEE50CBEC3A33"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6B4EB2B56AAC093B"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30C841FC3D9E4B66"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "57D33621BA0FE686"
 				item: "replication:matter_blueprint"
@@ -1218,6 +933,12 @@
 			dependencies: ["4CBC5A84BE4BC7BA"]
 			description: ["快速维护你的维护仓……"]
 			id: "20B77F91BF3407C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "603863733A0981A5"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3416F6D82F2A19A2"
 				item: "gtceu:duct_tape"
@@ -1229,6 +950,12 @@
 		{
 			dependencies: ["011B940C0130D153"]
 			id: "489ACC477C6C1483"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00A519042DDC33ED"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "5CF65B6C311DCAE7"
@@ -1251,7 +978,7 @@
 				"你确定你真的要在电高里硬烧吗"
 				"为什么不去看看黎明石你当时是怎么做的呢"
 				""
-				"另外，我非常推荐你现在就把黏土粉产线做出来，接下来非常的消耗铝和黏土粉"
+				"另外，我非常推荐你现在就把黏土粉产线做出来，接下来非常的消耗铝"
 			]
 			id: "3DBDFDF6FA0F3754"
 			tasks: [{
@@ -1725,20 +1452,6 @@
 		}
 		{
 			dependencies: ["776033E7A78A3217"]
-			description: [
-				"占位符：乙醇线路"
-				"目前尚未制作，且优先级很低，因为这里其实并不产什么东西，后续也有可能考虑直接删掉"
-			]
-			id: "12F92795DDC579D8"
-			tasks: [{
-				id: "76CC7459851F9565"
-				type: "checkmark"
-			}]
-			x: 15.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["776033E7A78A3217"]
 			id: "1C2CDFA4CB45668A"
 			tasks: [{
 				id: "2C66C4BA167E7BB2"
@@ -1854,6 +1567,7 @@
 		}
 		{
 			dependencies: ["0AB658BB37CE8852"]
+			description: ["ae2其余物品配方将在之后进行一次大幅重新修订"]
 			icon: "ae2:singularity"
 			id: "107EAEEE788AF74B"
 			tasks: [
@@ -2125,7 +1839,10 @@
 		}
 		{
 			dependencies: ["212DB96CD57E4788"]
-			description: ["不过，你可以在IV做了镧系处理后获得它"]
+			description: [
+				"当你合成了第一个，你就可以在组装机快速复制了"
+				"不过，你可以在IV做了镧系处理后获得它"
+			]
 			icon: {
 				Count: 1
 				id: "entangled:block"
@@ -2175,26 +1892,6 @@
 			]
 			hide_dependent_lines: true
 			id: "0FE94778F3C9A0BC"
-			rewards: [
-				{
-					count: 64
-					id: "339B3F8A7830393C"
-					item: "kubejs:overworld_data"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "7DE5D681C656D9A1"
-					item: "kubejs:nether_data"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "008E709821369161"
-					item: "kubejs:end_data"
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "017950D9B27C2E2C"
 				item: "gtceu:directional_void_miner"
@@ -2204,7 +1901,8 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["48850C71B0964CDE"]
+			dependencies: ["47557042D9E07961"]
+			hide_dependency_lines: true
 			icon: "gtceu:platinum_dust"
 			id: "286010A888DAC0C4"
 			tasks: [
@@ -2240,19 +1938,6 @@
 				}
 			]
 			title: "铂处理"
-			x: 39.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["267573CE52C3D840"]
-			hide_dependency_lines: true
-			icon: "gtceu:aqua_regia_bucket"
-			id: "48850C71B0964CDE"
-			tasks: [{
-				id: "1F4A840C5307C795"
-				type: "checkmark"
-			}]
-			title: "王水"
 			x: 38.0d
 			y: -4.5d
 		}
@@ -2510,10 +2195,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"2D41563340CB3631"
-				"0173FC868285B307"
-			]
+			dependencies: ["0173FC868285B307"]
 			description: [
 				"我为员工的工作而兴奋"
 				"中分刘海与量子发旋"
@@ -2545,19 +2227,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["0AB658BB37CE8852"]
-			hide_dependency_lines: true
-			id: "2D41563340CB3631"
-			tasks: [{
-				id: "35C99EF9114D3362"
-				item: "avaritia:infinity_elytra"
-				match_nbt: false
-				type: "item"
-			}]
-			x: 29.0d
-			y: -6.0d
-		}
-		{
 			dependencies: ["063FD60FD3B0E34D"]
 			hide_dependent_lines: true
 			id: "599B2079CB71CC31"
@@ -2567,7 +2236,7 @@
 				type: "item"
 			}]
 			x: 32.0d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2578,7 +2247,7 @@
 				type: "item"
 			}]
 			x: 31.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2589,7 +2258,7 @@
 				type: "item"
 			}]
 			x: 30.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2600,7 +2269,7 @@
 				type: "item"
 			}]
 			x: 30.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2611,7 +2280,7 @@
 				type: "item"
 			}]
 			x: 34.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2622,7 +2291,7 @@
 				type: "item"
 			}]
 			x: 31.0d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2633,10 +2302,11 @@
 				type: "item"
 			}]
 			x: 33.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
+			description: ["但请注意，此机器在EV获得钨钢后才可使用"]
 			id: "50E285378D9DE64E"
 			tasks: [{
 				id: "71D231D5AC892B2C"
@@ -2644,7 +2314,7 @@
 				type: "item"
 			}]
 			x: 32.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2655,7 +2325,7 @@
 				type: "item"
 			}]
 			x: 30.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2666,7 +2336,7 @@
 				type: "item"
 			}]
 			x: 30.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2677,7 +2347,7 @@
 				type: "item"
 			}]
 			x: 31.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2688,7 +2358,7 @@
 				type: "item"
 			}]
 			x: 33.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2699,7 +2369,7 @@
 				type: "item"
 			}]
 			x: 34.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2710,7 +2380,7 @@
 				type: "item"
 			}]
 			x: 31.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2721,7 +2391,7 @@
 				type: "item"
 			}]
 			x: 32.0d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2732,7 +2402,7 @@
 				type: "item"
 			}]
 			x: 33.0d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2743,7 +2413,7 @@
 				type: "item"
 			}]
 			x: 34.0d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2754,7 +2424,7 @@
 				type: "item"
 			}]
 			x: 30.0d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2765,7 +2435,7 @@
 				type: "item"
 			}]
 			x: 34.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2776,7 +2446,7 @@
 				type: "item"
 			}]
 			x: 34.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2787,7 +2457,7 @@
 				type: "item"
 			}]
 			x: 33.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2798,7 +2468,7 @@
 				type: "item"
 			}]
 			x: 31.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2809,7 +2479,7 @@
 				type: "item"
 			}]
 			x: 33.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2820,7 +2490,7 @@
 				type: "item"
 			}]
 			x: 32.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7F960E6FE33E4A72"]
@@ -2831,8 +2501,8 @@
 				item: "gtnn:maceration_stack_controller"
 				type: "item"
 			}]
-			x: 35.0d
-			y: -1.5d
+			x: 36.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7F960E6FE33E4A72"]
@@ -2860,7 +2530,7 @@
 				}
 			]
 			title: "ME仓室"
-			x: 35.0d
+			x: 36.5d
 			y: -3.0d
 		}
 		{
@@ -2871,11 +2541,11 @@
 				item: "gtmthings:me_export_buffer"
 				type: "item"
 			}]
-			x: 35.0d
-			y: -4.5d
+			x: 38.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["7F960E6FE33E4A72"]
+			dependencies: ["42B517516136C658"]
 			id: "71640A3F18D320AB"
 			tasks: [{
 				id: "5A1F00244149F509"
@@ -2883,53 +2553,43 @@
 				type: "item"
 			}]
 			x: 38.0d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["71640A3F18D320AB"]
-			id: "4712DA2F0491AFEB"
-			tasks: [{
-				id: "05DA9B5ED922D457"
-				item: "gtceu:tungsten_steel_dust"
-				type: "item"
-			}]
-			x: 39.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["4712DA2F0491AFEB"]
 			id: "7DF52ABC26309A69"
 			tasks: [{
 				id: "31F6737A02AFDC04"
 				item: "gtceu:tungsten_steel_ingot"
 				type: "item"
 			}]
-			x: 41.0d
-			y: -1.5d
+			x: 39.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["39CEA0128920983A"]
+			dependencies: [
+				"39CEA0128920983A"
+				"286010A888DAC0C4"
+				"1E48183A61838D12"
+			]
 			id: "701A3773EFB5DFB9"
 			tasks: [{
 				id: "2F8C8577D659CE4A"
 				item: "gtceu:ev_voltage_coil"
 				type: "item"
 			}]
-			x: 41.0d
+			x: 39.5d
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"701A3773EFB5DFB9"
-				"0F0230ECFD44056B"
-			]
+			dependencies: ["701A3773EFB5DFB9"]
 			id: "5201AC1AF9AC5D4B"
 			tasks: [{
 				id: "67C6106D6E0A8A82"
 				item: "gtceu:ev_energy_input_hatch"
 				type: "item"
 			}]
-			x: 42.5d
+			x: 41.0d
 			y: -3.0d
 		}
 		{
@@ -2941,7 +2601,7 @@
 				type: "item"
 			}]
 			x: 39.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["286010A888DAC0C4"]
@@ -2951,7 +2611,7 @@
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: 41.0d
+			x: 39.5d
 			y: -4.5d
 		}
 		{
@@ -2963,8 +2623,8 @@
 				type: "checkmark"
 			}]
 			title: "气态氡"
-			x: 38.0d
-			y: 0.0d
+			x: 39.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0FE94778F3C9A0BC"]
@@ -2975,30 +2635,19 @@
 				type: "item"
 			}]
 			title: "铀处理"
-			x: 36.5d
-			y: 0.0d
+			x: 38.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["7F960E6FE33E4A72"]
-			hide_dependency_lines: true
-			id: "0F0230ECFD44056B"
-			tasks: [{
-				id: "1E3769B5BAE2FA31"
-				item: "gtceu:mpic_chip"
-				type: "item"
-			}]
-			x: 42.5d
-			y: -4.5d
-		}
-		{
+			dependencies: ["6D8021F190292643"]
 			id: "76E1A1C3897EE0B7"
 			tasks: [{
 				id: "106C666B9CA1FD2B"
 				item: "kubejs:machine_core_4"
 				type: "item"
 			}]
-			x: 47.5d
-			y: -1.5d
+			x: 42.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3473E60E02BE60C8"]
@@ -3012,14 +2661,16 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["7F960E6FE33E4A72"]
+			hide_dependency_lines: true
 			id: "16AE7119AE156B0D"
 			tasks: [{
 				id: "421A17FA33CDA11C"
 				item: "gtceu:nano_processor_mainframe"
 				type: "item"
 			}]
-			x: 44.0d
-			y: -1.5d
+			x: 42.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["063FD60FD3B0E34D"]
@@ -3035,6 +2686,12 @@
 		{
 			dependencies: ["431BEAE85A182D7D"]
 			id: "23D236104AF67215"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B3109ADEA61BA5F"
+				table_id: 7726132512131049101L
+				type: "random"
+			}]
 			tasks: [{
 				id: "02A7396FFE4519F8"
 				item: "oritong:steel_upgrade_smithing_template"
@@ -3053,6 +2710,197 @@
 			}]
 			x: 6.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["73CF75B5AC1D6A38"]
+			description: [
+				"比搅拌机+高炉好"
+				"后面有许多材料都无法使用搅拌机制作"
+				"不过讽刺的是，有了炖屎炉你就可以做大型搅拌罐了"
+			]
+			id: "57034A18DF8AF2A9"
+			subtitle: "炖屎炉"
+			tasks: [{
+				id: "1183F467B3C87618"
+				item: "gtceu:alloy_blast_smelter"
+				type: "item"
+			}]
+			x: 42.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["286010A888DAC0C4"]
+			hide_dependency_lines: true
+			id: "73CF75B5AC1D6A38"
+			tasks: [{
+				id: "2E6B11B8B208E953"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			x: 42.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5259AE90174C1499"
+				"73CF75B5AC1D6A38"
+				"16AE7119AE156B0D"
+			]
+			description: [""]
+			id: "1161103222E8AF78"
+			tasks: [{
+				id: "6390305B7F1BF278"
+				item: "gtceu:large_gas_collector"
+				type: "item"
+			}]
+			x: 41.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["27D390F592472AA0"]
+			id: "797680983FE061D0"
+			tasks: [{
+				id: "45B99FC733CDC95A"
+				item: "gtceu:quantum_eye"
+				type: "item"
+			}]
+			x: 41.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7F960E6FE33E4A72"]
+			id: "1E48183A61838D12"
+			tasks: [{
+				id: "7011630F5621B865"
+				item: "gtceu:ev_assembler"
+				type: "item"
+			}]
+			x: 38.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F960E6FE33E4A72"]
+			id: "42B517516136C658"
+			tasks: [{
+				id: "2C64A4522F84E4B8"
+				item: "gtceu:ev_chemical_bath"
+				type: "item"
+			}]
+			x: 36.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"797680983FE061D0"
+				"76E1A1C3897EE0B7"
+			]
+			description: [
+				"非常贵"
+				"但是很值得"
+			]
+			id: "32D4D5A439A81BEC"
+			tasks: [{
+				id: "007B44D6D72611F0"
+				item: "bettergtae:large_molecular_assembler"
+				type: "item"
+			}]
+			x: 42.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["492472216CF74DE0"]
+			description: [""]
+			id: "6D8021F190292643"
+			tasks: [{
+				id: "3FBAE5F20CC9BCCA"
+				item: "gtceu:indium_dust"
+				type: "item"
+			}]
+			x: 41.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DF52ABC26309A69"]
+			description: [
+				"溶解罐，这是一个让人发疯的机器"
+				"它会在你输入的材料不成比例时，吞掉输入和输出"
+				"所以这里推荐你使用ME仓室进行自动拉取来自动化这个产线"
+			]
+			id: "492472216CF74DE0"
+			min_width: 250
+			tasks: [{
+				id: "1BBC817B8AAD1E59"
+				item: "gtceu:dissolving_tank"
+				type: "item"
+			}]
+			x: 41.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["286010A888DAC0C4"]
+			description: ["将并行仓放入大型多方块机器，你就可以让大型多方块机器以并行模式运行配方了"]
+			id: "3F70BBAB23E477A6"
+			tasks: [{
+				id: "70BF83DC1894A0DE"
+				item: "gtceu:iv_parallel_hatch"
+				type: "item"
+			}]
+			x: 36.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["599B2079CB71CC31"]
+			id: "1982CC5156BE84AE"
+			tasks: [{
+				id: "15CFF22179BE69A9"
+				item: "gtceu:large_metallurgic_infuser"
+				type: "item"
+			}]
+			x: 32.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["753E6963A939C10C"]
+			description: [
+				"&n别碰我"
+				"&m别碰我"
+				"&8别&7碰&8我"
+				"&8另&7刂&8石&7並&8我"
+				"&d别&0碰&d我"
+			]
+			id: "505150E5B114A8F5"
+			size: 4.0d
+			subtitle: "别碰我"
+			tasks: [{
+				id: "3F5CAF52892C6B76"
+				item: "dont_touch_me:dont_touch_me"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["599B2079CB71CC31"]
+			id: "2CD1A66995AB7365"
+			tasks: [{
+				id: "5732115CE91A33A0"
+				item: "gtceu:large_rock_breaker"
+				type: "item"
+			}]
+			x: 32.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0173FC868285B307"]
+			description: ["注：药水过滤卡目前尚未设计完成，敬请期待，目前基本可以确定为扫描仪"]
+			id: "0865F53DE2DEEC4F"
+			tasks: [{
+				id: "654D9B475F399124"
+				item: "pylons:infusion_pylon"
+				type: "item"
+			}]
+			x: 29.0d
+			y: -6.0d
 		}
 	]
 	title: "第二章 第零次工业革命"

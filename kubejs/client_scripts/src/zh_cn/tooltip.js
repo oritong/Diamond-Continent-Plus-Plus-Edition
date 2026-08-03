@@ -25,7 +25,12 @@ let tooltip_zh_cn = [
     ['kubejs:physics_assembler', '在几年后的世界似乎可以将黏在一起的东西变得"物理化"，可惜现在只是一个能帮助太空电梯模块运行的核心硬件'],
     ['gtceu:pcb_factory', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：PCB工厂'],
     ['gtceu:hyperdimensional_chemical_plant', '耗时倍数：0.2，耗能倍数：0.4\n按照线圈温度并行，每提高900K并行x2\n此机器以批处理模式运行配方\n仅支持激光仓\n该机器拥有跨配方并行机制\n无损超频\n可用配方类型：大型化学反应釜、化学浸洗机、超级化工厂、PCB工厂'],
-    ['gtceu:directional_void_miner', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：定向虚空矿机']
+    ['gtceu:directional_void_miner', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：定向虚空矿机'],
+    ['gtceu:large_metallurgic_infuser', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：冶金富集器，富集提取器，富集灌注器'],
+    ['gtceu:dissolving_tank', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：溶解罐\n当输入和配方不成比例时，该机器将吞入所有输入并在运行完成后不输出任何产出。'],
+    ['dont_touch_me:dont_touch_me', '别碰我。'],
+    ['kubejs:nether_data', '闪存夹余烬面粉塔可'],
+    ['kubejs:end_data', '闪存夹粉碎末地石塔可']
 ]
 let color_tooltip_zh_cn = [
     ['avaritia:infinity_elytra', '"圣城！请带着无翼的我们乘风而起吧！"'],
@@ -143,7 +148,10 @@ let color_tooltip_added = [
     "gtceu:iv_dual_output_hatch",
     'gtceu:pcb_factory',
     'gtceu:hyperdimensional_chemical_plant',
-    'gtceu:directional_void_miner'
+    'gtceu:directional_void_miner',
+    "gtceu:large_metallurgic_infuser",
+    "gtceu:dissolving_tank",
+    "gtceu:large_gas_collector"
 ]
 let color_tooltip_modified = [
     'gtceu:iv_parallel_hatch',
@@ -160,8 +168,36 @@ let color_tooltip_modified = [
     "gtceu:luv_dual_output_hatch",
     "gtceu:zpm_dual_output_hatch",
     "gtceu:uv_dual_output_hatch",
-    "gtceu:uhv_dual_output_hatch"
+    "gtceu:uhv_dual_output_hatch",
+    'tconstruct:crafting_station'
 ]
+
+const COLOR_TOOLTIP_STYLE = {
+    nodes: [[255, 255, 0], [0, 255, 255], [255, 0, 255]],
+    length: 4,
+    time: 2
+}
+
+let colorTooltipIds = []
+function addColorTooltipId(id) {
+    if (colorTooltipIds.indexOf(id) === -1) {
+        colorTooltipIds.push(id)
+    }
+}
+
+color_tooltip_zh_cn.forEach(item => addColorTooltipId(item[0]))
+color_tooltip_added.forEach(key => addColorTooltipId(key))
+color_tooltip_modified.forEach(key => addColorTooltipId(key))
+
+let colorTooltipSharedRoot = typeof global !== 'undefined' ? global : this
+colorTooltipSharedRoot.colorTooltipEntries = colorTooltipIds.map(id => ({
+    key: 'tt.' + id,
+    id: id,
+    nodes: COLOR_TOOLTIP_STYLE.nodes,
+    length: COLOR_TOOLTIP_STYLE.length,
+    time: COLOR_TOOLTIP_STYLE.time
+}))
+
 ItemEvents.tooltip(e => {
     tooltip_zh_cn.forEach(item => {
         const key = item[0]

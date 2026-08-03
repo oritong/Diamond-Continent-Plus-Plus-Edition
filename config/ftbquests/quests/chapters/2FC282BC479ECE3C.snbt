@@ -36,8 +36,26 @@
 			x: 0.0d
 			y: -1.0d
 		}
+		{
+			height: 1.0d
+			image: "kubejs:item/circuit/general/general_circuit_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/circuit/general/general_circuit_ev"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
 	]
 	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -145,6 +163,116 @@
 			}]
 			x: 4.5d
 			y: -1.0d
+		}
+		{
+			id: "122B05B5E36B2BD9"
+			tasks: [{
+				id: "0FC01C54369878AB"
+				item: "gtceu:hv_steam_turbine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "4CB548923B4E0544"
+			tasks: [{
+				id: "67A241537F44AC40"
+				item: "gtceu:hv_combustion"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "4816A50B490644D9"
+			tasks: [{
+				id: "7B4831C645A88D92"
+				item: "gtceu:hv_gas_turbine"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "6A043B52CF8A42DE"
+			tasks: [{
+				id: "023D2F5D9A2611A1"
+				item: "gtceu:gas_large_turbine"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			id: "0266CAD23E4596D0"
+			tasks: [{
+				id: "720BF77AC17FA679"
+				item: "gtceu:large_combustion_engine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "5219ACC7C5DB4638"
+			tasks: [{
+				id: "7AAE85A19BB040F6"
+				item: "gtceu:gas_large_turbine"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "7631DE074EF64A4F"
+			tasks: [{
+				id: "57EC2118A535951A"
+				item: "gtceu:extreme_combustion_engine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			id: "2B97DB8CBA9B5C83"
+			tasks: [{
+				id: "624D680D8BB01D7B"
+				item: "gtnn:ev_rocket_engine"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "74DF81D34C070AAF"
+			tasks: [{
+				id: "2827849AD450FBE4"
+				item: "gtceu:plasma_large_turbine"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			id: "0C32954841DCFC44"
+			tasks: [{
+				id: "637D2F4B808B9A47"
+				item: "gtnn:ev_naquadah_reactor"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "0E67BC048B0B7A3F"
+			tasks: [{
+				id: "2B5773BEF20F2892"
+				item: "gtnn:large_naquadah_reactor"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
 		}
 	]
 	title: "发电"

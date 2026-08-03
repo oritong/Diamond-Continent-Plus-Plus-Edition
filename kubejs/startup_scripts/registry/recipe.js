@@ -6,4 +6,6 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', e=>{
     e.create('pcb_factory').setEUIO('in').setMaxIOSize(3, 2, 1, 0).setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY).setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT).setSound(GTSoundEntries.BOILER)
     e.create('super_chemical_plant').setEUIO('in').setMaxIOSize(4, 4, 4, 4).setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY).setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT).setSound(GTSoundEntries.SCIENCE)
     e.create('directional_void_miner').setEUIO('in').setMaxIOSize(2, 4, 2, 1).setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY).setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT).setSound(GTSoundEntries.BOILER)
+    e.create('dissolving_tank').setEUIO('in').setMaxIOSize(4, 2, 4, 2).setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY).setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT).setSound(GTSoundEntries.BOILER)
+    e.create('large_gas_collector').setEUIO('in').setMaxIOSize(2, 0, 0, 1).setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY).setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT).setSound(GTSoundEntries.BOILER)
 })

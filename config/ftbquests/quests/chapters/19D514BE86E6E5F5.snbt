@@ -98,8 +98,19 @@
 			x: -14.0d
 			y: 5.0d
 		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default杂项：存储"
+			height: 0.9d
+			image: ""
+			rotation: 0.0d
+			width: 2.6d
+			x: -14.0d
+			y: -9.0d
+		}
 	]
 	order_index: 3
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [
 		{
 			id: "7D8EB469A653EC72"
@@ -811,7 +822,7 @@
 			dependencies: ["2A5A5515DF1BD1FB"]
 			id: "6DA552BAD013CD16"
 			x: -10.5d
-			y: 8.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CBC5A84BE4BC7BA"]
@@ -1046,6 +1057,55 @@
 			}]
 			x: -17.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["19DB31004C991895"]
+			id: "0B4059B93A9708A1"
+			tasks: [
+				{
+					id: "4A0413AF1F406F57"
+					item: "mekanism:dynamic_tank"
+					type: "item"
+				}
+				{
+					id: "452BCF39304B8FB3"
+					item: "mekanism:dynamic_valve"
+					type: "item"
+				}
+			]
+			x: -16.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5E72D738B6DAB84B"]
+			icon: "tconstruct:seared_ingot_tank"
+			id: "6F22E8C5460E1A31"
+			tasks: [{
+				id: "18E0569A86F892E6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tconstruct:seared_tanks)"
+					}
+				}
+				match_nbt: false
+				title: "Any #tconstruct:seared_tanks"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6196177C716557BB"]
+			id: "134DC7878263011C"
+			tasks: [{
+				id: "2C9325B32AFBF760"
+				item: "expatternprovider:ingredient_buffer"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -8.0d
 		}
 	]
 	title: "物流存储"

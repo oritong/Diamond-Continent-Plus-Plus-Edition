@@ -27,6 +27,17 @@ ServerEvents.recipes(e => {
     e.recipes.minecraft.smithing_transform('ars_nouveau:dominion_wand', 'kubejs:the_source_of_the_earth', 'gtceu:long_electrum_rod', 'minecraft:amethyst_block')
     e.recipes.minecraft.smithing_transform('pipez:ultimate_upgrade', 'minecraft:netherite_upgrade_smithing_template', 'pipez:advanced_upgrade', 'minecraft:netherite_ingot')
     e.recipes.minecraft.smithing_transform('angelring:angel_ring', 'gtceu:ender_eye_block', 'gtceu:electrum_ring', 'avaritia:infinity_elytra')
+    e.recipes.minecraft.smithing_transform('industrialforegoing:range_addon1', 'industrialforegoing:range_addon0', 'gtceu:lv_field_generator', 'industrialforegoing:range_addon0')
+    e.recipes.minecraft.smithing_transform('industrialforegoing:range_addon2', 'industrialforegoing:range_addon1', 'gtceu:lv_field_generator', 'industrialforegoing:range_addon1')
+    e.recipes.minecraft.smithing_transform('industrialforegoing:range_addon3', 'industrialforegoing:range_addon2', 'gtceu:lv_field_generator', 'industrialforegoing:range_addon2')
+    e.recipes.minecraft.smithing_transform('industrialforegoing:range_addon4', 'industrialforegoing:range_addon3', 'gtceu:lv_field_generator', 'industrialforegoing:range_addon3')
+    e.recipes.minecraft.smithing_transform('industrialforegoing:range_addon5', 'industrialforegoing:range_addon4', 'gtceu:mv_field_generator', 'industrialforegoing:range_addon4')
+    e.recipes.minecraft.smithing_transform('industrialforegoing:range_addon6', 'industrialforegoing:range_addon5', 'gtceu:hv_field_generator', 'industrialforegoing:range_addon5')
+    e.recipes.minecraft.smithing_transform('industrialforegoing:range_addon7', 'industrialforegoing:range_addon6', 'gtceu:ev_field_generator', 'industrialforegoing:range_addon6')
+    e.recipes.minecraft.smithing_transform('industrialforegoing:range_addon8', 'industrialforegoing:range_addon7', 'gtceu:iv_field_generator', 'industrialforegoing:range_addon7')
+    e.recipes.minecraft.smithing_transform('industrialforegoing:range_addon9', 'industrialforegoing:range_addon8', 'gtceu:luv_field_generator', 'industrialforegoing:range_addon8')
+    e.recipes.minecraft.smithing_transform('industrialforegoing:range_addon10', 'industrialforegoing:range_addon9', 'gtceu:zpm_field_generator', 'industrialforegoing:range_addon9')
+    e.recipes.minecraft.smithing_transform('industrialforegoing:range_addon11', 'industrialforegoing:range_addon10', 'gtceu:uv_field_generator', 'industrialforegoing:range_addon10')
 })
 
 ServerEvents.recipes(e => {

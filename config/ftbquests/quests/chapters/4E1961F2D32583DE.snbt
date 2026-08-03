@@ -13,6 +13,8 @@
 	}
 	id: "4E1961F2D32583DE"
 	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{

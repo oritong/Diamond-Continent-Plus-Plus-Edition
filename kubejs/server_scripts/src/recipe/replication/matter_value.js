@@ -1,10 +1,16 @@
 //生存 猎手 饕餮 圣徒 工匠 僧侣 溪流 大师
 let matter_types = ['earth', 'nether', 'organic', 'ender', 'metallic', 'precious', 'living', 'quantum']
 let item_value = [
-    ['gtceu:rubber_plate', 20, 2, 8, 10, 25, 17, 21, 10],
+    ['gtceu:rubber_plate', 8, 8, 8, 8, 8, 8, 8, 8],
     ['gtceu:fluid_cell', 10, 10, 10, 10, 10, 10, 10, 10],
     ['gtceu:lv_super_tank', 100, 100, 100, 100, 100, 100, 100, 100],
-    ['gtceu:lv_super_chest', 100, 100, 100, 100, 100, 100, 100, 100]
+    ['gtceu:lv_super_chest', 100, 100, 100, 100, 100, 100, 100, 100],
+    ['mekanism:ingot_steel', 10, 10, 10, 10, 10, 10, 10, 10],
+    ['gtceu:aluminium_ingot', 35, 35, 35, 35, 35, 35, 35, 35],
+    ['gtceu:rose_gold_ingot', 20, 20, 20, 20, 20, 20, 20, 20],
+    ['gtceu:silicon_ingot', 20, 20, 20, 20, 20, 20, 20, 20],
+    ['minecraft:redstone', 12, 12, 12, 12, 12, 12, 12, 12]
+
 ]
 let slug_plush = [
     ['rainrot:survivor_slug_plush', 'earth', 500],

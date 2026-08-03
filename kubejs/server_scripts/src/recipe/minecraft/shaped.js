@@ -1064,4 +1064,651 @@ ServerEvents.recipes(e => {
         B: 'gtceu:cupronickel_coil_block',
         C: 'gtceu:steel_plate'
     })
+    e.shaped('gtceu:large_maceration_tower', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:blue_steel_plate',
+        B: '#gtceu:circuits/iv',
+        C: 'kubejs:multi_functional_casing',
+        D: 'gtceu:hv_macerator'
+    })
+    e.shaped('gtceu:large_chemical_bath', [
+        'ABA',
+        'CDC',
+        'AEA'
+    ], {
+        A: 'gtceu:beryllium_copper_plate',
+        B: 'gtceu:hv_ore_washer',
+        C: '#gtceu:circuits/iv',
+        D: 'kubejs:multi_functional_casing',
+        E: 'gtceu:hv_chemical_bath'
+    })
+    e.shaped('gtceu:large_centrifuge', [
+        'ABA',
+        'CDC',
+        'AEA'
+    ], {
+        A: 'gtceu:beryllium_copper_plate',
+        B: 'gtceu:hv_thermal_centrifuge',
+        C: '#gtceu:circuits/iv',
+        D: 'kubejs:multi_functional_casing',
+        E: 'gtceu:hv_centrifuge'
+    })
+    e.shaped('gtceu:large_mixer', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:vanadium_gallium_plate',
+        B: 'kubejs:multi_functional_casing',
+        C: '#gtceu:circuits/iv',
+        D: 'gtceu:hv_mixer'
+    })
+    e.shaped('gtceu:large_electrolyzer', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:hsla_steel_plate',
+        B: 'kubejs:multi_functional_casing',
+        C: '#gtceu:circuits/iv',
+        D: 'gtceu:hv_electrolyzer'
+    })
+    e.shaped('gtceu:large_electromagnet', [
+        'ABA',
+        'CDC',
+        'AEA'
+    ], {
+        A: 'gtceu:hsla_steel_plate',
+        B: 'gtceu:hv_electromagnetic_separator',
+        C: '#gtceu:circuits/iv',
+        D: 'kubejs:multi_functional_casing',
+        E: 'gtceu:hv_polarizer'
+    })
+    e.shaped('gtceu:large_packer', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:blue_alloy_plate',
+        B: 'kubejs:multi_functional_casing',
+        C: '#gtceu:circuits/iv',
+        D: 'gtceu:hv_packer'
+    })
+    e.shaped('gtceu:large_assembler', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:atomic_alloy_plate',
+        B: 'kubejs:multi_functional_casing',
+        C: '#gtceu:circuits/iv',
+        D: 'gtceu:hv_assembler'
+    })
+    e.shaped('gtceu:large_circuit_assembler', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:atomic_alloy_plate',
+        B: 'kubejs:multi_functional_casing',
+        C: '#gtceu:circuits/iv',
+        D: 'gtceu:hv_circuit_assembler'
+    })
+    e.shaped('gtceu:large_arc_smelter', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:black_steel_plate',
+        B: 'kubejs:multi_functional_casing',
+        C: '#gtceu:circuits/iv',
+        D: 'gtceu:hv_arc_furnace'
+    })
+    e.shaped('gtceu:large_engraving_laser', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:red_steel_plate',
+        B: 'kubejs:multi_functional_casing',
+        C: '#gtceu:circuits/iv',
+        D: 'gtceu:hv_laser_engraver'
+    })
+    e.shaped('gtceu:large_sifting_funnel', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:beryllium_copper_plate',
+        B: 'kubejs:multi_functional_casing',
+        C: '#gtceu:circuits/iv',
+        D: 'gtceu:hv_sifter'
+    })
+    e.shaped('gtceu:large_autoclave', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:beryllium_copper_plate',
+        B: 'kubejs:multi_functional_casing',
+        C: '#gtceu:circuits/iv',
+        D: 'gtceu:hv_autoclave'
+    })
+    e.shaped('gtceu:large_material_press', [
+        'ABC',
+        'DED',
+        'FBG'
+    ], {
+        A: 'gtceu:hv_forge_hammer',
+        B: 'gtceu:double_damascus_steel_plate',
+        C: 'gtceu:hv_forming_press',
+        D: '#gtceu:circuits/iv',
+        E: 'kubejs:multi_functional_casing',
+        F: 'gtceu:hv_compressor',
+        G: 'gtceu:hv_bender'
+    })
+    e.shaped('gtceu:large_brewer', [
+        'ABC',
+        'DED',
+        'CFA'
+    ], {
+        A: 'kubejs:multi_functional_casing',
+        B: 'gtceu:hv_brewery',
+        C: 'gtceu:double_black_bronze_plate',
+        D: '#gtceu:circuits/iv',
+        E: 'gtceu:hv_fermenter',
+        F: 'gtceu:hv_fluid_heater'
+    })
+    e.shaped('gtceu:large_cutter', [
+        'ABA',
+        'CDC',
+        'AEA'
+    ], {
+        A: 'gtceu:red_alloy_plate',
+        B: 'gtceu:hv_cutter',
+        C: '#gtceu:circuits/iv',
+        D: 'kubejs:multi_functional_casing',
+        E: 'gtceu:hv_lathe'
+    })
+    e.shaped('gtceu:large_distillery', [
+        'ABA',
+        'CDC',
+        'AEA'
+    ], {
+        A: 'gtceu:beryllium_copper_plate',
+        B: 'gtceu:hv_distillery',
+        C: '#gtceu:circuits/iv',
+        D: 'kubejs:multi_functional_casing',
+        E: 'gtceu:distillation_tower'
+    })
+    e.shaped('gtceu:large_extractor', [
+        'ABA',
+        'CDC',
+        'AEA'
+    ], {
+        A: 'gtceu:beryllium_copper_plate',
+        B: 'gtceu:hv_extractor',
+        C: '#gtceu:circuits/iv',
+        D: 'kubejs:multi_functional_casing',
+        E: 'gtceu:hv_canner'
+    })
+    e.shaped('gtceu:large_extruder', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:damascus_steel_plate',
+        B: 'kubejs:multi_functional_casing',
+        C: '#gtceu:circuits/iv',
+        D: 'gtceu:hv_extruder'
+    })
+    e.shaped('gtceu:large_solidifier', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:beryllium_copper_plate',
+        B: 'kubejs:multi_functional_casing',
+        C: '#gtceu:circuits/iv',
+        D: 'gtceu:hv_fluid_solidifier'
+    })
+    e.shaped('gtceu:large_wiremill', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:damascus_steel_plate',
+        B: 'kubejs:multi_functional_casing',
+        C: '#gtceu:circuits/iv',
+        D: 'gtceu:hv_wiremill'
+    })
+    e.shaped('gtnn:large_dehydrator', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:black_steel_plate',
+        B: 'kubejs:multi_functional_casing',
+        C: '#gtceu:circuits/iv',
+        D: 'gtnn:hv_dehydrator'
+    })
+    e.shaped('gtceu:dissolving_tank', [
+        'ABA',
+        'CDE',
+        'AFA'
+    ], {
+        A: '#gtceu:circuits/iv',
+        B: 'gtceu:ev_chemical_bath',
+        C: 'gtceu:ev_chemical_reactor',
+        D: 'gtceu:watertight_casing',
+        E: 'gtceu:ev_autoclave',
+        F: 'gtceu:ev_fluid_heater'
+    })
+    e.shaped('gtceu:large_metallurgic_infuser', [
+        'ABA',
+        'CDC',
+        'EFG'
+    ], {
+        A: 'gtceu:hsla_steel_plate',
+        B: 'gtceu:hv_enrichment_chamber',
+        C: '#gtceu:circuits/iv',
+        D: 'kubejs:multi_functional_casing',
+        E: 'gtceu:hv_infused_extracter',
+        F: 'gtceu:double_hsla_steel_plate',
+        G: 'gtceu:hv_enrichment_infuser'
+    })
+    e.shaped('gtceu:mv_enrichment_chamber', [
+        'ABA',
+        'CDC',
+        'EFE'
+    ], {
+        A: 'gtceu:aluminium_plate',
+        B: '#forge:glass_panes/colorless',
+        C: 'gtceu:mv_electric_motor',
+        D: 'gtceu:mv_machine_hull',
+        E: '#gtceu:circuits/mv',
+        F: 'minecraft:furnace'
+    })
+    e.shaped('gtceu:hv_enrichment_chamber', [
+        'ABA',
+        'CDC',
+        'EFE'
+    ], {
+        A: 'gtceu:stainless_steel_plate',
+        B: '#forge:glass_panes/colorless',
+        C: 'gtceu:hv_electric_motor',
+        D: 'gtceu:hv_machine_hull',
+        E: '#gtceu:circuits/hv',
+        F: 'minecraft:furnace'
+    })
+    e.shaped('gtceu:ev_enrichment_chamber', [
+        'ABA',
+        'CDC',
+        'EFE'
+    ], {
+        A: 'gtceu:titanium_plate',
+        B: '#forge:glass_panes/colorless',
+        C: 'gtceu:ev_electric_motor',
+        D: 'gtceu:ev_machine_hull',
+        E: '#gtceu:circuits/ev',
+        F: 'minecraft:furnace'
+    })
+    e.shaped('gtceu:ev_enrichment_infuser', [
+        'AAA',
+        'BCD',
+        'EFE'
+    ], {
+        A: 'gtceu:titanium_plate',
+        B: 'gtceu:ev_electric_motor',
+        C: 'gtceu:ev_machine_hull',
+        D: 'gtceu:ev_conveyor_module',
+        E: '#gtceu:circuits/ev',
+        F: 'gtceu:ev_electric_pump'
+    })
+    e.shaped('gtceu:hv_enrichment_infuser', [
+        'AAA',
+        'BCD',
+        'EFE'
+    ], {
+        A: 'gtceu:stainless_steel_plate',
+        B: 'gtceu:hv_conveyor_module',
+        C: 'gtceu:hv_machine_hull',
+        D: 'gtceu:hv_electric_pump',
+        E: '#gtceu:circuits/hv',
+        F: 'gtceu:hv_electric_motor'
+    })
+    e.shaped('gtceu:mv_enrichment_infuser', [
+        'AAA',
+        'BCD',
+        'EFE'
+    ], {
+        A: 'gtceu:aluminium_plate',
+        B: 'gtceu:mv_conveyor_module',
+        C: 'gtceu:mv_machine_hull',
+        D: 'gtceu:mv_electric_pump',
+        E: '#gtceu:circuits/mv',
+        F: 'gtceu:mv_electric_motor'
+    })
+    e.shaped('gtceu:mv_infused_extracter', [
+        'ABA',
+        'CDC',
+        'CEC'
+    ], {
+        A: 'gtceu:mv_electric_motor',
+        B: '#gtceu:circuits/mv',
+        C: 'gtceu:aluminium_plate',
+        D: 'gtceu:mv_machine_hull',
+        E: 'gtceu:bronze_rotor'
+    })
+    e.shaped('gtceu:hv_infused_extracter', [
+        'ABA',
+        'CDC',
+        'CEC'
+    ], {
+        A: 'gtceu:hv_electric_motor',
+        B: '#gtceu:circuits/hv',
+        C: 'gtceu:stainless_steel_plate',
+        D: 'gtceu:hv_machine_hull',
+        E: 'gtceu:steel_rotor'
+    })
+    e.shaped('gtceu:ev_infused_extracter', [
+        'ABA',
+        'CDC',
+        'CEC'
+    ], {
+        A: 'gtceu:ev_electric_motor',
+        B: '#gtceu:circuits/ev',
+        C: 'gtceu:titanium_plate',
+        D: 'gtceu:ev_machine_hull',
+        E: 'gtceu:stainless_steel_rotor'
+    })
+    e.shaped('2x expatternprovider:ingredient_buffer', [
+        'ABA',
+        'BCB',
+        'ABA'
+    ], {
+        A: 'gtceu:wrought_iron_rod',
+        B: 'gtceu:iron_plate',
+        C: '#forge:glass/colorless'
+    })
+    e.shaped('industrialforegoing:speed_addon_1', [
+        'ABA',
+        'CDC',
+        'CBC'
+    ], {
+        A: 'minecraft:redstone',
+        B: 'gtceu:diamond_gear',
+        C: 'gtceu:fine_gold_wire',
+        D: '#forge:glass_panes/colorless'
+    })
+    e.shaped('industrialforegoing:efficiency_addon_1', [
+        'ABA',
+        'CDC',
+        'CBC'
+    ], {
+        A: 'minecraft:redstone',
+        B: 'gtceu:iron_gear',
+        C: 'gtceu:fine_gold_wire',
+        D: '#forge:glass_panes/colorless'
+    })
+    e.shaped('industrialforegoing:processing_addon_1', [
+        'ABA',
+        'CDC',
+        'CBC'
+    ], {
+        A: 'minecraft:redstone',
+        B: 'gtceu:bronze_gear',
+        C: 'gtceu:fine_gold_wire',
+        D: '#forge:glass_panes/colorless'
+    })
+    e.shaped('industrialforegoing:speed_addon_2', [
+        'ABA',
+        'CDC',
+        'CBC'
+    ], {
+        A: 'minecraft:redstone',
+        B: 'gtceu:steel_plate',
+        C: 'gtceu:diamond_plate',
+        D: 'industrialforegoing:speed_addon_1'
+    })
+    e.shaped('industrialforegoing:efficiency_addon_2', [
+        'ABA',
+        'CDC',
+        'CBC'
+    ], {
+        A: 'minecraft:redstone',
+        B: 'gtceu:steel_plate',
+        C: 'gtceu:diamond_plate',
+        D: 'industrialforegoing:efficiency_addon_1'
+    })
+    e.shaped('industrialforegoing:processing_addon_2', [
+        'ABA',
+        'CDC',
+        'CBC'
+    ], {
+        A: 'minecraft:redstone',
+        B: 'gtceu:steel_plate',
+        C: 'gtceu:diamond_plate',
+        D: 'industrialforegoing:processing_addon_1'
+    })
+    e.shaped('ifeu:speed_addon_3', [
+        'ABA',
+        'CDC',
+        'CBC'
+    ], {
+        A: 'minecraft:redstone',
+        B: 'mekanism:alloy_infused',
+        C: 'gtceu:rose_gold_plate',
+        D: 'industrialforegoing:speed_addon_2'
+    })
+    e.shaped('ifeu:efficiency_addon_3', [
+        'ABA',
+        'CDC',
+        'CBC'
+    ], {
+        A: 'minecraft:redstone',
+        B: 'mekanism:alloy_infused',
+        C: 'gtceu:rose_gold_plate',
+        D: 'industrialforegoing:efficiency_addon_2'
+    })
+    e.shaped('ifeu:processing_addon_3', [
+        'ABA',
+        'CDC',
+        'CBC'
+    ], {
+        A: 'minecraft:redstone',
+        B: 'mekanism:alloy_infused',
+        C: 'gtceu:rose_gold_plate',
+        D: 'industrialforegoing:processing_addon_2'
+    })
+    e.shaped('ifeu:speed_addon_4', [
+        'ABA',
+        'CDC',
+        'CBC'
+    ], {
+        A: 'minecraft:redstone',
+        B: 'mekanism:alloy_atomic',
+        C: 'gtceu:silicon_plate',
+        D: 'ifeu:speed_addon_3'
+    })
+    e.shaped('ifeu:processing_addon_4', [
+        'ABA',
+        'CDC',
+        'CBC'
+    ], {
+        A: 'minecraft:redstone',
+        B: 'mekanism:alloy_atomic',
+        C: 'gtceu:silicon_plate',
+        D: 'ifeu:processing_addon_3'
+    })
+    e.shaped('ifeu:efficiency_addon_4', [
+        'ABA',
+        'CDC',
+        'CBC'
+    ], {
+        A: 'minecraft:redstone',
+        B: 'mekanism:alloy_atomic',
+        C: 'gtceu:silicon_plate',
+        D: 'ifeu:efficiency_addon_3'
+    })
+    e.shaped('ifeu:speed_addon_5', [
+        'ABA',
+        'CDC',
+        'CBC'
+    ], {
+        A: 'mekanism:alloy_atomic',
+        B: 'minecraft:nether_star',
+        C: 'mekanism:ingot_refined_obsidian',
+        D: 'ifeu:speed_addon_4'
+    })
+    e.shaped('ifeu:processing_addon_5', [
+        'ABA',
+        'CDC',
+        'CBC'
+    ], {
+        A: 'mekanism:alloy_atomic',
+        B: 'minecraft:nether_star',
+        C: 'mekanism:ingot_refined_obsidian',
+        D: 'ifeu:processing_addon_4'
+    })
+    e.shaped('ifeu:efficiency_addon_5', [
+        'ABA',
+        'CDC',
+        'CBC'
+    ], {
+        A: 'mekanism:alloy_atomic',
+        B: 'minecraft:nether_star',
+        C: 'mekanism:ingot_refined_obsidian',
+        D: 'ifeu:efficiency_addon_4'
+    })
+    e.shaped('ifeu:speed_addon_6', [
+        'ABA',
+        'CDC',
+        'CBC'
+    ], {
+        A: 'gtceu:quantum_star',
+        B: 'ifeu:dragon_star',
+        C: 'gtceu:neutronium_plate',
+        D: 'ifeu:speed_addon_5'
+    })
+    e.shaped('ifeu:processing_addon_6', [
+        'ABA',
+        'CDC',
+        'CBC'
+    ], {
+        A: 'gtceu:quantum_star',
+        B: 'ifeu:dragon_star',
+        C: 'gtceu:neutronium_plate',
+        D: 'ifeu:processing_addon_5'
+    })
+    e.shaped('ifeu:efficiency_addon_6', [
+        'ABA',
+        'CDC',
+        'CBC'
+    ], {
+        A: 'gtceu:quantum_star',
+        B: 'ifeu:dragon_star',
+        C: 'gtceu:neutronium_plate',
+        D: 'ifeu:efficiency_addon_5'
+    })
+    e.shaped('industrialforegoing:range_addon0', [
+        'ABA',
+        'BCB',
+        'ABA'
+    ], {
+        A: 'minecraft:cobblestone',
+        B: 'gtceu:fine_electrum_wire',
+        C: '#forge:glass_panes/colorless'
+    })
+    e.shaped('dont_touch_me:dont_touch_me', [
+        'A',
+        'B'
+    ], {
+        A: 'mekanism:alloy_infused',
+        B: 'minecraft:smooth_stone_slab'
+    })
+    e.shaped('bettergtae:large_molecular_assembler', [
+        'ABA',
+        'CDC',
+        'AEA'
+    ], {
+        A: '#gtceu:circuits/luv',
+        B: 'gtceu:iv_emitter',
+        C: 'gtceu:assembly_line_unit',
+        D: 'kubejs:machine_core_4',
+        E: 'gtceu:iv_sensor'
+    })
+    e.shaped('bettergtae:crafting_pattern_hatch', [
+        'ABC',
+        'DEF',
+        'CBA'
+    ], {
+        A: 'expatternprovider:ex_molecular_assembler',
+        B: '#gtceu:circuits/iv',
+        C: 'expatternprovider:ex_pattern_provider',
+        D: '#gtceu:circuits/luv',
+        E: 'kubejs:machine_core_4',
+        F: '#gtceu:circuits/ev'
+    })
+    e.shaped('gtceu:iv_parallel_hatch', [
+        'ABC',
+        'BDB',
+        'EBE'
+    ], {
+        A: 'gtceu:iv_sensor',
+        B: '#gtceu:circuits/luv',
+        C: 'gtceu:iv_emitter',
+        D: 'gtceu:ev_machine_hull',
+        E: 'gtceu:osmium_double_cable'
+    })
+    e.shaped('gtceu:large_rock_breaker', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:blue_steel_plate',
+        B: 'kubejs:multi_functional_casing',
+        C: '#gtceu:circuits/iv',
+        D: 'gtceu:hv_rock_crusher'
+    })
+    e.shaped('industrialforegoing:meat_feeder', [
+        'ABA',
+        'CBC',
+        ' D '
+    ], {
+        A: 'gtceu:hv_electric_piston',
+        B: 'gtceu:iron_plate',
+        C: 'gtceu:stainless_steel_fluid_cell',
+        D: 'gtceu:long_iron_rod'
+    })
+    e.shaped('pylons:infusion_pylon', [
+        'ABA',
+        ' C ',
+        'DBD'
+    ], {
+        A: 'minecraft:quartz_slab',
+        B: 'minecraft:ender_eye',
+        C: 'minecraft:emerald_block',
+        D: 'gtceu:dense_obsidian_plate'
+    })
+    e.shaped('2x create:andesite_funnel', [
+        'AA ',
+        'BB ',
+        '   '
+    ], {
+        A: 'create:andesite_alloy',
+        B: 'gtceu:rubber_plate'
+    })
+    e.shaped('2x create:brass_funnel', [
+        'AA ',
+        'BB ',
+        'CC '
+    ], {
+        A: 'gtceu:vacuum_tube',
+        B: 'gtceu:brass_ingot',
+        C: 'gtceu:rubber_plate'
+    })
 })

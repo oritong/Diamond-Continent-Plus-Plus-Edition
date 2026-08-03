@@ -1,0 +1,65 @@
+{
+    "type": "gtceu:rock_breaker",
+    "duration": 16,
+    "inputs": {
+        "item": [
+            {
+                "content": {
+                    "type": "gtceu:sized",
+                    "count": 1,
+                    "ingredient": {
+                        "item": "minecraft:dirt"
+                    }
+                },
+                "chance": 0,
+                "maxChance": 10000,
+                "tierChanceBoost": 0
+            }
+        ]
+    },
+    "outputs": {
+        "item": [
+            {
+                "content": {
+                    "type": "gtceu:sized",
+                    "count": 1,
+                    "ingredient": {
+                        "item": "minecraft:dirt"
+                    }
+                },
+                "chance": 10000,
+                "maxChance": 10000,
+                "tierChanceBoost": 0
+            }
+        ]
+    },
+    "tickInputs": {
+        "eu": [
+            {
+                "content": 60,
+                "chance": 10000,
+                "maxChance": 10000,
+                "tierChanceBoost": 0
+            }
+        ]
+    },
+    "tickOutputs": {},
+    "inputChanceLogics": {},
+    "outputChanceLogics": {},
+    "tickInputChanceLogics": {},
+    "tickOutputChanceLogics": {},
+    "category": "gtceu:rock_breaker",
+    "recipeConditions": [
+        {
+            "type": "adjacent_fluid",
+            "fluids": [
+                [
+                    "oritong:glimmer"
+                ],
+                [
+                    "minecraft:water"
+                ]
+            ]
+        }
+    ]
+}

@@ -91,7 +91,7 @@ recipes:
 
   # Whether to enable macerator decomposition recycling
   # Default: true
-  enableMaceratorRecycling: false
+  enableMaceratorRecycling: true
 
   # Percentage yield of macerator decomposition recycling outputs, 1.0 means 100%
   # Default: 1.0f
@@ -99,7 +99,7 @@ recipes:
 
   # Whether to enable arc furnace decomposition recycling
   # Default: true
-  enableArcRecycling: false
+  enableArcRecycling: true
 
   # Percentage yield of arc furnace decomposition recycling outputs, 1.0 means 100%
   # Default: 1.0f

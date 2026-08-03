@@ -15,6 +15,8 @@
 		y: 2.0d
 	}]
 	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -357,6 +359,7 @@
 		}
 		{
 			dependencies: ["57874B1EC09D2E1F"]
+			description: ["把液态铁浇在铁粒上，你就能获得锻铁锭了"]
 			id: "6196177C716557BB"
 			rewards: [
 				{
@@ -458,6 +461,11 @@
 		}
 		{
 			dependencies: ["356DDF333600DC7F"]
+			description: [
+				"工作台里手搓出玫瑰金"
+				"然后将液态玫瑰金浇筑在钻石板上"
+				"就得到了黎明石"
+			]
 			icon: "embers:dawnstone_ingot"
 			id: "0868AFFC24308555"
 			rewards: [
@@ -600,7 +608,15 @@
 		}
 		{
 			dependencies: ["2B3021F97995F54C"]
-			description: ["是的，我还没改资源包，改了之后就不是这个名字了"]
+			description: [
+				"将花药台中间注入水"
+				"然后将输入的物品投入其中"
+				"最后投入一个泥土之源"
+				"就可以合成一朵白雏菊了"
+				"花药台的使用方式就像如此"
+				""
+				"{image:quest_enhance:textures/ftb/clipboard_1785747552984.png width:199 height:173 align:center fit:true}"
+			]
 			icon: "botania:apothecary_plains"
 			id: "2023B8D76AEFB02B"
 			rewards: [
@@ -679,6 +695,8 @@
 				"最好可以多做一些魔源罐来储存魔力，魔力永远不嫌多"
 				"当然如果你真的不缺魔力，你还可以做魔力发射器全部排进魔力销毁器就是了"
 				"如果你实在太非，岩浆块也可以被白雏菊转换成熔岩"
+				""
+				"{image:quest_enhance:textures/ftb/clipboard_1785747882092.png width:295 height:106 align:center fit:true}"
 			]
 			id: "22E12D7F6FA1E9F3"
 			min_width: 300
@@ -762,7 +780,10 @@
 		}
 		{
 			dependencies: ["5F34A86A1C76E982"]
-			description: ["用玻璃粉在匠魂炉里燃烧成熔融玻璃"]
+			description: [
+				"用玻璃粉在匠魂炉里燃烧成熔融玻璃"
+				"请注意，有的配方并不认这种玻璃"
+			]
 			id: "79D363A141EBCFC3"
 			rewards: [
 				{
@@ -828,6 +849,7 @@
 		}
 		{
 			dependencies: ["126C69FA01671DA5"]
+			description: ["还用教吗"]
 			id: "356DDF333600DC7F"
 			rewards: [
 				{
@@ -930,10 +952,7 @@
 		}
 		{
 			dependencies: ["4BA49BF3061CFC37"]
-			description: [
-				"工作站可以访问旁边容器里的东西，并且直接使用，退出界面还会保存里面的东西"
-				""
-			]
+			description: ["工作站可以访问旁边容器里的东西，并且直接使用，退出界面还会保存九宫格的东西"]
 			icon: "tconstruct:crafting_station"
 			id: "7A37AD70DAE8538D"
 			rewards: [
@@ -965,6 +984,7 @@
 		}
 		{
 			dependencies: ["4BA49BF3061CFC37"]
+			description: ["把沙子铸模直接放进部件台就可制造各种沙子铸模"]
 			icon: "tconstruct:blank_sand_cast"
 			id: "579A64A697F0A1E0"
 			rewards: [
@@ -999,7 +1019,11 @@
 		}
 		{
 			dependencies: ["02F76171AF0EBF9A"]
-			description: ["把木块放在白雏菊周围9格进行转化，过一会就会变成一桶胶乳"]
+			description: [
+				"把木块放在白雏菊周围9格进行转化，过一会就会变成一桶胶乳"
+				""
+				"{image:quest_enhance:textures/ftb/clipboard_1785747711706.png width:199 height:138 align:center fit:true}"
+			]
 			id: "30E4C47192BBF26C"
 			rewards: [
 				{
@@ -1110,6 +1134,12 @@
 		}
 		{
 			dependencies: ["042A51FC9737E15A"]
+			description: [
+				"焦炉是你在这个整合包中的第一个gt机器，你可以像这样对着焦炉仓进行自动化"
+				""
+				""
+				"{image:quest_enhance:textures/ftb/clipboard_1785748277128.png width:199 height:194 align:center fit:true}"
+			]
 			id: "3D41F2D6A0066A16"
 			rewards: [
 				{
@@ -1221,7 +1251,11 @@
 		}
 		{
 			dependencies: ["03A52DAC1E7FDF1C"]
-			description: ["无限水，很好用"]
+			description: [
+				"无限水，很好用"
+				""
+				"{image:quest_enhance:textures/ftb/clipboard_1785749284252.png width:199 height:167 align:center fit:true}"
+			]
 			id: "5316BF31A9E8E6A5"
 			rewards: [
 				{
@@ -1299,6 +1333,7 @@
 		}
 		{
 			dependencies: ["3461FAEEAB8F3D7E"]
+			description: ["此多方块无法进行自动化"]
 			id: "6C0D2FCA9C44D4AE"
 			rewards: [
 				{
@@ -1349,7 +1384,12 @@
 		}
 		{
 			dependencies: ["1DFFF478176609DD"]
-			description: ["效率为30FE/t。大概不是很抗用"]
+			description: [
+				"效率为30FE/t。大概不是很抗用"
+				""
+				"{image:quest_enhance:textures/ftb/clipboard_1785749378177.png width:199 height:115 align:center fit:true}"
+				"{image:quest_enhance:textures/ftb/clipboard_1785749394696.png width:199 height:117 align:center fit:true}"
+			]
 			icon: "industrialforegoing:latex_processing_unit"
 			id: "6D47C79AA2D0160A"
 			rewards: [
@@ -1384,6 +1424,7 @@
 		}
 		{
 			dependencies: ["6D47C79AA2D0160A"]
+			description: ["将刚刚获得的干橡胶放入熔炉中，你就可以获得3个橡胶片"]
 			id: "735ED48DEA21FD28"
 			rewards: [
 				{
@@ -1609,21 +1650,15 @@
 			id: "71D253D427B51A9F"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "461173922195AB54"
-					table_id: 264598077089540674L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "510B5633B4AF14C9"
-					table_id: 7726132512131049101L
-					type: "loot"
-				}
-				{
-					id: "62AD77DB898FC649"
+					id: "3AC618C8F9382F7D"
 					item: "rainrot:five_pebbsi_vending_machine"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B76CEE108EB062B"
+					table_id: 7726132512131049101L
+					type: "random"
 				}
 			]
 			shape: "gear"
@@ -1635,37 +1670,6 @@
 			}]
 			x: 6.0d
 			y: 11.0d
-		}
-		{
-			description: [
-				"目前制作进度：ULV所有流程"
-				"LV除魔法线以外流程"
-				"MV大部分流程"
-				""
-				"待做事项："
-				"1.工业先锋插件配方补齐"
-				"2.LV魔法线流程"
-				"3.陨石处理乙醇线"
-				"4.HV主线"
-				"5.HV支线"
-				"6.EV主线"
-			]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftblibrary:icons/down"
-				}
-			}
-			id: "1F6AE9FB820766A2"
-			size: 6.0d
-			tasks: [{
-				id: "7F976120274FB20E"
-				type: "checkmark"
-			}]
-			title: "测试版"
-			x: -1.0d
-			y: 9.5d
 		}
 		{
 			dependencies: ["24403857C5C469D8"]
@@ -1747,7 +1751,11 @@
 		}
 		{
 			dependencies: ["67202B01C3A638BE"]
-			description: ["可以作为插件扩展机器的接触面"]
+			description: [
+				"可以作为插件扩展机器的接触面，像这样来自动化你的矿机"
+				""
+				"{image:quest_enhance:textures/ftb/clipboard_1785748128854.png width:199 height:183 align:center fit:true}"
+			]
 			id: "30CA72A5EE1E4110"
 			rewards: [
 				{

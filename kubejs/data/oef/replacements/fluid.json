@@ -41,5 +41,47 @@
       "mekanism:brine"
     ],
     "resultFluid": "gtceu:salt_water"
+  },
+  {
+    "matchFluid": [
+      "mekanism:hydrofluoric_acid",
+      "mekanism:flowing_hydrofluoric_acid"
+    ],
+    "resultFluid": "gtceu:hydrofluoric_acid"
+  },
+  {
+    "matchFluid": [
+      "mekanism:chlorine",
+      "mekanism:flowing_chlorine"
+    ],
+    "resultFluid": "gtceu:chlorine"
+  },
+  {
+    "matchFluid": [
+      "mekanism:sulfur_dioxide",
+      "mekanism:flowing_sulfur_dioxide"
+    ],
+    "resultFluid": "gtceu:sulfur_dioxide"
+  },
+  {
+    "matchFluid": [
+      "mekanism:uranium_hexafluoride",
+      "mekanism:flowing_uranium_hexafluoride"
+    ],
+    "resultFluid": "gtceu:uranium_hexafluoride"
+  },
+  {
+    "matchFluid": [
+      "mekanism:lithium",
+      "mekanism:flowing_lithium"
+    ],
+    "resultFluid": "gtceu:lithium"
+  },
+  {
+    "matchFluid": [
+      "mekanism:sulfur_trioxide",
+      "mekanism:flowing_sulfur_trioxide"
+    ],
+    "resultFluid": "gtceu:sulfur_trioxide"
   }
 ]

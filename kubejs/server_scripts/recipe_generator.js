@@ -1,9 +1,16 @@
 function normalizeIngredientId(id) {
     let text = String(id)
+
     if (text.startsWith('kubejs:general_circuit_')) {
         return `#gtceu:circuits/${text.slice('kubejs:general_circuit_'.length)}`
     }
-    return text
+
+    let replacements = {
+        'minecraft:glass': '#forge:glass/colorless',
+        'minecraft:glass_pane': '#forge:glass_panes/colorless'
+    }
+
+    return replacements[text] ?? text
 }
 
 PlayerEvents.chat(event => {
@@ -84,7 +91,7 @@ PlayerEvents.chat(event => {
 PlayerEvents.chat(event => {
     let { message, player } = event
     if (message != 'z') return
-    
+
     function getitem(slot) { return player.inventory.getItem(slot) }
 
     // 依照你的要求：19号位是输入，21号位是输出
@@ -93,7 +100,7 @@ PlayerEvents.chat(event => {
 
     // 处理输出数量逻辑（沿用你之前的写法）
     let count = output.count > 1 ? `${output.count}x ` : ''
-    
+
     // 生成你指定的私人口味格式：e.recipes.minecraft.smelting('output', 'input')
     let str = `e.recipes.minecraft.smelting('${count}${output.id}', '${normalizeIngredientId(input.id)}')`
 

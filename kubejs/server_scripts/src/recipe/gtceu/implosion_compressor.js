@@ -11,5 +11,5 @@ ServerEvents.recipes(e => {
         e.recipes.gtceu.implosion_compressor().itemInputs(`4x ${a}`, '2x gtceu:dynamite').itemOutputs(`3x ${b}`).EUt(30).duration(20)
         e.recipes.gtceu.implosion_compressor().itemInputs(`4x ${a}`, 'gtceu:industrial_tnt').itemOutputs(`3x ${b}`).EUt(30).duration(20)
     })
-    e.recipes.gtceu.implosion_compressor().itemInputs('avaritia:diamond_lattice', 'ifeu:empty_nether_star', '4x gtceu:nether_star_dust').itemOutputs('3x minecraft:nether_star').chancedOutput('gtceu:dark_ash_dust', 2500, 0).duration(20 * 4).EUt(2 * 4 * 4 * 4 * 4 * 0.75)
+    e.recipes.gtceu.implosion_compressor().itemInputs('3x gtceu:industrial_tnt', '2x ifeu:empty_nether_star', '5x gtceu:nether_star_dust').itemOutputs('3x minecraft:nether_star').chancedOutput('gtceu:dark_ash_dust', 3250, 0).duration(20 * 3.25).EUt(1325)
 })

@@ -70,5 +70,23 @@
       "gtceu:certus_quartz_gem"
     ],
     "resultItems": "ae2:certus_quartz_crystal"
+  },
+  {
+    "matchItems": [
+      "gtceu:netherrack_dust"
+    ],
+    "resultItems": "create:cinder_flour"
+  },
+  {
+    "matchItems": [
+      "gtceu:endstone_dust"
+    ],
+    "resultItems": "occultism:crushed_end_stone"
+  },
+  {
+    "matchItems": [
+      "mekanism:dust_lithium"
+    ],
+    "resultItems": "gtceu:lithium_dust"
   }
 ]

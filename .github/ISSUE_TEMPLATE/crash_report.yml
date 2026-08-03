@@ -1,0 +1,66 @@
+name: Crash Report / 崩溃报告
+description: Report a crash and provide logs. / 反馈崩溃并提供日志。
+title: "[Crash]: "
+labels: ["crash"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a crash. Clear logs help a lot.
+        感谢你反馈崩溃问题。清晰的日志会很有帮助。
+
+  - type: input
+    id: modpack-version
+    attributes:
+      label: Modpack Version / 整合包版本
+      description: Enter the exact modpack version you are using. / 请填写你正在使用的准确整合包版本。
+      placeholder: "Example / 示例: v0.1.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: crash-description
+    attributes:
+      label: Crash Description / 崩溃描述
+      description: Describe when the crash happened and what you were doing. / 请描述崩溃发生的时机，以及当时你正在做什么。
+      placeholder: "The game crashed when... / 游戏在……时崩溃。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce / 复现步骤
+      description: List the steps needed to reproduce the crash, if known. / 如果知道，请列出复现崩溃所需的步骤。
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: crash-log
+    attributes:
+      label: Crash Log or Latest Log / 崩溃日志或 latest.log
+      description: Please upload logs to https://mclo.gs first if possible. If you cannot upload them there, upload the crash report directly here. / 请最好上传至 https://mclo.gs，若无法上传再直接上传崩溃报告。
+      placeholder: "Paste the mclo.gs link here, or attach the crash report directly. / 在这里粘贴 mclo.gs 链接，或直接上传崩溃报告。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Videos / 截图或视频
+      description: Add screenshots or videos if they help explain the crash. / 如有帮助，请添加截图或视频。
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: duplicate-check
+    attributes:
+      label: Duplicate Check / 重复 issue 确认
+      description: Please search existing issues before submitting. / 提交前请先搜索现有 issue。
+      options:
+        - label: I confirm that I did not find an issue identical to this one. / 我已确认我没有看见与本issue相同的issue。
+          required: true

@@ -1,0 +1,54 @@
+name: Enhancement / 功能建议
+description: Suggest an improvement or new feature. / 提出改进建议或新功能。
+title: "[Enhancement]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the modpack.
+        感谢你帮助改进整合包。
+
+  - type: input
+    id: modpack-version
+    attributes:
+      label: Modpack Version / 整合包版本
+      description: Enter the modpack version this suggestion applies to. / 请填写此建议适用的整合包版本。
+      placeholder: "Example / 示例: v0.1.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggestion / 建议内容
+      description: Describe the improvement or feature you want. / 请描述你希望加入或改进的内容。
+      placeholder: "What would you like to see changed or added? / 你希望更改或新增什么？"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason / 原因
+      description: Explain why this would be useful for the modpack. / 请说明这为什么对整合包有帮助。
+      placeholder: "Why is this useful? / 为什么这很有用？"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives / 替代方案
+      description: If you have considered alternatives, describe them here. / 如果你考虑过其他方案，请在这里说明。
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: duplicate-check
+    attributes:
+      label: Duplicate Check / 重复 issue 确认
+      description: Please search existing issues before submitting. / 提交前请先搜索现有 issue。
+      options:
+        - label: I confirm that I did not find an issue identical to this one. / 我已确认我没有看见与本issue相同的issue。
+          required: true

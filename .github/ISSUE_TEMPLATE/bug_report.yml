@@ -1,0 +1,65 @@
+name: BUG / 缺陷反馈
+description: Report a gameplay, quest, recipe, or config problem. / 反馈玩法、任务、配方或配置问题。
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug.
+        感谢你花时间反馈问题。
+
+  - type: input
+    id: modpack-version
+    attributes:
+      label: Modpack Version / 整合包版本
+      description: Enter the exact modpack version you are using. / 请填写你正在使用的准确整合包版本。
+      placeholder: "Example / 示例: v0.1.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description / 问题描述
+      description: Describe what happened and what you expected to happen. / 请描述实际发生了什么，以及你原本期望发生什么。
+      placeholder: "Tell us what went wrong... / 请说明问题现象..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce / 复现步骤
+      description: List the steps needed to reproduce this bug. / 请列出复现此问题所需的步骤。
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Videos / 截图或视频
+      description: Add screenshots or videos if they help explain the problem. / 如有帮助，请添加截图或视频。
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context / 补充信息
+      description: Add any other context that may help. / 可填写其他可能有帮助的信息。
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: duplicate-check
+    attributes:
+      label: Duplicate Check / 重复 issue 确认
+      description: Please search existing issues before submitting. / 提交前请先搜索现有 issue。
+      options:
+        - label: I confirm that I did not find an issue identical to this one. / 我已确认我没有看见与本issue相同的issue。
+          required: true

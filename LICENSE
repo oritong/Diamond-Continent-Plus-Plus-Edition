@@ -1,4 +1,4 @@
-# 自定义协议
+﻿自定义协议
 
 钻石大陆加豪版
 Diamond Continent — Plus&Plus Edition
@@ -9,11 +9,10 @@ Diamond Continent — Plus&Plus Edition
 本协议以中文和英文两个版本撰写。
 如有任何歧义，以中文版本为准。
 
----
 
-# 中文
+中文
 
-## 1. 版权声明
+第一条 版权声明
 
 《钻石大陆加豪版》（Diamond Continent — Plus&Plus Edition，[DC++]）由本项目作者制作与维护。
 
@@ -21,41 +20,38 @@ Diamond Continent — Plus&Plus Edition
 
 本协议仅适用于本项目作者拥有或有权授权的内容。
 
----
 
-## 2. 当前授权状态
+第二条 当前授权状态
 
 由于《钻石大陆加豪版》目前尚未正式发行，本项目中的相关原创内容按照对应目录所声明的许可证进行分发。
 
 未经作者明确授权，任何个人或组织不得：
 
-- 将受 ARR 保护的内容复制、转载或重新发布；
-- 将受 ARR 保护的内容用于其他项目；
-- 将本项目整体重新包装为其他整合包；
-- 声称拥有本项目原创内容的版权。
+将受 ARR 保护的内容复制、转载或重新发布；
+将受 ARR 保护的内容用于其他项目；
+将本项目整体重新包装为其他整合包；
+声称拥有本项目原创内容的版权。
 
----
 
-## 3. 文件组成与授权范围
+第三条 文件组成与授权范围
 
 本项目包含来自不同来源的文件。
 
 其中：
 
-- 第三方模组、第三方资源以及其他外部内容，其版权归对应作者所有，并遵循其原始许可证；
-- 本项目作者创建、修改或整理的内容，根据本协议中的具体条款进行授权。
+第三方模组、第三方资源以及其他外部内容，其版权归对应作者所有，并遵循其原始许可证；
+本项目作者创建、修改或整理的内容，根据本协议中的具体条款进行授权。
 
----
 
-## 4. config 与 defaultconfigs
+第四条 config 与 defaultconfigs
 
-`config/` 与 `defaultconfigs/` 文件夹中的部分文件来源于第三方模组。
+config/ 与 defaultconfigs/ 文件夹中的部分文件来源于第三方模组。
 
 这些文件可能包括：
 
-- 模组默认配置；
-- 模组生成配置；
-- 基于模组内容调整后的配置。
+模组默认配置；
+模组生成配置；
+基于模组内容调整后的配置。
 
 上述内容的版权归对应模组作者所有，并遵循对应许可证。
 
@@ -65,164 +61,129 @@ Diamond Continent — Plus&Plus Edition
 
 以下目录除外：
 
-```text
 config/quest_enhance/
 config/ftbquests/
 config/paxi/
-```
 
----
 
-## 5. 特殊目录授权
+第五条 特殊目录授权
 
 以下目录中的内容属于本项目作者制作、修改或整理的原创内容：
 
-```text
 config/quest_enhance/
 config/ftbquests/
 config/paxi/
-```
 
 其中包括但不限于：
 
-- 任务数据；
-- 任务章节结构；
-- 自定义任务文本；
-- 数据包加载配置；
-- 整合包专用配置；
-- 游戏流程相关设置。
+任务数据；
+任务章节结构；
+自定义任务文本；
+数据包加载配置；
+整合包专用配置；
+游戏流程相关设置。
 
 上述内容均以 ARR（All Rights Reserved，保留所有权利）方式授权。
 
 未经作者明确许可，任何个人或组织不得：
 
-- 提取上述内容用于其他整合包；
-- 修改后重新发布；
-- 将其作为其他项目的基础内容；
-- 单独分发上述文件。
+提取上述内容用于其他整合包；
+修改后重新发布；
+将其作为其他项目的基础内容；
+单独分发上述文件。
 
----
 
-## 6. KubeJS 目录授权
+第六条 KubeJS 目录授权
 
-`kubejs/` 文件夹包含本项目大量自定义脚本、资源以及相关内容。
+kubejs/ 文件夹包含本项目大量自定义脚本、资源以及相关内容。
 
 除特别说明外，以下规则适用于该目录。
 
----
 
-### 6.1 更新日志
+6.1 更新日志
 
 以下文件：
 
-```text
 kubejs/更新日志.txt
-```
 
 属于本项目作者原创内容。
 
 该文件以 ARR（All Rights Reserved，保留所有权利）方式授权。
 
----
 
-### 6.2 Startup Scripts
+6.2 Startup Scripts
 
-`kubejs/startup_scripts/` 中：
+kubejs/startup_scripts/ 中：
 
 除：
 
-```text
 kubejs/startup_scripts/numericalmana.js
-```
 
 以外的所有文件均以 GNU General Public License v3.0（GPL-3.0）授权。
 
-```text
 kubejs/startup_scripts/numericalmana.js
-```
 
 以 MIT License 授权。
 
----
 
-### 6.3 Server Scripts
+6.3 Server Scripts
 
-```text
 kubejs/server_scripts/
-```
 
 中的所有文件均以 GNU General Public License v3.0（GPL-3.0）授权。
 
----
 
-### 6.4 Data
+6.4 Data
 
-```text
 kubejs/data/industrial_platform/
-```
 
 中的所有文件均属于本项目原创内容，并以 ARR（All Rights Reserved）授权。
 
 除上述目录外：
 
-```text
 kubejs/data/
-```
 
 中的其他文件均以 GNU General Public License v3.0（GPL-3.0）授权。
 
----
 
-### 6.5 Client Scripts
+6.5 Client Scripts
 
-```text
 kubejs/client_scripts/src/botania_mana.js
 kubejs/client_scripts/src/colorfulname.js
-```
 
 两个文件均以 MIT License 授权。
 
 除此之外：
 
-```text
 kubejs/client_scripts/src/
-```
 
 中的其他文件均以 GNU General Public License v3.0（GPL-3.0）授权。
 
----
 
-### 6.6 Assets
+6.6 Assets
 
 以下目录：
 
-```text
 kubejs/assets/oritong/
-```
 
 中的所有文件属于本项目原创内容，并以 ARR（All Rights Reserved）授权。
 
-```text
 kubejs/assets/kubejs/
-```
 
 中的大部分文件以 GNU General Public License v3.0（GPL-3.0）授权。
 
 其中：
 
-```text
 kubejs/assets/kubejs/textures/ftbq/title.png
-```
 
 属于本项目原创资源，并以 ARR（All Rights Reserved）授权。
 
 除上述情况外：
 
-`kubejs/assets/` 中其他内容均以 MIT License 授权。
+kubejs/assets/ 中其他内容均以 MIT License 授权。
 
----
 
-## 7. 关于互联网梗与网络文化元素
+第七条 关于互联网梗与网络文化元素
 
 本整合包在制作过程中借用了大量互联网梗、网络文化元素以及公开传播的创作素材。
 
@@ -232,9 +193,8 @@ kubejs/assets/kubejs/textures/ftbq/title.png
 
 如相关内容造成不适，欢迎通过反馈渠道向作者提出建议。
 
----
 
-## 8. 协议修改
+第八条 协议修改
 
 本协议可能会根据项目开发进度、发行计划以及实际情况进行修改或补充。
 
@@ -242,224 +202,185 @@ kubejs/assets/kubejs/textures/ftbq/title.png
 
 正式发行后的授权方式将以新的发行协议为准。
 
----
 
-# English
+English
 
-## 1. Copyright Notice
+Section 1: Copyright Notice
 
-*Diamond Continent — Plus&Plus Edition* (钻石大陆加豪版, [DC++]) is created and maintained by the author of this project.
+Diamond Continent — Plus&Plus Edition (钻石大陆加豪版, [DC++]) is created and maintained by the author of this project.
 
 Unless otherwise specified, all content created, modified, or organized by the author of this project is protected under this Agreement.
 
 This Agreement applies only to content owned by, or properly authorized for licensing by, the author of this project.
 
----
 
-## 2. Current Licensing Status
+Section 2: Current Licensing Status
 
-As *Diamond Continent — Plus&Plus Edition* has not yet been officially released, the relevant original content in this project is distributed under the license declared for its corresponding directory.
+As Diamond Continent — Plus&Plus Edition has not yet been officially released, the relevant original content in this project is distributed under the license declared for its corresponding directory.
 
 Without explicit authorization from the author, no individual or organization may:
 
-- copy, reproduce, repost, or redistribute content protected under ARR;
-- use content protected under ARR in another project;
-- repackage the project as another modpack;
-- claim copyright ownership of the project's original content.
+copy, reproduce, repost, or redistribute content protected under ARR;
+use content protected under ARR in another project;
+repackage the project as another modpack;
+claim copyright ownership of the project's original content.
 
----
 
-## 3. File Composition and Scope of Licenses
+Section 3: File Composition and Scope of Licenses
 
 This project contains files from multiple sources.
 
 In particular:
 
-- the copyright of third-party mods, third-party resources, and other external content belongs to their respective authors, and such content remains subject to its original license;
-- content created, modified, or organized by the author of this project is licensed according to the specific terms of this Agreement.
+the copyright of third-party mods, third-party resources, and other external content belongs to their respective authors, and such content remains subject to its original license;
+content created, modified, or organized by the author of this project is licensed according to the specific terms of this Agreement.
 
----
 
-## 4. `config` and `defaultconfigs`
+Section 4: config and defaultconfigs
 
-Some files in the `config/` and `defaultconfigs/` directories originate from third-party mods.
+Some files in the config/ and defaultconfigs/ directories originate from third-party mods.
 
 These files may include:
 
-- default mod configurations;
-- configurations generated by mods;
-- configurations adjusted based on mod content.
+default mod configurations;
+configurations generated by mods;
+configurations adjusted based on mod content.
 
 The copyright of the above content belongs to the authors of the corresponding mods, and such content remains subject to the applicable licenses.
 
-This project only provides configuration arrangements intended for *Diamond Continent — Plus&Plus Edition*.
+This project only provides configuration arrangements intended for Diamond Continent — Plus&Plus Edition.
 
 Without permission, adjusted configuration files provided by this project may not be extracted separately and used in other modpacks or projects.
 
 The following directories are exempt:
 
-```text
 config/quest_enhance/
 config/ftbquests/
 config/paxi/
-```
 
----
 
-## 5. Licensing of Special Directories
+Section 5: Licensing of Special Directories
 
 The contents of the following directories constitute original content created, modified, or organized by the author of this project:
 
-```text
 config/quest_enhance/
 config/ftbquests/
 config/paxi/
-```
 
 This includes, but is not limited to:
 
-- quest data;
-- quest chapter structures;
-- custom quest text;
-- datapack loading configurations;
-- modpack-specific configurations;
-- settings related to game progression.
+quest data;
+quest chapter structures;
+custom quest text;
+datapack loading configurations;
+modpack-specific configurations;
+settings related to game progression.
 
 All of the above content is licensed under ARR (All Rights Reserved).
 
 Without explicit permission from the author, no individual or organization may:
 
-- extract the above content for use in another modpack;
-- modify and republish the above content;
-- use it as the basis of another project;
-- distribute the above files separately.
+extract the above content for use in another modpack;
+modify and republish the above content;
+use it as the basis of another project;
+distribute the above files separately.
 
----
 
-## 6. Licensing of the KubeJS Directory
+Section 6: Licensing of the KubeJS Directory
 
-The `kubejs/` directory contains a substantial amount of custom scripts, resources, and related content created for this project.
+The kubejs/ directory contains a substantial amount of custom scripts, resources, and related content created for this project.
 
 Unless otherwise specified, the following rules apply to this directory.
 
----
 
-### 6.1 Changelog
+6.1 Changelog
 
 The following file:
 
-```text
 kubejs/更新日志.txt
-```
 
 constitutes original content created by the author of this project.
 
 This file is licensed under ARR (All Rights Reserved).
 
----
 
-### 6.2 Startup Scripts
+6.2 Startup Scripts
 
-Within `kubejs/startup_scripts/`, all files except:
+Within kubejs/startup_scripts/, all files except:
 
-```text
 kubejs/startup_scripts/numericalmana.js
-```
 
 are licensed under the GNU General Public License v3.0 (GPL-3.0).
 
-```text
 kubejs/startup_scripts/numericalmana.js
-```
 
 is licensed under the MIT License.
 
----
 
-### 6.3 Server Scripts
+6.3 Server Scripts
 
 All files within:
 
-```text
 kubejs/server_scripts/
-```
 
 are licensed under the GNU General Public License v3.0 (GPL-3.0).
 
----
 
-### 6.4 Data
+6.4 Data
 
 All files within:
 
-```text
 kubejs/data/industrial_platform/
-```
 
 constitute original content created for this project and are licensed under ARR (All Rights Reserved).
 
 Except for the directory specified above, all other files within:
 
-```text
 kubejs/data/
-```
 
 are licensed under the GNU General Public License v3.0 (GPL-3.0).
 
----
 
-### 6.5 Client Scripts
+6.5 Client Scripts
 
 The following two files:
 
-```text
 kubejs/client_scripts/src/botania_mana.js
 kubejs/client_scripts/src/colorfulname.js
-```
 
 are both licensed under the MIT License.
 
 Except for the files specified above, all other files within:
 
-```text
 kubejs/client_scripts/src/
-```
 
 are licensed under the GNU General Public License v3.0 (GPL-3.0).
 
----
 
-### 6.6 Assets
+6.6 Assets
 
 All files within the following directory:
 
-```text
 kubejs/assets/oritong/
-```
 
 constitute original content created for this project and are licensed under ARR (All Rights Reserved).
 
 Most files within:
 
-```text
 kubejs/assets/kubejs/
-```
 
 are licensed under the GNU General Public License v3.0 (GPL-3.0).
 
 Among them:
 
-```text
 kubejs/assets/kubejs/textures/ftbq/title.png
-```
 
 is an original resource created for this project and is licensed under ARR (All Rights Reserved).
 
-Except for the cases specified above, all other content within `kubejs/assets/` is licensed under the MIT License.
+Except for the cases specified above, all other content within kubejs/assets/ is licensed under the MIT License.
 
----
 
-## 7. Internet Memes and Online Cultural Elements
+Section 7: Internet Memes and Online Cultural Elements
 
 During the development of this modpack, a substantial amount of internet memes, online cultural elements, and publicly circulated creative materials was incorporated.
 
@@ -469,9 +390,8 @@ The inclusion of such content does not indicate that the author owns the copyrig
 
 If any such content causes discomfort, suggestions may be submitted to the author through the available feedback channels.
 
----
 
-## 8. Amendments to This Agreement
+Section 8: Amendments to This Agreement
 
 This Agreement may be modified or supplemented according to the project's development progress, release plans, and actual circumstances.
 

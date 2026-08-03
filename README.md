@@ -30,6 +30,11 @@
 
 关于授权、分发、修改等协议内容，请参阅 [LICENSE](./LICENSE) 文件。
 
+本整合包使用了大量互联网梗和网络文化元素;
+这些内容用于增强整合包体验和表达创作者想法;
+不代表冒犯任何个人、群体或作品;
+如果有人感到不适，可以通过反馈渠道提出建议。
+
 ---
 
 ## English
@@ -51,3 +56,7 @@ This is a heavily customized modpack, with many progression steps redesigned or 
 The pack is currently in an early stage of development. Balance issues, progression blockers, or other problems may occur. If any issues are found, please report them through the Issues page.
 
 For licensing, distribution, modification, and related terms, please refer to the [LICENSE](./LICENSE) file.
+
+This modpack was created with references to a large number of internet memes and online cultural elements. These references are used solely for creative expression and to enhance the overall experience of the modpack. They do not represent any intention to offend, insult, or target any individual, group, or work.
+
+If any referenced content causes discomfort, please understand the original creative context and feel free to provide feedback to the author.

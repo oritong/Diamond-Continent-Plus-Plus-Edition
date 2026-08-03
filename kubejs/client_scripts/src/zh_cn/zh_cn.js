@@ -35,7 +35,6 @@ let item_js_key_zh_cn = [
     ['fog_in_a_bottle', '瓶装迷雾'],
     ['fighting_spirit_in_a_bottle', '瓶装斗志'],
     ['fear_in_a_bottle', '瓶装恐惧'],
-    ['physics_assembler', '物理组装器'],
     ['wood_ingot', '木锭'],
     ['silver_catalyst', '银基催化剂'],
     ['overworld_data', '主世界数据'],

@@ -34,7 +34,6 @@ StartupEvents.registry('item', e => {
     e.create('general_circuit_uxv').texture('kubejs:item/circuit/general/general_circuit_uxv').tag('gtceu:circuits/uxv').tag('gtceu:circuits')
     e.create('general_circuit_opv').texture('kubejs:item/circuit/general/general_circuit_opv').tag('gtceu:circuits/opv').tag('gtceu:circuits')
     e.create('general_circuit_max').texture('kubejs:item/circuit/general/general_circuit_max').tag('gtceu:circuits/max').tag('gtceu:circuits')
-    e.create('physics_assembler')
     e.create('silver_catalyst')
     e.create('overworld_data').texture('kubejs:item/data_world')
     e.create('nether_data').texture('kubejs:item/data_nether')

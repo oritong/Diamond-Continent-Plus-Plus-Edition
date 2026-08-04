@@ -1,6 +1,18 @@
 let key_zh_cn = [
     ['block.minecart.stone', '§o石头'],
-    ["kubejs.multiblock.hyperdimensional_chemical_plant.coil_parallel", "同时处理至多%s个配方"]
+    ["kubejs.multiblock.hyperdimensional_chemical_plant.coil_parallel", "同时处理至多%s个配方"],
+    ['oritong.menu.back', '再见，只为再见'],
+    ['oritong.menu.single', '孤寂旅途'],
+    ['oritong.menu.multi', '团队执勤'],
+    ['oritong.menu.config', '热身运动'],
+    ['oritong.menu.mod', '检视装备'],
+    ['oritong.menu.report', '报告问题'],
+    ['oritong.menu.report_push', '前往墙后的世界'],
+    ['oritong.menu.time', '，你已经打开游戏'],
+    ['oritong.menu.time2', '秒了，闭上眼睛休息一下吧！'],
+    ['oritong.menu.auxiliary', '辅助功能设置'],
+    ['oritong.menu.auxiliary_push', '但这并不是外挂'],
+    ['oritong.menu.loding', '少女折寿中……']
 ]
 let item_js_key_zh_cn = [
     ['stone_hammer', '石锤'],

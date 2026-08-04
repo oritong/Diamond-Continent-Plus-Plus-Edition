@@ -24,10 +24,36 @@
 		{
 			height: 2.5d
 			image: "kubejs:textures/ftbq/title.png"
+			order: 1
 			rotation: 0.0d
 			width: 10.0d
 			x: -10.0d
 			y: 1.0d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:block/diamond_ore"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:item/diamond_pickaxe"
+			rotation: -20.0d
+			width: 5.0d
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:item/diamond_pickaxe"
+			rotation: -65.0d
+			width: 5.0d
+			x: -12.0d
+			y: 0.5d
 		}
 	]
 	order_index: 0

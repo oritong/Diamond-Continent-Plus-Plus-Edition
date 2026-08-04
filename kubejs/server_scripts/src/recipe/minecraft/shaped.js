@@ -1711,4 +1711,40 @@ ServerEvents.recipes(e => {
         B: 'gtceu:brass_ingot',
         C: 'gtceu:rubber_plate'
     })
+    e.shaped('gtceu:lv_glimmer_collector', [
+        'ABA',
+        'CDC',
+        'EFE'
+    ], {
+        A: 'gtceu:lv_electric_pump',
+        B: 'gtceu:magnetic_steel_plate',
+        C: 'gtceu:lv_electric_motor',
+        D: 'gtceu:lv_machine_hull',
+        E: '#gtceu:circuits/mv',
+        F: 'gtceu:lv_field_generator'
+    })
+    e.shaped('gtceu:mv_glimmer_collector', [
+        'ABA',
+        'CDC',
+        'EFE'
+    ], {
+        A: 'gtceu:mv_electric_pump',
+        B: 'gtceu:magnetic_steel_plate',
+        C: 'gtceu:mv_electric_motor',
+        D: 'gtceu:mv_machine_hull',
+        E: '#gtceu:circuits/hv',
+        F: 'gtceu:mv_field_generator'
+    })
+    e.shaped('gtceu:mv_glimmer_collector', [
+        'ABA',
+        'CDC',
+        'EFE'
+    ], {
+        A: 'gtceu:hv_electric_pump',
+        B: 'gtceu:magnetic_steel_plate',
+        C: 'gtceu:hv_electric_motor',
+        D: 'gtceu:hv_machine_hull',
+        E: '#gtceu:circuits/ev',
+        F: 'gtceu:hv_field_generator'
+    })
 })

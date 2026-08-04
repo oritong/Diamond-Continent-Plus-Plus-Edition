@@ -558,7 +558,10 @@ let banlists = [
     'createaddition:mixing/netherrack',
     'gtceu:chemical_plant/hydrogen_peroxide_air',
     'gtceu:chemical_reactor/hydrogen_peroxide',
-    'gtceu:pyrolyse_oven/log_to_coal_gas'
+    'gtceu:pyrolyse_oven/log_to_coal_gas',
+    'gtceu:large_chemical_reactor/indium_concentrate_separation',
+    'gtceu:electric_blast_furnace/blast_kanthal',
+    'gtceu:electric_blast_furnace/blast_kanthal_gas'
 ]
 let ban_gt_tools = [
     'pickaxe',

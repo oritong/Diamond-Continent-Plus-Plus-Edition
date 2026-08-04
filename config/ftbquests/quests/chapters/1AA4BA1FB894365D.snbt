@@ -848,7 +848,7 @@
 				type: "item"
 			}]
 			x: -13.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -926,7 +926,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -10.0d
+			x: -8.5d
 			y: 3.0d
 		}
 		{
@@ -1379,6 +1379,7 @@
 			dependencies: [
 				"5AACF159669755B3"
 				"03AC8E2375D7EBBC"
+				"3473E60E02BE60C8"
 			]
 			description: ["一直筛选你的石英粉就有概率获得赛特斯石英粉"]
 			id: "3B6B305584EE346F"
@@ -2828,6 +2829,7 @@
 			]
 			id: "492472216CF74DE0"
 			min_width: 250
+			subtitle: "溶解之爱"
 			tasks: [{
 				id: "1BBC817B8AAD1E59"
 				item: "gtceu:dissolving_tank"
@@ -2869,6 +2871,7 @@
 				"&d别&0碰&d我"
 			]
 			id: "505150E5B114A8F5"
+			invisible: true
 			size: 4.0d
 			subtitle: "别碰我"
 			tasks: [{
@@ -2901,6 +2904,17 @@
 			}]
 			x: 29.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["7B7308D10C02709D"]
+			id: "2AEC86DE3F47F93E"
+			tasks: [{
+				id: "7D0379AA46FB178A"
+				item: "ae2:crystal_resonance_generator"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.5d
 		}
 	]
 	title: "第二章 第零次工业革命"

@@ -118,6 +118,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "巨著"
 			tasks: [{
 				id: "70B8E26A45A74D07"
 				item: "oritong:glimmer_bucket"
@@ -147,6 +148,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "闪亮"
 			tasks: [{
 				id: "7B62CD635A2B9440"
 				item: "mekanism:dust_diamond"
@@ -176,6 +178,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "并非石头"
 			tasks: [{
 				id: "0241202DB3D1B80A"
 				item: "minecart:stone"
@@ -205,7 +208,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "贴图没画，，"
+			subtitle: "那木头呢"
 			tasks: [{
 				id: "7C6853FDC92D35C0"
 				item: "minecraft:crafting_table"
@@ -239,6 +242,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "石锤了，这包就是石"
 			tasks: [
 				{
 					id: "1733A83EA4F9DDD3"
@@ -289,6 +293,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "黑哥们的语言是不通的"
 			tasks: [
 				{
 					id: "6F5905BDF50BEDD7"
@@ -327,6 +332,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "再次见面"
 			tasks: [
 				{
 					id: "07B38DDFB39AF9FB"
@@ -375,6 +381,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "锻压成型"
 			tasks: [{
 				id: "5955E92D548BC780"
 				item: "gtceu:wrought_iron_ingot"
@@ -401,6 +408,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "锻造台也来支持了"
 			tasks: [{
 				icon: "minecraft:smithing_table"
 				id: "65F422F412E23D23"
@@ -431,6 +439,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "吓哭了"
 			tasks: [{
 				id: "41087710B219E004"
 				item: {
@@ -482,6 +491,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "余烬神力"
 			tasks: [
 				{
 					id: "60EAD930D26AF0BF"
@@ -521,6 +531,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "为什么银鱼不会游泳"
 			tasks: [{
 				id: "2C5D4BDD2EA5DD07"
 				item: "minecraft:water_bucket"
@@ -547,6 +558,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "生命之源"
 			tasks: [{
 				id: "33C897B360FFEAB2"
 				item: "minecraft:dirt"
@@ -573,6 +585,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "黏黏"
 			tasks: [{
 				id: "33F677FB37F83807"
 				item: "minecraft:clay"
@@ -598,6 +611,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "就是个看上去无法形容的宝石"
 			tasks: [{
 				id: "785B93425E20E6CC"
 				item: "kubejs:the_source_of_the_earth"
@@ -633,6 +647,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "植物魔法也来了"
 			tasks: [
 				{
 					id: "62904A5D5F192FC0"
@@ -680,6 +695,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "救命吧怎么有这么慢的玩意"
 			tasks: [{
 				id: "16CE3CC650DA8001"
 				item: "botania:pure_daisy"
@@ -719,6 +735,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "最吃运气的一集"
 			tasks: [{
 				id: "18E6E671C526AECD"
 				item: "ars_nouveau:volcanic_sourcelink"
@@ -745,6 +762,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "其实这是农夫乐事"
 			tasks: [{
 				id: "46AEE66F0F00B75F"
 				item: "minecraft:amethyst_shard"
@@ -770,6 +788,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "不能堆叠导致的"
 			tasks: [{
 				id: "604882A4F9E9EA4C"
 				item: "ars_nouveau:arcane_pedestal"
@@ -799,6 +818,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "！？透透？！"
 			tasks: [{
 				id: "65FCF0F662F76860"
 				item: "tconstruct:clear_glass"
@@ -824,6 +844,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "可能有点用但是有用又不太可能"
 			tasks: [{
 				id: "7A2DCC324142885F"
 				item: {
@@ -865,6 +886,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "钻石大陆"
 			tasks: [{
 				id: "4140454793B7E1FF"
 				item: "minecraft:diamond"
@@ -941,6 +963,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "用处不小"
 			tasks: [{
 				id: "11CF314B5DD12B39"
 				item: "tconstruct:part_builder"
@@ -969,6 +992,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "好用的东西棒棒棒"
 			tasks: [{
 				icon: "tconstruct:crafting_station"
 				id: "40CFEFA15C942DCC"
@@ -1001,6 +1025,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "你是风儿我是沙"
 			tasks: [{
 				id: "488E1F0F64A5FA1B"
 				item: {
@@ -1039,6 +1064,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "没有木龙头"
 			tasks: [{
 				id: "7B20FB4E13311FB2"
 				item: "oritong:latex_bucket"
@@ -1210,6 +1236,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "我爱钻石"
 			tasks: [{
 				id: "0AB845683846F80E"
 				item: {
@@ -1297,6 +1324,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "其实还是太小了……"
 			tasks: [{
 				id: "210DAD9A0CBF20E6"
 				item: "avaritia:compressed_chest"
@@ -1518,7 +1546,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "溶解之爱"
+			subtitle: "为什么输入必须有流体"
 			tasks: [{
 				id: "0BA1251274C8F71F"
 				item: "industrialforegoing:dissolution_chamber"

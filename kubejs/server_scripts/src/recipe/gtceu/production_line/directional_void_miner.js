@@ -135,12 +135,12 @@ ServerEvents.recipes(e => {
         [["6x gtceu:raw_saltpeter",
             "4x gtceu:raw_diatomite",
             "4x gtceu:raw_electrotine",
-            "2x gtceu:raw_alunite",
-            'minecraft:ancient_debris'], "4"],
+            "2x gtceu:raw_alunite"], "4"],
 
         [["5x gtceu:raw_beryllium",
             "6x gtceu:raw_emerald",
-            'minecraft:ancient_debris'], "5"],
+            'minecraft:ancient_debris',
+            '3x embers:ember_crystal'], "5"],
 
         [["3x gtceu:raw_grossular",
             "2x gtceu:raw_pyrolusite",
@@ -169,7 +169,8 @@ ServerEvents.recipes(e => {
 
         [["12x gtceu:raw_nether_quartz",
             "4x gtceu:raw_quartzite",
-            'minecraft:ancient_debris'], "11"],
+            'minecraft:ancient_debris',
+            '3x embers:ember_crystal'], "11"],
 
         [["15x gtceu:raw_sulfur",
             "10x gtceu:raw_pyrite",
@@ -183,11 +184,13 @@ ServerEvents.recipes(e => {
 
         [["9x gtceu:raw_pitchblende",
             "6x gtceu:raw_uraninite",
-            'minecraft:ancient_debris'], "14"],
+            'minecraft:ancient_debris',
+            '3x embers:ember_crystal'], "14"],
 
         [['24x gtceu:raw_pyrochlore',
             '8x gtceu:raw_plutonium',
-            'minecraft:ancient_debris'], '15']]
+            'minecraft:ancient_debris',
+            '3x embers:ember_crystal'], '15']]
 
     nether_raw_ores.forEach((nether_ore) => {
         let recipe = e.recipes.gtceu.directional_void_miner("nether_void_ore_" + nether_ore[1])

@@ -6,8 +6,7 @@ ServerEvents.recipes(e => {
     e.recipes.gtceu.dehydrator().inputFluids(Fluid.of('gtceu:sodium_hydroxide_solution', 1000)).itemOutputs('3x gtceu:sodium_hydroxide_dust').EUt(30).duration(140)
     e.recipes.gtceu.electric_blast_furnace().itemInputs('14x gtceu:aluminum_hydroxide_dust').itemOutputs('5x gtceu:alumina_dust').outputFluids(Fluid.of('gtceu:steam', 1000)).EUt(120).duration(100).blastFurnaceTemp(2600)
     e.recipes.gtceu.sifter().itemInputs('2x gtceu:alumina_dust').chancedOutput('gtceu:alumina_ceramic_dust', 8000, 0).chancedOutput('gtceu:alumina_ceramic_dust', 6000, 0).chancedOutput('gtceu:alumina_ceramic_dust', 4000, 0).chancedOutput('gtceu:alumina_ceramic_dust', 2000, 0).EUt(120).duration(7.5 * 20)
-    e.recipes.gtceu.compressor().itemInputs('12x gtceu:alumina_ceramic_dust').itemOutputs('kubejs:raw_alumina_ceramic_block').EUt(120).duration(800)
-    e.recipes.gtceu.chemical_bath().itemInputs('9x gtceu:alumina_ceramic_dust').inputFluids(Fluid.of('gtceu:glue', 1000)).itemOutputs('kubejs:raw_alumina_ceramic_block').EUt(500).duration(200)
+    e.recipes.gtceu.chemical_bath().itemInputs('9x gtceu:alumina_ceramic_dust').inputFluids(Fluid.of('gtceu:glue', 1000)).itemOutputs('kubejs:raw_alumina_ceramic_block').EUt(120).duration(200)
     e.recipes.gtceu.electric_blast_furnace().itemInputs('kubejs:raw_alumina_ceramic_block').inputFluids(Fluid.of('gtceu:nitrogen', 500)).itemOutputs('gtceu:alumina_ceramic_block').EUt(120).duration(600).blastFurnaceTemp(2700)
     //氮化钛陶瓷
     e.recipes.gtceu.electric_blast_furnace().itemInputs('2x gtceu:titanium_dust').inputFluids(Fluid.of('gtceu:nitrogen', 1000)).itemOutputs('2x gtceu:titanium_nitride_ceramic_dust').EUt(480).duration(20).blastFurnaceTemp(3400)

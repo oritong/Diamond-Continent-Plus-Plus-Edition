@@ -52,6 +52,14 @@
 			x: 0.0d
 			y: 2.0d
 		}
+		{
+			height: 4.0d
+			image: "gtmthings:block/cover/overlay_wireless_energy_receive"
+			rotation: 0.0d
+			width: 4.0d
+			x: -2.5d
+			y: 0.0d
+		}
 	]
 	order_index: 1
 	quest_enhance_decorative_lines: [ ]

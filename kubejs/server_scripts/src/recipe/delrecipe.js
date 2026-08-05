@@ -336,7 +336,9 @@ let banthings = [
     'ifeu:empty_nether_star',
     'create:brass_funnel',
     'create:andesite_funnel',
-    'embers:fluid_pipe'
+    'embers:fluid_pipe',
+    'moreburners:heat_upgrade',
+    'create:mechanical_drill'
 ]
 let banlists = [
     'minecraft:crafting_table',

@@ -1057,12 +1057,13 @@ ServerEvents.recipes(e => {
     })
     e.shaped('moreburners:electric_burner', [
         'ABA',
-        'CCC',
+        'CDC',
         ' C '
     ], {
         A: 'gtceu:copper_quadruple_cable',
         B: 'gtceu:cupronickel_coil_block',
-        C: 'gtceu:steel_plate'
+        C: 'gtceu:steel_plate',
+        D: 'kubejs:machine_core_2'
     })
     e.shaped('gtceu:large_maceration_tower', [
         'ABA',

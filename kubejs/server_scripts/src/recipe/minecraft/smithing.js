@@ -38,6 +38,7 @@ ServerEvents.recipes(e => {
     e.recipes.minecraft.smithing_transform('industrialforegoing:range_addon9', 'industrialforegoing:range_addon8', 'gtceu:luv_field_generator', 'industrialforegoing:range_addon8')
     e.recipes.minecraft.smithing_transform('industrialforegoing:range_addon10', 'industrialforegoing:range_addon9', 'gtceu:zpm_field_generator', 'industrialforegoing:range_addon9')
     e.recipes.minecraft.smithing_transform('industrialforegoing:range_addon11', 'industrialforegoing:range_addon10', 'gtceu:uv_field_generator', 'industrialforegoing:range_addon10')
+    e.recipes.minecraft.smithing_transform('create:mechanical_drill', 'gtceu:steel_drill_head', 'create:andesite_casing', 'create:shaft')
 })
 
 ServerEvents.recipes(e => {

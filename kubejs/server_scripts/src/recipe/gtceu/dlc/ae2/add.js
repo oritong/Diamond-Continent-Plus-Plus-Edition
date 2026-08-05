@@ -203,4 +203,16 @@ ServerEvents.recipes(e => {
         C: 'ae2:capacity_card',
         D: 'gtceu:hv_field_generator'
     })
+    e.shaped('ae2:crystal_resonance_generator', [
+        'ABA',
+        'CDC',
+        'AEA'
+    ], {
+        A: 'gtceu:copper_single_wire',
+        B: 'ae2:fluix_block',
+        C: 'gtceu:fine_copper_wire',
+        D: 'ae2:charged_certus_quartz_crystal',
+        E: 'kubejs:machine_core_2'
+    })
+    
 })

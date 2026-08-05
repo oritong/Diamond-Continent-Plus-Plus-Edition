@@ -13,7 +13,7 @@ body:
     id: modpack-version
     attributes:
       label: Modpack Version / 整合包版本
-      description: Enter the exact modpack version you are using. / 请填写你正在使用的准确整合包版本。
+      description: Enter the exact modpack version you are using. You can find it in the game window title. / 请填写你正在使用的准确整合包版本。在游戏程序标题中可以看到版本号。
       placeholder: "Example / 示例: v0.1.0"
     validations:
       required: true

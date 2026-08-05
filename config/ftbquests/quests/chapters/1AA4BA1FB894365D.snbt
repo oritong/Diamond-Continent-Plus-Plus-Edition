@@ -812,27 +812,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["222DE3F2DA123486"]
-			description: [
-				"你需要聚氯乙烯才能做出来书，终端……"
-				"至于气态氯？电解盐就有了"
-			]
-			id: "1E558461C9AF6677"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "08726B919B7458B1"
-				table_id: 7726132512131049101L
-				type: "random"
-			}]
-			tasks: [{
-				id: "11398A7FD9A8BED1"
-				item: "gtceu:terminal"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["753E6963A939C10C"]
 			description: ["前期也是非常牛逼的管道了，要不是复制这模组管道连不上gt，我都不想给你这个"]
 			id: "5C83119D6F756527"
@@ -1415,6 +1394,7 @@
 		}
 		{
 			dependencies: ["5C73633BF1891BC6"]
+			description: [""]
 			id: "134C9323847EE0ED"
 			tasks: [{
 				id: "5F2D706B4ACA1CEA"
@@ -1426,7 +1406,7 @@
 		}
 		{
 			dependencies: ["5C73633BF1891BC6"]
-			description: ["如果你没有做LV的魔法线，你只能先做HV搅拌机以制作LV力场发生器了"]
+			description: ["如果你没有做LV的魔法线，你只能先做HV搅拌机和土制虚空矿机以制作LV力场发生器了"]
 			id: "617BD1B231291FC5"
 			tasks: [{
 				id: "6C964819832D8D54"
@@ -1442,7 +1422,13 @@
 				"134C9323847EE0ED"
 				"7B7308D10C02709D"
 			]
+			description: [
+				"当你将破坏面板在世界顶点使其对着宇宙，那么它就可以从宇宙中获取到陨石粉"
+				""
+				"{image:quest_enhance:textures/ftb/clipboard_1785898010267.png width:199 height:79 align:center fit:true}"
+			]
 			id: "776033E7A78A3217"
+			subtitle: "天空粉"
 			tasks: [{
 				id: "65C253F6104B70EB"
 				item: "ae2:sky_dust"
@@ -2915,6 +2901,17 @@
 			}]
 			x: 15.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["222DE3F2DA123486"]
+			id: "58A983D3D58A5A9F"
+			tasks: [{
+				id: "1C7C6B73C72AC4EE"
+				item: "gtmthings:advanced_terminal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
 		}
 	]
 	title: "第二章 第零次工业革命"

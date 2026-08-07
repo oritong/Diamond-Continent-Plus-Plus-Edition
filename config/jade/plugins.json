@@ -81,7 +81,7 @@
   },
   "jade": {
     "coordinates.rel": false,
-    "distance": false,
+    "distance": true,
     "block_face": false,
     "coordinates": false,
     "registry_name": "ON",
@@ -98,10 +98,6 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
-  },
-  "mbd2": {
-    "recipe_logic_provider": true,
-    "multiblock_provider": true
   },
   "gtmthings": {
     "wireless_energy_hatch_provider": true
@@ -162,10 +158,6 @@
     "cable_info": true,
     "parallel_info": true,
     "data_bank": true
-  },
-  "mbd2thread": {
-    "long_fe_energy_hud": true,
-    "recipe_thread_hud": true
   },
   "expatternprovider": {
     "jade_chamber": true,

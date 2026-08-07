@@ -23,13 +23,15 @@ let tooltip_zh_cn = [
     ['kubejs:general_circuit_opv', 'OpV级电路'],
     ['kubejs:general_circuit_max', 'MAX级电路'],
     ['gtceu:pcb_factory', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：PCB工厂'],
-    ['gtceu:hyperdimensional_chemical_plant', '耗时倍数：0.2，耗能倍数：0.4\n按照线圈温度并行，每提高900K并行x2\n此机器以批处理模式运行配方\n仅支持激光仓\n该机器拥有跨配方并行机制\n无损超频\n可用配方类型：大型化学反应釜、化学浸洗机、超级化工厂、PCB工厂'],
+    ['gtceu:dimensionally_transcendent_isomolecular_reactor', '耗时倍数：0.2，耗能倍数：0.4\n按照线圈温度并行，每提高900K并行x2\n此机器以批处理模式运行配方\n仅支持激光仓\n该机器拥有跨配方并行机制\n无损超频\n可用配方类型：大型化学反应釜、化学浸洗机、超级化工厂、PCB工厂'],
+    ['gtceu:dimensionally_transcendent_isothermal_furnace', '耗时倍数：0.2，耗能倍数：0.4\n按照线圈温度并行，每提高900K并行x2\n此机器以批处理模式运行配方\n仅支持激光仓\n该机器拥有跨配方并行机制\n无损超频\n可用配方类型：电炉、合金炉、电力高炉、合金冶炼炉'],
     ['gtceu:directional_void_miner', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：定向虚空矿机'],
     ['gtceu:large_metallurgic_infuser', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：冶金富集器，富集提取器，富集灌注器'],
     ['gtceu:dissolving_tank', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：溶解罐\n当输入和配方不成比例时，该机器将吞入所有输入并在运行完成后不输出任何产出。'],
     ['dont_touch_me:dont_touch_me', '别碰我。'],
     ['kubejs:nether_data', '闪存夹余烬面粉塔可'],
-    ['kubejs:end_data', '闪存夹粉碎末地石塔可']
+    ['kubejs:end_data', '闪存夹粉碎末地石塔可'],
+    ['bettergtae:large_molecular_assembler', '最大并行数：2147483647\n可通过合成样板仓放入合成样板、锻造样板、切石样板。']
 ]
 let color_tooltip_zh_cn = [
     ['avaritia:infinity_elytra', '"圣城！请带着无翼的我们乘风而起吧！"'],
@@ -168,7 +170,8 @@ let color_tooltip_modified = [
     "gtceu:zpm_dual_output_hatch",
     "gtceu:uv_dual_output_hatch",
     "gtceu:uhv_dual_output_hatch",
-    'tconstruct:crafting_station'
+    'tconstruct:crafting_station',
+    'bettergtae:large_molecular_assembler'
 ]
 
 const COLOR_TOOLTIP_STYLE = {

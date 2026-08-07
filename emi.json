@@ -1,19 +1,21 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:gtceu:dimensionally_transcendent_isothermal_furnace",
+    "item:gtceu:dimensionally_transcendent_isomolecular_reactor",
+    "item:gtceu:electric_blast_furnace",
+    "item:gtceu:lv_electric_furnace",
+    "item:gtceu:multi_smelter",
+    "item:gtceu:uhv_muffler_hatch",
+    "item:gtceu:uv_machine_hull",
+    "item:gtceu:uv_muffler_hatch",
+    "item:gtceu:uv_parallel_hatch",
     {
-      "type": "fluid",
-      "id": "gtceu:fuming_nitric_acid",
-      "amount": 1000
+      "type": "item",
+      "id": "kubejs:overworld_data",
+      "chance": 0.0
     },
-    "fluid:gtceu:hydrogen",
-    "fluid:gtceu:nitrogen",
-    "item:gtceu:hot_blue_steel_ingot",
-    "item:gtceu:blue_steel_ingot",
-    "item:gtceu:blue_steel_plate",
-    "item:gtceu:blue_steel_frame",
-    "item:gtceu:atomic_alloy_plate",
-    "item:gtceu:reaction_safe_mixing_casing"
+    "item:gtceu:vacuum_freezer"
   ],
   "craft_history": [],
   "recipe_defaults": {

@@ -31,7 +31,8 @@ ServerEvents.recipes(e => {
         e.recipes.gtceu.packer().itemInputs(`#gtceu:circuits/${a}`).itemOutputs(`kubejs:general_circuit_${a}`).circuit(13).duration(tier * 2 * 20).EUt(tier * 4)
     })
     let packet_round = [
-        ['sfm:manager', 'sfm:tunnelled_manager']
+        ['sfm:manager', 'sfm:tunnelled_manager'],
+        ['createaddition:electric_motor', 'createaddition:alternator']
     ]
     packet_round.forEach(([a, b]) => {
         e.recipes.gtceu.packer().itemInputs(a).itemOutputs(b).duration(20).EUt(12)

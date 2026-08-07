@@ -212,7 +212,7 @@ ServerEvents.recipes(e => {
         B: 'ae2:fluix_block',
         C: 'gtceu:fine_copper_wire',
         D: 'ae2:charged_certus_quartz_crystal',
-        E: 'kubejs:machine_core_2'
+        E: 'ae2:energy_acceptor'
     })
     
 })

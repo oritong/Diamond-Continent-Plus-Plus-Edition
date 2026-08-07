@@ -1,6 +1,6 @@
 let key_zh_cn = [
     ['block.minecart.stone', '§o石头'],
-    ["kubejs.multiblock.hyperdimensional_chemical_plant.coil_parallel", "同时处理至多%s个配方"],
+    ["kubejs.multiblock.dtpf.coil_parallel", "同时处理至多%s个配方"],
     ['oritong.menu.back', '再见，只为再见'],
     ['oritong.menu.single', '孤寂旅途'],
     ['oritong.menu.multi', '团队执勤'],
@@ -73,7 +73,8 @@ let block_js_key_zh_cn = [
     ['grizzly_chute', '格筛溜槽'],
     ['compress_diamond_block', '压缩钻石块'],
     ['raw_alumina_ceramic_block', '氧化铝陶瓷粗坯'],
-    ['raw_titanium_nitride_ceramic_block', '氮化钛陶瓷粗坯']
+    ['raw_titanium_nitride_ceramic_block', '氮化钛陶瓷粗坯'],
+    ['dimension_injection_casing', '维度注入方块']
 ]
 let material_gt_key_zh_cn = [
     ['caminite_brick', '方镁矾'],
@@ -159,12 +160,13 @@ let mbd2_key_zh_cn = [
 ]
 let gt_machine_zh_cn = [
     ['pcb_factory', 'PCB工厂'],
-    ['hyperdimensional_chemical_plant', '超维度等分子化工厂'],
+    ['dimensionally_transcendent_isomolecular_reactor', '超维度等分子化工厂'],
     ['directional_void_miner', '定向虚空矿机'],
     ['dissolving_tank', '溶解罐'],
     ['large_gas_collector', '大型集气室'],
     ['large_metallurgic_infuser', '大型冶金灌注机'],
-    ['large_rock_breaker', '大型碎岩机']
+    ['large_rock_breaker', '大型碎岩机'],
+    ['dimensionally_transcendent_isothermal_furnace', '超维度等热量冶炼炉']
 ]
 let gt_recipe_type_zh_cn = [
     ['pcb_factory', 'PCB工厂'],

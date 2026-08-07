@@ -5,54 +5,14 @@
 	group: "1118A4C838238AC3"
 	icon: "avaritia:diamond_lattice"
 	id: "1AA4BA1FB894365D"
-	images: [{
-		click: "quest_enhance:decorative_anchor:540d3ee8-0c8c-45cc-8f6e-bc428abbe637"
-		height: 0.4d
-		image: ""
-		rotation: 0.0d
-		width: 0.4d
-		x: 9.5d
-		y: -4.5d
-	}]
 	order_index: 1
-	quest_enhance_decorative_lines: [
-		{
-			nodes: [
-				"q:111d96a7d3efd813"
-				"a:540d3ee8-0c8c-45cc-8f6e-bc428abbe637"
-			]
-		}
-		{
-			nodes: [
-				"q:15352d358b718beb"
-				"a:540d3ee8-0c8c-45cc-8f6e-bc428abbe637"
-			]
-		}
-		{
-			nodes: [
-				"q:48e35d44fcc79d11"
-				"a:540d3ee8-0c8c-45cc-8f6e-bc428abbe637"
-			]
-		}
-		{
-			nodes: [
-				"q:26b96b08f23d6879"
-				"a:540d3ee8-0c8c-45cc-8f6e-bc428abbe637"
-			]
-		}
-		{
-			nodes: [
-				"q:716c059b55d6cc86"
-				"a:540d3ee8-0c8c-45cc-8f6e-bc428abbe637"
-			]
-		}
-	]
+	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [{
 		id: "523EB573C53A44C4"
 		linked_quest: "71D253D427B51A9F"
 		x: -8.5d
-		y: -1.5d
+		y: 1.5d
 	}]
 	quests: [
 		{
@@ -71,8 +31,8 @@
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -1.0d
+			x: -10.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["19DB31004C991895"]
@@ -89,7 +49,7 @@
 				item: "mekanism:alloy_infused"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -10.0d
 			y: 0.0d
 		}
 		{
@@ -112,7 +72,7 @@
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -7.0d
 			y: 0.0d
 		}
 		{
@@ -131,7 +91,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["267573CE52C3D840"]
@@ -149,7 +109,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -191,13 +151,17 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
 				"520AA8FCA3262F01"
 				"75D53910955076F4"
 				"4A8E8D823DF637E7"
+			]
+			description: [
+				""
+				"{image:quest_enhance:textures/ftb/clipboard_1785983381625.png width:199 height:213 align:center fit:true}"
 			]
 			id: "094FE4A5EB340B2F"
 			rewards: [{
@@ -212,7 +176,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["267573CE52C3D840"]
@@ -221,7 +185,6 @@
 				"离心蓝金石粉得到镓粉"
 				"这也是你目前唯一砷化镓的来源"
 			]
-			hide_dependency_lines: true
 			id: "06E3BEC42EDF00B3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -234,35 +197,11 @@
 				item: "gtceu:lv_centrifuge"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -2.0d
+			x: -5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["06E3BEC42EDF00B3"]
-			id: "7CE364036232BB71"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3E79F06062149E34"
-				table_id: 7726132512131049101L
-				type: "random"
-			}]
-			tasks: [
-				{
-					id: "3BF3924AE27AD88E"
-					item: "gtceu:gallium_dust"
-					type: "item"
-				}
-				{
-					id: "403F26E186918B95"
-					item: "gtceu:arsenic_dust"
-					type: "item"
-				}
-			]
-			x: -5.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7CE364036232BB71"]
 			id: "1EECEBB179CBDAE3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -276,7 +215,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["267573CE52C3D840"]
@@ -293,8 +232,8 @@
 				item: "gtceu:lv_electrolyzer"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.0d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["76EE097DFAF0A738"]
@@ -311,8 +250,8 @@
 				item: "gtceu:aluminium_dust"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -0.5d
+			x: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -354,7 +293,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -392,7 +331,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -414,7 +353,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["74C49D595061D61D"]
@@ -431,7 +370,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0915454B214E367B"]
@@ -448,7 +387,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5A0D1CCAC594BCD9"]
@@ -465,7 +404,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5ED94F26402E7983"]
@@ -482,7 +421,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0A801BE87DDB3EF5"]
@@ -514,7 +453,7 @@
 			]
 			title: "LV舱室"
 			x: -4.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["267573CE52C3D840"]
@@ -543,7 +482,7 @@
 				}
 			]
 			title: "冶金灌注系列"
-			x: -10.0d
+			x: -8.5d
 			y: 0.0d
 		}
 		{
@@ -640,7 +579,7 @@
 		}
 		{
 			dependencies: ["222DE3F2DA123486"]
-			description: ["注意到在这个路线，你会需要蒸汽，如果你蒸汽不用来发电这里推荐直接制作高压太阳能蒸汽，够用了"]
+			description: ["注意到在这个路线，你可能需要蒸汽，如果你蒸汽不用来发电这里推荐直接制作高压太阳能蒸汽，够用了"]
 			icon: "gtceu:polyethylene_bucket"
 			id: "4CBC5A84BE4BC7BA"
 			rewards: [{
@@ -808,8 +747,8 @@
 				item: "oritong:diamond_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 1.0d
+			x: -10.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["753E6963A939C10C"]
@@ -826,7 +765,7 @@
 				item: "pipez:energy_pipe"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -11.5d
 			y: 0.0d
 		}
 		{
@@ -910,7 +849,11 @@
 		}
 		{
 			dependencies: ["4CBC5A84BE4BC7BA"]
-			description: ["快速维护你的维护仓……"]
+			description: [
+				"快速维护你的维护仓……"
+				""
+				"{image:quest_enhance:textures/ftb/clipboard_1785983638743.png width:199 height:200 align:center fit:true}"
+			]
 			id: "20B77F91BF3407C7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -965,22 +908,11 @@
 				item: "gtceu:mv_machine_hull"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3DBDFDF6FA0F3754"]
-			id: "782E85781037D356"
-			tasks: [{
-				id: "69556456C1891A2D"
-				item: "gtceu:plascrete"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["782E85781037D356"]
 			hide_dependent_lines: true
 			id: "628F9AEA4BC1BBA9"
 			tasks: [{
@@ -988,22 +920,19 @@
 				item: "gtceu:cleanroom"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.0d
+			x: 2.0d
+			y: -1.5d
 		}
 		{
-			dependencies: [
-				"782E85781037D356"
-				"5C2E66D757D1E68F"
-			]
+			dependencies: ["5C2E66D757D1E68F"]
 			id: "61E32A9B65CFD1E2"
 			tasks: [{
 				id: "720A50699EFAFC25"
 				item: "tconstruct:smeltery_controller"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.5d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["094FE4A5EB340B2F"]
@@ -1014,8 +943,8 @@
 				item: "gtceu:silicon_boule"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -4.5d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3DBDFDF6FA0F3754"]
@@ -1030,7 +959,7 @@
 				item: "gtceu:mv_cutter"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 0.5d
 			y: -3.0d
 		}
 		{
@@ -1045,8 +974,8 @@
 				item: "gtceu:silicon_wafer"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.5d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -1061,7 +990,7 @@
 				item: "gtceu:cpu_wafer"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 5.0d
 			y: -6.0d
 		}
 		{
@@ -1077,7 +1006,7 @@
 				item: "gtceu:ram_wafer"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 5.0d
 			y: -5.0d
 		}
 		{
@@ -1093,7 +1022,7 @@
 				item: "gtceu:ilc_wafer"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 5.0d
 			y: -4.0d
 		}
 		{
@@ -1104,7 +1033,7 @@
 				item: "gtceu:diamond_lens"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 3.5d
 			y: -6.0d
 		}
 		{
@@ -1115,7 +1044,7 @@
 				item: "gtceu:emerald_lens"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 3.5d
 			y: -5.0d
 		}
 		{
@@ -1126,7 +1055,7 @@
 				item: "gtceu:ruby_lens"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 3.5d
 			y: -4.0d
 		}
 		{
@@ -1138,7 +1067,7 @@
 				item: "gtceu:mv_lathe"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 2.0d
 			y: -4.5d
 		}
 		{
@@ -1149,7 +1078,7 @@
 				item: "gtceu:cpu_chip"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 6.5d
 			y: -6.0d
 		}
 		{
@@ -1160,7 +1089,7 @@
 				item: "gtceu:ram_chip"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 6.5d
 			y: -5.0d
 		}
 		{
@@ -1171,7 +1100,7 @@
 				item: "gtceu:ilc_chip"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 6.5d
 			y: -4.0d
 		}
 		{
@@ -1182,7 +1111,7 @@
 				item: "gtceu:mv_laser_engraver"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 5.0d
 			y: -7.5d
 		}
 		{
@@ -1193,7 +1122,7 @@
 				item: "gtceu:mv_emitter"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 3.5d
 			y: -7.5d
 		}
 		{
@@ -1206,7 +1135,7 @@
 				item: "botania:mana_diamond"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 2.0d
 			y: -7.5d
 		}
 		{
@@ -1222,7 +1151,7 @@
 				item: "gtceu:ulpic_wafer"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 5.0d
 			y: -3.0d
 		}
 		{
@@ -1233,7 +1162,7 @@
 				item: "gtceu:ulpic_chip"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 6.5d
 			y: -3.0d
 		}
 		{
@@ -1244,7 +1173,7 @@
 				item: "gtceu:sapphire_lens"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 3.5d
 			y: -3.0d
 		}
 		{
@@ -1258,7 +1187,7 @@
 				item: "gtceu:mv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 6.5d
 			y: -1.5d
 		}
 		{
@@ -1272,7 +1201,7 @@
 				item: "gtceu:alumina_ceramic_block"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -1283,7 +1212,7 @@
 				item: "gtceu:kanthal_coil_block"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -1303,7 +1232,7 @@
 				type: "checkmark"
 			}]
 			title: "胶水"
-			x: 10.5d
+			x: 5.0d
 			y: -1.5d
 		}
 		{
@@ -1314,7 +1243,7 @@
 				item: "gtceu:mv_chemical_bath"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -1329,7 +1258,7 @@
 				item: "gtceu:advanced_integrated_circuit"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 8.0d
 			y: -4.5d
 		}
 		{
@@ -1340,8 +1269,8 @@
 				item: "gtceu:transistor"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -3.0d
+			x: 8.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["03AC8E2375D7EBBC"]
@@ -1351,14 +1280,13 @@
 				item: "gtceu:silicon_ingot"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
 			dependencies: [
 				"5AACF159669755B3"
 				"03AC8E2375D7EBBC"
-				"3473E60E02BE60C8"
 			]
 			description: ["一直筛选你的石英粉就有概率获得赛特斯石英粉"]
 			id: "3B6B305584EE346F"
@@ -1367,7 +1295,7 @@
 				item: "ae2:quartz_fiber"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 5.0d
 			y: 1.5d
 		}
 		{
@@ -1378,7 +1306,7 @@
 				item: "ae2:fluix_glass_cable"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 6.5d
 			y: 1.5d
 		}
 		{
@@ -1389,7 +1317,7 @@
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 8.0d
 			y: 1.5d
 		}
 		{
@@ -1401,7 +1329,7 @@
 				item: "ae2:annihilation_plane"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 9.0d
 			y: 2.5d
 		}
 		{
@@ -1413,7 +1341,7 @@
 				item: "ae2:storage_bus"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 9.0d
 			y: 0.5d
 		}
 		{
@@ -1434,18 +1362,7 @@
 				item: "ae2:sky_dust"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["776033E7A78A3217"]
-			id: "1C2CDFA4CB45668A"
-			tasks: [{
-				id: "2C66C4BA167E7BB2"
-				item: "gtceu:damascus_steel_dust"
-				type: "item"
-			}]
-			x: 17.0d
+			x: 10.0d
 			y: 1.5d
 		}
 		{
@@ -1456,7 +1373,7 @@
 				item: "gtceu:mv_circuit_assembler"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 9.5d
 			y: -4.5d
 		}
 		{
@@ -1470,7 +1387,7 @@
 				item: "mekanism:elite_control_circuit"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 9.5d
 			y: -6.0d
 		}
 		{
@@ -1481,7 +1398,7 @@
 				item: "mekanism:dust_quartz"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 3.5d
 			y: 1.5d
 		}
 		{
@@ -1493,8 +1410,8 @@
 				item: "gtceu:mv_centrifuge"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 1.5d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["31C6A78070C42C1F"]
@@ -1504,8 +1421,8 @@
 				item: "gtceu:stainless_steel_ingot"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -1.5d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6CC1902CC17749CC"]
@@ -1515,19 +1432,8 @@
 				item: "gtceu:hv_machine_hull"
 				type: "item"
 			}]
-			x: 21.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["1C2CDFA4CB45668A"]
-			id: "1D47FC54A3B0B05F"
-			tasks: [{
-				id: "0BEACC16BE28A93B"
-				item: "gtceu:damascus_steel_ingot"
-				type: "item"
-			}]
-			x: 18.5d
-			y: 1.5d
+			x: 11.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0AB658BB37CE8852"]
@@ -1538,8 +1444,8 @@
 				type: "checkmark"
 			}]
 			title: "液态聚四氟乙烯"
-			x: 21.5d
-			y: -3.0d
+			x: 11.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0013270E60571D70"]
@@ -1549,12 +1455,15 @@
 				item: "gtceu:large_chemical_reactor"
 				type: "item"
 			}]
-			x: 21.5d
-			y: -4.5d
+			x: 11.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0AB658BB37CE8852"]
-			description: ["ae2其余物品配方将在之后进行一次大幅重新修订"]
+			description: [
+				"ae2其余物品配方将在之后进行一次大幅重新修订"
+				"忘说了，本包AE无限频道"
+			]
 			icon: "ae2:singularity"
 			id: "107EAEEE788AF74B"
 			tasks: [
@@ -1600,8 +1509,8 @@
 				}
 			]
 			title: "AE2"
-			x: 21.5d
-			y: 0.0d
+			x: 11.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4C88BBF7878ECF12"]
@@ -1611,8 +1520,8 @@
 				item: "gtnn:exxonmobil_chemical_plant"
 				type: "item"
 			}]
-			x: 21.5d
-			y: -6.0d
+			x: 11.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3DBDFDF6FA0F3754"]
@@ -1623,8 +1532,8 @@
 				item: "gtceu:pyrolyse_oven"
 				type: "item"
 			}]
-			x: 23.0d
-			y: -4.5d
+			x: 13.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1640,8 +1549,8 @@
 				type: "checkmark"
 			}]
 			title: "α-氰基丙烯酸乙酯"
-			x: 23.0d
-			y: -6.0d
+			x: 13.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["55759F7501B98E22"]
@@ -1651,8 +1560,8 @@
 				item: "gtceu:auto_maintenance_hatch"
 				type: "item"
 			}]
-			x: 24.5d
-			y: -6.0d
+			x: 14.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0AB658BB37CE8852"]
@@ -1662,8 +1571,8 @@
 				item: "gtceu:distillation_tower"
 				type: "item"
 			}]
-			x: 24.5d
-			y: -4.5d
+			x: 14.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0AB658BB37CE8852"]
@@ -1673,8 +1582,8 @@
 				item: "gtceu:cracker"
 				type: "item"
 			}]
-			x: 23.0d
-			y: -3.0d
+			x: 13.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0AB658BB37CE8852"]
@@ -1689,8 +1598,8 @@
 				item: "ae2:not_so_mysterious_cube"
 				type: "item"
 			}]
-			x: 23.0d
-			y: 0.0d
+			x: 13.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1716,8 +1625,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.5d
-			y: 1.5d
+			x: 11.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["212DB96CD57E4788"]
@@ -1727,22 +1636,16 @@
 				item: "superflatcore:super_infinite_water_cover"
 				type: "item"
 			}]
-			x: 23.0d
-			y: 1.5d
+			x: 13.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["1D47FC54A3B0B05F"]
-			id: "30878E395CA397A5"
-			tasks: [{
-				id: "5A24150438091E52"
-				item: "create:crushing_wheel"
-				type: "item"
-			}]
-			x: 20.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["30878E395CA397A5"]
+			dependencies: ["776033E7A78A3217"]
+			description: [
+				"以防你不知道通过机器外壳可以传电"
+				""
+				"{image:quest_enhance:textures/ftb/clipboard_1785982262092.png width:199 height:93 align:center fit:true}"
+			]
 			id: "7D7F11A4AB3D66EE"
 			subtitle: "MassacrE II 3rc4224M"
 			tasks: [{
@@ -1750,8 +1653,8 @@
 				item: "industrialforegoing:mob_slaughter_factory"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 3.0d
+			x: 11.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7D7F11A4AB3D66EE"]
@@ -1762,8 +1665,8 @@
 				type: "checkmark"
 			}]
 			title: "粉红微光"
-			x: 23.0d
-			y: 3.0d
+			x: 13.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1259F05598926219"]
@@ -1773,8 +1676,8 @@
 				item: "gtceu:rutile_dust"
 				type: "item"
 			}]
-			x: 24.5d
-			y: 3.0d
+			x: 14.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1787,8 +1690,8 @@
 				item: "gtceu:titanium_ingot"
 				type: "item"
 			}]
-			x: 26.0d
-			y: 3.0d
+			x: 16.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["491B5FE70B7F892F"]
@@ -1798,8 +1701,8 @@
 				item: "gtceu:vacuum_freezer"
 				type: "item"
 			}]
-			x: 26.0d
-			y: 1.5d
+			x: 16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4EAC3EB0280AB24F"]
@@ -1810,8 +1713,8 @@
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
-			x: 24.5d
-			y: 1.5d
+			x: 14.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["601A9625B6574272"]
@@ -1821,8 +1724,8 @@
 				item: "gtceu:nichrome_coil_block"
 				type: "item"
 			}]
-			x: 27.5d
-			y: 1.5d
+			x: 17.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["212DB96CD57E4788"]
@@ -1852,8 +1755,8 @@
 					type: "item"
 				}
 			]
-			x: 24.5d
-			y: 0.0d
+			x: 14.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0AB658BB37CE8852"]
@@ -1867,8 +1770,8 @@
 				item: "gtnn:homemade_bedrock_ore_machine"
 				type: "item"
 			}]
-			x: 23.0d
-			y: -1.5d
+			x: 13.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["47557042D9E07961"]
@@ -1884,8 +1787,8 @@
 				item: "gtceu:directional_void_miner"
 				type: "item"
 			}]
-			x: 24.5d
-			y: -3.0d
+			x: 14.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["47557042D9E07961"]
@@ -1925,8 +1828,8 @@
 				}
 			]
 			title: "铂处理"
-			x: 38.0d
-			y: -4.5d
+			x: 30.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1940,8 +1843,8 @@
 				item: "gtceu:titanium_nitride_ceramic_plate"
 				type: "item"
 			}]
-			x: 27.5d
-			y: 3.0d
+			x: 17.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1954,8 +1857,8 @@
 				item: "gtceu:hv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 29.0d
-			y: 3.0d
+			x: 19.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["491B5FE70B7F892F"]
@@ -1965,8 +1868,8 @@
 				item: "gtceu:micro_processor_mainframe"
 				type: "item"
 			}]
-			x: 26.0d
-			y: 0.0d
+			x: 16.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0AB658BB37CE8852"]
@@ -1976,8 +1879,8 @@
 				item: "minecraft:blaze_powder"
 				type: "item"
 			}]
-			x: 24.5d
-			y: -1.5d
+			x: 14.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -1991,8 +1894,8 @@
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			x: 26.0d
-			y: -3.0d
+			x: 16.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0AB658BB37CE8852"]
@@ -2002,8 +1905,8 @@
 				item: "gtceu:hv_chemical_bath"
 				type: "item"
 			}]
-			x: 26.0d
-			y: -1.5d
+			x: 16.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3A86A081D7F0D645"]
@@ -2013,8 +1916,8 @@
 				item: "gtceu:orange_glass_lens"
 				type: "item"
 			}]
-			x: 27.5d
-			y: -1.5d
+			x: 17.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3BC4BD5AD2370156"]
@@ -2024,8 +1927,8 @@
 				item: "gtceu:lpic_wafer"
 				type: "item"
 			}]
-			x: 29.0d
-			y: 0.0d
+			x: 19.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -2038,8 +1941,8 @@
 				item: "gtceu:lpic_chip"
 				type: "item"
 			}]
-			x: 29.0d
-			y: 1.5d
+			x: 19.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0AB658BB37CE8852"]
@@ -2050,8 +1953,8 @@
 				item: "gtceu:hv_cutter"
 				type: "item"
 			}]
-			x: 27.5d
-			y: 0.0d
+			x: 17.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["36B47A0460B23945"]
@@ -2062,20 +1965,20 @@
 				item: "gtceu:beryllium_copper_ingot"
 				type: "item"
 			}]
-			x: 30.5d
-			y: 3.0d
+			x: 21.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["063FD60FD3B0E34D"]
-			description: [""]
+			description: ["到了EV，你就能明显的看到任务越来越少了，这说明你离通关越来越近了！"]
 			id: "7F960E6FE33E4A72"
 			tasks: [{
 				id: "2ED42EF96994AF9D"
 				item: "gtceu:ev_machine_hull"
 				type: "item"
 			}]
-			x: 36.5d
-			y: -1.5d
+			x: 28.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1A244E61C382C390"]
@@ -2085,8 +1988,8 @@
 				item: "kubejs:machine_core_3"
 				type: "item"
 			}]
-			x: 32.0d
-			y: 3.0d
+			x: 24.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0173FC868285B307"]
@@ -2096,8 +1999,8 @@
 				item: "occultism:wormhole_frame"
 				type: "item"
 			}]
-			x: 26.0d
-			y: -4.5d
+			x: 16.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["51ABE2B35BB0F02A"]
@@ -2108,8 +2011,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 27.5d
-			y: -6.0d
+			x: 17.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4ADD72B7ADF020B0"]
@@ -2127,8 +2030,8 @@
 					type: "item"
 				}
 			]
-			x: 26.0d
-			y: -6.0d
+			x: 16.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0173FC868285B307"]
@@ -2138,8 +2041,8 @@
 				item: "sfm:cable"
 				type: "item"
 			}]
-			x: 27.5d
-			y: -3.0d
+			x: 17.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["67F7313F0F3B2383"]
@@ -2149,8 +2052,8 @@
 				item: "sfm:manager"
 				type: "item"
 			}]
-			x: 29.0d
-			y: -4.5d
+			x: 19.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3A86A081D7F0D645"]
@@ -2160,8 +2063,8 @@
 				item: "industrialforegoing:pink_slime_ingot"
 				type: "item"
 			}]
-			x: 29.0d
-			y: -1.5d
+			x: 19.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -2178,8 +2081,8 @@
 				}
 				type: "item"
 			}]
-			x: 29.0d
-			y: -3.0d
+			x: 19.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0173FC868285B307"]
@@ -2210,8 +2113,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 27.5d
-			y: -4.5d
+			x: 17.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["063FD60FD3B0E34D"]
@@ -2222,8 +2125,8 @@
 				item: "kubejs:multi_functional_casing"
 				type: "item"
 			}]
-			x: 32.0d
-			y: 4.0d
+			x: 24.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2233,8 +2136,8 @@
 				item: "gtceu:large_maceration_tower"
 				type: "item"
 			}]
-			x: 31.0d
-			y: 5.0d
+			x: 23.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2244,8 +2147,8 @@
 				item: "gtceu:large_chemical_bath"
 				type: "item"
 			}]
-			x: 30.0d
-			y: 5.0d
+			x: 22.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2255,8 +2158,8 @@
 				item: "gtceu:large_centrifuge"
 				type: "item"
 			}]
-			x: 30.0d
-			y: 8.0d
+			x: 22.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2266,8 +2169,8 @@
 				item: "gtceu:large_mixer"
 				type: "item"
 			}]
-			x: 34.0d
-			y: 8.0d
+			x: 26.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2277,8 +2180,8 @@
 				item: "gtceu:large_electrolyzer"
 				type: "item"
 			}]
-			x: 31.0d
-			y: 9.0d
+			x: 23.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2288,8 +2191,8 @@
 				item: "gtceu:large_electromagnet"
 				type: "item"
 			}]
-			x: 33.0d
-			y: 8.0d
+			x: 25.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2300,8 +2203,8 @@
 				item: "gtceu:large_packer"
 				type: "item"
 			}]
-			x: 32.0d
-			y: 8.0d
+			x: 24.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2311,8 +2214,8 @@
 				item: "gtceu:large_assembler"
 				type: "item"
 			}]
-			x: 30.0d
-			y: 6.0d
+			x: 22.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2322,8 +2225,8 @@
 				item: "gtceu:large_circuit_assembler"
 				type: "item"
 			}]
-			x: 30.0d
-			y: 7.0d
+			x: 22.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2333,8 +2236,8 @@
 				item: "gtceu:large_arc_smelter"
 				type: "item"
 			}]
-			x: 31.0d
-			y: 6.0d
+			x: 23.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2344,8 +2247,8 @@
 				item: "gtceu:large_engraving_laser"
 				type: "item"
 			}]
-			x: 33.0d
-			y: 5.0d
+			x: 25.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2355,8 +2258,8 @@
 				item: "gtceu:large_sifting_funnel"
 				type: "item"
 			}]
-			x: 34.0d
-			y: 5.0d
+			x: 26.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2366,8 +2269,8 @@
 				item: "gtceu:large_autoclave"
 				type: "item"
 			}]
-			x: 31.0d
-			y: 8.0d
+			x: 23.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2377,8 +2280,8 @@
 				item: "gtceu:large_material_press"
 				type: "item"
 			}]
-			x: 32.0d
-			y: 9.0d
+			x: 24.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2388,8 +2291,8 @@
 				item: "gtceu:large_brewer"
 				type: "item"
 			}]
-			x: 33.0d
-			y: 9.0d
+			x: 25.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2399,8 +2302,8 @@
 				item: "gtceu:large_cutter"
 				type: "item"
 			}]
-			x: 34.0d
-			y: 9.0d
+			x: 26.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2410,8 +2313,8 @@
 				item: "gtceu:large_distillery"
 				type: "item"
 			}]
-			x: 30.0d
-			y: 9.0d
+			x: 22.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2421,8 +2324,8 @@
 				item: "gtceu:large_distillery"
 				type: "item"
 			}]
-			x: 34.0d
-			y: 6.0d
+			x: 26.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2432,8 +2335,8 @@
 				item: "gtceu:large_extractor"
 				type: "item"
 			}]
-			x: 34.0d
-			y: 7.0d
+			x: 26.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2443,8 +2346,8 @@
 				item: "gtceu:large_extruder"
 				type: "item"
 			}]
-			x: 33.0d
-			y: 6.0d
+			x: 25.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2454,8 +2357,8 @@
 				item: "gtceu:large_solidifier"
 				type: "item"
 			}]
-			x: 31.0d
-			y: 7.0d
+			x: 23.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2465,8 +2368,8 @@
 				item: "gtceu:large_wiremill"
 				type: "item"
 			}]
-			x: 33.0d
-			y: 7.0d
+			x: 25.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2476,8 +2379,8 @@
 				item: "gtnn:large_dehydrator"
 				type: "item"
 			}]
-			x: 32.0d
-			y: 7.0d
+			x: 24.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7F960E6FE33E4A72"]
@@ -2488,8 +2391,8 @@
 				item: "gtnn:maceration_stack_controller"
 				type: "item"
 			}]
-			x: 36.5d
-			y: 1.5d
+			x: 28.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7F960E6FE33E4A72"]
@@ -2517,8 +2420,8 @@
 				}
 			]
 			title: "ME仓室"
-			x: 36.5d
-			y: -3.0d
+			x: 28.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["40F2D140975D8426"]
@@ -2528,8 +2431,8 @@
 				item: "gtmthings:me_export_buffer"
 				type: "item"
 			}]
-			x: 38.0d
-			y: -3.0d
+			x: 30.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["42B517516136C658"]
@@ -2539,8 +2442,8 @@
 				item: "gtceu:tungsten_dust"
 				type: "item"
 			}]
-			x: 38.0d
-			y: 0.0d
+			x: 30.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["71640A3F18D320AB"]
@@ -2550,8 +2453,8 @@
 				item: "gtceu:tungsten_steel_ingot"
 				type: "item"
 			}]
-			x: 39.5d
-			y: 0.0d
+			x: 31.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -2565,8 +2468,8 @@
 				item: "gtceu:ev_voltage_coil"
 				type: "item"
 			}]
-			x: 39.5d
-			y: -3.0d
+			x: 31.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["701A3773EFB5DFB9"]
@@ -2576,8 +2479,8 @@
 				item: "gtceu:ev_energy_input_hatch"
 				type: "item"
 			}]
-			x: 41.0d
-			y: -3.0d
+			x: 33.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0FE94778F3C9A0BC"]
@@ -2587,8 +2490,8 @@
 				item: "gtceu:neodymium_dust"
 				type: "item"
 			}]
-			x: 39.5d
-			y: -1.5d
+			x: 31.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["286010A888DAC0C4"]
@@ -2598,8 +2501,8 @@
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: 39.5d
-			y: -4.5d
+			x: 31.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["74B5BDFD33B04FAD"]
@@ -2610,8 +2513,8 @@
 				type: "checkmark"
 			}]
 			title: "气态氡"
-			x: 39.5d
-			y: 1.5d
+			x: 31.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0FE94778F3C9A0BC"]
@@ -2622,8 +2525,8 @@
 				type: "item"
 			}]
 			title: "铀处理"
-			x: 38.0d
-			y: 1.5d
+			x: 30.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6D8021F190292643"]
@@ -2633,8 +2536,8 @@
 				item: "kubejs:machine_core_4"
 				type: "item"
 			}]
-			x: 42.5d
-			y: 0.0d
+			x: 34.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3473E60E02BE60C8"]
@@ -2644,7 +2547,7 @@
 				item: "gtceu:lv_dual_input_hatch"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 3.5d
 			y: -1.5d
 		}
 		{
@@ -2656,8 +2559,8 @@
 				item: "gtceu:nano_processor_mainframe"
 				type: "item"
 			}]
-			x: 42.5d
-			y: -4.5d
+			x: 34.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["063FD60FD3B0E34D"]
@@ -2667,7 +2570,7 @@
 				item: "gtceu:cleaning_maintenance_hatch"
 				type: "item"
 			}]
-			x: 33.5d
+			x: 24.0d
 			y: 3.0d
 		}
 		{
@@ -2684,8 +2587,8 @@
 				item: "oritong:steel_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 1.0d
+			x: -11.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3DBDFDF6FA0F3754"]
@@ -2695,8 +2598,8 @@
 				item: "industrial_platform:industrial_platform"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["73CF75B5AC1D6A38"]
@@ -2712,8 +2615,8 @@
 				item: "gtceu:alloy_blast_smelter"
 				type: "item"
 			}]
-			x: 42.5d
-			y: -1.5d
+			x: 34.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["286010A888DAC0C4"]
@@ -2724,8 +2627,8 @@
 				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
-			x: 42.5d
-			y: -3.0d
+			x: 34.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -2740,8 +2643,8 @@
 				item: "gtceu:large_gas_collector"
 				type: "item"
 			}]
-			x: 41.0d
-			y: -4.5d
+			x: 33.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["27D390F592472AA0"]
@@ -2751,8 +2654,8 @@
 				item: "gtceu:quantum_eye"
 				type: "item"
 			}]
-			x: 41.0d
-			y: 1.5d
+			x: 33.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7F960E6FE33E4A72"]
@@ -2762,8 +2665,8 @@
 				item: "gtceu:ev_assembler"
 				type: "item"
 			}]
-			x: 38.0d
-			y: -1.5d
+			x: 30.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7F960E6FE33E4A72"]
@@ -2773,8 +2676,8 @@
 				item: "gtceu:ev_chemical_bath"
 				type: "item"
 			}]
-			x: 36.5d
-			y: 0.0d
+			x: 28.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -2791,8 +2694,8 @@
 				item: "bettergtae:large_molecular_assembler"
 				type: "item"
 			}]
-			x: 42.5d
-			y: 1.5d
+			x: 34.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["492472216CF74DE0"]
@@ -2803,8 +2706,8 @@
 				item: "gtceu:indium_dust"
 				type: "item"
 			}]
-			x: 41.0d
-			y: 0.0d
+			x: 33.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7DF52ABC26309A69"]
@@ -2821,8 +2724,8 @@
 				item: "gtceu:dissolving_tank"
 				type: "item"
 			}]
-			x: 41.0d
-			y: -1.5d
+			x: 33.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["286010A888DAC0C4"]
@@ -2833,8 +2736,8 @@
 				item: "gtceu:iv_parallel_hatch"
 				type: "item"
 			}]
-			x: 36.5d
-			y: -4.5d
+			x: 28.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["599B2079CB71CC31"]
@@ -2844,8 +2747,8 @@
 				item: "gtceu:large_metallurgic_infuser"
 				type: "item"
 			}]
-			x: 32.0d
-			y: 6.0d
+			x: 24.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["753E6963A939C10C"]
@@ -2876,8 +2779,8 @@
 				item: "gtceu:large_rock_breaker"
 				type: "item"
 			}]
-			x: 32.0d
-			y: 5.0d
+			x: 24.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0173FC868285B307"]
@@ -2888,8 +2791,8 @@
 				item: "pylons:infusion_pylon"
 				type: "item"
 			}]
-			x: 29.0d
-			y: -6.0d
+			x: 19.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["7B7308D10C02709D"]
@@ -2899,8 +2802,8 @@
 				item: "ae2:crystal_resonance_generator"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 2.5d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["222DE3F2DA123486"]

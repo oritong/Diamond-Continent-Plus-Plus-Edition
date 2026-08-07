@@ -338,7 +338,8 @@ let banthings = [
     'create:andesite_funnel',
     'embers:fluid_pipe',
     'moreburners:heat_upgrade',
-    'create:mechanical_drill'
+    'create:mechanical_drill',
+    'createaddition:electric_motor'
 ]
 let banlists = [
     'minecraft:crafting_table',

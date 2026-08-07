@@ -302,7 +302,7 @@ GTCEuStartupEvents.registry('gtceu:machine', e => {
             .build()
         )
         .workableCasingModel('gtceu:block/casings/gcym/high_temperature_smelting_casing', 'gtceu:block/multiblock/large_chemical_reactor')
-    e.create('hyperdimensional_chemical_plant', 'multiblock')
+    e.create('dimensionally_transcendent_isomolecular_reactor', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .machine(holder => new $CoilWorkableElectricMultiblockMachine(holder))
         .recipeTypes(['large_chemical_reactor', 'chemical_bath', 'super_chemical_plant', 'pcb_factory'])
@@ -320,7 +320,7 @@ GTCEuStartupEvents.registry('gtceu:machine', e => {
                 let maxParallel = Math.min(2147483647, Math.floor(Math.pow(2, Math.floor(temp / 900))))
                 components.add(
                     Component.translatable(
-                        'kubejs.multiblock.hyperdimensional_chemical_plant.coil_parallel',
+                        'kubejs.multiblock.dtpf.coil_parallel',
                         Component.literal(String(maxParallel)).withStyle($OritoChatFormatting.DARK_PURPLE)
                     ).withStyle($OritoChatFormatting.GRAY)
                 )
@@ -336,13 +336,54 @@ GTCEuStartupEvents.registry('gtceu:machine', e => {
                 .or(Predicates.abilities(PartAbility.INPUT_LASER).setMaxGlobalLimited(1).setPreviewCount(1))
                 .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
             )
-            .where("b", Predicates.blocks('gtceu:uhv_hermetic_casing'))
+            .where("b", Predicates.blocks('kubejs:dimension_injection_casing'))
             .where("C", Predicates.heatingCoils())
             .where("d", Predicates.blocks('gtceu:inert_machine_casing'))
             .where("s", Predicates.blocks('gtceu:ptfe_pipe_casing'))
             .build()
         )
         .workableCasingModel('gtceu:block/casings/solid/machine_casing_inert_ptfe', 'gtceu:block/multiblock/large_chemical_reactor')
+    e.create('dimensionally_transcendent_isothermal_furnace', 'multiblock')
+        .rotationState(RotationState.NON_Y_AXIS)
+        .machine(holder => new $CoilWorkableElectricMultiblockMachine(holder))
+        .recipeTypes(['electric_furnace', 'alloy_smelter', 'electric_blast_furnace', 'alloy_blast_smelter'])
+        .appearanceBlock(GCYMBlocks.CASING_HIGH_TEMPERATURE_SMELTING)
+        .recipeModifiers([
+            (machine, recipe) => FastLowPowerModifier(machine, recipe),
+            (machine, recipe) => CoilTemperatureParallel(machine, recipe),
+            GTRecipeModifiers.OC_PERFECT,
+            GTRecipeModifiers.MULTIPLERECIPE,
+            GTRecipeModifiers.BATCH_MODE
+        ])
+        .additionalDisplay((machine, components) => {
+            if (machine instanceof $CoilWorkableElectricMultiblockMachine && machine.isFormed()) {
+                let temp = machine.getCoilType().getCoilTemperature()
+                let maxParallel = Math.min(2147483647, Math.floor(Math.pow(2, Math.floor(temp / 900))))
+                components.add(
+                    Component.translatable(
+                        'kubejs.multiblock.dtpf.coil_parallel',
+                        Component.literal(String(maxParallel)).withStyle($OritoChatFormatting.DARK_PURPLE)
+                    ).withStyle($OritoChatFormatting.GRAY)
+                )
+            }
+        })
+        .pattern(definition => addPatternAisles(FactoryBlockPattern.start(), DTPF_AISLES)
+            .where("a", Predicates.controller(Predicates.blocks(definition.get())))
+            .where("e", Predicates.blocks('gtceu:high_temperature_smelting_casing')
+                .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setPreviewCount(1))
+                .or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setPreviewCount(1))
+                .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setPreviewCount(1))
+                .or(Predicates.abilities(PartAbility.EXPORT_FLUIDS).setPreviewCount(1))
+                .or(Predicates.abilities(PartAbility.INPUT_LASER).setMaxGlobalLimited(1).setPreviewCount(1))
+                .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
+            )
+            .where("b", Predicates.blocks('kubejs:dimension_injection_casing'))
+            .where("C", Predicates.heatingCoils())
+            .where("d", Predicates.blocks('gtceu:high_temperature_smelting_casing'))
+            .where("s", Predicates.blocks('gtceu:uv_muffler_hatch'))
+            .build()
+        )
+        .workableCasingModel('gtceu:block/casings/gcym/high_temperature_smelting_casing', 'gtceu:block/multiblock/electric_blast_furnace')
 })
 
 //     e.create('large_coke_oven', 'multiblock')

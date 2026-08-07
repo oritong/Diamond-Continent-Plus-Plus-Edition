@@ -28,7 +28,7 @@ S:custom_game_intro_skip_text = '';
 B:show_custom_window_icon = 'true';
 S:custom_window_icon_macos = '/config/fancymenu/assets/diamond32.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/diamond32.png';
-S:custom_window_title = '1.20.1 Forge [DC++] beta v0.1.6';
+S:custom_window_title = '1.20.1 Forge [DC++] Diamond Continent — Plus&Plus Edition  beta v0.1.8';
 S:custom_window_icon_16 = '/config/fancymenu/assets/diamond16.png';
 
 

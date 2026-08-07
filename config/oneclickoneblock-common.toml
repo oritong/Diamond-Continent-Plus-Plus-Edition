@@ -1,0 +1,8 @@
+#oneclickoneblock.configuration.delay_ticks.tooltip
+#Range: 0 ~ 20
+delay_ticks = 8
+#oneclickoneblock.configuration.first_time_trigger.tooltip
+first_time_trigger = false
+#oneclickoneblock.configuration.notify_on_disabling_delay.tooltip
+notify_on_disabling_delay = true
+

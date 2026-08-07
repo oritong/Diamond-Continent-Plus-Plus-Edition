@@ -28,8 +28,7 @@ ServerEvents.recipes(e => {
         [["13x gtceu:raw_chalcopyrite",
             "1x gtceu:raw_zeolite",
             "1x gtceu:raw_cassiterite",
-            "3x gtceu:raw_realgar",
-            "64x gtceu:raw_diamond"], "6"],
+            "3x gtceu:raw_realgar"], "6"],
 
         [["12x gtceu:raw_coal",
             "64x gtceu:raw_diamond"], "7"],

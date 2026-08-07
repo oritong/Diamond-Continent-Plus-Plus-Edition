@@ -3,7 +3,7 @@ ClientEvents.paintScreen(e => {
     1: {
         type: 'text',
         x: 0,
-        y: -80,
+        y: -100,
         alignX: 'center',
         alignY: 'center',
         color: 'white',

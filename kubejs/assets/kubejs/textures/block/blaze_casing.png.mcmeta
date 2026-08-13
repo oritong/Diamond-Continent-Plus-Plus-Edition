@@ -1,0 +1,5 @@
+{
+  "ldlib": {
+    "connection": "kubejs:block/blaze_casing_ctm"
+  }
+}

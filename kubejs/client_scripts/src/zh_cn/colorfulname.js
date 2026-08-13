@@ -4,6 +4,7 @@ ItemEvents.tooltip(event => {
 		let cname=colorfulnames[i];
 		let namelines=Component.translatable(cname.key).getString().split("\n");
 		event.addAdvanced(cname.id, (item, advanced, text) => {
+			if (!Client.player) return
 			let offset=Math.floor(Client.player.age/cname.time)%(cname.nodes.length*cname.length);
 			let lineoffset=0;
 			for(let i=0;i<namelines.length;i++){
@@ -60,6 +61,7 @@ ItemEvents.tooltip(event => {
 	for(let i=0;i<colorfulnames_static.length;i++){
 		let cname=colorfulnames_static[i];
 		event.addAdvanced(cname.id, (item, advanced, text) => {
+			if (!Client.player) return
 			let offset=Math.floor(Client.player.age/cname.time)%(cname.nodes.length*cname.length);
 			let namearray=cname.name.split("");
 			let coloredname=[];

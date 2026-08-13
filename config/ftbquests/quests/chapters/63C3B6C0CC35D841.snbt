@@ -1,34 +1,829 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "63C3B6C0CC35D841"
 	group: "1118A4C838238AC3"
+	icon: "avaritia:diamond_lattice"
 	id: "63C3B6C0CC35D841"
+	images: [
+		{
+			click: "quest_enhance:decorative_anchor:d394260d-7dd1-4c70-8be8-313788fed7ca"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -19.5d
+			y: -6.0d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:cd64271f-e64d-4388-a91a-7bcf5a14440f"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -19.5d
+			y: 2.0d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:1128f498-956b-4c62-9285-a8049982a7bf"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:2a2df2f4-3c4f-4376-ab4f-14e41808eecd"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:fd0d65dc-17fd-4fac-9844-c81c8154f192"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:4421c5ec-e957-4648-80d2-de40033a79eb"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:e643587c-addd-402c-92e7-e1724f1a00a5"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:d404e755-1bb9-4dcf-8e85-1220952ce35d"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:item/circuit/general/general_circuit_ev"
+			rotation: 0.0d
+			width: 4.0d
+			x: -15.5d
+			y: 4.0d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:item/circuit/general/general_circuit_iv"
+			rotation: 0.0d
+			width: 4.0d
+			x: -6.0d
+			y: 4.0d
+		}
+	]
 	order_index: 2
-	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [ ]
+	quest_enhance_decorative_lines: [
+		{
+			nodes: [
+				"a:2a2df2f4-3c4f-4376-ab4f-14e41808eecd"
+				"a:1128f498-956b-4c62-9285-a8049982a7bf"
+			]
+		}
+		{
+			nodes: [
+				"a:1128f498-956b-4c62-9285-a8049982a7bf"
+				"a:cd64271f-e64d-4388-a91a-7bcf5a14440f"
+			]
+		}
+		{
+			nodes: [
+				"a:cd64271f-e64d-4388-a91a-7bcf5a14440f"
+				"a:d394260d-7dd1-4c70-8be8-313788fed7ca"
+			]
+		}
+		{
+			nodes: [
+				"a:d394260d-7dd1-4c70-8be8-313788fed7ca"
+				"a:2a2df2f4-3c4f-4376-ab4f-14e41808eecd"
+			]
+		}
+		{
+			nodes: [
+				"a:4421c5ec-e957-4648-80d2-de40033a79eb"
+				"a:d404e755-1bb9-4dcf-8e85-1220952ce35d"
+			]
+		}
+		{
+			nodes: [
+				"a:d404e755-1bb9-4dcf-8e85-1220952ce35d"
+				"a:e643587c-addd-402c-92e7-e1724f1a00a5"
+			]
+		}
+		{
+			nodes: [
+				"a:e643587c-addd-402c-92e7-e1724f1a00a5"
+				"a:fd0d65dc-17fd-4fac-9844-c81c8154f192"
+			]
+		}
+		{
+			nodes: [
+				"a:fd0d65dc-17fd-4fac-9844-c81c8154f192"
+				"a:4421c5ec-e957-4648-80d2-de40033a79eb"
+			]
+		}
+	]
+	quest_enhance_hidden_dependency_lines: [{
+		dependency: 9103985905011033347L
+		reveal_on_hover: 0b
+		source: 8308238099818484165L
+	}]
 	quest_links: [ ]
 	quests: [
 		{
-			id: "1ADEA78EB8B1D00C"
+			dependencies: ["46365AC3E3D76DF4"]
+			id: "7035DF7FC06FD874"
 			tasks: [{
-				id: "14D715C527AD31D5"
-				item: "gtceu:pcb_factory"
+				id: "351B077E148F905A"
+				item: "gtceu:iv_machine_hull"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7035DF7FC06FD874"]
+			description: ["我不好说什么，总之这是非常折磨的三条线路，详情请到产线里观看"]
+			id: "5D89CF1D29BBBAA7"
+			min_width: 400
+			subtitle: "镧系处理"
+			tasks: [{
+				id: "431EEA8ADBCCC836"
+				item: "gtceu:digester"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D89CF1D29BBBAA7"]
+			id: "53238F786AD99BC7"
+			tasks: [{
+				id: "49FE006A5D5E995D"
+				item: "gtceu:iv_field_generator"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["53238F786AD99BC7"]
+			id: "77540352064F20E5"
+			tasks: [{
+				id: "314FAC23801EB5E1"
+				item: "gtceu:blaze_blast_furnace"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["53238F786AD99BC7"]
+			id: "4018123B21F150F4"
+			tasks: [{
+				id: "7FE921685507C1AF"
+				item: "gtceu:cold_ice_freezer"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7035DF7FC06FD874"]
+			id: "3EF5619FAF1639C7"
+			tasks: [{
+				id: "5BBAAA88F0DA87F0"
+				item: "gtceu:iv_scanner"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3EF5619FAF1639C7"]
+			id: "0C192B81015139A2"
+			tasks: [{
+				id: "7E2763EF3CC99E28"
+				item: "gtceu:data_access_hatch"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0C192B81015139A2"
+				"6AB33B77D2F15672"
+			]
+			description: [
+				"真的非常非常非常非常贵"
+				"这简直就是一个电路板方块！"
+			]
+			id: "0BBBED9DD5C8E974"
+			subtitle: "贵重物品"
+			tasks: [{
+				id: "3AD4DD2D156A9C01"
+				item: "gtceu:assembly_line"
 				type: "item"
 			}]
 			x: -4.0d
 			y: -0.5d
 		}
 		{
-			id: "7D09E4B3AF3E42A3"
+			dependencies: ["7035DF7FC06FD874"]
+			id: "32F631131FCF7C9B"
 			tasks: [{
-				id: "211542CA23760392"
-				item: "gtceu:hyperdimensional_chemical_plant"
+				id: "6A60D0F1D9D2A488"
+				item: "gtceu:pcb_factory"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7035DF7FC06FD874"
+				"434BC97D94CA0EE5"
+			]
+			icon: "gtceu:grade_1_purified_water_bucket"
+			id: "24BFE438EDB32EDB"
+			tasks: [{
+				id: "1A935D34E0BC582C"
+				type: "checkmark"
+			}]
+			title: "I·源初涌动之息(1级净化水)"
+			x: -7.0d
 			y: -0.5d
+		}
+		{
+			dependencies: [
+				"32F631131FCF7C9B"
+				"24BFE438EDB32EDB"
+			]
+			id: "6AB33B77D2F15672"
+			tasks: [{
+				id: "42060984C8D7828A"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0BBBED9DD5C8E974"
+				"58ED0AEC383CCB5B"
+			]
+			id: "4EA9BFFEB616B74D"
+			tasks: [{
+				id: "2ACAC2CB73479F80"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24BFE438EDB32EDB"]
+			id: "58ED0AEC383CCB5B"
+			tasks: [{
+				id: "59A78D4018E192DF"
+				item: "gtceu:iv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BBBED9DD5C8E974"]
+			description: ["到底是谁导致的往维护仓里塞药片"]
+			id: "66972495194E3FAB"
+			subtitle: "嗑药变强"
+			tasks: [{
+				id: "75173D7B1EB0882D"
+				item: "superflatcore:configurable_auto_maintenance_hatch"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"58ED0AEC383CCB5B"
+				"0BBBED9DD5C8E974"
+			]
+			id: "5D499B67FE07477A"
+			tasks: [{
+				id: "0DAB3820469DE34E"
+				item: "gtceu:large_chemical_plant"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["47557042D9E07961"]
+			hide_dependency_lines: true
+			icon: "gtceu:platinum_dust"
+			id: "1321C9D60B84316E"
+			tasks: [
+				{
+					id: "2635BC767C71C26A"
+					item: "gtceu:platinum_dust"
+					type: "item"
+				}
+				{
+					id: "339FCC614C7411A2"
+					item: "gtceu:palladium_dust"
+					type: "item"
+				}
+				{
+					id: "64773BF3E8A8008D"
+					item: "gtceu:iridium_dust"
+					type: "item"
+				}
+				{
+					id: "156CD9F545526693"
+					item: "gtceu:ruthenium_dust"
+					type: "item"
+				}
+				{
+					id: "3141C7897B280377"
+					item: "gtceu:rhodium_dust"
+					type: "item"
+				}
+				{
+					id: "1C4AF8E35CDCD9E9"
+					item: "gtceu:osmium_dust"
+					type: "item"
+				}
+			]
+			title: "铂处理"
+			x: -17.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["063FD60FD3B0E34D"]
+			description: ["到了EV，你就能明显的看到任务越来越少了，这说明你离通关越来越近了！"]
+			id: "7E57DAF214588503"
+			tasks: [{
+				id: "37F20B71605A023D"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E57DAF214588503"]
+			description: ["暂时比大型研磨塔更强力……确实是暂时性的"]
+			id: "334D9C2B0EDC3DED"
+			tasks: [{
+				id: "0F5956BEBC91863F"
+				item: "gtnn:maceration_stack_controller"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E57DAF214588503"]
+			id: "2F656161D6C7D3C4"
+			tasks: [
+				{
+					id: "24A4A09C8BF28EAA"
+					item: "gtceu:me_input_bus"
+					type: "item"
+				}
+				{
+					id: "2A27651990D30A32"
+					item: "gtceu:me_output_bus"
+					type: "item"
+				}
+				{
+					id: "44BC0B418F546ACA"
+					item: "gtceu:me_input_hatch"
+					type: "item"
+				}
+				{
+					id: "2C8B4AD4AF4D32F2"
+					item: "gtceu:me_output_hatch"
+					type: "item"
+				}
+			]
+			title: "ME仓室"
+			x: -18.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F656161D6C7D3C4"]
+			id: "173D22A0675A0216"
+			tasks: [{
+				id: "45655CCD0887304F"
+				item: "gtmthings:me_export_buffer"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["31E976095175561A"]
+			id: "7B2EB2F28C4A50D9"
+			tasks: [{
+				id: "4739B2AFA69E2F78"
+				item: "gtceu:tungsten_dust"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7B2EB2F28C4A50D9"]
+			id: "4AC266DA3181A796"
+			tasks: [{
+				id: "01C61E66A30E8024"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"082ABD1C237CDE3E"
+				"01F07A2B8AC901AF"
+				"1321C9D60B84316E"
+			]
+			id: "5C3DB672425BFDE6"
+			tasks: [{
+				id: "1A6662D8DAEF9F72"
+				item: "gtceu:ev_voltage_coil"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C3DB672425BFDE6"]
+			id: "254E0A5270FE59B7"
+			tasks: [{
+				id: "6439D9212617BD18"
+				item: "gtceu:ev_energy_input_hatch"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0FE94778F3C9A0BC"]
+			id: "01F07A2B8AC901AF"
+			tasks: [{
+				id: "1A2DF5B67664C3BE"
+				item: "gtceu:neodymium_dust"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1321C9D60B84316E"]
+			id: "69EEF52C14BAE135"
+			tasks: [{
+				id: "3F497BCA801D1289"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["683E95AF2286D840"]
+			icon: "gtceu:radon_bucket"
+			id: "0751CA492DBB3C41"
+			tasks: [{
+				id: "3CED02F87EA9BBF5"
+				type: "checkmark"
+			}]
+			title: "气态氡"
+			x: -15.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0FE94778F3C9A0BC"]
+			id: "683E95AF2286D840"
+			tasks: [{
+				id: "751C4CE6454AA219"
+				item: "gtceu:uranium_dust"
+				type: "item"
+			}]
+			title: "铀处理"
+			x: -17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1959E171899FF28E"]
+			id: "46365AC3E3D76DF4"
+			tasks: [{
+				id: "55695A7653D7E702"
+				item: "kubejs:machine_core_4"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7E57DAF214588503"]
+			hide_dependency_lines: true
+			id: "47E346F4C3BCA8FE"
+			tasks: [{
+				id: "4FF9422459A8DD39"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7E57DAF214588503"]
+			description: [
+				"比搅拌机+高炉好"
+				"后面有许多材料都无法使用搅拌机制作"
+				"不过讽刺的是，有了炖屎炉你就可以做大型搅拌罐了"
+			]
+			id: "734CCA88690C11C5"
+			subtitle: "炖屎炉"
+			tasks: [{
+				id: "730B64AA2B96F9A4"
+				item: "gtceu:alloy_blast_smelter"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["734CCA88690C11C5"]
+			id: "58CD42021DE4D026"
+			tasks: [{
+				id: "6D1BEAE62D7D2D97"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"69EEF52C14BAE135"
+				"47E346F4C3BCA8FE"
+				"58CD42021DE4D026"
+			]
+			description: [""]
+			id: "25A00F4365FBB2AF"
+			tasks: [{
+				id: "5EB313313DDA64F0"
+				item: "gtceu:large_gas_collector"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0751CA492DBB3C41"]
+			id: "734341E526C29224"
+			tasks: [{
+				id: "441E193F4CED664F"
+				item: "gtceu:quantum_eye"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E57DAF214588503"]
+			id: "082ABD1C237CDE3E"
+			tasks: [{
+				id: "360A614F7C750CCE"
+				item: "gtceu:ev_assembler"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E57DAF214588503"]
+			id: "31E976095175561A"
+			tasks: [{
+				id: "6AF011070CD347BA"
+				item: "gtceu:ev_chemical_bath"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"46365AC3E3D76DF4"
+				"734341E526C29224"
+			]
+			description: [
+				"非常贵"
+				"但是很值得"
+			]
+			id: "6D1A85BE753805E1"
+			tasks: [{
+				id: "3E889B972402B189"
+				item: "bettergtae:large_molecular_assembler"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["340FD5EC5E503AAE"]
+			description: [""]
+			id: "1959E171899FF28E"
+			tasks: [{
+				id: "50342ACB69FFA552"
+				item: "gtceu:indium_dust"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4AC266DA3181A796"]
+			description: [
+				"溶解罐，这是一个让人发疯的机器"
+				"它会在你输入的材料不成比例时，吞掉输入和输出"
+				"所以这里推荐你使用ME仓室进行自动拉取来自动化这个产线"
+			]
+			id: "340FD5EC5E503AAE"
+			min_width: 250
+			subtitle: "溶解之爱"
+			tasks: [{
+				id: "3CF013783644A903"
+				item: "gtceu:dissolving_tank"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1321C9D60B84316E"]
+			description: ["将并行仓放入大型多方块机器，你就可以让大型多方块机器以并行模式运行配方了"]
+			id: "28D7F4DA1C3BCFD4"
+			tasks: [{
+				id: "21A653FE77DF34AF"
+				item: "gtceu:iv_parallel_hatch"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7035DF7FC06FD874"]
+			id: "434BC97D94CA0EE5"
+			tasks: [{
+				id: "62CD5E3A2238E1D2"
+				item: "gtceu:clarifier_purification_unit"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "7FD1C07D4AE2EEA4"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "636062615C0D6243"
+					item: {
+						Count: 1
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "6963A1A4B8E2D7E8"
+					item: {
+						Count: 1
+						id: "create:extendo_grip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "10878DAED3DB509F"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_wrench"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								AttackDamage: 101.0f
+								AttackSpeed: -2.3f
+								DefaultEnchantments: [ ]
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "13F7C525EEE5E600"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "544143E999A5206B"
+					item: {
+						Count: 1
+						id: "gtnn:debug_structure_writer"
+						tag: {
+							structure_writer: {
+								maxX: -66
+								maxY: 77
+								maxZ: -200
+								minX: -74
+								minY: 64
+								minZ: -208
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "7505F436FE3AF1F4"
+					item: {
+						Count: 1
+						id: "gtmthings:advanced_terminal"
+						tag: {
+							CoilTier: 8
+							IsUseAE: 0
+							NoHatchMode: 1
+							RepeatCount: 0
+							ReplaceCoilMode: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "657453B165A5D482"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: 4.0d
 		}
 	]
 	title: "第三章 量子神秘仪式（未完成）"

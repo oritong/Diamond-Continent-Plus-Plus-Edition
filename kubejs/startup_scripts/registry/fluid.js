@@ -1,8 +1,28 @@
+const $FluidProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.FluidProperty');
+const $FluidBuilder = Java.loadClass('com.gregtechceu.gtceu.api.fluids.FluidBuilder');
+const $FluidStorageKeys = Java.loadClass('com.gregtechceu.gtceu.api.fluids.store.FluidStorageKeys');
+let addFluid = (mat, key) => {
+    let prop = new $FluidProperty();
+    prop.getStorage().enqueueRegistration(key, new $FluidBuilder());
+    mat.setProperty(PropertyKey.FLUID, prop);
+}
+const PURIFIED_WATER_COLORS = [
+    0x0058cd,
+    0x2374d8,
+    0x4a91e1,
+    0x73ace8,
+    0x9bc6ef,
+    0xc0dcf5,
+    0xe1eef9,
+    0xfafdff
+]
 StartupEvents.registry('fluid', e => {
     e.create('oritong:glimmer').thinTexture(0xddffbf).viscosity(100).luminosity(4).tag('oritong:glimmer')
-    //e.create("oritong:latex").flowingTexture("kubejs:block/fluid/latex_flow").stillTexture("kubejs:block/fluid/latex_still").bucketColor(0xffffff)
 })
 GTCEuStartupEvents.registry('gtceu:material', e => {
+    addFluid(GTMaterials.Iodine, $FluidStorageKeys.GAS)
+    addFluid(GTMaterials.Strontium, $FluidStorageKeys.LIQUID)
+
     e.create('enriched_redstone').liquid().color(0xe60000)
     e.create('diamond_ore_leachate').liquid().color(0xb7fff7)
     e.create('enriched_diamond').liquid().color(0x00f0ff)
@@ -46,4 +66,32 @@ GTCEuStartupEvents.registry('gtceu:material', e => {
     e.create('excited_meteor_slurry').liquid().color(0xffaa00)
     e.create('excited_space_fluid').liquid().color(0x004040)
     e.create('space_glimmer_mixture').liquid().color(0x7fff00)
+    e.create('monazite_rare_earth_turbid_slurry').liquid().color(0x8b5a2b).components("1x lanthanum", "1x cerium", "1x neodymium", "1x thorium", "1x phosphorus", "4x oxygen", "1x hydrogen", "1x nitrogen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('diluted_monazite_rare_earth_mud_slurry').liquid().color(0xa58b6a).components("1x lanthanum", "1x cerium", "1x neodymium", "1x thorium", "1x phosphorus", "5x oxygen", "3x hydrogen", "1x nitrogen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('zirconium_tetrachloride_solution').liquid().color(0x4f3835).components("1x zirconium", "4x chlorine", "2x hydrogen", "1x oxygen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('hafnium_tetrachloride_solution').liquid().color(0x4f3835).components("1x hafnium", "4x chlorine", "2x hydrogen", "1x oxygen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('diluted_sulfuric_monazite_solution').liquid().color(0xc69a62).components("1x lanthanum", "1x cerium", "1x neodymium", "2x hydrogen", "1x sulfur", "4x oxygen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('ammonium_nitrate_solution').liquid().color(0xc0c0c0).components("2x nitrogen", "4x hydrogen", "3x oxygen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('concentrated_nitrated_monazite_rare_earth_solution').liquid().color(0xb58a3e).components("1x lanthanum", "1x cerium", "1x neodymium", "3x nitrogen", "9x oxygen", "3x hydrogen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('nitric_monazite_leaching_mixture').liquid().color(0x121212).components("1x lanthanum", "1x cerium", "1x neodymium", "3x nitrogen", "9x oxygen", "3x hydrogen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('concentrated_nitric_monazite_leach_solution').liquid().color(0xb58a3e).components("1x lanthanum", "1x cerium", "1x neodymium", "3x nitrogen", "9x oxygen", "3x hydrogen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('oxalic_acid').liquid().color(0xd4e8d0).components("2x carbon", "2x hydrogen", "4x oxygen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('fluorosilicic_acid').liquid().color(0xd8f0e6).components("2x hydrogen", "1x silicon", "6x fluorine").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('fluorocarbon_lanthanum_cerium_rare_earth_turbid_slurry').liquid().color(0xb07c32).components("1x lanthanum", "1x cerium", "1x neodymium", "1x samarium", "1x terbium", "1x holmium", "6x carbon", "19x oxygen", "6x fluorine", "1x hydrogen", "1x nitrogen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('steam_cracked_fluorocarbon_lanthanum_cerium_slurry').liquid().color(0x9e702d).components("1x lanthanum", "1x cerium", "1x neodymium", "1x samarium", "1x terbium", "1x holmium", "6x carbon", "19x oxygen", "6x fluorine", "3x hydrogen", "1x nitrogen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('prepared_fluorocarbon_lanthanum_cerium_slurry').liquid().color(0x8d7d42).components("1x lanthanum", "1x cerium", "1x neodymium", "1x samarium", "1x terbium", "1x holmium", "6x carbon", "1x sodium", "1x silicon", "19x oxygen", "12x fluorine", "3x hydrogen", "1x nitrogen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('diluted_fluorocarbon_lanthanum_cerium_slurry').liquid().color(0xb79e72).components("1x lanthanum", "1x cerium", "1x neodymium", "1x samarium", "1x terbium", "1x holmium", "6x carbon", "1x sodium", "1x silicon", "22x oxygen", "12x fluorine", "5x hydrogen", "1x nitrogen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('filtered_fluorocarbon_lanthanum_cerium_slurry').liquid().color(0x9b7a4c).components("1x lanthanum", "1x cerium", "1x neodymium", "1x samarium", "1x terbium", "1x holmium", "6x carbon", "18x oxygen", "6x fluorine", "5x hydrogen", "1x nitrogen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('fluorocarbon_lanthanum_cerium_residual_rare_earth_oxide_suspension').liquid().color(0x877653).components("1x lanthanum", "1x neodymium", "1x samarium", "1x terbium", "1x holmium", "3x carbon", "6x hydrogen", "9x oxygen", "3x nitrogen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('nitrated_fluorocarbon_lanthanum_cerium_residual_rare_earth_oxide').liquid().color(0x8c9e58).components("1x lanthanum", "1x neodymium", "1x samarium", "1x terbium", "1x holmium", "3x nitrogen", "11x oxygen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('diluted_acetone').liquid().color(0xdbe7ee).components("3x carbon", "6x hydrogen", "1x oxygen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    e.create('hydrated_ammonium_nitrate_slurry').liquid().color(0xd4d8cc).components("2x nitrogen", "6x hydrogen", "4x oxygen").flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    for (let index = 1; index <= 8; index++) {
+        e.create("grade_" + index + "_purified_water")
+            .fluid()
+            .components("1x minecraft:water")
+            .color(PURIFIED_WATER_COLORS[index - 1])
+            .iconSet(GTMaterialIconSet.FLUID)
+            .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    }
 })

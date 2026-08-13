@@ -1748,4 +1748,14 @@ ServerEvents.recipes(e => {
         E: '#gtceu:circuits/ev',
         F: 'gtceu:hv_field_generator'
     })
+    e.shaped('gtceu:assembly_line', [
+    'ABA',
+    'CDC',
+    'ABA'
+], {
+    A: 'gtnn:zpm_wrap_circuit',
+    B: 'gtceu:iv_robot_arm',
+    C: 'gtnn:luv_wrap_circuit',
+    D: 'gtceu:assembly_line_casing'
+})
 })

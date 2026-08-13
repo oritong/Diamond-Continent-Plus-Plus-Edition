@@ -1,0 +1,13 @@
+
+[goggles]
+	#Allow inserting compatible items by right-clicking Akashic Goggles in an inventory screen.
+	allowDropIn = true
+	#Allow inserting compatible items with the dynamic crafting recipe.
+	allowRecipe = true
+	#Range: 1 ~ 12
+	tooltipColumns = 6
+	#Range: 1 ~ 8
+	tooltipRows = 1
+	#Registry names that may not be inserted.
+	blacklist = []
+

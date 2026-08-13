@@ -339,7 +339,8 @@ let banthings = [
     'embers:fluid_pipe',
     'moreburners:heat_upgrade',
     'create:mechanical_drill',
-    'createaddition:electric_motor'
+    'createaddition:electric_motor',
+    'gtceu:assembly_line'
 ]
 let banlists = [
     'minecraft:crafting_table',
@@ -564,7 +565,10 @@ let banlists = [
     'gtceu:pyrolyse_oven/log_to_coal_gas',
     'gtceu:large_chemical_reactor/indium_concentrate_separation',
     'gtceu:electric_blast_furnace/blast_kanthal',
-    'gtceu:electric_blast_furnace/blast_kanthal_gas'
+    'gtceu:electric_blast_furnace/blast_kanthal_gas',
+    'gtceu:electrolyzer/decomposition_electrolyzing_europium_oxide_iii',
+    'gtceu:centrifuge/rare_earth_separation',
+    'gtceu:mixer/black_matter'
 ]
 let ban_gt_tools = [
     'pickaxe',

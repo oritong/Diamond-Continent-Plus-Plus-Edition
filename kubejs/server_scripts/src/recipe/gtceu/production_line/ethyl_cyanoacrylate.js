@@ -1,3 +1,6 @@
+const RecipeCondition = Java.loadClass('com.gregtechceu.gtceu.api.recipe.RecipeCondition')
+const gtnnCondition = json => RecipeCondition.deserialize(JsonIO.toJson(json))
+
 ServerEvents.recipes(e => {
     e.recipes.gtceu.mixer().itemInputs('gtceu:sieved_zeolite_powder_dust').inputFluids(Fluid.of('gtceu:ethanol', 1000)).itemOutputs('gtceu:wet_sieved_zeolite_powder_dust').outputFluids(Fluid.of('gtceu:absolute_ethanol', 1000)).EUt(120).duration(5 * 20).cleanroom(CleanroomType.CLEANROOM)
     e.recipes.gtceu.dehydrator().itemInputs('gtceu:wet_sieved_zeolite_powder_dust').itemOutputs('gtceu:sieved_zeolite_powder_dust').EUt(120).duration(2.5 * 20)

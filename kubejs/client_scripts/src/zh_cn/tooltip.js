@@ -25,13 +25,22 @@ let tooltip_zh_cn = [
     ['gtceu:pcb_factory', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：PCB工厂'],
     ['gtceu:dimensionally_transcendent_isomolecular_reactor', '耗时倍数：0.2，耗能倍数：0.4\n按照线圈温度并行，每提高900K并行x2\n此机器以批处理模式运行配方\n仅支持激光仓\n该机器拥有跨配方并行机制\n无损超频\n可用配方类型：大型化学反应釜、化学浸洗机、超级化工厂、PCB工厂'],
     ['gtceu:dimensionally_transcendent_isothermal_furnace', '耗时倍数：0.2，耗能倍数：0.4\n按照线圈温度并行，每提高900K并行x2\n此机器以批处理模式运行配方\n仅支持激光仓\n该机器拥有跨配方并行机制\n无损超频\n可用配方类型：电炉、合金炉、电力高炉、合金冶炼炉'],
+    ['gtceu:dimensionally_transcendent_isovac_freezer', '耗时倍数：0.2，耗能倍数：0.4\n通过并行控制仓让机器同时处理多个相同配方。\n此机器以批处理模式运行配方\n仅支持激光仓\n该机器拥有跨配方并行机制\n无损超频\n可用配方类型：真空冷冻机、等离子冷凝'],
+    ['gtceu:digester', '使用白铜后的每个线圈等级可以减少10%能源消耗。\n通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：煮解池'],
     ['gtceu:directional_void_miner', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：定向虚空矿机'],
     ['gtceu:large_metallurgic_infuser', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：冶金富集器，富集提取器，富集灌注器'],
     ['gtceu:dissolving_tank', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：溶解罐\n当输入和配方不成比例时，该机器将吞入所有输入并在运行完成后不输出任何产出。'],
     ['dont_touch_me:dont_touch_me', '别碰我。'],
     ['kubejs:nether_data', '闪存夹余烬面粉塔可'],
     ['kubejs:end_data', '闪存夹粉碎末地石塔可'],
-    ['bettergtae:large_molecular_assembler', '最大并行数：2147483647\n可通过合成样板仓放入合成样板、锻造样板、切石样板。']
+    ['bettergtae:large_molecular_assembler', '最大并行数：2147483647\n可通过合成样板仓放入合成样板、锻造样板、切石样板。'],
+    ['gtceu:large_chemical_plant', '耗时倍数：1.5\n按照线圈温度并行，每提高900K并行x2\n无损超频\n使用白铜后的每个线圈等级可以减少10%能源消耗。\n白铜线圈会使效率降低25%，坎塔尔合金后的每个线圈都会增加50%的速度。\n可用配方类型：大型化学反应釜'],
+    ['gtceu:blaze_blast_furnace', '耗时倍数x0.7\n耗能倍数x0.85\n运行时需每秒提供18x(功率/120)^0.5mB的液态烈焰\n最大并行数固定为256\n无损超频\n超过MV之后的每一级电压，都会将温度提高100K\n可用配方类型：电力高炉'],
+    ['gtceu:blaze_blast_smelter', '耗时倍数x0.7\n耗能倍数x0.85\n运行时需每秒提供36x(功率/120)^0.5mB的液态烈焰\n最大并行数固定为256\n无损超频\n超过MV之后的每一级电压，都会将温度提高100K\n可用配方类型：合金冶炼炉'],
+    ['gtceu:platdur_s_gate', '通过并行控制仓让机器同时处理多个相同配方。\n仅支持激光仓\n白铜线圈会使效率降低25%，坎塔尔合金后的每个线圈都会增加50%的速度。\n可用配方类型：铂得之门'],
+    ['gtceu:cold_ice_freezer', '耗时倍数x0.7\n耗能倍数x0.85\n运行时需每秒提供72x(功率/120)^0.5mB的液态冰\n最大并行数固定为256\n无损超频\n可用配方类型：真空冷冻机'],
+    ['gtceu:clarifier_purification_unit', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：澄清净化单元'],
+    ['gtceu:petrochemical_factory', '通过并行控制仓让机器同时处理多个相同配方。\n白铜线圈会使效率降低25%，坎塔尔合金后的每个线圈都会增加50%的速度。\n可用配方类型：石化工厂']
 ]
 let color_tooltip_zh_cn = [
     ['avaritia:infinity_elytra', '"圣城！请带着无翼的我们乘风而起吧！"'],
@@ -39,6 +48,16 @@ let color_tooltip_zh_cn = [
     ['angelring:angel_ring', '以凡铁与欲望铸成的人造伪翼。飞行并非恩赐，而是对重力的叛逃；每升一尺，便向虚空抵押一分灵魂。你以为是征服，实则天空早已为每个僭越者预留了坠落的坐标。']
 ]
 let color_tooltip_added = [
+    'gtceu:clarifier_purification_unit',
+    'gtceu:cold_ice_freezer',
+    'gtceu:platdur_s_gate',
+    'gtceu:blaze_blast_smelter',
+    'gtceu:digester',
+    'gtceu:dimensionally_transcendent_isomolecular_reactor',
+    'gtceu:dimensionally_transcendent_isothermal_furnace',
+    'gtceu:dimensionally_transcendent_isovac_freezer',
+    'gtceu:large_chemical_plant',
+    'gtceu:blaze_blast_furnace',
     'superflatcore:super_infinite_water_cover',
     'superflatcore:basic_air_intake_cover',
     'superflatcore:advanced_air_intake_cover',
@@ -148,7 +167,6 @@ let color_tooltip_added = [
     "gtceu:ev_dual_output_hatch",
     "gtceu:iv_dual_output_hatch",
     'gtceu:pcb_factory',
-    'gtceu:hyperdimensional_chemical_plant',
     'gtceu:directional_void_miner',
     "gtceu:large_metallurgic_infuser",
     "gtceu:dissolving_tank",

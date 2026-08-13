@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "drdiamond"
 	group: "1118A4C838238AC3"
+	icon: "avaritia:infinity_catalyst"
 	id: "2748F1E8207C6107"
 	order_index: 3
 	quest_enhance_decorative_lines: [ ]

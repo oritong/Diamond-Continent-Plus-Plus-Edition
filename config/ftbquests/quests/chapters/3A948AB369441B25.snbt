@@ -1,0 +1,1128 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3A948AB369441B25"
+	group: ""
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftblibrary:icons/star"
+		}
+	}
+	id: "3A948AB369441B25"
+	images: [
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default聚乙烯"
+			height: 0.4583333333333333d
+			image: ""
+			rotation: 0.0d
+			width: 1.0833333333333333d
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:item/circuit/general/general_circuit_lv"
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.0d
+			y: 3.5d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:item/circuit/general/general_circuit_mv"
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.0d
+			y: 10.0d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default黏土产铝"
+			height: 0.4583333333333333d
+			image: ""
+			rotation: 0.0d
+			width: 1.4166666666666667d
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default钻石矿石浸出"
+			height: 0.4583333333333333d
+			image: ""
+			rotation: 0.0d
+			width: 2.0833333333333335d
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default胶水"
+			height: 0.4583333333333333d
+			image: ""
+			rotation: 0.0d
+			width: 0.75d
+			x: -10.0d
+			y: 9.5d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default陨石处理"
+			height: 0.4583333333333333d
+			image: ""
+			rotation: 0.0d
+			width: 1.4166666666666667d
+			x: -10.0d
+			y: 12.5d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:item/circuit/general/general_circuit_hv"
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.0d
+			y: 21.0d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default粉色史莱姆液"
+			height: 0.4583333333333333d
+			image: ""
+			rotation: 0.0d
+			width: 2.08d
+			x: -10.0d
+			y: 17.0d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:defaultα-氰基丙烯酸乙酯"
+			height: 0.4583333333333333d
+			image: ""
+			rotation: 0.0d
+			width: 3.0416666666666665d
+			x: -10.5d
+			y: 20.5d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default金红石制钛"
+			height: 0.4583333333333333d
+			image: ""
+			rotation: 0.0d
+			width: 1.75d
+			x: -10.0d
+			y: 23.5d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default——————————————————————————————————————————————————————"
+			height: 0.6111111111111112d
+			image: ""
+			rotation: 0.0d
+			width: 24.11111111111111d
+			x: -3.5d
+			y: 15.0d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default——————————————————————————————————————————————————————"
+			height: 0.6111111111111112d
+			image: ""
+			rotation: 0.0d
+			width: 24.11111111111111d
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default——————————————————————————————————————————————————————"
+			height: 0.6111111111111112d
+			image: ""
+			rotation: 0.0d
+			width: 24.11111111111111d
+			x: -3.5d
+			y: 26.0d
+		}
+		{
+			height: 12.0d
+			image: "quest_enhance:textures/ftb/clipboard_1786299996674.png"
+			rotation: 0.0d
+			width: 120.0d
+			x: 20.5d
+			y: -12.5d
+		}
+	]
+	order_index: 4
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [
+		{
+			id: "0CC01F22271CFD2F"
+			linked_quest: "776033E7A78A3217"
+			x: -8.5d
+			y: 12.5d
+		}
+		{
+			id: "5019A8104946F73C"
+			linked_quest: "0A2E809E86C35DBB"
+			x: -8.5d
+			y: 16.0d
+		}
+		{
+			id: "664CD3209C143E31"
+			linked_quest: "356DDF333600DC7F"
+			x: -2.5d
+			y: 22.0d
+		}
+		{
+			id: "28E0909F8F3EC073"
+			linked_quest: "1259F05598926219"
+			x: -8.5d
+			y: 23.5d
+		}
+		{
+			id: "167873B6248B817F"
+			linked_quest: "140E6453D0046FA6"
+			x: -7.0d
+			y: 25.0d
+		}
+		{
+			id: "582C4519D1CD9EA6"
+			linked_quest: "0FB10F9F9C1EF093"
+			x: -7.0d
+			y: 23.5d
+		}
+	]
+	quests: [
+		{
+			id: "283050519B375121"
+			tasks: [{
+				id: "050C79891B5A1725"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6C09708F827C2DFD"
+				"0F5F6A8DA546432D"
+			]
+			icon: "gtceu:polyethylene_bucket"
+			id: "35123F2081099924"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "26D8D0D297F24D08"
+				type: "checkmark"
+			}]
+			title: "聚乙烯"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["604976F505EFF691"]
+			icon: "gtceu:ethylene_bucket"
+			id: "6C09708F827C2DFD"
+			tasks: [{
+				id: "0BF99042613C745E"
+				type: "checkmark"
+			}]
+			title: "乙烯"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7C368D5FF2333860"
+				"274ECC77053E7553"
+			]
+			icon: "gtceu:severely_steam_cracked_heavy_fuel_bucket"
+			id: "604976F505EFF691"
+			tasks: [{
+				id: "7E0D2632356ECB9E"
+				type: "checkmark"
+			}]
+			title: "重度蒸汽裂化油"
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"128FF8D3F9F0D6E7"
+				"18D30FFF20E37DF7"
+			]
+			icon: "gtceu:naphtha_bucket"
+			id: "274ECC77053E7553"
+			tasks: [{
+				id: "5837F4FFBF8FA33D"
+				type: "checkmark"
+			}]
+			title: "油"
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			icon: "gtceu:oil_bucket"
+			id: "62F2086360DFBD78"
+			tasks: [{
+				id: "6A7452F105EC96CD"
+				type: "checkmark"
+			}]
+			title: "石油、轻油"
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52064B2D14B90E91"]
+			icon: "gtceu:oxygen_bucket"
+			id: "0F5F6A8DA546432D"
+			tasks: [{
+				id: "00942B137F801F72"
+				type: "checkmark"
+			}]
+			title: "气态氧"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			icon: "gtceu:air_bucket"
+			id: "52064B2D14B90E91"
+			tasks: [{
+				id: "2F2E382F42EE6C7A"
+				type: "checkmark"
+			}]
+			title: "空气"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			icon: "gtceu:steam_bucket"
+			id: "7C368D5FF2333860"
+			tasks: [{
+				id: "004A2158C0AE6226"
+				type: "checkmark"
+			}]
+			title: "蒸汽"
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["62F2086360DFBD78"]
+			icon: "gtceu:sulfuric_light_fuel_bucket"
+			id: "128FF8D3F9F0D6E7"
+			tasks: [{
+				id: "093999AE2D1AAEA8"
+				type: "checkmark"
+			}]
+			title: "含硫油"
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			icon: "gtceu:hydrogen_bucket"
+			id: "18D30FFF20E37DF7"
+			tasks: [{
+				id: "5EE7688BCAC5E542"
+				type: "checkmark"
+			}]
+			title: "气态氢"
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["79878D7F7A9EE850"]
+			icon: "minecraft:diorite"
+			id: "4A25D55B62B2E1FE"
+			tasks: [{
+				id: "7B1E68FEA0C46E7C"
+				type: "checkmark"
+			}]
+			title: "闪长岩"
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			icon: "gtceu:mv_rock_crusher"
+			id: "79878D7F7A9EE850"
+			tasks: [{
+				id: "724FA4C15189AD57"
+				type: "checkmark"
+			}]
+			title: "碎岩机"
+			x: -8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4A25D55B62B2E1FE"]
+			icon: "gtceu:diorite_dust"
+			id: "70A2DD73BD72BC34"
+			tasks: [{
+				id: "5364B9586C24343A"
+				type: "checkmark"
+			}]
+			title: "闪长岩粉"
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["70A2DD73BD72BC34"]
+			icon: "gtceu:clay_dust"
+			id: "1D54F67E1D37067E"
+			tasks: [{
+				id: "02F20D140A8F235F"
+				type: "checkmark"
+			}]
+			title: "黏土粉"
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1D54F67E1D37067E"]
+			icon: "gtceu:aluminium_dust"
+			id: "73E1346C3EA7C4F8"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1CDF57A7298BC377"
+				type: "checkmark"
+			}]
+			title: "铝粉"
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			icon: "gtceu:raw_diamond_block"
+			id: "4086670D8C26484C"
+			tasks: [{
+				id: "0BD488026F4C0A18"
+				type: "checkmark"
+			}]
+			title: "粗钻石块"
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4086670D8C26484C"]
+			icon: "gtceu:raw_diamond"
+			id: "0785B41D6DFDA7D7"
+			tasks: [{
+				id: "31AD823188737722"
+				type: "checkmark"
+			}]
+			title: "粗钻石"
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0785B41D6DFDA7D7"]
+			icon: "gtceu:crushed_diamond_ore"
+			id: "583F8CF50D9316A7"
+			tasks: [{
+				id: "39C0907F44CFE861"
+				type: "checkmark"
+			}]
+			title: "粉碎钻石矿石"
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["442C99B84BDF6E65"]
+			icon: "gtceu:vanadium_magnetite_dust"
+			id: "1DAE231D72E16D42"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2E8D3D6FCDA120D5"
+				type: "checkmark"
+			}]
+			title: "离心浸出液"
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["583F8CF50D9316A7"]
+			icon: "gtceu:diamond_ore_leachate_bucket"
+			id: "442C99B84BDF6E65"
+			tasks: [{
+				id: "47D5CC1CC4DBB118"
+				type: "checkmark"
+			}]
+			title: "钻石矿石浸出液"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			icon: "gtceu:ethylene_bucket"
+			id: "727C1D8F9A7FD26B"
+			tasks: [{
+				id: "7D80764CF6B45ADA"
+				type: "checkmark"
+			}]
+			title: "乙烯"
+			x: -8.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["727C1D8F9A7FD26B"]
+			icon: "gtceu:acetic_acid_bucket"
+			id: "4A25894EAD190D79"
+			tasks: [{
+				id: "64CC4ED3386510B5"
+				type: "checkmark"
+			}]
+			title: "乙酸"
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"727C1D8F9A7FD26B"
+				"4A25894EAD190D79"
+			]
+			icon: "gtceu:vinyl_acetate_bucket"
+			id: "5200FCC3B23B8F1E"
+			tasks: [{
+				id: "610654056835C4BA"
+				type: "checkmark"
+			}]
+			title: "乙酸乙烯酯"
+			x: -8.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5200FCC3B23B8F1E"]
+			icon: "gtceu:polyvinyl_acetate_bucket"
+			id: "687B742CC0CB4195"
+			tasks: [{
+				id: "3A6E4B90BD9C44C3"
+				type: "checkmark"
+			}]
+			title: "聚乙酸乙烯酯"
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"687B742CC0CB4195"
+				"504C69AC2423C95D"
+			]
+			icon: "gtceu:glue_bucket"
+			id: "3B3D54D4D6A5CD9B"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0019AF7117C4E3B6"
+				type: "checkmark"
+			}]
+			title: "胶水"
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"4A25894EAD190D79"
+				"660CBB4F19869F4D"
+			]
+			icon: "gtceu:methyl_acetate_bucket"
+			id: "504C69AC2423C95D"
+			tasks: [{
+				id: "17DECBE8A2033F07"
+				type: "checkmark"
+			}]
+			title: "乙酸甲酯"
+			x: -5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["677104608D243592"]
+			icon: "gtceu:methanol_bucket"
+			id: "660CBB4F19869F4D"
+			tasks: [{
+				id: "77AD6BB2FFD246AC"
+				type: "checkmark"
+			}]
+			title: "甲醇"
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			icon: "gtceu:carbon_dust"
+			id: "677104608D243592"
+			tasks: [{
+				id: "71546C91D148ECD0"
+				type: "checkmark"
+			}]
+			title: "碳粉"
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["776033E7A78A3217"]
+			icon: "gtceu:meteor_slurry_bucket"
+			id: "47E8376D63DF79C8"
+			tasks: [{
+				id: "5B3DEEDF2CCB59AC"
+				type: "checkmark"
+			}]
+			title: "陨石浆液"
+			x: -7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["47E8376D63DF79C8"]
+			icon: "gtceu:excited_meteor_slurry_bucket"
+			id: "47F9DC2AC609FFD4"
+			tasks: [{
+				id: "2AAFB1741EEF0834"
+				type: "checkmark"
+			}]
+			title: "激发态陨石浆液"
+			x: -5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["47F9DC2AC609FFD4"]
+			icon: "gtceu:excited_space_fluid_bucket"
+			id: "43ECE8E72E4B95AB"
+			tasks: [{
+				id: "2F4B9C8586A94E61"
+				type: "checkmark"
+			}]
+			title: "激发太空流体"
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"43ECE8E72E4B95AB"
+				"6CC170E9F7E67E5E"
+			]
+			icon: "gtceu:damascus_steel_dust"
+			id: "3081F41812EA7450"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6713133B54A55A01"
+				type: "checkmark"
+			}]
+			title: "大马士革钢粉"
+			x: -2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["47F9DC2AC609FFD4"]
+			icon: "gtceu:deactivated_meteor_precipitate_dust"
+			id: "231A3C86207FBBD8"
+			tasks: [{
+				id: "3C855D95A894FDC5"
+				type: "checkmark"
+			}]
+			title: "失活陨石沉淀物"
+			x: -5.5d
+			y: 14.0d
+		}
+		{
+			icon: "gtceu:steel_dust"
+			id: "6CC170E9F7E67E5E"
+			tasks: [{
+				id: "72E31353888877B0"
+				type: "checkmark"
+			}]
+			title: "钢粉"
+			x: -2.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"7A2213DD44CA3ED1"
+				"259AE3E1B61B8663"
+			]
+			icon: "industrialforegoing:pink_slime_bucket"
+			id: "4C8C14D330BE6064"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "7B9F64FF17B0E162"
+				type: "checkmark"
+			}]
+			title: "粉色史莱姆液"
+			x: -5.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"69B86D75151544B7"
+				"0A2E809E86C35DBB"
+			]
+			icon: "minecraft:silverfish_spawn_egg"
+			id: "7A2213DD44CA3ED1"
+			tasks: [{
+				id: "0296F5A1215929A1"
+				type: "checkmark"
+			}]
+			title: "蠹虫"
+			x: -7.0d
+			y: 16.0d
+		}
+		{
+			icon: "industrialforegoing:mob_slaughter_factory"
+			id: "259AE3E1B61B8663"
+			tasks: [{
+				id: "308A77017A1DC569"
+				type: "checkmark"
+			}]
+			title: "屠宰场"
+			x: -7.0d
+			y: 17.5d
+		}
+		{
+			icon: "create:mechanical_drill"
+			id: "69B86D75151544B7"
+			tasks: [{
+				id: "0995BD73AE27DE19"
+				type: "checkmark"
+			}]
+			title: "动力钻头"
+			x: -8.5d
+			y: 17.5d
+		}
+		{
+			description: ["从现在开始，默认你已经启动了定向虚空矿机，制作了石油化工产线"]
+			icon: "gtceu:salt_water_bucket"
+			id: "5067DA50A8780529"
+			tasks: [{
+				id: "282ACC9D59BF342D"
+				type: "checkmark"
+			}]
+			title: "盐水"
+			x: -7.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["5067DA50A8780529"]
+			icon: "gtceu:sodium_hydroxide_dust"
+			id: "04A1B45718A90675"
+			tasks: [{
+				id: "0A207C3D64801890"
+				type: "checkmark"
+			}]
+			title: "氢氧化钠粉"
+			x: -8.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["04A1B45718A90675"]
+			icon: "gtceu:silica_gel_matrix_bucket"
+			id: "28B641351279F913"
+			tasks: [{
+				id: "7A083058E95229C1"
+				type: "checkmark"
+			}]
+			title: "硅胶基质"
+			x: -8.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["28B641351279F913"]
+			icon: "gtceu:silica_gel_powder_dust"
+			id: "716325C6DECFF455"
+			tasks: [{
+				id: "5BAA4AA0C3AD013C"
+				type: "checkmark"
+			}]
+			title: "硅胶粉"
+			x: -8.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["716325C6DECFF455"]
+			icon: "gtceu:silica_alumina_gel_powder_dust"
+			id: "47A39D1E33D3FFE9"
+			tasks: [{
+				id: "4309B3453C8C1EA7"
+				type: "checkmark"
+			}]
+			title: "硅铝凝胶粉"
+			x: -7.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["47A39D1E33D3FFE9"]
+			icon: "gtceu:sieved_zeolite_powder_dust"
+			id: "12D1BDEA4FC20E89"
+			tasks: [{
+				id: "7D9D45EDD1FE5C7B"
+				type: "checkmark"
+			}]
+			title: "过筛沸石颗粒粉"
+			x: -5.5d
+			y: 19.0d
+		}
+		{
+			icon: "gtceu:chloroacetic_acid_dust"
+			id: "3B0A081D7E9910DC"
+			tasks: [{
+				id: "20EBAB896F8D4325"
+				type: "checkmark"
+			}]
+			title: "氯乙酸粉"
+			x: -4.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["3CAD902AF47FF463"]
+			icon: "gtceu:cobalt_acetate_dust"
+			id: "3048DA487DE47062"
+			tasks: [{
+				id: "670A4044DEE06140"
+				type: "checkmark"
+			}]
+			title: "醋酸钴粉"
+			x: 0.5d
+			y: 20.5d
+		}
+		{
+			dependencies: [
+				"3B0A081D7E9910DC"
+				"63649BD68EB1CD5E"
+			]
+			icon: "gtceu:ethyl_chloroacetate_bucket"
+			id: "3C891A45BF082C75"
+			tasks: [{
+				id: "748A8B0137942CA7"
+				type: "checkmark"
+			}]
+			title: "氯乙酸乙酯"
+			x: -2.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["12D1BDEA4FC20E89"]
+			icon: "gtceu:absolute_ethanol_bucket"
+			id: "63649BD68EB1CD5E"
+			tasks: [{
+				id: "6C843B02FE58A594"
+				type: "checkmark"
+			}]
+			title: "绝对乙醇"
+			x: -4.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["11275913434E37BB"]
+			icon: "gtceu:refined_crude_pyridine_bucket"
+			id: "70CE9AD87692BFDF"
+			tasks: [{
+				id: "0CECC97386841220"
+				type: "checkmark"
+			}]
+			title: "精制粗轻吡啶"
+			x: 6.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["0DC5F588A25A7AC1"]
+			icon: "gtceu:ethyl_cyanoacetate_bucket"
+			id: "56E8713C7DAF02F9"
+			tasks: [{
+				id: "78ADEA757A972A95"
+				type: "checkmark"
+			}]
+			title: "氰乙酸乙酯"
+			x: 3.5d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"3048DA487DE47062"
+				"645E943EF835797E"
+				"7DA042B3F4A336BE"
+			]
+			icon: "gtceu:diethyl_malonate_bucket"
+			id: "5D630AEC3A95B585"
+			tasks: [{
+				id: "0B490EA6EB154558"
+				type: "checkmark"
+			}]
+			title: "丙二酸二乙酯"
+			x: 0.5d
+			y: 19.0d
+		}
+		{
+			icon: "gtceu:cobalt_chloride_dust"
+			id: "645E943EF835797E"
+			tasks: [{
+				id: "4777337AC32FD551"
+				type: "checkmark"
+			}]
+			title: "氯化钴粉"
+			x: 2.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["3C891A45BF082C75"]
+			icon: "gtceu:polyethyl_acetate_mixture_bucket"
+			id: "7DA042B3F4A336BE"
+			tasks: [{
+				id: "2CD749485EC38595"
+				type: "checkmark"
+			}]
+			title: "聚乙酸乙酯混合液"
+			x: -1.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["02FD46FDD8A4E2B5"]
+			icon: "gtceu:cobalt_carbonate_dust"
+			id: "3CAD902AF47FF463"
+			tasks: [{
+				id: "7DD05E5AA42BB7BC"
+				type: "checkmark"
+			}]
+			title: "碳酸钴粉"
+			x: -1.0d
+			y: 20.5d
+		}
+		{
+			icon: "gtceu:cobalt_nitrate_solution_bucket"
+			id: "02FD46FDD8A4E2B5"
+			tasks: [{
+				id: "1266F39351EF39E4"
+				type: "checkmark"
+			}]
+			title: "硝酸钴溶液"
+			x: -2.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["5D630AEC3A95B585"]
+			icon: "gtceu:monoethyl_malonamide_dust"
+			id: "0DC5F588A25A7AC1"
+			tasks: [{
+				id: "50CF4043141A7E1E"
+				type: "checkmark"
+			}]
+			title: "丙二酸单乙酯酰胺粉"
+			x: 2.0d
+			y: 19.0d
+		}
+		{
+			icon: "gtceu:formaldehyde_bucket"
+			id: "0C8C3AC1245014DC"
+			tasks: [{
+				id: "6FDC1496AC3BCCA8"
+				type: "checkmark"
+			}]
+			title: "甲醛"
+			x: 6.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["676D097463F3EA07"]
+			icon: "gtceu:azeotropic_crude_pyridine_bucket"
+			id: "11275913434E37BB"
+			tasks: [{
+				id: "38D8E01D02FC6BE7"
+				type: "checkmark"
+			}]
+			title: "共沸粗轻吡啶"
+			x: 5.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"09309FCD76A1985C"
+				"0C8C3AC1245014DC"
+				"56E8713C7DAF02F9"
+				"0905BB4EF2A5B82A"
+				"626E5EFE1ED962C4"
+				"3E5D8DC75E859600"
+			]
+			icon: "gtceu:ethyl_cyanoacrylate_bucket"
+			id: "39F61278A5DF6C8A"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "26BC7EB5F17BE057"
+				type: "checkmark"
+			}]
+			title: "α-氰基丙烯酸乙酯"
+			x: 5.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["70CE9AD87692BFDF"]
+			icon: "gtceu:pyridine_bucket"
+			id: "0905BB4EF2A5B82A"
+			tasks: [{
+				id: "2FEE41CC13110F7E"
+				type: "checkmark"
+			}]
+			title: "吡啶"
+			x: 5.0d
+			y: 20.5d
+		}
+		{
+			icon: "gtceu:sulfur_dioxide_bucket"
+			id: "09309FCD76A1985C"
+			tasks: [{
+				id: "6E784E70360A1740"
+				type: "checkmark"
+			}]
+			title: "二氧化硫"
+			x: 5.0d
+			y: 17.5d
+		}
+		{
+			icon: "gtceu:sulfur_dioxide_bucket"
+			id: "3E5D8DC75E859600"
+			tasks: [{
+				id: "49307384ECAD531F"
+				type: "checkmark"
+			}]
+			title: "二氧化硫"
+			x: 6.5d
+			y: 17.5d
+		}
+		{
+			icon: "gtceu:acetonitrile_bucket"
+			id: "626E5EFE1ED962C4"
+			tasks: [{
+				id: "1E5ACF88F72058BB"
+				type: "checkmark"
+			}]
+			title: "乙腈"
+			x: 3.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["30B86066F707CE21"]
+			icon: "gtceu:benzene_crude_pyridine_bucket"
+			id: "676D097463F3EA07"
+			tasks: [{
+				id: "226D1A4C921D44DC"
+				type: "checkmark"
+			}]
+			title: "含苯粗轻吡啶"
+			x: 3.5d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"23312D39ED3875A6"
+				"3135CFFE827559C2"
+			]
+			icon: "gtceu:crude_light_pyridine_bucket"
+			id: "30B86066F707CE21"
+			tasks: [{
+				id: "4C4CB18E355BB2C1"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["6557F966BE4DD719"]
+			icon: "gtceu:light_oil_fraction_bucket"
+			id: "23312D39ED3875A6"
+			tasks: [{
+				id: "378C115E2B0EDCDF"
+				type: "checkmark"
+			}]
+			title: "轻油馏分"
+			x: 0.5d
+			y: 22.0d
+		}
+		{
+			icon: "gtceu:ammonia_solution_bucket"
+			id: "3135CFFE827559C2"
+			tasks: [{
+				id: "7F59E293E668728C"
+				type: "checkmark"
+			}]
+			title: "氨水"
+			x: 3.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["356DDF333600DC7F"]
+			icon: "gtceu:coal_tar_bucket"
+			id: "6557F966BE4DD719"
+			tasks: [{
+				id: "1ECDA7BD05AA8A64"
+				type: "checkmark"
+			}]
+			title: "煤焦油"
+			x: -1.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["0FB10F9F9C1EF093"]
+			icon: "gtceu:titanium_tetrachloride_bucket"
+			id: "09213981A5634B91"
+			tasks: [{
+				id: "5FF03F5EC9E631CE"
+				type: "checkmark"
+			}]
+			title: "四氯化钛"
+			x: -5.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["09213981A5634B91"]
+			icon: "gtceu:hot_titanium_ingot"
+			id: "6EF4D7F9C12B9710"
+			tasks: [{
+				id: "70652968C1BDE40A"
+				type: "checkmark"
+			}]
+			title: "热钛锭"
+			x: -4.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["09213981A5634B91"]
+			icon: "gtceu:magnesium_chloride_dust"
+			id: "628762DBC129DE5E"
+			tasks: [{
+				id: "1C751531CBD00B49"
+				type: "checkmark"
+			}]
+			title: "氯化镁粉"
+			x: -4.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["628762DBC129DE5E"]
+			icon: "mekanism:salt"
+			id: "1B6CF766AB284EE3"
+			tasks: [{
+				id: "7E2ECFC83464FB6E"
+				type: "checkmark"
+			}]
+			title: "盐"
+			x: -2.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["1B6CF766AB284EE3"]
+			icon: "gtceu:chlorine_bucket"
+			id: "6B83546B9CAD76AC"
+			tasks: [{
+				id: "39792723423EB19E"
+				type: "checkmark"
+			}]
+			title: "气态氯"
+			x: -1.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["6EF4D7F9C12B9710"]
+			icon: "gtceu:titanium_ingot"
+			id: "236665C116A13B9D"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "52F87117F7349618"
+				type: "checkmark"
+			}]
+			title: "钛锭"
+			x: -2.5d
+			y: 23.5d
+		}
+	]
+	title: "产线"
+}

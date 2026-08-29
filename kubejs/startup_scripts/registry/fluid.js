@@ -22,6 +22,12 @@ StartupEvents.registry('fluid', e => {
 GTCEuStartupEvents.registry('gtceu:material', e => {
     addFluid(GTMaterials.Iodine, $FluidStorageKeys.GAS)
     addFluid(GTMaterials.Strontium, $FluidStorageKeys.LIQUID)
+    addFluid(GTMaterials.Terbium, $FluidStorageKeys.LIQUID)
+    addFluid(GTMaterials.Hafnium, $FluidStorageKeys.LIQUID)
+    addFluid(GTMaterials.Gadolinium, $FluidStorageKeys.LIQUID)
+    addFluid(GTMaterials.Zirconium, $FluidStorageKeys.LIQUID)
+    addFluid(GTMaterials.Holmium, $FluidStorageKeys.LIQUID)
+    addFluid(GTMaterials.Erbium, $FluidStorageKeys.LIQUID)
 
     e.create('enriched_redstone').liquid().color(0xe60000)
     e.create('diamond_ore_leachate').liquid().color(0xb7fff7)

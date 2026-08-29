@@ -18,6 +18,8 @@ ServerEvents.recipes(e => {
     e.remove({ type: 'mekanism:crushing' })
     e.remove({ type: 'replication:matter_value' })
     e.remove({ not: { type: 'gtceu:cutter' }, output: 'gtceu:alumina_ceramic_plate' })
+    e.remove({ not: { type: 'gtceu:cutter' }, output: 'gtceu:titanium_nitride_ceramic_plate' })
+    e.remove({ not: { type: 'gtceu:cutter' }, output: 'gtceu:tungsten_tetraboride_ceramic_plate' })
     e.remove({ type: 'botania:mana_infusion' })
     e.remove({ type: 'mekanism:chemical_infusing' })
     e.remove({ type: 'mekanism:injecting' })
@@ -242,7 +244,6 @@ let banthings = [
     "functionalstorage:framed_storage_controller",
     "functionalstorage:controller_extension",
     "functionalstorage:framed_controller_extension",
-    "functionalstorage:copper_upgrade",
     "functionalstorage:iron_downgrade",
     "functionalstorage:collector_upgrade",
     "functionalstorage:redstone_upgrade",
@@ -340,7 +341,17 @@ let banthings = [
     'moreburners:heat_upgrade',
     'create:mechanical_drill',
     'createaddition:electric_motor',
-    'gtceu:assembly_line'
+    'gtceu:assembly_line',
+    'botania:apothecary_default',
+    'create:extendo_grip',
+    'gtceu:qbit_cpu_chip',
+    'gtceu:fiber_reinforced_printed_circuit_board',
+    'gtceu:iv_energy_input_hatch',
+    'gtceu:ev_energy_input_hatch',
+    'entangled:item',
+    'gtceu:data_access_hatch',
+    "minecraft:lever",
+    'flopper:flopper'
 ]
 let banlists = [
     'minecraft:crafting_table',
@@ -568,7 +579,14 @@ let banlists = [
     'gtceu:electric_blast_furnace/blast_kanthal_gas',
     'gtceu:electrolyzer/decomposition_electrolyzing_europium_oxide_iii',
     'gtceu:centrifuge/rare_earth_separation',
-    'gtceu:mixer/black_matter'
+    'gtceu:mixer/black_matter',
+    'gtceu:arc_furnace/arc_titanium_nitride_ceramic_dust',
+    'gtceu:smelting/smelt_dust_tungsten_tetraboride_ceramic_to_ingot',
+    'gtceu:arc_furnace/arc_tungsten_tetraboride_ceramic_dust',
+    'gtceu:alloy_smelter/alloy_smelt_tungsten_tetraboride_ceramic_dust_to_block',
+    'gtceu:pyrolyse_oven/charcoal_to_coal_tar',
+    'gtceu:pyrolyse_oven/coal_to_coal_tar'
+
 ]
 let ban_gt_tools = [
     'pickaxe',

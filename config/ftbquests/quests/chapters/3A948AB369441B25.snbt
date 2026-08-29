@@ -136,17 +136,575 @@
 			y: 26.0d
 		}
 		{
-			height: 12.0d
-			image: "quest_enhance:textures/ftb/clipboard_1786299996674.png"
+			height: 2.0d
+			image: "kubejs:item/circuit/general/general_circuit_ev"
 			rotation: 0.0d
-			width: 120.0d
-			x: 20.5d
-			y: -12.5d
+			width: 2.0d
+			x: -13.0d
+			y: 37.5d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default钨处理"
+			height: 0.4583333333333333d
+			image: ""
+			rotation: 0.0d
+			width: 1.75d
+			x: -10.0d
+			y: 27.0d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default铀处理"
+			height: 0.4583333333333333d
+			image: ""
+			rotation: 0.0d
+			width: 1.75d
+			x: -10.0d
+			y: 29.5d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default铝土矿处理"
+			height: 0.4583333333333333d
+			image: ""
+			rotation: 0.0d
+			width: 1.75d
+			x: -10.0d
+			y: 32.0d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default土法制铟"
+			height: 0.4583333333333333d
+			image: ""
+			rotation: 0.0d
+			width: 1.75d
+			x: -10.0d
+			y: 34.5d
+		}
+		{
+			click: "quest_enhance:text_v2:17:minecraft:default铂处理(铂族金属处理)"
+			height: 0.45d
+			image: ""
+			rotation: 0.0d
+			width: 3.04d
+			x: -10.5d
+			y: 42.5d
+		}
+		{
+			click: "quest_enhance:text_v3:1.0:17:minecraft:default铂处理/铑"
+			height: 0.4583333333333333d
+			image: ""
+			rotation: 0.0d
+			width: 1.5833333333333333d
+			x: 12.5d
+			y: 41.5d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:3c70e66f-2a31-42c1-b056-6cb993c67e6e"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -3.0d
+			y: 41.0d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:55a7c99c-d6c7-4e74-8498-92426661c1bf"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -3.0d
+			y: 42.0d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:d53bef49-57ab-45b4-ae21-86b0c32db87f"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: 11.5d
+			y: 42.0d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:62d8a299-3884-44b9-ae85-12b7d331af0c"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: 11.5d
+			y: 41.0d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:90692a61-ab90-4dc3-9e6a-204d0810b57b"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -1.5d
+			y: 39.5d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:9f6f5bb7-4a98-45e2-9669-23402b29f545"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -1.5d
+			y: 40.5d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:92998ae2-9e6c-442d-a4e6-4913e06ea90e"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: 7.0d
+			y: 40.5d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:21307c86-f82c-441c-9eea-82d3af605376"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: 7.0d
+			y: 39.5d
+		}
+		{
+			click: "quest_enhance:text_v3:1.0:17:minecraft:default铂处理/钌"
+			height: 0.4583333333333333d
+			image: ""
+			rotation: 0.0d
+			width: 1.5833333333333333d
+			x: 8.0d
+			y: 40.0d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:0eb53026-9221-413e-a9a3-0d71a3802cbe"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -6.0d
+			y: 46.0d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:bdfa21b3-ab6b-472b-b612-0eb591b6b9d2"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -6.0d
+			y: 48.5d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:f82165c7-18b6-4e71-a366-bb5d8ae33555"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -0.5d
+			y: 48.5d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:e4f171d1-44cc-4792-949e-3286b21162f8"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -0.5d
+			y: 46.0d
+		}
+		{
+			click: "quest_enhance:text_v3:1.0:17:minecraft:default铂处理/钯"
+			height: 0.4583333333333333d
+			image: ""
+			rotation: 0.0d
+			width: 1.5833333333333333d
+			x: 0.5d
+			y: 47.5d
+		}
+		{
+			click: "quest_enhance:text_v3:1.0:17:minecraft:default铂处理/铂"
+			height: 0.4583333333333333d
+			image: ""
+			rotation: 0.0d
+			width: 1.5833333333333333d
+			x: 0.5d
+			y: 44.5d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:3299018d-65c0-4059-9117-9f6a935e0197"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -0.5d
+			y: 45.5d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:4b888156-d3d5-4b2c-9cda-f4d3267d9760"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -6.0d
+			y: 45.5d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:b8605918-7254-4ff5-95f4-9b21643bada9"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -6.0d
+			y: 42.5d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:9caa9496-66fb-4856-9295-4e4b36933073"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -0.5d
+			y: 42.5d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:b11a8de3-8884-4bc3-aa92-287e9a46be79"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -6.0d
+			y: 38.5d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:8233d8f5-55ff-4aef-a92f-8035a7dc04df"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -6.0d
+			y: 37.5d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:5a1004fc-3eba-475a-9988-d65f60024dc3"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: 2.5d
+			y: 37.5d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:97d5bbc7-0149-4a67-9c03-248ac6c13f06"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: 2.5d
+			y: 38.5d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:23096045-aa0c-46a3-ac9d-8b2f52210cf8"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -6.0d
+			y: 36.0d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:08390764-fe46-40c7-a36f-8d10dfdfa4d3"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -6.0d
+			y: 37.0d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:ddecd903-2e76-47e6-b6d5-4b3b0d5ff6f8"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -2.0d
+			y: 37.0d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:769a1ce7-77cf-4469-8760-f88b39b77560"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: -2.0d
+			y: 36.0d
+		}
+		{
+			click: "quest_enhance:text_v3:1.0:17:minecraft:default铂处理/铱"
+			height: 0.4583333333333333d
+			image: ""
+			rotation: 0.0d
+			width: 1.5833333333333333d
+			x: 3.5d
+			y: 38.0d
+		}
+		{
+			click: "quest_enhance:text_v3:1.0:17:minecraft:default铂处理/锇"
+			height: 0.4583333333333333d
+			image: ""
+			rotation: 0.0d
+			width: 1.5833333333333333d
+			x: -1.0d
+			y: 36.5d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:item/circuit/general/general_circuit_iv"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.5d
+			y: 15.0d
+		}
+		{
+			click: "quest_enhance:text_v3:1.0:17:minecraft:default卤水提碘"
+			height: 0.6111111111111112d
+			image: ""
+			rotation: 0.0d
+			width: 1.8888888888888888d
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			click: "quest_enhance:text_v3:1.0:17:minecraft:default稀土处理/镧处理"
+			height: 0.45d
+			image: ""
+			rotation: 0.0d
+			width: 3.04d
+			x: 17.0d
+			y: 18.0d
+		}
+		{
+			click: "quest_enhance:text_v3:1.0:17:minecraft:default独居石线"
+			height: 0.6111111111111112d
+			image: ""
+			rotation: 0.0d
+			width: 2.3333333333333335d
+			x: 20.0d
+			y: 9.5d
+		}
+		{
+			click: "quest_enhance:text_v3:1.0:17:minecraft:default氟碳镧铈线"
+			height: 0.6111111111111112d
+			image: ""
+			rotation: 0.0d
+			width: 2.3333333333333335d
+			x: 20.0d
+			y: 16.5d
+		}
+		{
+			click: "quest_enhance:text_v3:1.0:17:minecraft:default稀土酸洗线"
+			height: 0.6111111111111112d
+			image: ""
+			rotation: 0.0d
+			width: 2.3333333333333335d
+			x: 20.0d
+			y: 21.0d
 		}
 	]
-	order_index: 4
-	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [ ]
+	order_index: 5
+	quest_enhance_decorative_lines: [
+		{
+			nodes: [
+				"q:653db1b78a5eae2c"
+				"q:71b2d8abf0eb4d3"
+			]
+		}
+		{
+			nodes: [
+				"q:653db1b78a5eae2c"
+				"q:1e51295bdfaa4550"
+			]
+		}
+		{
+			nodes: [
+				"a:3c70e66f-2a31-42c1-b056-6cb993c67e6e"
+				"a:55a7c99c-d6c7-4e74-8498-92426661c1bf"
+			]
+		}
+		{
+			nodes: [
+				"a:3c70e66f-2a31-42c1-b056-6cb993c67e6e"
+				"a:62d8a299-3884-44b9-ae85-12b7d331af0c"
+			]
+		}
+		{
+			nodes: [
+				"a:62d8a299-3884-44b9-ae85-12b7d331af0c"
+				"a:d53bef49-57ab-45b4-ae21-86b0c32db87f"
+			]
+		}
+		{
+			nodes: [
+				"a:d53bef49-57ab-45b4-ae21-86b0c32db87f"
+				"a:55a7c99c-d6c7-4e74-8498-92426661c1bf"
+			]
+		}
+		{
+			nodes: [
+				"a:90692a61-ab90-4dc3-9e6a-204d0810b57b"
+				"a:9f6f5bb7-4a98-45e2-9669-23402b29f545"
+			]
+		}
+		{
+			nodes: [
+				"a:9f6f5bb7-4a98-45e2-9669-23402b29f545"
+				"a:92998ae2-9e6c-442d-a4e6-4913e06ea90e"
+			]
+		}
+		{
+			nodes: [
+				"a:21307c86-f82c-441c-9eea-82d3af605376"
+				"a:92998ae2-9e6c-442d-a4e6-4913e06ea90e"
+			]
+		}
+		{
+			nodes: [
+				"a:21307c86-f82c-441c-9eea-82d3af605376"
+				"a:90692a61-ab90-4dc3-9e6a-204d0810b57b"
+			]
+		}
+		{
+			nodes: [
+				"q:72106f77503bb516"
+				"q:1f62773375dcba4d"
+			]
+		}
+		{
+			nodes: [
+				"a:0eb53026-9221-413e-a9a3-0d71a3802cbe"
+				"a:bdfa21b3-ab6b-472b-b612-0eb591b6b9d2"
+			]
+		}
+		{
+			nodes: [
+				"a:bdfa21b3-ab6b-472b-b612-0eb591b6b9d2"
+				"a:f82165c7-18b6-4e71-a366-bb5d8ae33555"
+			]
+		}
+		{
+			nodes: [
+				"a:f82165c7-18b6-4e71-a366-bb5d8ae33555"
+				"a:e4f171d1-44cc-4792-949e-3286b21162f8"
+			]
+		}
+		{
+			nodes: [
+				"a:e4f171d1-44cc-4792-949e-3286b21162f8"
+				"a:0eb53026-9221-413e-a9a3-0d71a3802cbe"
+			]
+		}
+		{
+			nodes: [
+				"q:1b3ab4c0521ae9d"
+				"q:f71882498b195eb"
+			]
+		}
+		{
+			nodes: [
+				"a:9caa9496-66fb-4856-9295-4e4b36933073"
+				"a:3299018d-65c0-4059-9117-9f6a935e0197"
+			]
+		}
+		{
+			nodes: [
+				"a:3299018d-65c0-4059-9117-9f6a935e0197"
+				"a:4b888156-d3d5-4b2c-9cda-f4d3267d9760"
+			]
+		}
+		{
+			nodes: [
+				"a:4b888156-d3d5-4b2c-9cda-f4d3267d9760"
+				"a:b8605918-7254-4ff5-95f4-9b21643bada9"
+			]
+		}
+		{
+			nodes: [
+				"a:b8605918-7254-4ff5-95f4-9b21643bada9"
+				"a:9caa9496-66fb-4856-9295-4e4b36933073"
+			]
+		}
+		{
+			nodes: [
+				"a:23096045-aa0c-46a3-ac9d-8b2f52210cf8"
+				"a:769a1ce7-77cf-4469-8760-f88b39b77560"
+			]
+		}
+		{
+			nodes: [
+				"a:769a1ce7-77cf-4469-8760-f88b39b77560"
+				"a:ddecd903-2e76-47e6-b6d5-4b3b0d5ff6f8"
+			]
+		}
+		{
+			nodes: [
+				"a:ddecd903-2e76-47e6-b6d5-4b3b0d5ff6f8"
+				"a:08390764-fe46-40c7-a36f-8d10dfdfa4d3"
+			]
+		}
+		{
+			nodes: [
+				"a:08390764-fe46-40c7-a36f-8d10dfdfa4d3"
+				"a:23096045-aa0c-46a3-ac9d-8b2f52210cf8"
+			]
+		}
+		{
+			nodes: [
+				"a:8233d8f5-55ff-4aef-a92f-8035a7dc04df"
+				"a:b11a8de3-8884-4bc3-aa92-287e9a46be79"
+			]
+		}
+		{
+			nodes: [
+				"a:b11a8de3-8884-4bc3-aa92-287e9a46be79"
+				"a:97d5bbc7-0149-4a67-9c03-248ac6c13f06"
+			]
+		}
+		{
+			nodes: [
+				"a:97d5bbc7-0149-4a67-9c03-248ac6c13f06"
+				"a:5a1004fc-3eba-475a-9988-d65f60024dc3"
+			]
+		}
+		{
+			nodes: [
+				"a:5a1004fc-3eba-475a-9988-d65f60024dc3"
+				"a:8233d8f5-55ff-4aef-a92f-8035a7dc04df"
+			]
+		}
+	]
+	quest_enhance_hidden_dependency_lines: [
+		{
+			dependency: "q:6b56b7f1edf06fe2"
+			reveal_on_hover: 0b
+			source: "l:72a66b44fa5cce25"
+		}
+		{
+			dependency: "q:677e66f6bcd9cb65"
+			reveal_on_hover: 0b
+			source: "q:60e699a88106b8d1"
+		}
+		{
+			dependency: "q:677e66f6bcd9cb65"
+			reveal_on_hover: 0b
+			source: "q:51563c11a243aa29"
+		}
+		{
+			dependency: "q:677e66f6bcd9cb65"
+			reveal_on_hover: 0b
+			source: "q:3e49ae5fdfa461f8"
+		}
+	]
 	quest_links: [
 		{
 			id: "0CC01F22271CFD2F"
@@ -184,6 +742,12 @@
 			x: -7.0d
 			y: 23.5d
 		}
+		{
+			id: "72A66B44FA5CCE25"
+			linked_quest: "677E66F6BCD9CB65"
+			x: 22.0d
+			y: 21.0d
+		}
 	]
 	quests: [
 		{
@@ -192,6 +756,7 @@
 				id: "050C79891B5A1725"
 				type: "checkmark"
 			}]
+			title: "这是编写时使用的任务，如果在编辑模式下看见麻烦忽略一下，正式版发布后会移除"
 			x: -3.0d
 			y: 0.0d
 		}
@@ -1122,6 +1687,2105 @@
 			title: "钛锭"
 			x: -2.5d
 			y: 23.5d
+		}
+		{
+			icon: "gtceu:scheelite_dust"
+			id: "107A95883CE133F6"
+			tasks: [{
+				id: "33354C0B3730ABC7"
+				type: "checkmark"
+			}]
+			title: "白钨矿粉"
+			x: -8.5d
+			y: 27.0d
+		}
+		{
+			dependencies: ["107A95883CE133F6"]
+			dependency_requirement: "one_completed"
+			icon: "gtceu:tungstic_acid_dust"
+			id: "5440CC9BD1E4EEC9"
+			tasks: [{
+				id: "69D8E1C7E1DF66BA"
+				type: "checkmark"
+			}]
+			title: "钨酸粉"
+			x: -7.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["5440CC9BD1E4EEC9"]
+			icon: "gtceu:tungsten_trioxide_dust"
+			id: "782DEAE8676D94C0"
+			tasks: [{
+				id: "32F985B345A5A2BD"
+				type: "checkmark"
+			}]
+			title: "三氧化钨粉"
+			x: -5.5d
+			y: 27.0d
+		}
+		{
+			dependencies: ["782DEAE8676D94C0"]
+			icon: "gtceu:tungsten_dust"
+			id: "4D809BDBCEA9D1F7"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "563B53D4DEA9632A"
+				type: "checkmark"
+			}]
+			title: "钨粉"
+			x: -4.0d
+			y: 27.0d
+		}
+		{
+			icon: "gtceu:uraninite_dust"
+			id: "52BB171797FDBA82"
+			tasks: [{
+				id: "3500BB27FA9EA254"
+				type: "checkmark"
+			}]
+			title: "晶质铀矿粉"
+			x: -8.5d
+			y: 28.5d
+		}
+		{
+			dependencies: [
+				"52BB171797FDBA82"
+				"653DB1B78A5EAE2C"
+			]
+			icon: "gtceu:uranium_hexafluoride_bucket"
+			id: "2F9700A531FC3360"
+			tasks: [{
+				id: "452FA45678D27256"
+				type: "checkmark"
+			}]
+			title: "六氟化铀"
+			x: -7.0d
+			y: 29.5d
+		}
+		{
+			icon: "gtceu:fluorine_bucket"
+			id: "653DB1B78A5EAE2C"
+			tasks: [{
+				id: "704132AD13B6568C"
+				type: "checkmark"
+			}]
+			title: "气态氟"
+			x: -8.5d
+			y: 30.5d
+		}
+		{
+			dependencies: ["2F9700A531FC3360"]
+			icon: "gtceu:enriched_uranium_hexafluoride_bucket"
+			id: "1E51295BDFAA4550"
+			tasks: [{
+				id: "787909B4D31A93F1"
+				type: "checkmark"
+			}]
+			title: "富集六氟化铀"
+			x: -4.0d
+			y: 30.5d
+		}
+		{
+			dependencies: ["2F9700A531FC3360"]
+			icon: "gtceu:depleted_uranium_hexafluoride_bucket"
+			id: "071B2D8ABF0EB4D3"
+			tasks: [{
+				id: "1C56469F5443BE85"
+				type: "checkmark"
+			}]
+			title: "枯竭六氟化铀"
+			x: -5.5d
+			y: 30.5d
+		}
+		{
+			dependencies: ["071B2D8ABF0EB4D3"]
+			icon: "gtceu:uranium_dust"
+			id: "057E1CA18C4CAEDA"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0EA5328EBEA7AB9C"
+				type: "checkmark"
+			}]
+			title: "铀粉"
+			x: -4.5d
+			y: 29.0d
+		}
+		{
+			dependencies: ["1E51295BDFAA4550"]
+			icon: "gtceu:uranium_235_dust"
+			id: "5D363F3E30605A2D"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "23E4A1370E240005"
+				type: "checkmark"
+			}]
+			title: "铀-235粉"
+			x: -3.0d
+			y: 29.0d
+		}
+		{
+			icon: "gtceu:crushed_bauxite_ore"
+			id: "687FEEEEDAC0AD43"
+			tasks: [{
+				id: "73F31EE808B58103"
+				type: "checkmark"
+			}]
+			title: "粉碎铝土矿矿石"
+			x: -8.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["687FEEEEDAC0AD43"]
+			icon: "gtceu:bauxite_slurry_bucket"
+			id: "77490D51C2F4FBCE"
+			tasks: [{
+				id: "59E4B96F32E67FC8"
+				type: "checkmark"
+			}]
+			title: "铝土浆液"
+			x: -7.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["77490D51C2F4FBCE"]
+			icon: "gtceu:cracked_bauxite_slurry_bucket"
+			id: "0E1DB279B948BB3D"
+			tasks: [{
+				id: "35DC5DFE70CE13FA"
+				type: "checkmark"
+			}]
+			title: "裂化铝土浆液"
+			x: -5.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["0E1DB279B948BB3D"]
+			icon: "gtceu:bauxite_slag_dust"
+			id: "1EEB38C996ECC68A"
+			tasks: [{
+				id: "1495E836956BAFF0"
+				type: "checkmark"
+			}]
+			title: "铝土矿渣粉"
+			x: -4.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["1EEB38C996ECC68A"]
+			icon: "gtceu:neodymium_dust"
+			id: "6942D8C0CC96E07B"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "4F852F8E4DAFD668"
+				type: "checkmark"
+			}]
+			title: "钕粉"
+			x: -2.5d
+			y: 32.0d
+		}
+		{
+			icon: "gtceu:purified_galena_ore"
+			id: "54B338E51EC2BD51"
+			tasks: [{
+				id: "6C77B88CC23AA91F"
+				type: "checkmark"
+			}]
+			title: "纯净方铅矿矿石"
+			x: -8.5d
+			y: 33.5d
+		}
+		{
+			icon: "gtceu:purified_sphalerite_ore"
+			id: "0D214D0B19DA3D05"
+			tasks: [{
+				id: "48E5B7433E2D0E0F"
+				type: "checkmark"
+			}]
+			title: "纯净闪锌矿矿石"
+			x: -8.5d
+			y: 35.5d
+		}
+		{
+			dependencies: [
+				"54B338E51EC2BD51"
+				"0D214D0B19DA3D05"
+			]
+			icon: "gtceu:indium_concentrate_bucket"
+			id: "68173D60EBEC77FC"
+			tasks: [{
+				id: "61F04BB27F5EFCF4"
+				type: "checkmark"
+			}]
+			title: "铟富集溶液"
+			x: -7.0d
+			y: 34.5d
+		}
+		{
+			dependencies: ["68173D60EBEC77FC"]
+			icon: "gtceu:indium_dust"
+			id: "2FA80568C1DC7C65"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "285D73D36CEFC108"
+				type: "checkmark"
+			}]
+			title: "铟粉"
+			x: -5.5d
+			y: 34.5d
+		}
+		{
+			icon: "gtceu:purified_pentlandite_ore"
+			id: "51E1DD268BB3F752"
+			tasks: [{
+				id: "4C03E12612A4E74A"
+				type: "checkmark"
+			}]
+			title: "纯净镍黄铁矿矿石"
+			x: -8.5d
+			y: 41.5d
+		}
+		{
+			icon: "gtceu:purified_chalcopyrite_ore"
+			id: "71D7F50723194F6E"
+			tasks: [{
+				id: "1D2ACDD68A7244F7"
+				type: "checkmark"
+			}]
+			title: "纯净黄铜矿矿石"
+			x: -8.5d
+			y: 43.5d
+		}
+		{
+			dependencies: [
+				"51E1DD268BB3F752"
+				"71D7F50723194F6E"
+			]
+			dependency_requirement: "one_completed"
+			icon: "gtceu:platinum_group_sludge_dust"
+			id: "5E78270102FA449D"
+			tasks: [{
+				id: "03CEDB893B0876A7"
+				type: "checkmark"
+			}]
+			title: "铂系矿泥"
+			x: -7.0d
+			y: 42.5d
+		}
+		{
+			dependencies: ["5E78270102FA449D"]
+			icon: "gtceu:palladium_metal_dust"
+			id: "1F62773375DCBA4D"
+			tasks: [{
+				id: "74A89ADD17758945"
+				type: "checkmark"
+			}]
+			title: "钯金属粉"
+			x: -5.5d
+			y: 47.0d
+		}
+		{
+			dependencies: ["5E78270102FA449D"]
+			icon: "gtceu:platinum_metal_dust"
+			id: "0F71882498B195EB"
+			tasks: [{
+				id: "1C3B0AF2AF8C9A83"
+				type: "checkmark"
+			}]
+			title: "铂金属粉"
+			x: -5.5d
+			y: 43.5d
+		}
+		{
+			dependencies: ["0F71882498B195EB"]
+			icon: "gtceu:platinum_slag_dust"
+			id: "41F7E1DB342F1F91"
+			tasks: [{
+				id: "7030C3B2BF3B7924"
+				type: "checkmark"
+			}]
+			title: "铂渣粉"
+			x: -4.0d
+			y: 40.5d
+		}
+		{
+			dependencies: ["097F3D0085B2C62A"]
+			icon: "gtceu:sodium_rutheniate_dust"
+			id: "14FA2C96E0C790A1"
+			tasks: [{
+				id: "198F63748A4A6D66"
+				type: "checkmark"
+			}]
+			title: "钌酸钠粉"
+			x: -1.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["7B0BEE6736B13ECD"]
+			icon: "gtceu:rhodium_salt_bucket"
+			id: "64D4606132450B0F"
+			tasks: [{
+				id: "636CABA49AA424C0"
+				type: "checkmark"
+			}]
+			title: "液态铑盐"
+			x: 3.5d
+			y: 41.5d
+		}
+		{
+			dependencies: ["1C3D97C0A2D2E620"]
+			icon: "gtceu:rhodium_filter_cake_dust"
+			id: "1D37C51472D8955A"
+			tasks: [{
+				id: "66ED5346D91F63A9"
+				type: "checkmark"
+			}]
+			title: "铑滤饼粉"
+			x: 6.5d
+			y: 41.5d
+		}
+		{
+			dependencies: ["14FA2C96E0C790A1"]
+			icon: "gtceu:ruthenium_tetroxide_bucket"
+			id: "69C54B04E1F1B29C"
+			tasks: [{
+				id: "14F4C10601AF92BA"
+				type: "checkmark"
+			}]
+			title: "液态四氧化钌"
+			x: 0.5d
+			y: 40.0d
+		}
+		{
+			dependencies: ["401CA9062FBA86F6"]
+			icon: "gtceu:ruthenium_dust"
+			id: "58A2947879B9DA77"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "32EE00C6E1B1FF95"
+				type: "checkmark"
+			}]
+			title: "钌粉"
+			x: 6.5d
+			y: 40.0d
+		}
+		{
+			dependencies: ["4BFA46CE22CB5C2F"]
+			icon: "gtceu:acidic_osmium_solution_bucket"
+			id: "00463A43A3ED58C6"
+			tasks: [{
+				id: "41A7BEA62DA518B8"
+				type: "checkmark"
+			}]
+			title: "酸性锇溶液"
+			x: -5.5d
+			y: 36.5d
+		}
+		{
+			dependencies: ["1585D33C62A83257"]
+			icon: "gtceu:iridium_dioxide_dust"
+			id: "46C424CC1328CACC"
+			tasks: [{
+				id: "65FCE9FFE9A2F263"
+				type: "checkmark"
+			}]
+			title: "二氧化铱粉"
+			x: -2.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["7E5FE57B1D140F1E"]
+			icon: "gtceu:platinum_dust"
+			id: "0D6557013BD4F88D"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1B90F86212E7768C"
+				type: "checkmark"
+			}]
+			title: "铂粉"
+			x: -1.0d
+			y: 44.5d
+		}
+		{
+			dependencies: [
+				"1F62773375DCBA4D"
+				"2A5D5BE9C7FCF6E0"
+			]
+			icon: "gtceu:palladium_raw_dust"
+			id: "714FAADF5A968718"
+			tasks: [{
+				id: "20DAB5E72EEB7541"
+				type: "checkmark"
+			}]
+			title: "粗钯粉"
+			x: -2.5d
+			y: 48.0d
+		}
+		{
+			dependencies: [
+				"1F62773375DCBA4D"
+				"2A5D5BE9C7FCF6E0"
+			]
+			icon: "gtceu:palladium_salt_dust"
+			id: "72106F77503BB516"
+			tasks: [{
+				id: "18354AD74D244C23"
+				type: "checkmark"
+			}]
+			title: "钯盐粉"
+			x: -2.5d
+			y: 47.0d
+		}
+		{
+			dependencies: ["714FAADF5A968718"]
+			icon: "gtceu:palladium_dust"
+			id: "7E85929CFBCDF4CC"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0794C1BF675EE861"
+				type: "checkmark"
+			}]
+			title: "钯粉"
+			x: -1.0d
+			y: 47.5d
+		}
+		{
+			dependencies: ["00B1221F40FA3D3C"]
+			icon: "gtceu:iridium_chloride_dust"
+			id: "205B7A06B908100E"
+			tasks: [{
+				id: "72F610BE72EB9539"
+				type: "checkmark"
+			}]
+			title: "氯化铱"
+			x: 0.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["46C424CC1328CACC"]
+			icon: "gtceu:acidic_iridium_bucket"
+			id: "00B1221F40FA3D3C"
+			tasks: [{
+				id: "38B4EE02FB51F169"
+				type: "checkmark"
+			}]
+			title: "酸性铱"
+			x: -1.0d
+			y: 38.0d
+		}
+		{
+			dependencies: ["1D84DE112084BA11"]
+			icon: "gtceu:platinum_salt_dust"
+			id: "311E4F581DE0EFDB"
+			tasks: [{
+				id: "19012CBE8123EE79"
+				type: "checkmark"
+			}]
+			title: "铂盐粉"
+			x: -2.5d
+			y: 43.5d
+		}
+		{
+			dependencies: ["1D84DE112084BA11"]
+			icon: "gtceu:platinum_raw_dust"
+			id: "7E5FE57B1D140F1E"
+			tasks: [{
+				id: "617B6DEC47CDF8CF"
+				type: "checkmark"
+			}]
+			title: "粗铂粉"
+			x: -2.5d
+			y: 44.5d
+		}
+		{
+			dependencies: ["69C54B04E1F1B29C"]
+			icon: "gtceu:ruthenium_tetroxide_hot_bucket"
+			id: "41CC4E6D6EB53812"
+			tasks: [{
+				id: "3C82A0C0B5561470"
+				type: "checkmark"
+			}]
+			title: "热四氧化钌"
+			x: 2.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["41CC4E6D6EB53812"]
+			icon: "gtceu:ruthenium_tetroxide_lq_bucket"
+			id: "5DAD14F918775AE0"
+			tasks: [{
+				id: "71578EF160CC7A97"
+				type: "checkmark"
+			}]
+			title: "四氧化钌"
+			x: 3.5d
+			y: 40.0d
+		}
+		{
+			dependencies: ["5DAD14F918775AE0"]
+			icon: "gtceu:ruthenium_tetroxide_dust"
+			id: "401CA9062FBA86F6"
+			tasks: [{
+				id: "55D370A5FA4D03F8"
+				type: "checkmark"
+			}]
+			title: "四氧化钌粉"
+			x: 5.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["1D37C51472D8955A"]
+			icon: "gtceu:rhodium_filter_cake_bucket"
+			id: "64B3420C43CE33A8"
+			tasks: [{
+				id: "2FC2443FD2996BD1"
+				type: "checkmark"
+			}]
+			title: "液态铑滤饼"
+			x: 8.0d
+			y: 41.5d
+		}
+		{
+			dependencies: ["64D4606132450B0F"]
+			icon: "gtceu:rhodium_nitrate_dust"
+			id: "1C3D97C0A2D2E620"
+			tasks: [{
+				id: "553E9A31CAB6C84B"
+				type: "checkmark"
+			}]
+			title: "硝酸铑粉"
+			x: 5.0d
+			y: 41.5d
+		}
+		{
+			dependencies: ["4A19FAEB3AF730D2"]
+			icon: "gtceu:rhodium_salt_dust"
+			id: "7B0BEE6736B13ECD"
+			tasks: [{
+				id: "0C715DB827F32FE9"
+				type: "checkmark"
+			}]
+			title: "铑盐粉"
+			x: 2.0d
+			y: 41.5d
+		}
+		{
+			dependencies: ["3A228D247B917E2B"]
+			icon: "gtceu:rhodium_sulfate_bucket"
+			id: "3E712D80238E7D4B"
+			tasks: [{
+				id: "12BBC292704E1599"
+				type: "checkmark"
+			}]
+			title: "硫酸铑"
+			x: -1.0d
+			y: 41.5d
+		}
+		{
+			dependencies: ["0F71882498B195EB"]
+			icon: "gtceu:concentrated_platinum_bucket"
+			id: "1D84DE112084BA11"
+			tasks: [{
+				id: "6581B5CEC8AE80EE"
+				type: "checkmark"
+			}]
+			title: "浓缩铂"
+			x: -4.0d
+			y: 44.0d
+		}
+		{
+			dependencies: ["311E4F581DE0EFDB"]
+			icon: "gtceu:refined_platinum_salt_dust"
+			id: "01B3AB4C0521AE9D"
+			tasks: [{
+				id: "7592E5CAB89F8C61"
+				type: "checkmark"
+			}]
+			title: "精炼铂盐"
+			x: -4.0d
+			y: 43.0d
+		}
+		{
+			dependencies: ["1D84DE112084BA11"]
+			icon: "gtceu:palladium_rich_ammonia_bucket"
+			id: "2A5D5BE9C7FCF6E0"
+			tasks: [{
+				id: "54583A9FC850E60C"
+				type: "checkmark"
+			}]
+			title: "富钯氨"
+			x: -4.0d
+			y: 46.5d
+		}
+		{
+			dependencies: ["30EDB1144BA22580"]
+			icon: "gtceu:iridium_metal_residue_dust"
+			id: "1585D33C62A83257"
+			tasks: [{
+				id: "4A38DE4B1545E117"
+				type: "checkmark"
+			}]
+			title: "铱金属渣"
+			x: -4.0d
+			y: 38.0d
+		}
+		{
+			dependencies: [
+				"5E78270102FA449D"
+				"097F3D0085B2C62A"
+			]
+			icon: "gtceu:rarest_metal_mixture_dust"
+			id: "4BFA46CE22CB5C2F"
+			tasks: [{
+				id: "12FCD0F5BB8D30FE"
+				type: "checkmark"
+			}]
+			title: "稀有金属混合物"
+			x: -5.5d
+			y: 39.5d
+		}
+		{
+			dependencies: ["41F7E1DB342F1F91"]
+			icon: "gtceu:rhodium_sulfate_gas_bucket"
+			id: "3A228D247B917E2B"
+			tasks: [{
+				id: "5AB0EE605E2DAC90"
+				type: "checkmark"
+			}]
+			title: "硫酸铑"
+			x: -2.5d
+			y: 41.5d
+		}
+		{
+			dependencies: [
+				"41F7E1DB342F1F91"
+				"3A228D247B917E2B"
+			]
+			icon: "gtceu:inert_metal_mixture_dust"
+			id: "097F3D0085B2C62A"
+			tasks: [{
+				id: "1FFE99507AA598F9"
+				type: "checkmark"
+			}]
+			title: "惰性金属混合物"
+			x: -2.5d
+			y: 39.5d
+		}
+		{
+			dependencies: ["7DFA83CEAEA6635B"]
+			icon: "gtceu:rhodium_dust"
+			id: "774860BCF6E506B0"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "4A1BFF55F93A08EE"
+				type: "checkmark"
+			}]
+			title: "铑粉"
+			x: 11.0d
+			y: 41.5d
+		}
+		{
+			dependencies: ["64B3420C43CE33A8"]
+			icon: "gtceu:reprecipitated_rhodium_dust"
+			id: "7DFA83CEAEA6635B"
+			tasks: [{
+				id: "656DE585A11BF0BF"
+				type: "checkmark"
+			}]
+			title: "再沉淀铑粉"
+			x: 9.5d
+			y: 41.5d
+		}
+		{
+			dependencies: ["3E712D80238E7D4B"]
+			icon: "gtceu:roughly_rhodium_metal_dust"
+			id: "4A19FAEB3AF730D2"
+			tasks: [{
+				id: "366FFB0C68A110E2"
+				type: "checkmark"
+			}]
+			title: "粗制铑金属粉"
+			x: 0.5d
+			y: 41.5d
+		}
+		{
+			dependencies: [
+				"5E78270102FA449D"
+				"4BFA46CE22CB5C2F"
+			]
+			icon: "gtceu:iridium_metal_residue_dust"
+			id: "30EDB1144BA22580"
+			tasks: [{
+				id: "3C7ACD12470FA94F"
+				type: "checkmark"
+			}]
+			title: "铱金属渣"
+			x: -5.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["00463A43A3ED58C6"]
+			icon: "gtceu:osmium_tetroxide_bucket"
+			id: "2A5040164BAACD4B"
+			tasks: [{
+				id: "658BBD49308EAD54"
+				type: "checkmark"
+			}]
+			title: "液态四氧化锇"
+			x: -4.0d
+			y: 36.5d
+		}
+		{
+			dependencies: ["2A5040164BAACD4B"]
+			icon: "gtceu:osmium_dust"
+			id: "4C73647820F25314"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6A7D0CCBCFFECB94"
+				type: "checkmark"
+			}]
+			title: "锇粉"
+			x: -2.5d
+			y: 36.5d
+		}
+		{
+			dependencies: ["205B7A06B908100E"]
+			icon: "gtceu:iridium_dust"
+			id: "646C384DBBD92A62"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2E41D0FA6A98FA7E"
+				type: "checkmark"
+			}]
+			title: "铱粉"
+			x: 2.0d
+			y: 38.0d
+		}
+		{
+			icon: "gtceu:saltpeter_dust"
+			id: "0C74C5C16B65682B"
+			tasks: [{
+				id: "7E5F939F722F585C"
+				type: "checkmark"
+			}]
+			title: "硝石粉"
+			x: 20.5d
+			y: 3.0d
+		}
+		{
+			icon: "mekanism:brine_bucket"
+			id: "3AF07BE4D43FF473"
+			tasks: [{
+				id: "11B0AA0668F400E0"
+				type: "checkmark"
+			}]
+			title: "盐水"
+			x: 20.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3AF07BE4D43FF473"
+				"0C74C5C16B65682B"
+			]
+			icon: "gtceu:iodized_brine_bucket"
+			id: "46FCB750CB24798E"
+			tasks: [{
+				id: "3EDFC6C5A9E9EAC8"
+				type: "checkmark"
+			}]
+			title: "含碘盐水"
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["46FCB750CB24798E"]
+			icon: "gtceu:iodine_brine_mixture_bucket"
+			id: "0D7F2A3BA1358F4D"
+			tasks: [{
+				id: "65D77EFA7642A8D5"
+				type: "checkmark"
+			}]
+			title: "浓缩碘盐水混合物"
+			x: 23.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D7F2A3BA1358F4D"]
+			icon: "gtceu:iodine_slurry_bucket"
+			id: "048D9E30499CFA36"
+			tasks: [{
+				id: "1C08EAA49A202531"
+				type: "checkmark"
+			}]
+			title: "碘浆液"
+			x: 25.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["048D9E30499CFA36"]
+			icon: "gtceu:iodine_dust"
+			id: "03671657B41E96CC"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "762131275FE9D7FD"
+				type: "checkmark"
+			}]
+			title: "碘粉"
+			x: 26.5d
+			y: 4.0d
+		}
+		{
+			icon: "gtceu:crushed_monazite_ore"
+			id: "732254F5ACED89A6"
+			tasks: [{
+				id: "40A719C7AA5A6C3A"
+				type: "checkmark"
+			}]
+			title: "粉碎独居石矿石"
+			x: 22.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["732254F5ACED89A6"]
+			icon: "gtceu:monazite_rare_earth_turbid_slurry_bucket"
+			id: "1A9E7C1C75BB3408"
+			tasks: [{
+				id: "05F69DE6456BE808"
+				type: "checkmark"
+			}]
+			title: "独居石稀土浊浑液"
+			x: 23.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"506C91FD1A4BD88B"
+				"32962D31AF41BA36"
+			]
+			icon: "gtceu:red_zircon_dust"
+			id: "431C94D8AAB9D9C8"
+			tasks: [{
+				id: "6242EB6CB3181B87"
+				type: "checkmark"
+			}]
+			title: "红锆石粉"
+			x: 24.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1A9E7C1C75BB3408"]
+			icon: "gtceu:monazite_dust"
+			id: "6B56B7F1EDF06FE2"
+			tasks: [{
+				id: "45D6A5FFDC23F851"
+				type: "checkmark"
+			}]
+			title: "独居石粉"
+			x: 25.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1A9E7C1C75BB3408"]
+			icon: "gtceu:thorite_dust"
+			id: "2D75CDA39CAC58DC"
+			tasks: [{
+				id: "031858F18A85E008"
+				type: "checkmark"
+			}]
+			title: "方钍石粉"
+			x: 25.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1A9E7C1C75BB3408"]
+			icon: "gtceu:hafnium_zirconium_oxide_mixture_dust"
+			id: "2A867EE179347D7B"
+			tasks: [{
+				id: "7B0F2E32CD435D6D"
+				type: "checkmark"
+			}]
+			title: "氧化铪-氧化锆混合物粉"
+			x: 25.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6B56B7F1EDF06FE2"]
+			icon: "gtceu:rare_earth_dust"
+			id: "677E66F6BCD9CB65"
+			tasks: [{
+				id: "05B4DDBDDA0F5A81"
+				type: "checkmark"
+			}]
+			title: "稀土"
+			x: 26.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"2D75CDA39CAC58DC"
+				"51F4AE2FA904B2F1"
+			]
+			icon: "gtceu:thorium_dust"
+			id: "0B84AA76EF5966A5"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "28A80D2100ECCA95"
+				type: "checkmark"
+			}]
+			title: "钍粉"
+			x: 34.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1A9E7C1C75BB3408"]
+			icon: "gtceu:diluted_monazite_rare_earth_mud_slurry_bucket"
+			id: "506C91FD1A4BD88B"
+			tasks: [{
+				id: "10F5EFDE65F8D86C"
+				type: "checkmark"
+			}]
+			title: "稀释独居石稀土泥浆"
+			x: 25.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["506C91FD1A4BD88B"]
+			icon: "gtceu:monazite_sulfate_dust"
+			id: "23C0A772729072C9"
+			tasks: [{
+				id: "1B8AB9A5FF822B5E"
+				type: "checkmark"
+			}]
+			title: "硫酸独居石粉"
+			x: 26.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["431C94D8AAB9D9C8"]
+			icon: "gtceu:zirconium_dust"
+			id: "737FDDE75B2EDD84"
+			tasks: [{
+				id: "0E5DF66CCAF0FB8F"
+				type: "checkmark"
+			}]
+			title: "锆粉"
+			x: 28.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4E91B0C16CCDFA0B"]
+			icon: "gtceu:hafnium_tetrachloride_solution_bucket"
+			id: "30492D7448BE54FF"
+			tasks: [{
+				id: "2592DDEF61A6F31B"
+				type: "checkmark"
+			}]
+			title: "四氯化铪溶液"
+			x: 29.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["16D9106D8521BDDE"]
+			icon: "gtceu:hafnium_tetrachloride_dust"
+			id: "4E91B0C16CCDFA0B"
+			tasks: [{
+				id: "16101FF006AE9FD5"
+				type: "checkmark"
+			}]
+			title: "四氯化铪粉"
+			x: 28.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["33DBF35F9435C51A"]
+			icon: "gtceu:zirconium_tetrachloride_dust"
+			id: "1928687D5D34F67E"
+			tasks: [{
+				id: "1A92311B7B9A9F1A"
+				type: "checkmark"
+			}]
+			title: "四氯化锆粉"
+			x: 28.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2A867EE179347D7B"]
+			icon: "gtceu:zirconium_oxide_dust"
+			id: "33DBF35F9435C51A"
+			tasks: [{
+				id: "495EEE15BD627770"
+				type: "checkmark"
+			}]
+			title: "氧化锆粉"
+			x: 26.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7D692427A87A0C27"]
+			icon: "gtceu:acidic_monazite_dust"
+			id: "198E9AEAA1AF889F"
+			tasks: [{
+				id: "748D80B2E818C1F9"
+				type: "checkmark"
+			}]
+			title: "酸性独居石粉"
+			x: 29.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["23C0A772729072C9"]
+			icon: "gtceu:diluted_sulfuric_monazite_solution_bucket"
+			id: "7D692427A87A0C27"
+			tasks: [{
+				id: "7FD5B1552EF12A0D"
+				type: "checkmark"
+			}]
+			title: "稀释硫酸独居石溶液"
+			x: 28.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["198E9AEAA1AF889F"]
+			icon: "gtceu:thorium_phosphate_filter_cake_dust"
+			id: "5220834FE66C1589"
+			tasks: [{
+				id: "53B35881CCB8B52A"
+				type: "checkmark"
+			}]
+			title: "磷酸钍滤饼粉"
+			x: 31.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5220834FE66C1589"]
+			icon: "gtceu:thorium_phosphate_concentrate_dust"
+			id: "51F4AE2FA904B2F1"
+			tasks: [{
+				id: "487B4554EB77CA92"
+				type: "checkmark"
+			}]
+			title: "磷酸钍精粉"
+			x: 32.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["198E9AEAA1AF889F"]
+			icon: "gtceu:monazite_rare_earth_residue_dust"
+			id: "4CF70196C1C2296A"
+			tasks: [{
+				id: "3BB213A21FE87D9D"
+				type: "checkmark"
+			}]
+			title: "独居石稀土滤渣粉"
+			x: 31.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4CF70196C1C2296A"]
+			icon: "gtceu:neutralized_monazite_rare_earth_residue_dust"
+			id: "46F97F6EA21BD91A"
+			tasks: [{
+				id: "2DB45F39A3DBAE1C"
+				type: "checkmark"
+			}]
+			title: "中和独居石稀土滤渣粉"
+			x: 32.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2A867EE179347D7B"]
+			icon: "gtceu:hafnium_oxide_dust"
+			id: "16D9106D8521BDDE"
+			tasks: [{
+				id: "1C70BBB6A41EA920"
+				type: "checkmark"
+			}]
+			title: "氧化铪粉"
+			x: 26.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4527277DF5794E7E"]
+			icon: "gtceu:cerium_dust"
+			id: "4FE056A74890CC71"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "770255F9F6BF55B9"
+				type: "checkmark"
+			}]
+			title: "铈粉"
+			x: 46.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"26D62A68057FD0DE"
+				"07A836C4F7952E0F"
+			]
+			dependency_requirement: "one_completed"
+			icon: "gtceu:gadolinium_dust"
+			id: "6EB8E8C097056775"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6025881EAE61410B"
+				type: "checkmark"
+			}]
+			title: "钆粉"
+			x: 49.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["26D62A68057FD0DE"]
+			icon: "gtceu:samarium_dust"
+			id: "54C8D8D3058246AB"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6F6CE3662F0B4F1C"
+				type: "checkmark"
+			}]
+			title: "钐粉"
+			x: 49.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["244DA8095F064B1D"]
+			icon: "gtceu:low_purity_hafnium_dust"
+			id: "229C06459BC74034"
+			tasks: [{
+				id: "5B4BDC93D8CC9E06"
+				type: "checkmark"
+			}]
+			title: "低纯铪粉"
+			x: 31.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"4ACF3BF35B38A214"
+				"737FDDE75B2EDD84"
+			]
+			icon: "gtceu:zirconium_ingot"
+			id: "65AE36DC6D878744"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "54869425715630EF"
+				type: "checkmark"
+			}]
+			title: "锆锭"
+			x: 32.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["30492D7448BE54FF"]
+			icon: "gtceu:hot_zirconium_ingot"
+			id: "4ACF3BF35B38A214"
+			tasks: [{
+				id: "25B1186BE9C5E38D"
+				type: "checkmark"
+			}]
+			title: "热锆锭"
+			x: 31.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1928687D5D34F67E"]
+			icon: "gtceu:zirconium_tetrachloride_solution_bucket"
+			id: "244DA8095F064B1D"
+			tasks: [{
+				id: "06FFF0751C374E64"
+				type: "checkmark"
+			}]
+			title: "四氯化锆溶液"
+			x: 29.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4425250BB6CA4822"]
+			icon: "gtceu:cerium_dioxide_dust"
+			id: "4527277DF5794E7E"
+			tasks: [{
+				id: "18DFC56920B6BE58"
+				type: "checkmark"
+			}]
+			title: "氧化铈粉"
+			x: 44.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"61AC65E83AB7AE55"
+				"3BA0DE2A046BF8CB"
+			]
+			dependency_requirement: "one_completed"
+			icon: "gtceu:cerium_chloride_dust"
+			id: "57D357A8C38DCCCD"
+			tasks: [{
+				id: "6913BE3774B39184"
+				type: "checkmark"
+			}]
+			title: "氯化铈粉"
+			x: 41.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["57D357A8C38DCCCD"]
+			icon: "gtceu:cerium_oxalate_dust"
+			id: "4425250BB6CA4822"
+			tasks: [{
+				id: "76148E8F7584F2B7"
+				type: "checkmark"
+			}]
+			title: "草酸铈粉"
+			x: 43.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2857370B6F3D4DFC"]
+			icon: "gtceu:dried_concentrated_monazite_rare_earth_dust"
+			id: "44DB618AB11D471F"
+			tasks: [{
+				id: "30CB9172FD4201A8"
+				type: "checkmark"
+			}]
+			title: "干燥浓缩独居石稀土粉"
+			x: 35.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["46F97F6EA21BD91A"]
+			icon: "gtceu:concentrated_monazite_hydroxide_dust"
+			id: "2857370B6F3D4DFC"
+			tasks: [{
+				id: "38AD4937482B322C"
+				type: "checkmark"
+			}]
+			title: "浓缩独居石氢氧化物粉"
+			x: 34.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["46F97F6EA21BD91A"]
+			icon: "gtceu:uranium_residue_dust"
+			id: "5F1A217A2437B86E"
+			tasks: [{
+				id: "04EA132D929565FE"
+				type: "checkmark"
+			}]
+			title: "这是编写时使用的任务，如果在编辑模式下看见麻烦忽略一下，正式版发布后会移除"
+			x: 34.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5F1A217A2437B86E"]
+			icon: "gtceu:neutralized_uranium_residue_dust"
+			id: "4D8829CDC18F56A6"
+			tasks: [{
+				id: "56791B5F816E257C"
+				type: "checkmark"
+			}]
+			title: "中和铀滤渣粉"
+			x: 35.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7387AD8C4302E808"]
+			icon: "gtceu:concentrated_nitric_monazite_leach_solution_bucket"
+			id: "569000F1B7A2D0D8"
+			tasks: [{
+				id: "4DB00DDE3B068FEB"
+				type: "checkmark"
+			}]
+			title: "浓缩硝酸独居石浸出溶液"
+			x: 40.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6E189E02F2ED76C9"]
+			icon: "gtceu:europium_oxide_iii_dust"
+			id: "754161F73E6C36E9"
+			tasks: [{
+				id: "50903785593AF976"
+				type: "checkmark"
+			}]
+			title: "氧化铕(III)粉"
+			x: 43.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4D8829CDC18F56A6"]
+			icon: "gtceu:uranium_235_dust"
+			id: "17DBBED301E0B2A9"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "4D24A2D59B002A39"
+				type: "checkmark"
+			}]
+			title: "铀-235粉"
+			x: 38.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["44DB618AB11D471F"]
+			icon: "gtceu:concentrated_nitrated_monazite_rare_earth_solution_bucket"
+			id: "7C875F35EC9CB47F"
+			tasks: [{
+				id: "3FD0A1EB0F263ADC"
+				type: "checkmark"
+			}]
+			title: "浓缩氮化独居石稀土溶液"
+			x: 37.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"7387AD8C4302E808"
+				"56002A1789FB1FDF"
+			]
+			icon: "gtceu:cerium_dioxide_dust"
+			id: "61AC65E83AB7AE55"
+			tasks: [{
+				id: "1B1C4F7D29E039E8"
+				type: "checkmark"
+			}]
+			title: "二氧化铈粉"
+			x: 40.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["748ED348CB3A5D45"]
+			description: ["然而，你需要在LuV通过聚变得到液态铕之后才能通过独居石得到铕！"]
+			icon: "gtceu:europium_dust"
+			id: "22DE1A1A9A356278"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "672724ABF006A77B"
+				type: "checkmark"
+			}]
+			title: "铕粉"
+			x: 46.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"367116EB224FA9C2"
+				"43F5B101220ECD38"
+			]
+			icon: "gtceu:samarium_precipitate_dust"
+			id: "26D62A68057FD0DE"
+			tasks: [{
+				id: "24B1DD6570D4AF34"
+				type: "checkmark"
+			}]
+			title: "钐沉淀粉"
+			x: 47.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7E5E58E21477FE7E"]
+			icon: "gtceu:heterogeneous_monazite_rare_earth_halide_mixture_dust"
+			id: "124FA38EA19F2D3A"
+			tasks: [{
+				id: "710A487C88ACC0D3"
+				type: "checkmark"
+			}]
+			title: "异质卤化独居石稀土混合物粉"
+			x: 44.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["124FA38EA19F2D3A"]
+			icon: "gtceu:saturated_monazite_rare_earth_dust"
+			id: "367116EB224FA9C2"
+			tasks: [{
+				id: "1D34ECD7C9BF255F"
+				type: "checkmark"
+			}]
+			title: "饱和独居石稀土粉"
+			x: 46.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["754161F73E6C36E9"]
+			icon: "gtceu:europium_oxide_dust"
+			id: "748ED348CB3A5D45"
+			tasks: [{
+				id: "0ACBC18F9D1F4760"
+				type: "checkmark"
+			}]
+			title: "氧化铕粉"
+			x: 44.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["569000F1B7A2D0D8"]
+			icon: "gtceu:cooled_concentrated_nitric_monazite_leach_dust"
+			id: "6E189E02F2ED76C9"
+			tasks: [{
+				id: "6562DC21BADE0CC0"
+				type: "checkmark"
+			}]
+			title: "冷却浓缩硝酸独居石浸出粉"
+			x: 41.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"7C875F35EC9CB47F"
+				"3BA0DE2A046BF8CB"
+			]
+			dependency_requirement: "one_completed"
+			icon: "gtceu:nitric_monazite_leaching_mixture_bucket"
+			id: "7387AD8C4302E808"
+			tasks: [{
+				id: "7348DE278CC2166A"
+				type: "checkmark"
+			}]
+			title: "硝酸独居石浸出混合物"
+			x: 38.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4D8829CDC18F56A6"]
+			icon: "gtceu:uranium_dust"
+			id: "4CA5E241CCFDDE76"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "352E599FB21174D5"
+				type: "checkmark"
+			}]
+			title: "铀粉"
+			x: 37.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6E189E02F2ED76C9"]
+			icon: "gtceu:monazite_rare_earth_precipitate_dust"
+			id: "7E5E58E21477FE7E"
+			tasks: [{
+				id: "717DC7C2EECB21E3"
+				type: "checkmark"
+			}]
+			title: "独居石罕土沉淀粉"
+			x: 43.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["229C06459BC74034"]
+			icon: "gtceu:hafnium_iodide_dust"
+			id: "40205327859E6CE5"
+			tasks: [{
+				id: "76AA97E4FB0CEDEC"
+				type: "checkmark"
+			}]
+			title: "碘化铪粉"
+			x: 32.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["40205327859E6CE5"]
+			icon: "gtceu:hafnium_ingot"
+			id: "7E20A92555FE961C"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1BBE2464188C028E"
+				type: "checkmark"
+			}]
+			title: "铪锭"
+			x: 34.0d
+			y: 11.5d
+		}
+		{
+			icon: "gtceu:crushed_bastnasite_ore"
+			id: "11FD32047D1619C9"
+			tasks: [{
+				id: "283F8ACA684050C2"
+				type: "checkmark"
+			}]
+			title: "粉碎氟碳镧铈矿矿石"
+			x: 22.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["11FD32047D1619C9"]
+			icon: "gtceu:fluorocarbon_lanthanum_cerium_rare_earth_turbid_slurry_bucket"
+			id: "777CCF3E7D913743"
+			tasks: [{
+				id: "4A1A070B44EE5F1D"
+				type: "checkmark"
+			}]
+			title: "氟碳镧铈稀土浊浑液"
+			x: 23.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["777CCF3E7D913743"]
+			icon: "gtceu:steam_cracked_fluorocarbon_lanthanum_cerium_slurry_bucket"
+			id: "4F43F7BB6038FB09"
+			tasks: [{
+				id: "7421E33D4FAC3874"
+				type: "checkmark"
+			}]
+			title: "蒸汽裂化氟碳镧铈泥浆"
+			x: 25.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["4F43F7BB6038FB09"]
+			icon: "gtceu:prepared_fluorocarbon_lanthanum_cerium_slurry_bucket"
+			id: "32962D31AF41BA36"
+			tasks: [{
+				id: "6A7D1662EDD825CD"
+				type: "checkmark"
+			}]
+			title: "调制氟碳镧铈泥浆"
+			x: 26.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["32962D31AF41BA36"]
+			icon: "gtceu:diluted_fluorocarbon_lanthanum_cerium_slurry_bucket"
+			id: "3CAA516B74C6BC27"
+			tasks: [{
+				id: "7EF3C43486845EC8"
+				type: "checkmark"
+			}]
+			title: "稀释氟碳镧铈泥浆"
+			x: 28.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"677E66F6BCD9CB65"
+				"28505415325F06C0"
+			]
+			icon: "gtceu:rare_earth_ii_dust"
+			id: "60E699A88106B8D1"
+			tasks: [{
+				id: "3F1E7709EFBCC80D"
+				type: "checkmark"
+			}]
+			title: "稀土(II)粉"
+			x: 25.0d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"677E66F6BCD9CB65"
+				"0FBAA1F6A9208AB6"
+			]
+			icon: "gtceu:rare_earth_i_dust"
+			id: "3E49AE5FDFA461F8"
+			tasks: [{
+				id: "59E5B2A5DB33D483"
+				type: "checkmark"
+			}]
+			title: "稀土(I)粉"
+			x: 25.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["6ED16517314BA848"]
+			icon: "gtceu:wet_rare_earth_oxide_dust"
+			id: "20326BF5A3813D0D"
+			tasks: [{
+				id: "1F2E38866DFE2189"
+				type: "checkmark"
+			}]
+			title: "湿稀土氧化物粉"
+			x: 35.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["6673F7D8C9B2CF91"]
+			icon: "gtceu:acid_leached_fluorocarbon_lanthanum_cerium_rare_earth_oxide_dust"
+			id: "361C63CD37D6EC62"
+			tasks: [{
+				id: "1003D925F2492F9D"
+				type: "checkmark"
+			}]
+			title: "酸浸氟碳镧铈稀土氧化物粉"
+			x: 32.5d
+			y: 16.5d
+		}
+		{
+			icon: "gtceu:hydrochloric_acid_bucket"
+			id: "0FBAA1F6A9208AB6"
+			tasks: [{
+				id: "3DE37D0FAA1BFB8C"
+				type: "checkmark"
+			}]
+			title: "盐酸"
+			x: 23.5d
+			y: 19.0d
+		}
+		{
+			icon: "gtceu:sulfuric_acid_bucket"
+			id: "28505415325F06C0"
+			tasks: [{
+				id: "5F3CEB609432A817"
+				type: "checkmark"
+			}]
+			title: "硫酸"
+			x: 23.5d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"677E66F6BCD9CB65"
+				"5A3F334D08C1EA6F"
+			]
+			icon: "gtceu:rare_earth_iii_dust"
+			id: "51563C11A243AA29"
+			tasks: [{
+				id: "794C8769D0086330"
+				type: "checkmark"
+			}]
+			title: "稀土(III)粉"
+			x: 25.0d
+			y: 24.5d
+		}
+		{
+			dependencies: [
+				"3E49AE5FDFA461F8"
+				"60E699A88106B8D1"
+			]
+			icon: "gtceu:lanthanite_dust"
+			id: "3A71FC5D65F1A89B"
+			tasks: [{
+				id: "4AC5A18CEF973AC4"
+				type: "checkmark"
+			}]
+			title: "镧石粉"
+			x: 26.5d
+			y: 18.0d
+		}
+		{
+			icon: "gtceu:hydrofluoric_acid_bucket"
+			id: "5A3F334D08C1EA6F"
+			tasks: [{
+				id: "010DD7232F5F2C96"
+				type: "checkmark"
+			}]
+			title: "氢氟酸"
+			x: 23.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["3CAA516B74C6BC27"]
+			icon: "gtceu:filtered_fluorocarbon_lanthanum_cerium_slurry_bucket"
+			id: "4714273BD96C77D3"
+			tasks: [{
+				id: "127E55F6BA132B83"
+				type: "checkmark"
+			}]
+			title: "过滤氟碳镧铈泥浆"
+			x: 29.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["361C63CD37D6EC62"]
+			icon: "gtceu:roasted_rare_earth_oxide_dust"
+			id: "6ED16517314BA848"
+			tasks: [{
+				id: "6FC6FEAE1E1A2047"
+				type: "checkmark"
+			}]
+			title: "焙烧稀土氧化物粉"
+			x: 34.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"3A71FC5D65F1A89B"
+				"4697A7A3B13999B6"
+			]
+			description: ["不过，如果你想要用富铈混合物直接得到氯化铈的话，需要到LuV能源仓才可以"]
+			icon: "gtceu:cerium_rich_mixture_dust"
+			id: "3BA0DE2A046BF8CB"
+			tasks: [{
+				id: "1E25DB08571B1420"
+				type: "checkmark"
+			}]
+			title: "富铈混合物粉"
+			x: 29.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"6E2468776601A491"
+				"3E49AE5FDFA461F8"
+				"60E699A88106B8D1"
+				"1887A5E624F4DD07"
+				"07A836C4F7952E0F"
+			]
+			icon: "gtceu:yttrium_dust"
+			id: "591CCCF1033C3765"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "7CA810CF5DAD69A4"
+				type: "checkmark"
+			}]
+			title: "钇粉"
+			x: 31.5d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"3E49AE5FDFA461F8"
+				"60E699A88106B8D1"
+			]
+			icon: "gtceu:yttrium_thorium_silicate_dust"
+			id: "6E2468776601A491"
+			tasks: [{
+				id: "57512B252DF2A7D3"
+				type: "checkmark"
+			}]
+			title: "硅钍钇矿粉"
+			x: 26.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["60E699A88106B8D1"]
+			icon: "gtceu:sculk_dust"
+			id: "1CB45CFBC0BBF78B"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6C5EBE4D109E8AF4"
+				type: "checkmark"
+			}]
+			title: "幽匿粉"
+			x: 26.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["60E699A88106B8D1"]
+			icon: "gtceu:black_matter_dust"
+			id: "273FAF69886B6468"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0BFB87E7F450D087"
+				type: "checkmark"
+			}]
+			title: "黑物质粉"
+			x: 28.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["51563C11A243AA29"]
+			icon: "gtceu:yttrium_niobium_ore_dust"
+			id: "1887A5E624F4DD07"
+			tasks: [{
+				id: "3298D96929F70D67"
+				type: "checkmark"
+			}]
+			title: "铌钇矿粉"
+			x: 26.5d
+			y: 23.5d
+		}
+		{
+			dependencies: [
+				"51563C11A243AA29"
+				"4697A7A3B13999B6"
+			]
+			icon: "gtceu:strontium_oxide_dust"
+			id: "49233D1007E69448"
+			tasks: [{
+				id: "55E4FA27F75151A2"
+				type: "checkmark"
+			}]
+			title: "氧化锶粉"
+			x: 26.5d
+			y: 26.5d
+		}
+		{
+			dependencies: ["51563C11A243AA29"]
+			icon: "gtceu:erbium_dust"
+			id: "633DA005A4CC1CC8"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2931A9CDA0AE9A00"
+				type: "checkmark"
+			}]
+			title: "铒粉"
+			x: 31.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["51563C11A243AA29"]
+			description: ["不过，当你有了LuV能源仓之后，才可以处理莱普生石粉"]
+			icon: "gtceu:lepersonite_dust"
+			id: "07A836C4F7952E0F"
+			tasks: [{
+				id: "7CFAFA0B26756313"
+				type: "checkmark"
+			}]
+			title: "莱普生石粉"
+			x: 26.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["4714273BD96C77D3"]
+			icon: "gtceu:fluorocarbon_lanthanum_cerium_rare_earth_oxide_dust"
+			id: "6673F7D8C9B2CF91"
+			tasks: [{
+				id: "0E66B0410B091E4B"
+				type: "checkmark"
+			}]
+			title: "氟碳镧铈稀土氧化物粉"
+			x: 31.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["20326BF5A3813D0D"]
+			icon: "gtceu:cerium_rich_rare_earth_oxide_dust"
+			id: "56002A1789FB1FDF"
+			tasks: [{
+				id: "03DE66964CF8159B"
+				type: "checkmark"
+			}]
+			title: "氧化铈稀土氧化物粉"
+			x: 37.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["56002A1789FB1FDF"]
+			icon: "gtceu:fluorocarbon_lanthanum_cerium_residual_rare_earth_oxide_dust"
+			id: "0FE9665CA18764A0"
+			tasks: [{
+				id: "4BDF4AB45270DC94"
+				type: "checkmark"
+			}]
+			title: "氟碳镧铈罕土氧化物粉"
+			x: 38.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["49233D1007E69448"]
+			icon: "gtceu:strontium_bucket"
+			id: "40528E627A47D7E2"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1DD161EA1E3980EA"
+				type: "checkmark"
+			}]
+			title: "液态锶"
+			x: 28.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["0FE9665CA18764A0"]
+			icon: "gtceu:nitrated_fluorocarbon_lanthanum_cerium_residual_rare_earth_oxide_bucket"
+			id: "03EC31DD416C93F5"
+			tasks: [{
+				id: "63FB36CC3678DE98"
+				type: "checkmark"
+			}]
+			title: "氮化氟碳镧铈罕土氧化物"
+			x: 40.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["1C35C6FF8ED63ED1"]
+			icon: "gtceu:neodymium_rare_earth_concentrate_dust"
+			id: "34DBAAF3B0B8D78D"
+			tasks: [{
+				id: "1BED9CFE9F3B1EFD"
+				type: "checkmark"
+			}]
+			title: "钕稀土精粉"
+			x: 43.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["03EC31DD416C93F5"]
+			icon: "gtceu:fluorocarbon_lanthanum_cerium_residual_rare_earth_oxide_suspension_bucket"
+			id: "1C35C6FF8ED63ED1"
+			tasks: [{
+				id: "6EC804E7C66F7EDC"
+				type: "checkmark"
+			}]
+			title: "氟碳镧铈罕土氧化物悬浊液"
+			x: 41.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["1C35C6FF8ED63ED1"]
+			icon: "gtceu:samarium_rare_earth_concentrate_dust"
+			id: "637620BA3F110355"
+			tasks: [{
+				id: "6E15E286F58AE271"
+				type: "checkmark"
+			}]
+			title: "钐稀土精粉"
+			x: 43.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1E20C2F6A04FD4FA"]
+			icon: "gtceu:holmium_dust"
+			id: "5FDC9793CCC28444"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6D3C5ED18E80BE6B"
+				type: "checkmark"
+			}]
+			title: "钬粉"
+			x: 47.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["34DBAAF3B0B8D78D"]
+			icon: "gtceu:lanthanum_chloride_dust"
+			id: "0C5F8997163F910C"
+			tasks: [{
+				id: "698CAB16214078FC"
+				type: "checkmark"
+			}]
+			title: "氯化镧粉"
+			x: 44.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["7ADA4C717E935B11"]
+			icon: "gtceu:nitrated_samarium_terbium_mixture_dust"
+			id: "43F5B101220ECD38"
+			tasks: [{
+				id: "3F34FA60C2D6E186"
+				type: "checkmark"
+			}]
+			title: "氮化钐-铽混合物粉"
+			x: 47.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6134EE030A8DFC51"]
+			icon: "gtceu:terbium_dust"
+			id: "3B0DAC6D0DB6DF90"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "048E17D55BACAE4B"
+				type: "checkmark"
+			}]
+			title: "铽粉"
+			x: 50.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0C5F8997163F910C"]
+			icon: "gtceu:lanthanum_dust"
+			id: "1149163A0856363E"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "79A3C95821A79F6B"
+				type: "checkmark"
+			}]
+			title: "镧粉"
+			x: 46.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["1E20C2F6A04FD4FA"]
+			icon: "gtceu:samarium_terbium_mixture_dust"
+			id: "7ADA4C717E935B11"
+			tasks: [{
+				id: "41C3AC2B0E479592"
+				type: "checkmark"
+			}]
+			title: "钐-铽混合物粉"
+			x: 46.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["637620BA3F110355"]
+			icon: "gtceu:samarium_fluoride_concentrate_dust"
+			id: "1E20C2F6A04FD4FA"
+			tasks: [{
+				id: "708AB6E66C7F524D"
+				type: "checkmark"
+			}]
+			title: "氟化钐精粉"
+			x: 44.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["34DBAAF3B0B8D78D"]
+			icon: "gtceu:neodymium_oxide_dust"
+			id: "438ADB362EBE50DF"
+			tasks: [{
+				id: "66575F3714857110"
+				type: "checkmark"
+			}]
+			title: "氧化钕粉"
+			x: 44.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["43F5B101220ECD38"]
+			icon: "gtceu:terbium_nitrate_dust"
+			id: "6134EE030A8DFC51"
+			tasks: [{
+				id: "4FD120A5ACCF9AFD"
+				type: "checkmark"
+			}]
+			title: "硝酸铽粉"
+			x: 49.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["51563C11A243AA29"]
+			icon: "gtceu:fluorocarbon_cerium_ore_dust"
+			id: "4697A7A3B13999B6"
+			tasks: [{
+				id: "6FF028A922AEF870"
+				type: "checkmark"
+			}]
+			title: "氟碳铈矿粉"
+			x: 26.5d
+			y: 28.5d
+		}
+		{
+			dependencies: ["438ADB362EBE50DF"]
+			icon: "gtceu:neodymium_dust"
+			id: "1605D98C2E16B8CF"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "4E9445FF27AC03AD"
+				type: "checkmark"
+			}]
+			title: "钕粉"
+			x: 47.5d
+			y: 19.0d
 		}
 	]
 	title: "产线"

@@ -234,14 +234,14 @@
 	]
 	quest_enhance_hidden_dependency_lines: [
 		{
-			dependency: 1445202841567522726L
+			dependency: "q:140e6453d0046fa6"
 			reveal_on_hover: 0b
-			source: 1130702159640195219L
+			source: "q:fb10f9f9c1ef093"
 		}
 		{
-			dependency: 7836703348500154828L
+			dependency: "q:6cc1902cc17749cc"
 			reveal_on_hover: 0b
-			source: 771901947259029586L
+			source: "q:ab658bb37ce8852"
 		}
 	]
 	quest_links: [{
@@ -592,7 +592,11 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["74C49D595061D61D"]
+			dependencies: [
+				"74C49D595061D61D"
+				"06E3BEC42EDF00B3"
+			]
+			description: ["钴需要从离心机离心蓝晶石中获得"]
 			id: "0915454B214E367B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1967,7 +1971,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["212DB96CD57E4788"]
+			dependencies: [
+				"212DB96CD57E4788"
+				"5D89CF1D29BBBAA7"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"当你合成了第一个，你就可以在组装机快速复制了"
 				"不过，你可以在IV做了镧系处理后获得它"
@@ -2693,6 +2701,36 @@
 				type: "item"
 			}]
 			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["67DFF2295F70A596"]
+			id: "4B7A99E57F5F5621"
+			tasks: [{
+				id: "132A5D3077875953"
+				item: "superflatcore:basic_air_intake_cover"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A244E61C382C390"]
+			id: "6F647B47E03F7DFE"
+			tasks: [{
+				id: "519C9E8ACF01D266"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+						Unbreakable: 1
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 24.5d
 			y: 3.0d
 		}
 	]

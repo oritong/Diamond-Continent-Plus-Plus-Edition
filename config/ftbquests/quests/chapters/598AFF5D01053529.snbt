@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "598AFF5D01053529"
 	group: "1118A4C838238AC3"
-	icon: "functionalstorage:diamond_upgrade"
+	icon: "oritong:diamond_upgrade_smithing_template"
 	id: "598AFF5D01053529"
 	images: [{
 		click: "quest_enhance:text_v2:17:minecraft:default这里应该有一个AI生成的玛门"
@@ -25,7 +25,7 @@
 				""
 				"应急物品里每过一段时间可以领取几个土力架"
 				""
-				"前期在没出镐子之前很多方块都能直接用扳手扳掉，比如钻石矿，所以请试试"
+				"前期在没出镐子之前很多方块都能直接用扳手扳掉，比如钻石矿，所以请试试，有些右键打开GUI的方块，你则应该尝试用扳手左键直接破坏"
 				""
 				"暂时还没禁用/fly指令，如果你想飞就输入一个，HV末可以做无消耗的天使指环"
 			]
@@ -100,7 +100,13 @@
 		}
 		{
 			dependencies: ["4802924569365AFC"]
-			description: ["将微光收集器放置在地底，然后挖开上方的方块，并且放一个太阳能板在顶端，可以缓慢的收集“微光”"]
+			description: [
+				"将微光收集器放置在地底，然后挖开上方的方块，并且放一个太阳能板在顶端，可以缓慢的收集“微光”"
+				""
+				"{image:quest_enhance:textures/ftb/clipboard_1787068883938.png width:199 height:136 align:center fit:true}"
+				""
+				"请注意将机器的编程电路改为1，否则机器不会运行！"
+			]
 			id: "0D0716578DCCE42C"
 			rewards: [
 				{
@@ -312,7 +318,13 @@
 			dependencies: ["5E72D738B6DAB84B"]
 			description: [
 				"你可以直接把钻石粉丢进焦黑加热器里烧"
-				"焦黑材料量器可以用石英岩板制作，但由于你现在还没办法直接挖下铁砧，我建议你一次至少压8个板出来"
+				"焦黑材料量器可以用石英岩板制作"
+				""
+				"将石英岩块掉落物用铁砧落下，就可以得到石英岩板了"
+				"{image:quest_enhance:textures/ftb/clipboard_1787924624342.png width:100 height:133 align:center}"
+				"{@pagebreak}"
+				"如何成型焦黑熔化炉"
+				"{image:quest_enhance:textures/ftb/clipboard_1787924483667.png width:199 height:127 align:center fit:true}"
 			]
 			icon: "tconstruct:seared_melter"
 			id: "57874B1EC09D2E1F"
@@ -472,6 +484,10 @@
 				"工作台里手搓出玫瑰金"
 				"然后将液态玫瑰金浇筑在钻石板上"
 				"就得到了黎明石"
+				""
+				"想获得钻石板，你需要将铁砧砸到掉落物状态的钻石块上"
+				""
+				"{image:quest_enhance:textures/ftb/clipboard_1787924417555.png width:199 height:164 align:center fit:true}"
 			]
 			icon: "embers:dawnstone_ingot"
 			id: "0868AFFC24308555"
@@ -744,7 +760,12 @@
 		}
 		{
 			dependencies: ["02F76171AF0EBF9A"]
-			description: ["制作一个砧板，然后左手拿着紫水晶块，右手拿着镐，按两次右键就能直接把紫水晶块敲成紫水晶碎片"]
+			description: [
+				"制作一个砧板，然后左手拿着紫水晶块，右手拿着镐，按两次右键就能直接把紫水晶块敲成紫水晶碎片"
+				"转换方式和胶乳相同"
+				""
+				"{image:quest_enhance:textures/ftb/clipboard_1787927242950.png width:199 height:150 align:center fit:true}"
+			]
 			id: "6D434CA0E1ED00CA"
 			rewards: [
 				{
@@ -895,7 +916,12 @@
 		}
 		{
 			dependencies: ["22E12D7F6FA1E9F3"]
-			description: ["你可以以超级快的速度大批量合成锻铁了"]
+			description: [
+				"在火山魔源通道下方3x3的位置放置石头，石头将会被逐渐转换为熔岩"
+				"你可以以超级快的速度大批量合成锻铁了"
+				"同时，你可以把熔岩放入焦黑燃料储罐中，代替焦黑加热器的位置，获得更高的温度和更快的融化速度"
+				"熔化炉改烧岩浆之后要敲掉重新放，不然钻石还没烧完温度不够"
+			]
 			id: "74C49D595061D61D"
 			rewards: [
 				{

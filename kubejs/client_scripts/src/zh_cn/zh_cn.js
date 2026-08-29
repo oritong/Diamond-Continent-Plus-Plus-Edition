@@ -21,7 +21,9 @@ let key_zh_cn = [
     ["kubejs.multiblock.blaze_blast_furnace.heat_capacity", "热容：%sK"],
     ["kubejs.multiblock.blaze_blast_smelter.heat_capacity", "热容：%sK"],
     ["kubejs.multiblock.platdur_s_gate.current_speed", "当前运行速度：%s"],
-    ["tagprefix.starforge_hexlux", "%s星铸六耀晶石"]
+    ["tagprefix.starforge_hexlux", "%s星铸六耀晶石"],
+    ["tagprefix.raw_ceramic_block", "%s陶瓷粗坯"],
+    ['item.functionalstorage.max_storage_upgrade', '最大存储量升级']
 ]
 let item_js_key_zh_cn = [
     ['stone_hammer', '石锤'],
@@ -63,7 +65,14 @@ let item_js_key_zh_cn = [
     ['end_data', '末地数据'],
     ['lost_item', '§c遗忘之物'],
     ['sn1ckers', '土力架'],
-    ['composite_purification_filter', '复合净化滤芯']
+    ['composite_purification_filter', '复合净化滤芯'],
+    ['wood_upgrade', '木升级'],
+    ['bronze_upgrade', '青铜升级'],
+    ['steel_upgrade', '钢升级'],
+    ['aluminium_upgrade', '铝升级'],
+    ['stainless_upgrade', '不锈钢升级'],
+    ['titanium_upgrade', '钛升级'],
+    ['tungsten_steel_upgrade', '钨钢升级']
 ]
 let item_ori_key_zh_cn = [
     ['steel_upgrade_smithing_template', '钢升级锻造模板'],
@@ -82,8 +91,6 @@ let block_js_key_zh_cn = [
     ['multi_functional_casing', '多功能机器外壳'],
     ['grizzly_chute', '格筛溜槽'],
     ['compress_diamond_block', '压缩钻石块'],
-    ['raw_alumina_ceramic_block', '氧化铝陶瓷粗坯'],
-    ['raw_titanium_nitride_ceramic_block', '氮化钛陶瓷粗坯'],
     ['dimension_injection_casing', '维度注入方块'],
     ['dimension_connection_casing', '维度连接机械方块'],
     ['dimensional_stability_casing', '维度稳定方块'],
@@ -105,6 +112,8 @@ let material_gt_key_zh_cn = [
     ['alumina', '氧化铝'],
     ['alumina_ceramic', '氧化铝陶瓷'],
     ['titanium_nitride_ceramic', '氮化钛陶瓷'],
+    ['tungsten_tetraboride_ceramic', '四硼化钨陶瓷'],
+    ['tungsten_tetraboride_mixture', '四硼化钨混合物'],
     ['sodium_hydroxide_solution', '氢氧化钠溶液'],
     ['absolute_ethanol', '绝对乙醇'],
     ['wet_sieved_zeolite_powder', '湿过筛沸石颗粒'],

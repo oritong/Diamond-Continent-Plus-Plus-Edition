@@ -718,14 +718,15 @@ ServerEvents.recipes(e => {
         B: 'gtceu:lv_machine_hull'
     })
     e.shaped('gtceu:mv_energy_input_hatch', [
-        'AB ',
-        'ACD',
-        'AB '
+        'ABC',
+        'EDC',
+        'ABC'
     ], {
-        A: 'gtceu:annealed_copper_single_cable',
-        B: 'gtceu:alumina_ceramic_plate',
-        C: 'gtceu:mv_machine_hull',
-        D: 'gtceu:ulpic_chip'
+        A: 'gtceu:alumina_ceramic_plate',
+        B: 'gtceu:mv_voltage_coil',
+        C: 'gtceu:annealed_copper_single_cable',
+        D: 'gtceu:mv_machine_hull',
+        E: 'gtceu:ulpic_chip'
     })
     e.shaped('industrialforegoing:mob_slaughter_factory', [
         'ABA',
@@ -868,16 +869,6 @@ ServerEvents.recipes(e => {
         A: 'minecraft:bucket',
         B: 'minecraft:smooth_stone_slab'
     })
-    e.shaped('functionalstorage:copper_upgrade', [
-        'ABA',
-        'CDC',
-        'ABA'
-    ], {
-        A: 'minecraft:copper_ingot',
-        B: 'minecraft:copper_block',
-        C: '#forge:chests/wooden',
-        D: 'gtceu:steel_plate'
-    })
     e.shaped('functionalstorage:storage_controller', [
         'ABA',
         'CDC',
@@ -886,7 +877,7 @@ ServerEvents.recipes(e => {
         A: 'minecraft:smooth_stone',
         B: 'gtceu:dense_steel_plate',
         C: 'minecraft:quartz_block',
-        D: 'minecraft:ender_eye'
+        D: 'minecraft:ender_pearl'
     })
     e.shaped('functionalstorage:framed_storage_controller', [
         'AAA',
@@ -1749,13 +1740,114 @@ ServerEvents.recipes(e => {
         F: 'gtceu:hv_field_generator'
     })
     e.shaped('gtceu:assembly_line', [
-    'ABA',
-    'CDC',
-    'ABA'
-], {
-    A: 'gtnn:zpm_wrap_circuit',
-    B: 'gtceu:iv_robot_arm',
-    C: 'gtnn:luv_wrap_circuit',
-    D: 'gtceu:assembly_line_casing'
-})
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtnn:zpm_wrap_circuit',
+        B: 'gtceu:iv_robot_arm',
+        C: 'gtnn:luv_wrap_circuit',
+        D: 'gtceu:assembly_line_casing'
+    })
+    e.shaped('entangled:item', [
+        ' AB',
+        ' CA',
+        'C  '
+    ], {
+        A: 'minecraft:ender_eye',
+        B: 'botania:mana_diamond',
+        C: 'gtceu:stone_rod'
+    })
+    e.shaped('kubejs:wood_upgrade', [
+        'ABA',
+        'ACA',
+        'ABA'
+    ], {
+        A: 'kubejs:wood_ingot',
+        B: 'kubejs:wood_block',
+        C: 'minecraft:chest'
+    })
+    e.shaped('kubejs:bronze_upgrade', [
+        'ABA',
+        'ACA',
+        'ABA'
+    ], {
+        A: 'gtceu:bronze_ingot',
+        B: 'gtceu:bronze_block',
+        C: 'kubejs:wood_upgrade'
+    })
+    e.shaped('kubejs:steel_upgrade', [
+        'ABA',
+        'ACA',
+        'ABA'
+    ], {
+        A: 'mekanism:ingot_steel',
+        B: 'gtceu:steel_block',
+        C: 'kubejs:bronze_upgrade'
+    })
+    e.shaped('kubejs:aluminium_upgrade', [
+        'ABA',
+        'ACA',
+        'ABA'
+    ], {
+        A: 'gtceu:aluminium_ingot',
+        B: 'gtceu:aluminium_block',
+        C: 'kubejs:steel_upgrade'
+    })
+    e.shaped('kubejs:stainless_upgrade', [
+        'ABA',
+        'ACA',
+        'ABA'
+    ], {
+        A: 'gtceu:stainless_steel_ingot',
+        B: 'gtceu:stainless_steel_block',
+        C: 'kubejs:aluminium_upgrade'
+    })
+    e.shaped('kubejs:titanium_upgrade', [
+        'ABA',
+        'ACA',
+        'ABA'
+    ], {
+        A: 'gtceu:titanium_ingot',
+        B: 'gtceu:titanium_block',
+        C: 'kubejs:stainless_upgrade'
+    })
+    e.shaped('kubejs:tungsten_steel_upgrade', [
+        'ABA',
+        'ACA',
+        'ABA'
+    ], {
+        A: 'gtceu:tungsten_steel_ingot',
+        B: 'gtceu:tungsten_steel_block',
+        C: 'kubejs:titanium_upgrade'
+    })
+    e.shaped('minecraft:lever', [
+        ' A ',
+        ' B ',
+        ' C '
+    ], {
+        A: 'gtceu:stone_rod',
+        B: 'gtceu:cinnabar_dust',
+        C: 'minecraft:cobblestone'
+    })
+    e.shaped('4x minecraft:lever', [
+        ' A ',
+        ' B ',
+        ' C '
+    ], {
+        A: 'gtceu:treated_wood_rod',
+        B: 'minecraft:redstone',
+        C: 'minecraft:smooth_stone'
+    })
+    e.shaped('flopper:flopper', [
+        'ABA',
+        'ACA',
+        'DAE'
+    ], {
+        A: 'gtceu:wrought_iron_plate',
+        B: 'gtceu:wood_drum',
+        C: 'gtceu:small_bronze_gear',
+        D: '#forge:tools/wrenches',
+        E: '#gtceu:tools/crafting_hammers'
+    })
 })

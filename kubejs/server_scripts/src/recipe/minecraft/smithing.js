@@ -10,6 +10,7 @@ ServerEvents.recipes(e => {
     e.recipes.minecraft.smithing_transform('gtceu:wrought_iron_file', 'gtceu:wrought_iron_plate', 'gtceu:wrought_iron_plate', 'gtceu:stone_rod')
     e.recipes.minecraft.smithing_transform('gtceu:wrought_iron_shovel', Item.of('tconstruct:adze_head', '{Material:"gm_construct:wrought_iron"}').strongNBT(), Item.of('tconstruct:tool_binding', '{Material:"gm_construct:wrought_iron"}').strongNBT(), 'gtceu:stone_rod')
     e.recipes.minecraft.smithing_transform('gtceu:wrought_iron_wire_cutter', Item.of('tconstruct:tough_handle', '{Material:"gm_construct:wrought_iron"}').strongNBT(), Item.of('tconstruct:tough_binding', '{Material:"gm_construct:wrought_iron"}').strongNBT(), Item.of('tconstruct:tough_handle', '{Material:"gm_construct:wrought_iron"}').strongNBT())
+    e.recipes.minecraft.smithing_transform('gtceu:wrought_iron_spade', 'gtceu:stone_rod', 'gtceu:stone_rod', Item.of('tconstruct:large_plate', '{Material:"gm_construct:wrought_iron"}').strongNBT())
     e.recipes.minecraft.smithing_transform('create:mechanical_saw', 'gtceu:steel_buzz_saw_blade', 'create:andesite_casing', 'create:shaft')
     e.recipes.minecraft.smithing_transform('create:encased_fan', 'gtceu:wrought_iron_rotor', 'create:andesite_casing', 'create:shaft')
     e.recipes.minecraft.smithing_transform('create:mechanical_press', 'gtceu:wrought_iron_block', 'create:andesite_casing', 'create:shaft')
@@ -42,8 +43,8 @@ ServerEvents.recipes(e => {
 })
 
 ServerEvents.recipes(e => {
-    //锻铁工具变钢工具
-    let tools_upgrade = ['axe', 'pickaxe', 'hammer', 'saw', 'wrench', 'file', 'knife', 'wire_cutter', 'screwdriver', 'shovel']
+    //锻铁工具升级
+    let tools_upgrade = ['axe', 'pickaxe', 'hammer', 'saw', 'wrench', 'file', 'knife', 'wire_cutter', 'screwdriver', 'shovel', 'spade']
     tools_upgrade.forEach(a => {
         e.recipes.minecraft.smithing_transform(`gtceu:steel_${a}`, 'oritong:steel_upgrade_smithing_template', `gtceu:wrought_iron_${a}`, 'gtceu:double_steel_plate')
         e.recipes.minecraft.smithing_transform(`gtceu:diamond_${a}`, 'oritong:diamond_upgrade_smithing_template', `gtceu:steel_${a}`, 'gtceu:flawless_diamond_gem')

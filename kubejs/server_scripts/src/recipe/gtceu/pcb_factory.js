@@ -1,2 +1,3 @@
 ServerEvents.recipes(e=>{
+    e.recipes.gtceu.pcb_factory().itemInputs('4x gtceu:fiber_reinforced_circuit_board', '48x gtceu:annealed_copper_foil', '16x gtceu:tungsten_tetraboride_ceramic_plate').inputFluids(Fluid.of('gtceu:sodium_persulfate', 4000), Fluid.of('gtceu:iron_iii_chloride', 2000)).itemOutputs('4x gtceu:fiber_reinforced_printed_circuit_board').duration(16 * 20).EUt(GTValues.VA[GTValues.HV] * 0.75).cleanroom(CleanroomType.CLEANROOM)
 })

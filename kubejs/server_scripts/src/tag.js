@@ -14,10 +14,15 @@ ServerEvents.tags('item', e => {
     e.add('gtceu:circuits/lv', 'mekanism:advanced_control_circuit')
     e.add('gtceu:circuits/mv', 'mekanism:elite_control_circuit')
     e.add('forge:dusts/nether_quartz', 'mekanism:dust_quartz')
+    e.add('oritong:planks/ass', 'gtceu:treated_wood_plate')
+    e.add('oritong:planks/ass', 'gtceu:wood_plate')
+    e.add('forge:ingots/infused_alloy', 'mekanism:alloy_infused')
+    e.add('forge:ingots/atomic_alloy', 'mekanism:alloy_atomic')
 })
 ServerEvents.tags('block', e => {
     wrench_pickup.forEach(a => {
         e.add('create:wrench_pickup', a)
+        e.add('forge:mineable/wrench', a)
     })
     e.add('oritong:grizzly_chute', 'kubejs:grizzly_chute')
     e.add('oritong:compress/diamond', 'kubejs:compress_diamond_block')
@@ -48,5 +53,16 @@ let wrench_pickup = [
     'minecraft:anvil',
     'minecraft:chipped_anvil',
     'minecraft:damaged_anvil',
-    'mekanism:cardboard_box'
+    'mekanism:cardboard_box',
+    "ironfurnaces:obsidian_furnace",
+    "ironfurnaces:silver_furnace",
+    "ironfurnaces:netherite_furnace",
+    "ironfurnaces:emerald_furnace",
+    "ironfurnaces:gold_furnace",
+    "ironfurnaces:copper_furnace",
+    "ironfurnaces:crystal_furnace",
+    "ironfurnaces:diamond_furnace",
+    "ironfurnaces:iron_furnace",
+    "minecraft:furnace",
+    'minecraft:crafting_table'
 ]

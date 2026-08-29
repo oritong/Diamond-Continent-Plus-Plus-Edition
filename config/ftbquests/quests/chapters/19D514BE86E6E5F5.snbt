@@ -16,8 +16,13 @@
 			y: -1.0d
 		}
 		{
-			click: "quest_enhance:text_v2:17:minecraft:default功能性存储"
+			click: "quest_enhance:text_v3:1.0:17:minecraft:default功能性存储"
 			height: 0.9d
+			hover: [
+				"抽屉使用方式："
+				"右键存入"
+				"左键取出"
+			]
 			image: ""
 			rotation: 0.0d
 			width: 2.6d
@@ -108,7 +113,7 @@
 			y: -9.0d
 		}
 	]
-	order_index: 3
+	order_index: 4
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [
@@ -336,66 +341,13 @@
 		}
 		{
 			dependencies: ["2A5A5515DF1BD1FB"]
-			id: "3D532016D75F8996"
-			tasks: [{
-				id: "0ECE4690771D6600"
-				item: "functionalstorage:copper_upgrade"
-				type: "item"
-			}]
-			x: -21.0d
-			y: -6.5d
-		}
-		{
-			dependencies: [
-				"2A5A5515DF1BD1FB"
-				"3D532016D75F8996"
-			]
-			id: "193ECB5B94D53DC5"
-			tasks: [{
-				id: "347680D1FD7F6C72"
-				item: "functionalstorage:gold_upgrade"
-				type: "item"
-			}]
-			x: -21.0d
-			y: -5.5d
-		}
-		{
-			dependencies: [
-				"2A5A5515DF1BD1FB"
-				"193ECB5B94D53DC5"
-			]
-			id: "3EC86D3F9C76A784"
-			tasks: [{
-				id: "5C2A12E74A6F68E3"
-				item: "functionalstorage:diamond_upgrade"
-				type: "item"
-			}]
-			x: -21.0d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"2A5A5515DF1BD1FB"
-				"3EC86D3F9C76A784"
-			]
-			id: "4D6C81D06550E8B0"
-			tasks: [{
-				id: "10F417928019D1FE"
-				item: "functionalstorage:netherite_upgrade"
-				type: "item"
-			}]
-			x: -21.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["2A5A5515DF1BD1FB"]
 			id: "41E2B7B5F41A5F48"
 			tasks: [{
 				id: "4EB4A7AAC6A271A6"
 				item: "functionalstorage:iron_downgrade"
 				type: "item"
 			}]
-			x: -22.0d
+			x: -23.0d
 			y: -6.5d
 		}
 		{
@@ -406,7 +358,7 @@
 				item: "functionalstorage:collector_upgrade"
 				type: "item"
 			}]
-			x: -22.0d
+			x: -23.0d
 			y: -5.5d
 		}
 		{
@@ -417,7 +369,7 @@
 				item: "functionalstorage:puller_upgrade"
 				type: "item"
 			}]
-			x: -22.0d
+			x: -23.0d
 			y: -4.5d
 		}
 		{
@@ -428,7 +380,7 @@
 				item: "functionalstorage:pusher_upgrade"
 				type: "item"
 			}]
-			x: -22.0d
+			x: -23.0d
 			y: -3.5d
 		}
 		{
@@ -439,7 +391,7 @@
 				item: "functionalstorage:void_upgrade"
 				type: "item"
 			}]
-			x: -23.0d
+			x: -24.0d
 			y: -6.0d
 		}
 		{
@@ -454,7 +406,7 @@
 				}
 				type: "item"
 			}]
-			x: -23.0d
+			x: -24.0d
 			y: -4.0d
 		}
 		{
@@ -819,12 +771,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["2A5A5515DF1BD1FB"]
-			id: "6DA552BAD013CD16"
-			x: -10.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["4CBC5A84BE4BC7BA"]
 			id: "0805B4DDCEB4D3D2"
 			tasks: [{
@@ -1106,6 +1052,115 @@
 			}]
 			x: -16.0d
 			y: -8.0d
+		}
+		{
+			dependencies: ["2A5A5515DF1BD1FB"]
+			id: "40F5F4D48DE7F2E2"
+			tasks: [{
+				id: "7B4A8EBF717D5C0F"
+				item: "kubejs:wood_upgrade"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"2A5A5515DF1BD1FB"
+				"00BFA72357B6352D"
+			]
+			id: "619AC23BEAD3B036"
+			tasks: [{
+				id: "3629D2B609C6606A"
+				item: "kubejs:aluminium_upgrade"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2A5A5515DF1BD1FB"
+				"0EF7FC834FF35E35"
+			]
+			id: "46051FC2462C88C1"
+			tasks: [{
+				id: "19266DA8F2E7BBCA"
+				item: "kubejs:titanium_upgrade"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2A5A5515DF1BD1FB"
+				"619AC23BEAD3B036"
+			]
+			id: "0EF7FC834FF35E35"
+			tasks: [{
+				id: "7E50E3345EAFAC6B"
+				item: "kubejs:stainless_upgrade"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2A5A5515DF1BD1FB"
+				"46051FC2462C88C1"
+			]
+			id: "3705BB39E4A2155F"
+			tasks: [{
+				id: "62AB39C30E1A36A8"
+				item: "kubejs:tungsten_steel_upgrade"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"2A5A5515DF1BD1FB"
+				"3705BB39E4A2155F"
+			]
+			id: "4FC491B363675251"
+			tasks: [{
+				id: "3AA391987950399B"
+				item: "functionalstorage:max_storage_upgrade"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"2A5A5515DF1BD1FB"
+				"40F5F4D48DE7F2E2"
+			]
+			id: "2AC18ECA7B419283"
+			tasks: [{
+				id: "66A52921E6297FC1"
+				item: "kubejs:bronze_upgrade"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"2A5A5515DF1BD1FB"
+				"2AC18ECA7B419283"
+			]
+			id: "00BFA72357B6352D"
+			tasks: [{
+				id: "6747C393F3DE58EF"
+				item: "kubejs:steel_upgrade"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -4.5d
 		}
 	]
 	title: "物流存储"

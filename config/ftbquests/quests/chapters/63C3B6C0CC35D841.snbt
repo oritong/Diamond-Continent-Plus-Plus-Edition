@@ -146,11 +146,18 @@
 			]
 		}
 	]
-	quest_enhance_hidden_dependency_lines: [{
-		dependency: 9103985905011033347L
-		reveal_on_hover: 0b
-		source: 8308238099818484165L
-	}]
+	quest_enhance_hidden_dependency_lines: [
+		{
+			dependency: "q:7e57daf214588503"
+			reveal_on_hover: 0b
+			source: "q:734cca88690c11c5"
+		}
+		{
+			dependency: "q:7035df7fc06fd874"
+			reveal_on_hover: 0b
+			source: "q:58ed0aec383ccb5b"
+		}
+	]
 	quest_links: [ ]
 	quests: [
 		{
@@ -190,8 +197,16 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["53238F786AD99BC7"]
+			dependencies: [
+				"53238F786AD99BC7"
+				"58ED0AEC383CCB5B"
+			]
+			description: [
+				"你需要一台双仓升压到LuV的高速钢-G线圈的电力高炉来制作赤炎机械方块"
+				"这是速度很快的大炉子，建议做一台"
+			]
 			id: "77540352064F20E5"
+			subtitle: "吹火GoGoGo"
 			tasks: [{
 				id: "314FAC23801EB5E1"
 				item: "gtceu:blaze_blast_furnace"
@@ -202,6 +217,7 @@
 		}
 		{
 			dependencies: ["53238F786AD99BC7"]
+			description: ["速度很快的大冰箱，建议做一台"]
 			id: "4018123B21F150F4"
 			tasks: [{
 				id: "7FE921685507C1AF"
@@ -224,6 +240,7 @@
 		}
 		{
 			dependencies: ["3EF5619FAF1639C7"]
+			description: ["显然，这需要你在镧处理中完成一部分才可以制作"]
 			id: "0C192B81015139A2"
 			tasks: [{
 				id: "7E2763EF3CC99E28"
@@ -241,6 +258,8 @@
 			description: [
 				"真的非常非常非常非常贵"
 				"这简直就是一个电路板方块！"
+				""
+				"在此版本中，装配线后的流程尚未制作完毕"
 			]
 			id: "0BBBED9DD5C8E974"
 			subtitle: "贵重物品"
@@ -254,6 +273,7 @@
 		}
 		{
 			dependencies: ["7035DF7FC06FD874"]
+			description: ["从IV开始，所有的电路板基板都将需要用PCB工厂来制造了！"]
 			id: "32F631131FCF7C9B"
 			tasks: [{
 				id: "6A60D0F1D9D2A488"
@@ -261,13 +281,10 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 1.0d
+			y: -0.5d
 		}
 		{
-			dependencies: [
-				"7035DF7FC06FD874"
-				"434BC97D94CA0EE5"
-			]
+			dependencies: ["434BC97D94CA0EE5"]
 			icon: "gtceu:grade_1_purified_water_bucket"
 			id: "24BFE438EDB32EDB"
 			tasks: [{
@@ -276,13 +293,14 @@
 			}]
 			title: "I·源初涌动之息(1级净化水)"
 			x: -7.0d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"32F631131FCF7C9B"
 				"24BFE438EDB32EDB"
 			]
+			description: ["量子位电路板只能通过净化水切割获得"]
 			id: "6AB33B77D2F15672"
 			tasks: [{
 				id: "42060984C8D7828A"
@@ -299,14 +317,16 @@
 			]
 			id: "4EA9BFFEB616B74D"
 			tasks: [{
-				id: "2ACAC2CB73479F80"
-				type: "checkmark"
+				id: "4E98D181C06BD8C6"
+				item: "gtceu:petrochemical_factory"
+				type: "item"
 			}]
+			title: "石化工厂"
 			x: -4.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["24BFE438EDB32EDB"]
+			dependencies: ["7035DF7FC06FD874"]
 			id: "58ED0AEC383CCB5B"
 			tasks: [{
 				id: "59A78D4018E192DF"
@@ -386,7 +406,11 @@
 		}
 		{
 			dependencies: ["063FD60FD3B0E34D"]
-			description: ["到了EV，你就能明显的看到任务越来越少了，这说明你离通关越来越近了！"]
+			description: [
+				"到了EV，你就能明显的看到任务越来越少了，这说明你离通关越来越近了！"
+				""
+				"小提示：水不够用的话，不如看看水库仓"
+			]
 			id: "7E57DAF214588503"
 			tasks: [{
 				id: "37F20B71605A023D"
@@ -487,6 +511,7 @@
 		}
 		{
 			dependencies: ["5C3DB672425BFDE6"]
+			description: ["居然不用做新的陶瓷，这很酷了"]
 			id: "254E0A5270FE59B7"
 			tasks: [{
 				id: "6439D9212617BD18"
@@ -715,6 +740,7 @@
 		}
 		{
 			can_repeat: true
+			description: ["这是测试使用的任务，如果您是在编辑模式下游玩的话麻烦忽略一下不忽略也行）"]
 			id: "7FD1C07D4AE2EEA4"
 			rewards: [
 				{
@@ -818,12 +844,35 @@
 					type: "item"
 				}
 			]
+			secret: true
 			tasks: [{
 				id: "657453B165A5D482"
 				type: "checkmark"
 			}]
 			x: -10.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["0BBBED9DD5C8E974"]
+			description: [
+				"下界合金线"
+				"硅岩处理"
+				"盖亚"
+				"龙"
+				"幽匿"
+				"晶体线"
+				"六耀晶石"
+				"扭"
+				"超越维度"
+			]
+			id: "0616EA12A0567844"
+			tasks: [{
+				id: "01681D1365E11118"
+				type: "checkmark"
+			}]
+			title: "LuV内容"
+			x: 0.5d
+			y: -0.5d
 		}
 	]
 	title: "第三章 量子神秘仪式（未完成）"

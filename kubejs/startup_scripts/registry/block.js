@@ -11,8 +11,6 @@ StartupEvents.registry('block', e => {
     e.create("multi_functional_casing", "basic").noValidSpawns(true).soundType("metal").mapColor("metal").tagBlock("mineable/pickaxe").tagBlock("forge:mineable/wrench").requiresTool(true).hardness(3)
     e.create("grizzly_chute", "basic").noValidSpawns(true).soundType("metal").mapColor("metal").tagBlock("mineable/pickaxe").requiresTool(true).hardness(3)
     e.create("compress_diamond_block", "cardinal").noValidSpawns(true).soundType("metal").mapColor("metal").tagBlock("mineable/pickaxe").requiresTool(true).hardness(4).defaultCutout()
-    e.create('raw_alumina_ceramic_block').textureAll('kubejs:block/raw_ceramic_block').tagBlock('minecraft:mineable/pickaxe')
-    e.create('raw_titanium_nitride_ceramic_block').textureAll('kubejs:block/raw_titanium_nitride_ceramic_block').tagBlock('minecraft:mineable/pickaxe')
     e.create("dimension_injection_casing").soundType("stone").mapColor("metal").tagBlock("mineable/pickaxe").tagBlock("forge:mineable/wrench").requiresTool(true).textureAll('gtceu:block/casings/hpca/high_power_casing')
     e.create('containment_field_generator').soundType("stone").mapColor("metal").tagBlock("mineable/pickaxe").tagBlock("forge:mineable/wrench").requiresTool(true).textureAll('kubejs:block/containment_field_generator')
     e.create('dimensional_bridge_casing').soundType("stone").mapColor("metal").tagBlock("mineable/pickaxe").tagBlock("forge:mineable/wrench").requiresTool(true)

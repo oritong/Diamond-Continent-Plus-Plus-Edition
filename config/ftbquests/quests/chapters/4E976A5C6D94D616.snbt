@@ -1,0 +1,129 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4E976A5C6D94D616"
+	group: ""
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftblibrary:icons/heart"
+		}
+	}
+	id: "4E976A5C6D94D616"
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"本整合包使用了EMI"
+				"如果你想调试EMI的功能"
+				"请打开背包后在左下角的EMI按钮进行更改"
+			]
+			icon: "minecraft:enchanted_golden_apple"
+			id: "2ED8EB9932CC7295"
+			subtitle: "Ember Mine Insane"
+			tasks: [{
+				id: "64C2C764A01B86C7"
+				type: "checkmark"
+			}]
+			title: "关于EMI"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			description: ["你可以直接用左键挖掘熔炉，同理，铁砧也可以这么样"]
+			icon: {
+				Count: 1
+				id: "gtceu:neutronium_wrench"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						Mode: 2b
+						RelocateMinedBlocks: 1b
+						RelocateMobDrops: 1b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						Enchantability: 33
+						HarvestLevel: 6
+						MaxDamage: 65534
+						ToolSpeed: 184.0f
+					}
+					HideFlags: 2
+					Unbreakable: 1b
+				}
+			}
+			id: "14277AC53255ED0F"
+			tasks: [{
+				id: "22CBEE8DB4DA977F"
+				type: "checkmark"
+			}]
+			title: "扳手无法对熔炉使用？！"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"格雷机器配方中的编程电路"
+				"其实并不是你要去制作编程电路"
+				"而是在机器的左下角"
+				"按照配方的数值修改"
+				"{image:quest_enhance:textures/ftb/clipboard_1788010103655.png width:199 height:81 align:center fit:true}"
+				"{image:quest_enhance:textures/ftb/clipboard_1788010140376.png width:199 height:90 align:center fit:true}"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:programmed_circuit"
+				tag: {
+					Configuration: 0
+				}
+			}
+			id: "39DE4DC115DE785A"
+			tasks: [{
+				id: "55AF649675B4D2EE"
+				type: "checkmark"
+			}]
+			title: "编程电路"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			description: ["本整合包无限频道，尽情享用吧"]
+			icon: "ae2:me_p2p_tunnel"
+			id: "7A0F11B7EBD8D744"
+			tasks: [{
+				id: "77D4222F5D4F884F"
+				type: "checkmark"
+			}]
+			title: "关于频道"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"本整合包中FE和EU能源相通"
+				"4FE=1EU"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:block/energy_input"
+				}
+			}
+			id: "5B1E1EC85462DA22"
+			tasks: [{
+				id: "2FDBBD0C277696F6"
+				type: "checkmark"
+			}]
+			title: "能源转换……"
+			x: 1.5d
+			y: 2.0d
+		}
+	]
+	title: "小贴士"
+}

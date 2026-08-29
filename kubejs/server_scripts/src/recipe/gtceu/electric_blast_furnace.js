@@ -9,4 +9,5 @@ ServerEvents.recipes(e => {
     e.recipes.gtceu.electric_blast_furnace().itemInputs('4x gtceu:obsidian_dust', '2x ars_nouveau:fire_essence', 'tgears:crushed_scorchia').itemOutputs('6x tconstruct:scorched_brick').inputFluids(Fluid.of('lava', 1000)).EUt(233).duration(28 * 20).blastFurnaceTemp(2048)
     e.recipes.gtceu.electric_blast_furnace().itemInputs('gtceu:kanthal_dust').itemOutputs('gtceu:hot_kanthal_ingot').circuit(1).duration(60 * 20).EUt(GTValues.VA[GTValues.MV] * 0.48).blastFurnaceTemp(1650)
     e.recipes.gtceu.electric_blast_furnace().itemInputs('gtceu:kanthal_dust').itemOutputs('gtceu:hot_kanthal_ingot').inputFluids(Fluid.of('gtceu:nitrogen', 1000)).circuit(2).duration(40 * 20).EUt(GTValues.VA[GTValues.MV] * 0.48).blastFurnaceTemp(1650)
+    e.recipes.gtceu.electric_blast_furnace().itemInputs('4x gtceu:heatproof_machine_casing', '16x gtceu:long_platinum_rod', '96x gtceu:hssg_foil').itemOutputs('4x kubejs:blaze_casing').inputFluids(Fluid.of('gtceu:blaze', 1225)).duration(60 * 20).EUt(GTValues.VA[GTValues.IV] * 0.35).blastFurnaceTemp(5798)
 })

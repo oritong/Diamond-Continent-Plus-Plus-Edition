@@ -669,7 +669,6 @@
             "gtceu:mv_miner",
             "gtceu:hv_miner",
             "sfm:water_tank",
-            "botania:apothecary_default",
             "botania:apothecary_forest",
             "botania:apothecary_mountain",
             "botania:apothecary_fungal",
@@ -764,7 +763,11 @@
             "gtceu:lp_steam_macerator",
             "gtceu:hp_steam_extractor",
             "gtceu:lp_steam_extractor",
-            "gtceu:hp_steam_solar_boiler"
+            "gtceu:hp_steam_solar_boiler",
+            "functionalstorage:copper_upgrade",
+            "functionalstorage:gold_upgrade",
+            "functionalstorage:diamond_upgrade",
+            "functionalstorage:netherite_upgrade"
         ],
         "resultItems": "kubejs:lost_item"
     }

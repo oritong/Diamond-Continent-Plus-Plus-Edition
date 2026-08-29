@@ -9,4 +9,5 @@ ServerEvents.recipes(e => {
     e.recipes.industrialforegoing.dissolution_chamber('gtceu:resin_printed_circuit_board', ['gtceu:copper_foil', 'gtceu:copper_foil', 'gtceu:copper_foil', 'gtceu:copper_foil', 'gtceu:copper_foil', 'gtceu:copper_foil', 'gtceu:treated_wood_plate'], Fluid.of('oritong:latex', 125), 200)
     e.recipes.industrialforegoing.dissolution_chamber('2x gtceu:resistor', ['gtceu:fine_copper_wire', 'gtceu:fine_copper_wire', 'minecraft:paper', 'minecraft:paper', 'mekanism:dust_diamond'], Fluid.of('oritong:latex', 125), 12 * 20)
     e.recipes.industrialforegoing.dissolution_chamber('minecraft:hopper', ['gtceu:wrought_iron_plate', 'gtceu:wrought_iron_plate', 'gtceu:wrought_iron_plate', 'gtceu:wrought_iron_plate', 'gtceu:wrought_iron_plate', '#forge:chests/wooden'], Fluid.of('gtceu:steel', 144), 45 * 20)
+    e.recipes.industrialforegoing.dissolution_chamber('flopper:flopper', ['gtceu:wrought_iron_plate', 'gtceu:wrought_iron_plate', 'gtceu:wrought_iron_plate', 'gtceu:wrought_iron_plate', 'gtceu:wrought_iron_plate', 'gtceu:wood_drum'], Fluid.of('gtceu:bronze', 144), 45 * 20)
 })

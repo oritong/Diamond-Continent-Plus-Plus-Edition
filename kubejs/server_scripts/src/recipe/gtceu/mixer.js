@@ -5,4 +5,5 @@ ServerEvents.recipes(e => {
     e.recipes.gtceu.mixer().EUt(96).duration(20*4).itemInputs('3x gtceu:sodium_hydroxide_dust').inputFluids(Fluid.of('minecraft:water', 1000)).outputFluids(Fluid.of('gtceu:sodium_hydroxide_solution', 1000))
     e.recipes.gtceu.mixer().inputFluids(Fluid.of('oritong:glimmer', 750), Fluid.of('industrialforegoing:pink_slime', 250)).outputFluids(Fluid.of('gtceu:pink_glimmer', 1000)).duration(6*20).EUt(GTValues.VA[GTValues.MV])
     e.recipes.gtceu.mixer().itemInputs('8x gtceu:copper_dust', 'gtceu:beryllium_dust').circuit(2).itemOutputs('9x gtceu:beryllium_copper_dust').duration(26*20).EUt(GTValues.VA[GTValues.HV])
+    e.recipes.gtceu.mixer().notConsumable('64x gtceu:iv_field_generator').itemInputs('4x kubejs:machine_core_4', 'gtceu:hafnium_dust', '2x gtceu:gadolinium_dust', '2x gtceu:holmium_dust', '5x gtceu:yttrium_dust').inputFluids(Fluid.of('gtceu:lanthanum', 144), Fluid.of('gtceu:strontium', 144)).itemOutputs('1x entangled:block').duration(96*20).EUt(GTValues.VA[GTValues.IV]).cleanroom(CleanroomType.CLEANROOM)
 })

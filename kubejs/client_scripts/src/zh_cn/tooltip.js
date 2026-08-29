@@ -22,6 +22,7 @@ let tooltip_zh_cn = [
     ['kubejs:general_circuit_uxv', 'UXV级电路'],
     ['kubejs:general_circuit_opv', 'OpV级电路'],
     ['kubejs:general_circuit_max', 'MAX级电路'],
+    ['minecraft:smooth_stone', '可以用 石头 在熔炉中烧制而成，但是不能用 §o石头§r 烧制而成。\n↑这真的是有区别的！↑'],
     ['gtceu:pcb_factory', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：PCB工厂'],
     ['gtceu:dimensionally_transcendent_isomolecular_reactor', '耗时倍数：0.2，耗能倍数：0.4\n按照线圈温度并行，每提高900K并行x2\n此机器以批处理模式运行配方\n仅支持激光仓\n该机器拥有跨配方并行机制\n无损超频\n可用配方类型：大型化学反应釜、化学浸洗机、超级化工厂、PCB工厂'],
     ['gtceu:dimensionally_transcendent_isothermal_furnace', '耗时倍数：0.2，耗能倍数：0.4\n按照线圈温度并行，每提高900K并行x2\n此机器以批处理模式运行配方\n仅支持激光仓\n该机器拥有跨配方并行机制\n无损超频\n可用配方类型：电炉、合金炉、电力高炉、合金冶炼炉'],

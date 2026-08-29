@@ -61,13 +61,17 @@
 			y: 0.0d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["其实这个也挺牛逼的"]
+			description: [
+				"其实这个也挺牛逼的"
+				"通过在旁边放置熔岩，可以得到一些额外的被动发电"
+				"{image:quest_enhance:textures/ftb/clipboard_1788005169776.png width:199 height:172 align:center fit:true}"
+			]
 			id: "78074A3E2215D8F8"
 			tasks: [{
 				id: "1676719D6EE8C3EE"

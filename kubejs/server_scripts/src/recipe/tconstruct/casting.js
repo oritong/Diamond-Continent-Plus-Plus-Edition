@@ -14,4 +14,5 @@ ServerEvents.recipes(e => {
     e.custom({"type":"tconstruct:casting_table","cast":{"item":'gtceu:andesite_alloy_dust'},"cast_consumed":true,"cooling_time":20,"fluid":{"amount":50,"fluid":"oritong:latex"},"result":'create:andesite_alloy'})
     e.custom({"type":"tconstruct:casting_basin","cast":{"item":'minecraft:barrel'},"cast_consumed":true,"cooling_time":150,"fluid":{"amount":200,"fluid":"oritong:latex"},"result":'gtceu:wood_drum'})
     e.custom({"type":"tconstruct:casting_basin","cast":{"item":'kubejs:wood_block'},"cast_consumed":true,"cooling_time":100,"fluid":{"amount":125,"fluid":"gtceu:creosote"},"result":'gtceu:treated_wood_planks'})
+    
 })

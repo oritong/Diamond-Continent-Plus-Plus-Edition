@@ -61,4 +61,5 @@ ServerEvents.recipes(e => {
             e.recipes.create.mixing(outputs, inputs, duration)
         } catch (err) { }
     })
+    e.recipes.create.mixing('minecraft:clay', ['minecraft:sand', Fluid.of('water', 1000)], 400)
 })

@@ -767,7 +767,10 @@
             "functionalstorage:copper_upgrade",
             "functionalstorage:gold_upgrade",
             "functionalstorage:diamond_upgrade",
-            "functionalstorage:netherite_upgrade"
+            "functionalstorage:netherite_upgrade",
+            "industrialforegoing:ore_laser_base",
+            "ironfurnaces:augment_generator",
+            "ironfurnaces:augment_smoking"
         ],
         "resultItems": "kubejs:lost_item"
     }

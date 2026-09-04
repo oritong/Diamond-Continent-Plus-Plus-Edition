@@ -74,8 +74,8 @@
 				y = 2147483647
 
 			[client.gui.window.confirmation]
-				x = 2147483647
-				y = 2147483647
+				x = 18
+				y = 94
 
 			[client.gui.window.crafting0]
 				x = 2147483647

@@ -21,4 +21,5 @@ ServerEvents.recipes(e => {
     e.replaceInput({}, 'ae2:calculation_processor', '#gtceu:circuits/mv')
     e.replaceInput({}, 'ae2:logic_processor', '#gtceu:circuits/hv')
     e.replaceInput({}, 'ae2:engineering_processor', '#gtceu:circuits/ev')
+    e.replaceInput({ output: 'minecraft:ladder'}, '#forge:rods/wooden', 'gtceu:stone_rod')
 })

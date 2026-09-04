@@ -713,18 +713,6 @@
 			y: 12.5d
 		}
 		{
-			id: "5019A8104946F73C"
-			linked_quest: "0A2E809E86C35DBB"
-			x: -8.5d
-			y: 16.0d
-		}
-		{
-			id: "664CD3209C143E31"
-			linked_quest: "356DDF333600DC7F"
-			x: -2.5d
-			y: 22.0d
-		}
-		{
 			id: "28E0909F8F3EC073"
 			linked_quest: "1259F05598926219"
 			x: -8.5d
@@ -757,8 +745,8 @@
 				type: "checkmark"
 			}]
 			title: "这是编写时使用的任务，如果在编辑模式下看见麻烦忽略一下，正式版发布后会移除"
-			x: -3.0d
-			y: 0.0d
+			x: 11.5d
+			y: 15.5d
 		}
 		{
 			dependencies: [
@@ -1208,10 +1196,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"69B86D75151544B7"
-				"0A2E809E86C35DBB"
-			]
+			dependencies: ["69B86D75151544B7"]
 			icon: "minecraft:silverfish_spawn_egg"
 			id: "7A2213DD44CA3ED1"
 			tasks: [{
@@ -1603,7 +1588,6 @@
 			y: 20.5d
 		}
 		{
-			dependencies: ["356DDF333600DC7F"]
 			icon: "gtceu:coal_tar_bucket"
 			id: "6557F966BE4DD719"
 			tasks: [{

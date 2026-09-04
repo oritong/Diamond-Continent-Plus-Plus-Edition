@@ -41,6 +41,7 @@ let tooltip_zh_cn = [
     ['gtceu:platdur_s_gate', '通过并行控制仓让机器同时处理多个相同配方。\n仅支持激光仓\n白铜线圈会使效率降低25%，坎塔尔合金后的每个线圈都会增加50%的速度。\n可用配方类型：铂得之门'],
     ['gtceu:cold_ice_freezer', '耗时倍数x0.7\n耗能倍数x0.85\n运行时需每秒提供72x(功率/120)^0.5mB的液态冰\n最大并行数固定为256\n无损超频\n可用配方类型：真空冷冻机'],
     ['gtceu:clarifier_purification_unit', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：澄清净化单元'],
+    ['gtceu:flocculation_purification_unit', '通过并行控制仓让机器同时处理多个相同配方。\n可用配方类型：絮凝净化单元'],
     ['gtceu:petrochemical_factory', '通过并行控制仓让机器同时处理多个相同配方。\n白铜线圈会使效率降低25%，坎塔尔合金后的每个线圈都会增加50%的速度。\n可用配方类型：石化工厂']
 ]
 let color_tooltip_zh_cn = [
@@ -49,6 +50,7 @@ let color_tooltip_zh_cn = [
     ['angelring:angel_ring', '以凡铁与欲望铸成的人造伪翼。飞行并非恩赐，而是对重力的叛逃；每升一尺，便向虚空抵押一分灵魂。你以为是征服，实则天空早已为每个僭越者预留了坠落的坐标。']
 ]
 let color_tooltip_added = [
+    'gtceu:flocculation_purification_unit',
     'gtceu:clarifier_purification_unit',
     'gtceu:cold_ice_freezer',
     'gtceu:platdur_s_gate',

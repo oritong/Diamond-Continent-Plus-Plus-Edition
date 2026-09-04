@@ -40,6 +40,12 @@ ServerEvents.recipes(e => {
     e.recipes.minecraft.smithing_transform('industrialforegoing:range_addon10', 'industrialforegoing:range_addon9', 'gtceu:zpm_field_generator', 'industrialforegoing:range_addon9')
     e.recipes.minecraft.smithing_transform('industrialforegoing:range_addon11', 'industrialforegoing:range_addon10', 'gtceu:uv_field_generator', 'industrialforegoing:range_addon10')
     e.recipes.minecraft.smithing_transform('create:mechanical_drill', 'gtceu:steel_drill_head', 'create:andesite_casing', 'create:shaft')
+    e.recipes.minecraft.smithing_transform('create:filter', Item.of('tconstruct:tool_handle', '{Material:"tgears:andesite_alloy"}').strongNBT(), 'minecraft:iron_bars', Item.of('tconstruct:tool_handle', '{Material:"tgears:andesite_alloy"}').strongNBT())
+    e.recipes.minecraft.smithing_transform('create:attribute_filter', 'gtceu:brass_rod', 'create:filter', 'gtceu:brass_rod')
+    e.recipes.minecraft.smithing_transform('create:mechanical_piston', 'create:shaft', 'create:andesite_casing', 'kubejs:wood_block')
+    e.recipes.minecraft.smithing_transform('create:deployer', 'gtceu:vacuum_tube', 'create:mechanical_piston', 'create:brass_hand')
+    e.recipes.minecraft.smithing_transform('create:fluid_pipe', 'gtceu:copper_plate', 'gtceu:bronze_ingot', 'gtceu:copper_plate')
+    e.recipes.minecraft.smithing_transform('create:chute', 'gtceu:iron_plate', 'mekanism:ingot_steel', 'gtceu:iron_plate')
 })
 
 ServerEvents.recipes(e => {
@@ -47,7 +53,7 @@ ServerEvents.recipes(e => {
     let tools_upgrade = ['axe', 'pickaxe', 'hammer', 'saw', 'wrench', 'file', 'knife', 'wire_cutter', 'screwdriver', 'shovel', 'spade']
     tools_upgrade.forEach(a => {
         e.recipes.minecraft.smithing_transform(`gtceu:steel_${a}`, 'oritong:steel_upgrade_smithing_template', `gtceu:wrought_iron_${a}`, 'gtceu:double_steel_plate')
-        e.recipes.minecraft.smithing_transform(`gtceu:diamond_${a}`, 'oritong:diamond_upgrade_smithing_template', `gtceu:steel_${a}`, 'gtceu:flawless_diamond_gem')
+        e.recipes.minecraft.smithing_transform(`gtceu:diamond_${a}`, 'oritong:diamond_upgrade_smithing_template', `gtceu:steel_${a}`, 'minecraft:diamond_block')
     })
 })
 

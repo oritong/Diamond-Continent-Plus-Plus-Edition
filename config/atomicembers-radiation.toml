@@ -1,0 +1,53 @@
+
+[radiation]
+	enabled = true
+	#Range: 0.0 ~ 1.7976931348623157E308
+	minimumBackgroundRadiation = 2.0E-6
+	#Range: 0.0 ~ 1.7976931348623157E308
+	maximumBackgroundRadiation = 5.0E-6
+	#Range: 0.0 ~ 1.0
+	chunkScanRatio = 0.01
+	#Range: 1 ~ 10000
+	maximumChunksPerSecond = 100
+	#Range: 1 ~ 72000
+	containerPollTicks = 100
+	#Range: 1 ~ 72000
+	fallbackScanTicks = 1200
+	#Range: 0.0 ~ 1.0
+	chunkRiseRatePerSecond = 0.002
+	#Range: 0.0 ~ 1.7976931348623157E308
+	chunkDecayPerSecond = 0.002
+	chunkDiffusion = true
+	#Range: 0.0 ~ 1.0
+	diffusionScanRatio = 0.04
+	#Range: 1 ~ 10000
+	maximumDiffusionChunksPerSecond = 100
+	#Range: 0.0 ~ 1.7976931348623157E308
+	diffusionSpeed = 0.5
+	#Range: 0.0 ~ 1.7976931348623157E308
+	minimumDiffusionDifference = 1.0E-6
+	itemRadiation = true
+	#Range: 0.0 ~ 1.7976931348623157E308
+	itemRadiationMultiplier = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	fluidContainerMultiplier = 10.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	itemWarningThreshold = 1.0
+	containerLeaks = true
+	#Range: 0.0 ~ 1.7976931348623157E308
+	containerLeakSeconds = 1800.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maximumPlayerDose = 1000.0
+	#A player dies at maximumPlayerDose multiplied by this value.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	fatalDoseMultiplier = 1.6
+	#Range: 0.0 ~ 1.7976931348623157E308
+	playerExposureMultiplier = 1.0
+	#Range: 0.0 ~ 1.0
+	playerDoseDecayRatePerSecond = 1.0E-5
+	#Range: 0.0 ~ 1.7976931348623157E308
+	naturalSpawnBlockingRadiation = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	creatureIgnitionRadiation = 80.0
+	fatalRadiation = true
+

@@ -4,7 +4,7 @@ LootJS.modifiers(e => {
     //e.addBlockLootModifier('minecraft:diamond_ore').addSequenceLoot(LootEntry.of('gtceu:small_diamond_dust').when((c) => c.randomChance(0.8)),LootEntry.of('gtceu:small_diamond_dust').when((c) => c.randomChance(0.6)),LootEntry.of('gtceu:small_diamond_dust').when((c) => c.randomChance(0.4)),LootEntry.of('gtceu:small_diamond_dust').when((c) => c.randomChance(0.2)))
 })
 
-BlockEvents.rightClicked('minecraft:diamond_ore', event => {
+BlockEvents.leftClicked('minecraft:diamond_ore', event => {
     const { player, item, block, level, hand } = event
     if (hand == "OFF_HAND") return
     if (player == null) return
@@ -24,7 +24,7 @@ BlockEvents.rightClicked('minecraft:diamond_ore', event => {
         event.cancel()
     }
 })
-BlockEvents.rightClicked('minecraft:deepslate_diamond_ore', event => {
+BlockEvents.leftClicked('minecraft:deepslate_diamond_ore', event => {
     const { player, item, block, level, hand } = event
     if (hand == "OFF_HAND") return
     if (player == null) return

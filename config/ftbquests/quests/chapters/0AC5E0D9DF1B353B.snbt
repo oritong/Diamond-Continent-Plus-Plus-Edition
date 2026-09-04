@@ -1,0 +1,14 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0AC5E0D9DF1B353B"
+	group: "10942F8D5FAA0C0E"
+	icon: "create:cogwheel"
+	id: "0AC5E0D9DF1B353B"
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [ ]
+	title: "可能没啥大用的机械动力"
+}

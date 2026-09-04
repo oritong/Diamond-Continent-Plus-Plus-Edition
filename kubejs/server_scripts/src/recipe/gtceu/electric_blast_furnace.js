@@ -10,4 +10,5 @@ ServerEvents.recipes(e => {
     e.recipes.gtceu.electric_blast_furnace().itemInputs('gtceu:kanthal_dust').itemOutputs('gtceu:hot_kanthal_ingot').circuit(1).duration(60 * 20).EUt(GTValues.VA[GTValues.MV] * 0.48).blastFurnaceTemp(1650)
     e.recipes.gtceu.electric_blast_furnace().itemInputs('gtceu:kanthal_dust').itemOutputs('gtceu:hot_kanthal_ingot').inputFluids(Fluid.of('gtceu:nitrogen', 1000)).circuit(2).duration(40 * 20).EUt(GTValues.VA[GTValues.MV] * 0.48).blastFurnaceTemp(1650)
     e.recipes.gtceu.electric_blast_furnace().itemInputs('4x gtceu:heatproof_machine_casing', '16x gtceu:long_platinum_rod', '96x gtceu:hssg_foil').itemOutputs('4x kubejs:blaze_casing').inputFluids(Fluid.of('gtceu:blaze', 1225)).duration(60 * 20).EUt(GTValues.VA[GTValues.IV] * 0.35).blastFurnaceTemp(5798)
+    e.recipes.gtceu.electric_blast_furnace().itemInputs('minecraft:cobblestone').itemOutputs('2x gtceu:dark_ash_dust').outputFluids(Fluid.of('lava', 50)).duration(4.8 * 20).EUt(GTValues.VA[GTValues.LV] * 0.325).blastFurnaceTemp(1301)
 })

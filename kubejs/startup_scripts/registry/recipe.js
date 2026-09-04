@@ -12,5 +12,6 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', e=>{
     e.create('digester').setEUIO('in').setMaxIOSize(2, 2, 2, 2).setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY).setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT).setSound(GTSoundEntries.BOILER)
     e.create('platdur_s_gate').setEUIO('in').setMaxIOSize(6, 11, 7, 3).setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY).setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT).setSound(GTSoundEntries.SCIENCE)
     e.create('clarifier_purification_unit').setEUIO('in').setMaxIOSize(2, 3, 2, 6).setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY).setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT).setSound(GTSoundEntries.BOILER)
+    e.create('flocculation_purification_unit').setEUIO('in').setMaxIOSize(1, 3, 1, 1).setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY).setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT).setSound(GTSoundEntries.BOILER)
     e.create('petrochemical_factory').setEUIO('in').setMaxIOSize(0, 0, 2, 12).setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY).setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT).setSound(GTSoundEntries.BOILER)
 })

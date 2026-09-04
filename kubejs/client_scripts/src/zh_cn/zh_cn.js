@@ -6,7 +6,7 @@ let key_zh_cn = [
     ['oritong.menu.multi', '团队执勤'],
     ['oritong.menu.config', '热身运动'],
     ['oritong.menu.mod', '检视装备'],
-    ['oritong.menu.report', '报告问题'],
+    ['oritong.menu.report', '报告整合包问题'],
     ['oritong.menu.report_push', '前往墙后的世界'],
     ['oritong.menu.time', '，你已经打开游戏'],
     ['oritong.menu.time2', '秒了，闭上眼睛休息一下吧！'],
@@ -23,7 +23,13 @@ let key_zh_cn = [
     ["kubejs.multiblock.platdur_s_gate.current_speed", "当前运行速度：%s"],
     ["tagprefix.starforge_hexlux", "%s星铸六耀晶石"],
     ["tagprefix.raw_ceramic_block", "%s陶瓷粗坯"],
-    ['item.functionalstorage.max_storage_upgrade', '最大存储量升级']
+    ['item.functionalstorage.max_storage_upgrade', '最大存储量升级'],
+    ['block.gtnn.process_machine_casing', '机器处理外壳'],
+    ['block.gtnn.high_speed_pipe', '高速管道'],
+    ['oritong.menu.gpu', '你的GPU是：'],
+    ['oritong.menu.gpu2', '检测到你的GPU水准低于湿件处理器集群，不能玩Minecraft'],
+    ['oritong.menu.gpu3', '你可能需要使用最低性能运行选项以运行此整合包'],
+    ['oritong.menu.point', '本整合包荣获评分：🐧度：Penguin / 100']
 ]
 let item_js_key_zh_cn = [
     ['stone_hammer', '石锤'],
@@ -72,7 +78,8 @@ let item_js_key_zh_cn = [
     ['aluminium_upgrade', '铝升级'],
     ['stainless_upgrade', '不锈钢升级'],
     ['titanium_upgrade', '钛升级'],
-    ['tungsten_steel_upgrade', '钨钢升级']
+    ['tungsten_steel_upgrade', '钨钢升级'],
+    ['incomplete_dense_steel_plate', '致密钢板（半成品）']
 ]
 let item_ori_key_zh_cn = [
     ['steel_upgrade_smithing_template', '钢升级锻造模板'],
@@ -110,6 +117,8 @@ let material_gt_key_zh_cn = [
     ['sodium_aluminate', '铝酸钠'],
     ['aluminum_hydroxide', '氢氧化铝'],
     ['alumina', '氧化铝'],
+    ['aluminum_sulfate', '硫酸铝'],
+    ['alum', '十二水合硫酸铝钾晶体'],
     ['alumina_ceramic', '氧化铝陶瓷'],
     ['titanium_nitride_ceramic', '氮化钛陶瓷'],
     ['tungsten_tetraboride_ceramic', '四硼化钨陶瓷'],
@@ -291,6 +300,7 @@ let gt_machine_zh_cn = [
     ['blaze_blast_smelter', '炽炎熔铸炉'],
     ['cold_ice_freezer', '凛冰冷冻机'],
     ['clarifier_purification_unit', '澄清净化单元'],
+    ['flocculation_purification_unit', '絮凝净化单元'],
     ['petrochemical_factory', '石化工厂']
 ]
 let gt_recipe_type_zh_cn = [
@@ -307,6 +317,7 @@ let gt_recipe_type_zh_cn = [
     ['digester', '煮解池'],
     ['platdur_s_gate', '铂得之门'],
     ['clarifier_purification_unit', '澄清净化单元'],
+    ['flocculation_purification_unit', '絮凝净化单元'],
     ['petrochemical_factory', '石化工厂']
 ]
 let machine_single_zh_cn = [

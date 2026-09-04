@@ -12,4 +12,5 @@ ServerEvents.recipes(e => {
     e.recipes.kubejs.shapeless('create:cogwheel', ['create:shaft', 'gtceu:treated_wood_planks'])
     e.recipes.kubejs.shapeless('create:large_cogwheel', ['create:shaft', 'gtceu:treated_wood_planks', 'gtceu:treated_wood_planks'])
     e.recipes.kubejs.shapeless('sfm:disk', ['sfm:disk'])
+    e.recipes.kubejs.shapeless('minecraft:deepslate_diamond_ore', ['minecraft:diamond_ore'])
 })

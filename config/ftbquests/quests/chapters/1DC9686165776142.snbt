@@ -1,0 +1,14 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1DC9686165776142"
+	group: "10942F8D5FAA0C0E"
+	icon: "replication:disintegrator"
+	id: "1DC9686165776142"
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [ ]
+	title: "明明非常强大但作用十分有限的复制"
+}

@@ -1,0 +1,53 @@
+
+[reactor]
+	#Range: 1.0 ~ 10000.0
+	standardMaximumTemperature = 1000.0
+	#Range: 1.0 ~ 10000.0
+	apprenticeMaximumTemperature = 900.0
+	#Range: 0.0 ~ 10000.0
+	standardPumpFailureTemperature = 950.0
+	#Range: 0.0 ~ 10000.0
+	apprenticePumpFailureTemperature = 850.0
+	#Range: 0.0 ~ 1.0
+	pumpFailureChancePerSecond = 0.1
+	#Range: 1 ~ 10000
+	pumpFlowMbPerSecond = 10
+	#Range: 1.0 ~ 1.7976931348623157E308
+	pumpEmberCapacity = 100.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	pumpEmberCost = 10.0
+	#Range: 1 ~ 3600
+	pumpConsumptionIntervalSeconds = 10
+	#Range: 1 ~ 10000
+	backpressureStepMb = 10
+	#Range: 0.0 ~ 1.7976931348623157E308
+	smoothFlowRiseMbPerSecond = 1.0
+	#Range: 0.0 ~ 1.0
+	smoothFlowFallRatePerSecond = 0.02
+	#Range: 1.0 ~ 10000.0
+	minimumPowerTemperature = 300.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	powerScalingConstant = 47000.0
+	#Range: 0.0 ~ 1.0
+	powerResponseRatePerSecond = 0.02
+	#Range: 0.0 ~ 1.7976931348623157E308
+	heatExchangeStrength = 20.0
+	#Range: 1.0E-6 ~ 1.7976931348623157E308
+	standardThermalCapacity = 1000.0
+	#Range: 1.0E-6 ~ 1.7976931348623157E308
+	apprenticeThermalCapacity = 200.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	heatDissipationPerSecond = 0.1
+	#Range: 0.0 ~ 10000.0
+	emberGenerationMinimumTemperature = 600.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	reactorPowerPerEmber = 0.01
+	#Range: 0.0 ~ 1.7976931348623157E308
+	accidentRadiationSeconds = 1800.0
+	#Range: 0.0 ~ 10000.0
+	overheatAlarmTemperature = 850.0
+	#Range: 1 ~ 3600
+	overheatAlarmIntervalSeconds = 20
+	#Range: 0.0 ~ 1024.0
+	overheatAlarmRadius = 64.0
+

@@ -57,8 +57,8 @@
 			image: "gtmthings:block/cover/overlay_wireless_energy_receive"
 			rotation: 0.0d
 			width: 4.0d
-			x: -2.5d
-			y: 0.0d
+			x: -3.0d
+			y: -0.25d
 		}
 	]
 	order_index: 2
@@ -93,7 +93,7 @@
 			y: -4.0d
 		}
 		{
-			description: ["无消耗发电，强完了，但是要通过魔法解锁"]
+			description: ["无消耗发电，1台3.3ALV，强完了，但是要通过魔法解锁"]
 			id: "2E446B1B107B55EB"
 			tasks: [{
 				id: "35544458EBB322E7"

@@ -14,7 +14,12 @@
 	order_index: 1
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
-	quest_links: [ ]
+	quest_links: [{
+		id: "2461E50728922B23"
+		linked_quest: "266B7EEAF680F8F6"
+		x: 4.5d
+		y: 1.0d
+	}]
 	quests: [
 		{
 			description: [
@@ -123,6 +128,109 @@
 			title: "能源转换……"
 			x: 1.5d
 			y: 2.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"阿卡什宝典-可以帮助你把书收纳到一本书中"
+				"阿卡什护目镜-可以帮助你把护目镜收纳到一个护目镜中"
+			]
+			icon: "akashic_goggles:goggles"
+			id: "192D1374ABFFB570"
+			rewards: [
+				{
+					id: "47260CECBDA3E652"
+					item: "akashictome:tome"
+					type: "item"
+				}
+				{
+					id: "0147CC310F44BFF4"
+					item: "akashic_goggles:goggles"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "24848E9D9C5F09A1"
+				type: "checkmark"
+			}]
+			title: "阿卡什"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			description: ["在本整合包中，植物魔法的mana与新生魔艺的魔力以1:1相互转化，并且可以基本上能够相通存储罐"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "botania:item/mana_bottle"
+				}
+			}
+			id: "124CAAF9E3362EDB"
+			tasks: [{
+				id: "67CA057FFAE1ADF3"
+				type: "checkmark"
+			}]
+			title: "关于魔力"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			description: ["在这个整合包中，软锤拥有余烬铁匠锤的所有功能"]
+			id: "321B3B7F8494D10E"
+			tasks: [{
+				id: "55F7FC7DE794AEBD"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/mallets)"
+					}
+				}
+				title: "Any #forge:tools/mallets"
+				type: "item"
+			}]
+			title: "关于软锤"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"无限水不再存在了"
+				"{image:quest_enhance:textures/ftb/clipboard_1788524765400.png width:199 height:77 align:center fit:true}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:block/overlay/machine/overlay_water"
+				}
+			}
+			id: "6149E26EB4D5ECFE"
+			tasks: [{
+				id: "5CB4264D405A37C8"
+				type: "checkmark"
+			}]
+			title: "关于无限水"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"在本整合包中，反应堆爆炸前会被拦住，并发送一个“核电，轻而易举啊”在公屏中"
+				"如果此时你回复：坏了坏了"
+				"反应堆才会爆炸"
+			]
+			icon: "gtceu:industrial_tnt"
+			id: "71B71D6CDC3A60E3"
+			subtitle: "坏了坏了"
+			tasks: [{
+				id: "613302A74E5166F8"
+				type: "checkmark"
+			}]
+			title: "核电，轻而易举啊！"
+			x: -0.5d
+			y: 4.0d
 		}
 	]
 	title: "小贴士"

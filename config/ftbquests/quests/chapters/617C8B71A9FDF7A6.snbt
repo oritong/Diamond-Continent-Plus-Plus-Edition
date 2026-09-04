@@ -1,0 +1,57 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "617C8B71A9FDF7A6"
+	group: "10942F8D5FAA0C0E"
+	icon: "ars_nouveau:source_gem"
+	id: "617C8B71A9FDF7A6"
+	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [
+		{
+			id: "628A9A555EFCEDCD"
+			linked_quest: "131B7946472C9B2D"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "29FBE72E6018614E"
+			linked_quest: "151ED4915F391C5A"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "0D79D9794256370B"
+			linked_quest: "1E626387A015A944"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "518328D470B4A786"
+			linked_quest: "6B2A65C9134A5496"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "026828C92F7A0446"
+			linked_quest: "266B7EEAF680F8F6"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "422C6E488B9AEF5B"
+			linked_quest: "473A9FD14D54DD8E"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "1076996A2F3798B2"
+			linked_quest: "1430D30721142483"
+			x: -0.5d
+			y: 0.5d
+		}
+	]
+	quests: [ ]
+	title: "人人都喜欢的魔法线——上"
+}

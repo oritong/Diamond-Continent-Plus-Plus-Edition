@@ -351,7 +351,26 @@ let banthings = [
     'entangled:item',
     'gtceu:data_access_hatch',
     "minecraft:lever",
-    'flopper:flopper'
+    'flopper:flopper',
+    'create:filter',
+    'tconstruct:pattern',
+    'create:attribute_filter',
+    "akashictome:tome",
+    "akashic_goggles:goggles",
+    "industrialforegoing:stasis_chamber",
+    "industrialforegoing:fluid_laser_base",
+    "industrialforegoing:laser_drill",
+    'botania:crafting_halo',
+    'create:deployer',
+    'create:mechanical_piston',
+    "create:fluid_pipe",
+    "create:chute",
+    "ironfurnaces:augment_blasting",
+    "ironfurnaces:augment_factory",
+    "ironfurnaces:augment_speed",
+    "ironfurnaces:augment_fuel",
+    'botania:travel_belt',
+    'sophisticatedbackpacks:battery_upgrade'
 ]
 let banlists = [
     'minecraft:crafting_table',
@@ -585,8 +604,15 @@ let banlists = [
     'gtceu:arc_furnace/arc_tungsten_tetraboride_ceramic_dust',
     'gtceu:alloy_smelter/alloy_smelt_tungsten_tetraboride_ceramic_dust_to_block',
     'gtceu:pyrolyse_oven/charcoal_to_coal_tar',
-    'gtceu:pyrolyse_oven/coal_to_coal_tar'
-
+    'gtceu:pyrolyse_oven/coal_to_coal_tar',
+    'tconstruct:tables/tinker_station',
+    'gtceu:arc_furnace/arc_aluminium_ring',
+    'gtceu:extractor/extract_steel_block',
+    'gtceu:extractor/extract_steel_nugget',
+    'gtceu:extractor/extract_steel_ingot',
+    'gtceu:extractor/extract_andesite_alloy_dust',
+    'tconstruct:smeltery/alloys/molten_netherite',
+    'tconstruct:smeltery/alloys/molten_nicrosil'
 ]
 let ban_gt_tools = [
     'pickaxe',

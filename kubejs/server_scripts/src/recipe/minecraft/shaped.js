@@ -1850,4 +1850,104 @@ ServerEvents.recipes(e => {
         D: '#forge:tools/wrenches',
         E: '#gtceu:tools/crafting_hammers'
     })
+    e.shaped('8x tconstruct:pattern', [
+        'AA ',
+        'BB ',
+        'AA '
+    ], {
+        A: 'kubejs:wood_ingot',
+        B: 'gtceu:stone_rod'
+    })
+    e.shaped('minecraft:diamond_ore', [
+        'ABA',
+        'BCB',
+        'ABA'
+    ], {
+        A: 'minecraft:diamond',
+        B: 'minecraft:cobblestone',
+        C: 'minecraft:diamond_block'
+    })
+    e.shaped('botania:crafting_halo', [
+        'ABA',
+        'BCB',
+        'ABA'
+    ], {
+        A: 'botania:mana_powder',
+        B: 'botania:manasteel_ingot',
+        C: 'minecraft:crafting_table'
+    })
+    e.shaped('botania:apothecary_default', [
+        'AAA',
+        ' B ',
+        'ABA'
+    ], {
+        A: 'botania:livingrock_slab',
+        B: 'botania:livingrock_wall'
+    })
+    e.shaped('ironfurnaces:augment_speed', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:brass_plate',
+        B: 'minecraft:redstone',
+        C: 'minecraft:paper',
+        D: 'gtceu:steel_plate'
+    })
+    e.shaped('ironfurnaces:augment_factory', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:bronze_plate',
+        B: 'minecraft:redstone',
+        C: 'minecraft:paper',
+        D: 'ae2:basic_card'
+    })
+    e.shaped('ironfurnaces:augment_fuel', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'gtceu:iron_plate',
+        B: 'minecraft:redstone',
+        C: 'minecraft:paper',
+        D: 'mekanism:dust_diamond'
+    })
+    e.shaped('ironfurnaces:augment_blasting', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ], {
+        A: 'minecraft:blast_furnace',
+        B: 'minecraft:redstone',
+        C: 'gtceu:steel_plate',
+        D: 'ironfurnaces:augment_speed'
+    })
+    e.shaped('botania:travel_belt', [
+        'ABC',
+        'BDE',
+        'FBG'
+    ], {
+        A: 'botania:rune_earth',
+        B: 'botania:manasteel_ingot',
+        C: 'botania:rune_sloth',
+        D: 'botania:mana_powder',
+        E: 'botania:mana_diamond',
+        F: 'botania:rune_envy',
+        G: 'botania:rune_air'
+    })
+    e.shaped('gtceu:flocculation_purification_unit', [
+        'ABA',
+        'CDC',
+        'EFG'
+    ], {
+        A: 'gtceu:ev_machine_hull',
+        B: 'gtceu:item_filter',
+        C: 'gtceu:dense_tungsten_steel_plate',
+        D: 'gtceu:double_hssg_plate',
+        E: 'gtceu:large_autoclave',
+        F: 'gtceu:quantum_eye',
+        G: 'gtceu:large_solidifier'
+    })
 })

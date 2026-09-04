@@ -244,12 +244,7 @@
 			source: "q:ab658bb37ce8852"
 		}
 	]
-	quest_links: [{
-		id: "523EB573C53A44C4"
-		linked_quest: "71D253D427B51A9F"
-		x: -8.5d
-		y: 1.5d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["19DB31004C991895"]
@@ -289,7 +284,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["71D253D427B51A9F"]
+			dependencies: ["778494922AA86BA7"]
 			description: [
 				"于是乎，你得到了LV电路板，意义重大"
 				"你可以制作许多LV等级的机器了"
@@ -326,7 +321,7 @@
 				item: "gtceu:lv_assembler"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -5.5d
 			y: -1.5d
 		}
 		{
@@ -354,7 +349,7 @@
 			]
 			description: [
 				"机械动力的搅拌机不再能用了"
-				"你应该制作搅拌机或者合金机"
+				"你应该制作搅拌机或者合金机以获得白铜"
 			]
 			id: "75D53910955076F4"
 			rewards: [{
@@ -373,7 +368,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2A5A5515DF1BD1FB"]
+			dependencies: ["01552BF7F242DB97"]
 			id: "520AA8FCA3262F01"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -416,11 +411,7 @@
 		}
 		{
 			dependencies: ["267573CE52C3D840"]
-			description: [
-				"在这个包，你可以离心朱砂得到雄黄和硫"
-				"离心蓝金石粉得到镓粉"
-				"这也是你目前唯一砷化镓的来源"
-			]
+			description: [""]
 			id: "06E3BEC42EDF00B3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -433,11 +424,16 @@
 				item: "gtceu:lv_centrifuge"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -7.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["06E3BEC42EDF00B3"]
+			description: [
+				"在这个包，你可以离心朱砂得到雄黄和硫"
+				"离心蓝金石粉得到镓粉"
+				"这也是你目前唯一砷化镓的来源"
+			]
 			id: "1EECEBB179CBDAE3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -450,7 +446,7 @@
 				item: "gtceu:gallium_arsenide_dust"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.5d
 			y: -3.0d
 		}
 		{
@@ -528,7 +524,7 @@
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
@@ -566,7 +562,7 @@
 				item: "gtceu:lv_circuit_assembler"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.5d
 			y: -3.0d
 		}
 		{
@@ -588,15 +584,12 @@
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -1.0d
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"74C49D595061D61D"
-				"06E3BEC42EDF00B3"
-			]
-			description: ["钴需要从离心机离心蓝晶石中获得"]
+			dependencies: ["06E3BEC42EDF00B3"]
+			description: ["钴需要从离心机离心蓝金石中获得"]
 			id: "0915454B214E367B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -609,8 +602,8 @@
 				item: "ars_nouveau:imbuement_chamber"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -4.5d
+			x: -7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0915454B214E367B"]
@@ -626,7 +619,7 @@
 				item: "botania:livingrock"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.5d
 			y: -4.5d
 		}
 		{
@@ -643,7 +636,7 @@
 				item: "botania:mana_pool"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -4.0d
 			y: -4.5d
 		}
 		{
@@ -660,7 +653,7 @@
 				item: "botania:manasteel_ingot"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.5d
 			y: -4.5d
 		}
 		{
@@ -761,6 +754,10 @@
 		}
 		{
 			dependencies: ["267573CE52C3D840"]
+			description: [
+				""
+				"{image:quest_enhance:textures/ftb/clipboard_1788514939190.png width:199 height:119 align:center fit:true}"
+			]
 			hide_dependency_lines: true
 			id: "7C50239915877387"
 			rewards: [{
@@ -970,10 +967,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"354E10D08B784B1F"
-				"19DB31004C991895"
-			]
+			dependencies: ["2B6D408BB68533A3"]
 			description: ["MEK正在被删除"]
 			id: "431BEAE85A182D7D"
 			rewards: [{
@@ -987,7 +981,7 @@
 				item: "oritong:diamond_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -11.5d
 			y: 1.5d
 		}
 		{
@@ -1162,17 +1156,6 @@
 			}]
 			x: 2.0d
 			y: -1.5d
-		}
-		{
-			dependencies: ["5C2E66D757D1E68F"]
-			id: "61E32A9B65CFD1E2"
-			tasks: [{
-				id: "720A50699EFAFC25"
-				item: "tconstruct:smeltery_controller"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 1.5d
 		}
 		{
 			dependencies: ["094FE4A5EB340B2F"]
@@ -1627,7 +1610,7 @@
 				item: "mekanism:elite_control_circuit"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 8.0d
 			y: -6.0d
 		}
 		{
@@ -2198,6 +2181,7 @@
 		}
 		{
 			dependencies: ["51ABE2B35BB0F02A"]
+			description: ["而另一种，就是通过便携传送器，直接选定传送目标并传送"]
 			id: "46D2C4821B19BD62"
 			tasks: [{
 				id: "40B9223EB03D7626"
@@ -2210,6 +2194,11 @@
 		}
 		{
 			dependencies: ["4ADD72B7ADF020B0"]
+			description: [
+				"将传送机如此摆放，并通电，就可以制作传送门"
+				"{image:quest_enhance:textures/ftb/clipboard_1788058346221.png width:199 height:96 align:center fit:true}"
+				"它有两种用法，第一种是为两个传送机连上相同的频率，就可以传送到对方的位置"
+			]
 			icon: "mekanism:teleporter"
 			id: "51ABE2B35BB0F02A"
 			tasks: [
@@ -2599,23 +2588,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["431BEAE85A182D7D"]
-			id: "23D236104AF67215"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6B3109ADEA61BA5F"
-				table_id: 7726132512131049101L
-				type: "random"
-			}]
-			tasks: [{
-				id: "02A7396FFE4519F8"
-				item: "oritong:steel_upgrade_smithing_template"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 1.5d
-		}
-		{
 			dependencies: ["3DBDFDF6FA0F3754"]
 			id: "2395296EE8FBCFCB"
 			tasks: [{
@@ -2732,6 +2704,29 @@
 			}]
 			x: 24.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["267573CE52C3D840"]
+			id: "2FEF6F6ED36D45E0"
+			tasks: [{
+				id: "12B55BFE2825B969"
+				item: "tconstruct:smeltery_controller"
+				match_nbt: false
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19DB31004C991895"]
+			id: "2B6D408BB68533A3"
+			tasks: [{
+				id: "11A0EB1FED208690"
+				item: "gtceu:dense_steel_plate"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
 		}
 	]
 	title: "第二章 第零次工业革命"

@@ -202,7 +202,7 @@
 	/**
 	 * The pages in the right sidebar
 	 */
-	right-sidebar-pages: index, craftables;
+	right-sidebar-pages: index, craftables, chess;
 
 	/**
 	 * The subpanels in the right sidebar

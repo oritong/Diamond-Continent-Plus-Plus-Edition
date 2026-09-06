@@ -37,6 +37,11 @@
 			reveal_on_hover: 0b
 			source: "q:520efce7bc9653fe"
 		}
+		{
+			dependency: "q:5aa848f6a060e5b5"
+			reveal_on_hover: 0b
+			source: "q:7321740b2099a890"
+		}
 	]
 	quest_links: [ ]
 	quests: [
@@ -1626,7 +1631,10 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["5251907332B31BA3"]
+			dependencies: [
+				"0CD9FB717DAEFFB2"
+				"5251907332B31BA3"
+			]
 			description: ["它可以运行ULV等级的所有搅拌机配方"]
 			id: "0C520656B952357F"
 			rewards: [
@@ -2034,6 +2042,7 @@
 		}
 		{
 			dependencies: ["33D34164F48E5654"]
+			description: ["铅，具高密度、柔软性和耐蚀性，工业上常用来制取铅酸蓄电池、辐射屏蔽材料及电缆护套，亦用于合金添加和弹药生产。"]
 			id: "5A3300015C343812"
 			tasks: [{
 				id: "0CFF302476CC2BEB"
@@ -2045,6 +2054,7 @@
 		}
 		{
 			dependencies: ["5A3300015C343812"]
+			description: ["锌，具良好抗腐蚀性和两性化学活性，工业上常用来制取镀锌板、压铸合金及电池负极材料，亦用于生产氧化锌和锌盐。"]
 			id: "584E176ACF331A60"
 			tasks: [{
 				id: "18CE10F1B0A373F0"
@@ -2056,6 +2066,7 @@
 		}
 		{
 			dependencies: ["584E176ACF331A60"]
+			description: ["镍，具良好耐蚀性、韧性和可磁化性，工业上常用来制取不锈钢、镍基高温合金及电镀防护层，亦用于三元电池正极前驱体和加氢催化剂的制备。"]
 			id: "46E71370743D1B30"
 			tasks: [{
 				id: "2671EF8CFBA774FC"
@@ -2067,6 +2078,7 @@
 		}
 		{
 			dependencies: ["46E71370743D1B30"]
+			description: ["石英岩，具高硬度、耐酸碱及高温稳定性，工业上常用来制取高纯石英砂、玻璃原料及冶金熔剂，亦用于耐火材料、硅砖和耐磨板材的生产。"]
 			id: "2D33115F397E2142"
 			tasks: [{
 				id: "52CD5BA3616C5FD5"
@@ -2267,6 +2279,10 @@
 		}
 		{
 			dependencies: ["1A888FE9D2FD317C"]
+			description: [
+				"你可以左键长按石头来直接破坏"
+				"就是里面有点惊喜"
+			]
 			id: "40758DC488854E69"
 			tasks: [{
 				id: "0A038AA7F4DDF58D"
@@ -2519,6 +2535,29 @@
 				type: "item"
 			}]
 			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7321740B2099A890"]
+			description: ["你需要用匠魂浇筑液态铁，而不是机械动力的注液器……"]
+			id: "0CD9FB717DAEFFB2"
+			tasks: [{
+				id: "75C9804A20FF2797"
+				item: "create:whisk"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5AA848F6A060E5B5"]
+			id: "7321740B2099A890"
+			tasks: [{
+				id: "0E551CCF658DEF90"
+				item: "tgears:whisk_cast"
+				type: "item"
+			}]
+			x: 0.5d
 			y: 8.0d
 		}
 	]

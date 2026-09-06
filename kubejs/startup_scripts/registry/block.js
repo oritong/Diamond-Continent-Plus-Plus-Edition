@@ -18,4 +18,5 @@ StartupEvents.registry('block', e => {
     e.create('dimension_connection_casing').soundType("stone").mapColor("metal").tagBlock("mineable/pickaxe").tagBlock("forge:mineable/wrench").requiresTool(true)
     e.create('blaze_casing').soundType("stone").mapColor("metal").tagBlock("mineable/pickaxe").tagBlock("forge:mineable/wrench").requiresTool(true)
     e.create('cold_ice_casing').soundType("stone").mapColor("metal").tagBlock("mineable/pickaxe").tagBlock("forge:mineable/wrench").requiresTool(true)
+    e.create('minecart:diamond_ore')
 })

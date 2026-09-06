@@ -5,6 +5,55 @@
     }
   ],
   "lookup_history": [
+    "item:tgears:whisk_cast",
+    "item:tgears:whisk_cast_with_whisk",
+    "item:tgears:propeller_cast_with_propeller",
+    "item:create:propeller",
+    "item:create:spout",
+    {
+      "type": "fluid",
+      "id": "gtceu:lubricant",
+      "amount": 0
+    },
+    "item:gtceu:lubricant_bucket",
+    "item:gtceu:plastic_circuit_board",
+    "item:gtceu:reinforced_epoxy_resin_plate",
+    "item:gtceu:fiber_reinforced_circuit_board",
+    "item:beyonddimensions:unstable_space_time_fragment",
+    "item:beyonddimensions:net_creater",
+    "item:minecraft:netherite_ingot",
+    "item:create_connected:kinetic_battery",
+    "item:create_connected:control_chip",
+    "item:create:precision_mechanism",
+    "item:gtceu:gold_plate",
+    {
+      "type": "fluid",
+      "id": "embers:molten_dawnstone",
+      "amount": 648
+    },
+    "item:embers:dawnstone_aspectus",
+    "item:gtceu:rose_gold_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:rose_gold",
+      "amount": 144
+    },
+    "item:embers:dawnstone_ingot",
+    {
+      "type": "fluid",
+      "id": "minecraft:water",
+      "amount": 1000
+    },
+    "item:minecraft:water_bucket",
+    {
+      "type": "fluid",
+      "id": "gtceu:wrought_iron",
+      "amount": 144
+    },
+    "item:tconstruct:tool_binding{Material:\"gm_construct:wrought_iron\"}",
+    "item:gtceu:wrought_iron_pickaxe{Damage:0,DisallowContainerItem:0b,GT.Behaviours:{TorchPlacing:1b},GT.Tool:{DefaultEnchantments:[],Enchantability:5,HarvestLevel:2,MaxDamage:383,ToolSpeed:6.0f},HideFlags:2}",
+    "item:minecraft:gold_block",
+    "item:minecraft:gold_ingot",
     "item:farmersdelight:cutting_board"
   ],
   "craft_history": [],

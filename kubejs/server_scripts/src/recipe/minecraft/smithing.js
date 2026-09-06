@@ -44,8 +44,8 @@ ServerEvents.recipes(e => {
     e.recipes.minecraft.smithing_transform('create:attribute_filter', 'gtceu:brass_rod', 'create:filter', 'gtceu:brass_rod')
     e.recipes.minecraft.smithing_transform('create:mechanical_piston', 'create:shaft', 'create:andesite_casing', 'kubejs:wood_block')
     e.recipes.minecraft.smithing_transform('create:deployer', 'gtceu:vacuum_tube', 'create:mechanical_piston', 'create:brass_hand')
-    e.recipes.minecraft.smithing_transform('create:fluid_pipe', 'gtceu:copper_plate', 'gtceu:bronze_ingot', 'gtceu:copper_plate')
-    e.recipes.minecraft.smithing_transform('create:chute', 'gtceu:iron_plate', 'mekanism:ingot_steel', 'gtceu:iron_plate')
+    e.recipes.minecraft.smithing_transform('3x create:fluid_pipe', 'gtceu:copper_plate', 'gtceu:bronze_ingot', 'gtceu:copper_plate')
+    e.recipes.minecraft.smithing_transform('3x create:chute', 'gtceu:iron_plate', 'gtceu:wrought_iron_ingot', 'gtceu:iron_plate')
 })
 
 ServerEvents.recipes(e => {

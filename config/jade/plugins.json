@@ -61,11 +61,11 @@
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
-    "goggles.requires_goggles": true,
-    "goggles": false,
+    "goggles.requires_goggles": false,
+    "goggles": true,
     "blaze_burner": true,
     "exact_block": true,
-    "goggles.detailed": false,
+    "goggles.detailed": true,
     "placard": true
   },
   "entangled": {
@@ -125,6 +125,9 @@
     "slurry": true,
     "energy": true,
     "tooltip_renderer": true
+  },
+  "modern_overclock_for_gtm": {
+    "mi_overclock": true
   },
   "pipez": {
     "pipe": true

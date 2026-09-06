@@ -612,7 +612,8 @@ let banlists = [
     'gtceu:extractor/extract_steel_ingot',
     'gtceu:extractor/extract_andesite_alloy_dust',
     'tconstruct:smeltery/alloys/molten_netherite',
-    'tconstruct:smeltery/alloys/molten_nicrosil'
+    'tconstruct:smeltery/alloys/molten_nicrosil',
+    'create:crafting/kinetics/propeller'
 ]
 let ban_gt_tools = [
     'pickaxe',
